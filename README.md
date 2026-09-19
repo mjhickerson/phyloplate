@@ -68,7 +68,7 @@ Ingredient parsing in the app uses a language model to turn recipe text into Lat
 
 ## Citing
 
-Hickerson, M.J. (2026). Phyloplate: phylogenetic diversity of what you eat. Software and data, version 0.1.0. https://github.com/<user>/phyloplate
+Hickerson, M.J. (2026). Phyloplate: phylogenetic diversity of what you eat. Software and data, version 0.1.0. https://github.com/mjhickerson/phyloplate
 
 Code is MIT-licensed; the species list and curation tables are CC BY 4.0 (see `data/LICENSE`).
 
