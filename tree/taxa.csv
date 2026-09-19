@@ -1,0 +1,290 @@
+id,common_name,species,lineage,clade,aliases
+rhizopus,tempeh mold,Rhizopus oligosporus,Mucoromycota,fungus,tempeh
+yeast,baker's / brewer's yeast,Saccharomyces cerevisiae,Saccharomycetes,fungus,yeast;bread;beer;wine;sourdough;leavened
+black-truffle,black truffle,Tuber melanosporum,Pezizales,fungus,truffle
+white-truffle,white truffle,Tuber magnatum,Pezizales,fungus,
+morel,morel,Morchella esculenta,Pezizales,fungus,morels
+koji,koji mold,Aspergillus oryzae,Eurotiales,fungus,koji;miso;soy sauce;sake;mirin
+penicillium-roqueforti,blue cheese mold,Penicillium roqueforti,Eurotiales,fungus,blue cheese;roquefort;gorgonzola;stilton
+penicillium-camemberti,camembert mold,Penicillium camemberti,Eurotiales,fungus,brie;camembert
+quorn,mycoprotein,Fusarium venenatum,Hypocreales,fungus,quorn
+huitlacoche,huitlacoche,Ustilago maydis,Ustilaginales,fungus,corn smut
+snow-fungus,snow fungus,Tremella fuciformis,Tremellales,fungus,white fungus
+chanterelle,chanterelle,Cantharellus cibarius,Cantharellales,fungus,
+wood-ear,wood ear,Auricularia auricula-judae,Auriculariales,fungus,black fungus;cloud ear
+lions-mane,lion's mane,Hericium erinaceus,Russulales,fungus,
+maitake,maitake,Grifola frondosa,Polyporales,fungus,hen of the woods
+porcini,porcini,Boletus edulis,Boletales,fungus,cep;penny bun
+button-mushroom,button / cremini / portobello,Agaricus bisporus,Agaricales,fungus,mushroom;mushrooms;cremini;portobello;portabella;champignon
+oyster-mushroom,oyster mushroom,Pleurotus ostreatus,Agaricales,fungus,king oyster
+enoki,enoki,Flammulina velutipes,Agaricales,fungus,enokitake
+shiitake,shiitake,Lentinula edodes,Agaricales,fungus,
+jellyfish,edible jellyfish,Rhopilema esculentum,Cnidaria,animal,
+sea-urchin,sea urchin (uni),Mesocentrotus / Strongylocentrotus spp.,Echinoidea,animal,uni
+sea-cucumber,sea cucumber,Apostichopus japonicus,Holothuroidea,animal,
+sea-pineapple,sea pineapple (tunicate),Halocynthia roretzi,Tunicata,animal,sea squirt;meongge
+lamprey,lamprey,Petromyzon marinus,Petromyzontiformes,animal,
+dogfish,dogfish / shark,Squalus acanthias,Squaliformes,animal,shark;rock salmon
+skate,skate,Leucoraja / Raja spp.,Rajiformes,animal,ray
+sturgeon,sturgeon (caviar),Acipenser spp.,Acipenseriformes,animal,caviar
+eel,eel,Anguilla spp.,Anguilliformes,animal,unagi;anago
+anchovy,anchovy,Engraulis spp.,Clupeiformes,animal,anchovies;fish sauce;nam pla;boquerones
+herring,herring,Clupea harengus,Clupeiformes,animal,
+sardine,sardine,Sardina pilchardus,Clupeiformes,animal,sardines;pilchard
+carp,carp,Cyprinus carpio,Cypriniformes,animal,
+catfish,catfish,Ictalurus punctatus,Siluriformes,animal,
+atlantic-salmon,Atlantic salmon,Salmo salar,Salmonidae,animal,salmon;lox;gravlax;smoked salmon
+rainbow-trout,rainbow trout,Oncorhynchus mykiss,Salmonidae,animal,trout;steelhead
+sockeye,Pacific salmon,Oncorhynchus nerka,Salmonidae,animal,sockeye;coho;king salmon;chinook
+haddock,haddock,Melanogrammus aeglefinus,Gadiformes,animal,
+cod,cod,Gadus morhua,Gadiformes,animal,bacalao;salt cod
+pollock,pollock,Gadus chalcogrammus,Gadiformes,animal,surimi;fish sticks
+tilapia,tilapia,Oreochromis niloticus,Cichlidae,animal,
+halibut,halibut,Hippoglossus hippoglossus,Pleuronectiformes,animal,flounder
+sole,sole,Solea solea,Pleuronectiformes,animal,
+mahi-mahi,mahi-mahi,Coryphaena hippurus,Coryphaenidae,animal,dorado;dolphinfish
+swordfish,swordfish,Xiphias gladius,Xiphiidae,animal,
+tuna,tuna,Thunnus spp.,Scombridae,animal,bluefin;yellowfin;albacore;ahi
+mackerel,mackerel,Scomber scombrus,Scombridae,animal,saba
+sea-bass,sea bass,Dicentrarchus labrax,Moronidae,animal,branzino;striped bass
+snapper,snapper,Lutjanus spp.,Lutjanidae,animal,
+grouper,grouper,Epinephelus spp.,Serranidae,animal,
+frog,frog legs,Pelophylax spp.,Anura,animal,
+snapping-turtle,snapping turtle,Chelydra serpentina,Testudines,animal,turtle
+alligator,alligator,Alligator mississippiensis,Crocodilia,animal,crocodile
+ostrich,ostrich,Struthio camelus,Struthioniformes,animal,emu
+pigeon,pigeon / squab,Columba livia,Columbiformes,animal,squab
+duck,duck,Anas platyrhynchos,Anseriformes,animal,duck egg;foie gras
+goose,goose,Anser anser,Anseriformes,animal,
+guinea-fowl,guinea fowl,Numida meleagris,Galliformes,animal,
+quail,quail,Coturnix coturnix,Galliformes,animal,quail egg
+turkey,turkey,Meleagris gallopavo,Galliformes,animal,
+pheasant,pheasant,Phasianus colchicus,Galliformes,animal,
+chicken,chicken,Gallus gallus,Galliformes,animal,egg;eggs;hen;poultry
+kangaroo,kangaroo,Macropus spp.,Diprotodontia,animal,
+guinea-pig,guinea pig (cuy),Cavia porcellus,Rodentia,animal,cuy
+rabbit,rabbit,Oryctolagus cuniculus,Lagomorpha,animal,
+hare,hare,Lepus europaeus,Lagomorpha,animal,
+horse,horse,Equus caballus,Perissodactyla,animal,
+camel,camel,Camelus dromedarius,Tylopoda,animal,
+pig,pig,Sus scrofa,Suina,animal,pork;bacon;ham;lard;prosciutto;sausage;pancetta;gelatin
+venison,deer (venison),Odocoileus virginianus,Cervidae,animal,deer
+red-deer,red deer / elk,Cervus elaphus,Cervidae,animal,elk
+sheep,sheep,Ovis aries,Bovidae,animal,lamb;mutton;feta;pecorino;sheep milk
+goat,goat,Capra hircus,Bovidae,animal,chevre;goat cheese;goat milk
+water-buffalo,water buffalo,Bubalus bubalis,Bovidae,animal,buffalo mozzarella
+cattle,cattle,Bos taurus,Bovidae,animal,beef;milk;cheese;butter;cream;yogurt;ghee;steak;veal;whey;parmesan;cheddar;mozzarella;burger;hamburger;cheeseburger;ground beef
+bison,bison,Bison bison,Bovidae,animal,buffalo
+oyster,oyster,Crassostrea / Magallana spp.,Ostreida,animal,oysters
+mussel,mussel,Mytilus edulis,Mytilida,animal,mussels
+scallop,scallop,Placopecten / Pecten spp.,Pectinida,animal,scallops
+cockle,cockle,Cerastoderma edule,Cardiida,animal,
+razor-clam,razor clam,Ensis spp.,Adapedonta,animal,
+hard-clam,hard clam (quahog),Mercenaria mercenaria,Venerida,animal,clam;clams;quahog;littleneck;cherrystone;manila clam
+soft-shell-clam,soft-shell clam (steamer),Mya arenaria,Myida,animal,steamers
+geoduck,geoduck,Panopea generosa,Adapedonta,animal,
+abalone,abalone,Haliotis spp.,Vetigastropoda,animal,
+escargot,land snail (escargot),Helix pomatia,Stylommatophora,animal,snail;snails
+periwinkle,periwinkle,Littorina littorea,Littorinimorpha,animal,winkle;winkles
+whelk,whelk,Buccinum undatum,Neogastropoda,animal,
+conch,queen conch,Aliger gigas,Littorinimorpha,animal,
+octopus,octopus,Octopus vulgaris,Octopoda,animal,pulpo;tako
+squid,squid,Doryteuthis / Loligo spp.,Myopsida,animal,calamari;ika
+cuttlefish,cuttlefish,Sepia officinalis,Sepiida,animal,
+krill,krill,Euphausia superba,Euphausiacea,animal,
+shrimp,shrimp,Penaeus / Litopenaeus spp.,Dendrobranchiata,animal,prawns;prawn;ebi
+freshwater-prawn,freshwater prawn,Macrobrachium rosenbergii,Caridea,animal,
+lobster,lobster,Homarus americanus,Astacidea,animal,
+crayfish,crayfish,Procambarus clarkii,Astacidea,animal,crawfish;crawdad
+king-crab,king crab,Paralithodes camtschaticus,Anomura,animal,
+blue-crab,blue crab,Callinectes sapidus,Brachyura,animal,crab;crabs;crab meat
+dungeness-crab,Dungeness crab,Metacarcinus magister,Brachyura,animal,
+cricket,cricket,Acheta domesticus,Orthoptera,animal,crickets;cricket flour
+grasshopper,grasshopper,Sphenarium / Locusta spp.,Orthoptera,animal,chapulines;locust
+honeybee,honey bee (honey),Apis mellifera,Hymenoptera,animal,honey;royal jelly;bee pollen
+mealworm,mealworm,Tenebrio molitor,Coleoptera,animal,
+silkworm,silkworm pupa,Bombyx mori,Lepidoptera,animal,beondegi
+kombu,kombu (kelp),Saccharina japonica,Laminariales,brown,kelp;dashi;kelp noodles;laminaria
+wakame,wakame,Undaria pinnatifida,Laminariales,brown,
+alaria,winged kelp,Alaria esculenta,Laminariales,brown,
+hijiki,hijiki,Sargassum fusiforme,Fucales,brown,
+rockweed,rockweed,Ascophyllum nodosum,Fucales,brown,knotted wrack
+bladderwrack,bladderwrack,Fucus vesiculosus,Fucales,brown,
+nori,nori,Pyropia yezoensis,Bangiales,red,seaweed;sushi seaweed;gim;kim
+laver,laver,Porphyra umbilicalis,Bangiales,red,laverbread
+dulse,dulse,Palmaria palmata,Palmariales,red,
+agar,agar (Gelidium),Gelidium spp.,Gelidiales,red,agar-agar;kanten
+irish-moss,Irish moss (carrageenan),Chondrus crispus,Gigartinales,red,carrageenan
+ogo,ogo (Gracilaria),Gracilaria spp.,Gracilariales,red,gracilaria
+chlorella,chlorella,Chlorella vulgaris,Chlorellales,green,
+sea-lettuce,sea lettuce,Ulva lactuca,Ulvales,green,aonori;aosa;ulva;ao-nori
+sea-grapes,sea grapes,Caulerpa lentillifera,Bryopsidales,green,umibudo
+fiddlehead,fiddlehead fern,Matteuccia struthiopteris,Polypodiales,plant,ostrich fern
+ginkgo,ginkgo nut,Ginkgo biloba,Ginkgoales,plant,
+juniper,juniper berry,Juniperus communis,Cupressaceae,plant,gin
+pine-nut,pine nut (stone pine),Pinus pinea,Pinaceae,plant,pignoli;pinoli
+korean-pine-nut,Korean pine nut,Pinus koraiensis,Pinaceae,plant,
+black-pepper,black pepper,Piper nigrum,Piperales,plant,pepper;peppercorn;white pepper
+nutmeg,nutmeg / mace,Myristica fragrans,Magnoliales,plant,mace
+avocado,avocado,Persea americana,Laurales,plant,guacamole
+cinnamon,cinnamon,Cinnamomum verum,Laurales,plant,cassia
+bay-leaf,bay leaf,Laurus nobilis,Laurales,plant,bay
+taro,taro,Colocasia esculenta,Alismatales,plant,poi;dasheen
+yam,yam,Dioscorea spp.,Dioscoreales,plant,ube;nagaimo
+vanilla,vanilla,Vanilla planifolia,Orchidaceae,plant,
+asparagus,asparagus,Asparagus officinalis,Asparagaceae,plant,
+chive,chive,Allium schoenoprasum,Amaryllidaceae,plant,chives
+leek,leek,Allium ampeloprasum,Amaryllidaceae,plant,leeks;elephant garlic
+onion,onion,Allium cepa,Amaryllidaceae,plant,onions;shallot;shallots;scallion;scallions;green onion;spring onion
+garlic,garlic,Allium sativum,Amaryllidaceae,plant,
+date,date palm,Phoenix dactylifera,Arecaceae,plant,dates
+coconut,coconut,Cocos nucifera,Arecaceae,plant,coconut milk;coconut oil;coconut cream
+oil-palm,oil palm,Elaeis guineensis,Arecaceae,plant,palm oil;palm sugar
+banana,banana / plantain,Musa spp.,Musaceae,plant,plantain;plantains
+cardamom,cardamom,Elettaria cardamomum,Zingiberaceae,plant,
+ginger,ginger,Zingiber officinale,Zingiberaceae,plant,
+turmeric,turmeric,Curcuma longa,Zingiberaceae,plant,
+pineapple,pineapple,Ananas comosus,Bromeliaceae,plant,
+rice,rice,Oryza sativa,Poaceae,plant,sushi rice;rice vinegar;rice noodles;rice flour;mochi;sake
+oat,oat,Avena sativa,Poaceae,plant,oats;oatmeal;rolled oats
+barley,barley,Hordeum vulgare,Poaceae,plant,malt;beer;pearl barley
+wheat,wheat,Triticum aestivum,Poaceae,plant,flour;bread;pasta;noodles;bun;couscous;bulgur;semolina;durum;seitan;soy sauce;tortilla;crackers;breadcrumbs;panko;pastry
+rye,rye,Secale cereale,Poaceae,plant,
+millet,millet,Pennisetum / Panicum spp.,Poaceae,plant,pearl millet;proso
+maize,maize (corn),Zea mays,Poaceae,plant,corn;cornmeal;polenta;masa;corn syrup;cornstarch;popcorn;grits;tortilla
+sorghum,sorghum,Sorghum bicolor,Poaceae,plant,
+sugarcane,sugarcane,Saccharum officinarum,Poaceae,plant,sugar;cane sugar;molasses;rum;brown sugar
+poppy-seed,poppy seed,Papaver somniferum,Ranunculales,plant,
+lotus,lotus root,Nelumbo nucifera,Nelumbonaceae,plant,
+macadamia,macadamia,Macadamia integrifolia,Proteaceae,plant,
+currant,currant / gooseberry,Ribes spp.,Saxifragales,plant,blackcurrant;gooseberry;cassis
+buckwheat,buckwheat,Fagopyrum esculentum,Polygonaceae,plant,soba;kasha
+rhubarb,rhubarb,Rheum rhabarbarum,Polygonaceae,plant,
+prickly-pear,prickly pear (nopal),Opuntia ficus-indica,Cactaceae,plant,nopales;cactus
+amaranth,amaranth,Amaranthus spp.,Amaranthaceae,plant,
+beet,beet / chard / sugar beet,Beta vulgaris,Amaranthaceae,plant,beetroot;chard;swiss chard;beet sugar
+spinach,spinach,Spinacia oleracea,Amaranthaceae,plant,
+quinoa,quinoa,Chenopodium quinoa,Amaranthaceae,plant,
+grape,grape,Vitis vinifera,Vitales,plant,wine;raisin;raisins;grapes;wine vinegar;balsamic
+cassava,cassava,Manihot esculenta,Euphorbiaceae,plant,tapioca;yuca;manioc
+passionfruit,passion fruit,Passiflora edulis,Passifloraceae,plant,
+tamarind,tamarind,Tamarindus indica,Fabaceae,plant,
+carob,carob,Ceratonia siliqua,Fabaceae,plant,
+peanut,peanut,Arachis hypogaea,Fabaceae,plant,peanuts;peanut butter;groundnut
+soy,soybean,Glycine max,Fabaceae,plant,soy;tofu;soy sauce;miso;edamame;tempeh;soy milk;natto;tamari
+common-bean,common bean,Phaseolus vulgaris,Fabaceae,plant,black beans;kidney beans;pinto;green beans;navy beans;cannellini
+mung-bean,mung bean,Vigna radiata,Fabaceae,plant,bean sprouts
+cowpea,cowpea / black-eyed pea,Vigna unguiculata,Fabaceae,plant,black-eyed peas
+licorice,licorice,Glycyrrhiza glabra,Fabaceae,plant,
+chickpea,chickpea,Cicer arietinum,Fabaceae,plant,garbanzo;hummus;chana
+fenugreek,fenugreek,Trigonella foenum-graecum,Fabaceae,plant,methi
+fava,fava bean,Vicia faba,Fabaceae,plant,broad bean
+pea,pea,Pisum sativum,Fabaceae,plant,peas;split peas;snap peas
+lentil,lentil,Lens culinaris,Fabaceae,plant,lentils;dal
+strawberry,strawberry,Fragaria x ananassa,Rosaceae,plant,strawberries
+raspberry,raspberry,Rubus idaeus,Rosaceae,plant,raspberries
+blackberry,blackberry,Rubus fruticosus agg.,Rosaceae,plant,blackberries
+apple,apple,Malus domestica,Rosaceae,plant,cider;apples;applesauce
+pear,pear,Pyrus communis,Rosaceae,plant,
+quince,quince,Cydonia oblonga,Rosaceae,plant,
+cherry,cherry,Prunus avium,Rosaceae,plant,cherries;sour cherry
+peach,peach / nectarine,Prunus persica,Rosaceae,plant,nectarine
+almond,almond,Prunus dulcis,Rosaceae,plant,almonds;marzipan;almond milk
+plum,plum,Prunus domestica,Rosaceae,plant,prune;prunes;umeboshi
+apricot,apricot,Prunus armeniaca,Rosaceae,plant,
+hops,hops,Humulus lupulus,Cannabaceae,plant,beer;ipa
+hemp,hemp seed,Cannabis sativa,Cannabaceae,plant,
+fig,fig,Ficus carica,Moraceae,plant,figs
+mulberry,mulberry,Morus spp.,Moraceae,plant,
+jackfruit,jackfruit,Artocarpus heterophyllus,Moraceae,plant,
+breadfruit,breadfruit,Artocarpus altilis,Moraceae,plant,
+bitter-melon,bitter melon,Momordica charantia,Cucurbitaceae,plant,bitter gourd
+zucchini,zucchini / pumpkin (C. pepo),Cucurbita pepo,Cucurbitaceae,plant,summer squash;pumpkin;acorn squash;courgette;pepitas
+butternut,butternut / kabocha,Cucurbita moschata / maxima,Cucurbitaceae,plant,winter squash;kabocha;hubbard
+watermelon,watermelon,Citrullus lanatus,Cucurbitaceae,plant,
+cucumber,cucumber,Cucumis sativus,Cucurbitaceae,plant,pickle;pickles;gherkin
+melon,"melon (cantaloupe, honeydew)",Cucumis melo,Cucurbitaceae,plant,cantaloupe;honeydew
+chestnut,chestnut,Castanea spp.,Fagaceae,plant,chestnuts
+acorn,acorn,Quercus spp.,Fagaceae,plant,oak
+hazelnut,hazelnut,Corylus avellana,Betulaceae,plant,filbert;hazelnuts
+walnut,walnut,Juglans regia,Juglandaceae,plant,walnuts
+pecan,pecan,Carya illinoinensis,Juglandaceae,plant,pecans
+pomegranate,pomegranate,Punica granatum,Lythraceae,plant,
+guava,guava,Psidium guajava,Myrtaceae,plant,
+clove,clove,Syzygium aromaticum,Myrtaceae,plant,cloves
+allspice,allspice,Pimenta dioica,Myrtaceae,plant,
+lime,lime,Citrus aurantiifolia,Rutaceae,plant,key lime;makrut
+lemon,lemon,Citrus limon,Rutaceae,plant,lemons
+grapefruit,grapefruit,Citrus paradisi,Rutaceae,plant,pomelo
+orange,orange,Citrus sinensis,Rutaceae,plant,oranges;orange juice
+mandarin,mandarin,Citrus reticulata,Rutaceae,plant,clementine;tangerine;satsuma
+maple,maple (syrup),Acer saccharum,Sapindaceae,plant,maple syrup
+lychee,lychee,Litchi chinensis,Sapindaceae,plant,
+mango,mango,Mangifera indica,Anacardiaceae,plant,
+sumac,sumac,Rhus coriaria,Anacardiaceae,plant,za'atar
+cashew,cashew,Anacardium occidentale,Anacardiaceae,plant,cashews
+pistachio,pistachio,Pistacia vera,Anacardiaceae,plant,pistachios
+papaya,papaya,Carica papaya,Caricaceae,plant,
+caper,caper,Capparis spinosa,Capparaceae,plant,capers
+watercress,watercress,Nasturtium officinale,Brassicaceae,plant,
+horseradish,horseradish,Armoracia rusticana,Brassicaceae,plant,
+wasabi,wasabi,Eutrema japonicum,Brassicaceae,plant,
+arugula,arugula,Eruca vesicaria,Brassicaceae,plant,rocket
+radish,radish,Raphanus sativus,Brassicaceae,plant,daikon
+white-mustard,white mustard / yellow mustard,Sinapis alba,Brassicaceae,plant,mustard;yellow mustard;mustard seed
+brown-mustard,brown mustard / mustard greens,Brassica juncea,Brassicaceae,plant,dijon;mustard greens;gai choy
+turnip,turnip / bok choy / napa,Brassica rapa,Brassicaceae,plant,bok choy;napa cabbage;pak choi;turnip greens;mizuna;rapini
+cabbage,cabbage / kale / broccoli,Brassica oleracea,Brassicaceae,plant,kale;broccoli;cauliflower;brussels sprouts;collard;kohlrabi;sauerkraut;kimchi;coleslaw
+canola,canola / rutabaga,Brassica napus,Brassicaceae,plant,rapeseed;canola oil;rutabaga;swede
+durian,durian,Durio zibethinus,Malvaceae,plant,
+cacao,cacao,Theobroma cacao,Malvaceae,plant,chocolate;cocoa
+okra,okra,Abelmoschus esculentus,Malvaceae,plant,
+roselle,roselle (hibiscus),Hibiscus sabdariffa,Malvaceae,plant,hibiscus;jamaica
+brazil-nut,Brazil nut,Bertholletia excelsa,Lecythidaceae,plant,
+persimmon,persimmon,Diospyros kaki,Ebenaceae,plant,
+tea,tea,Camellia sinensis,Theaceae,plant,green tea;black tea;matcha;oolong
+kiwi,kiwi,Actinidia deliciosa,Actinidiaceae,plant,kiwifruit
+blueberry,blueberry,Vaccinium corymbosum,Ericaceae,plant,blueberries
+cranberry,cranberry,Vaccinium macrocarpon,Ericaceae,plant,cranberries
+lingonberry,lingonberry,Vaccinium vitis-idaea,Ericaceae,plant,
+sweet-potato,sweet potato,Ipomoea batatas,Convolvulaceae,plant,yam (US);camote
+tomatillo,tomatillo,Physalis philadelphica,Solanaceae,plant,goldenberry
+chili,chili / bell pepper,Capsicum annuum,Solanaceae,plant,bell pepper;jalapeno;paprika;cayenne;chile;chilli;red pepper flakes
+habanero,habanero / scotch bonnet,Capsicum chinense,Solanaceae,plant,scotch bonnet
+eggplant,eggplant,Solanum melongena,Solanaceae,plant,aubergine
+tomato,tomato,Solanum lycopersicum,Solanaceae,plant,tomatoes;ketchup;catsup;tomato paste;marinara;salsa
+potato,potato,Solanum tuberosum,Solanaceae,plant,potatoes;fries;french fries;chips
+coffee,coffee (arabica),Coffea arabica,Rubiaceae,plant,espresso
+robusta,robusta coffee,Coffea canephora,Rubiaceae,plant,
+olive,olive,Olea europaea,Oleaceae,plant,olive oil;olives
+sesame,sesame,Sesamum indicum,Pedaliaceae,plant,tahini;sesame oil;sesame seeds
+shiso,shiso (perilla),Perilla frutescens,Lamiaceae,plant,perilla
+basil,basil,Ocimum basilicum,Lamiaceae,plant,thai basil;pesto
+lavender,lavender,Lavandula angustifolia,Lamiaceae,plant,
+sage,sage,Salvia officinalis,Lamiaceae,plant,
+rosemary,rosemary,Salvia rosmarinus,Lamiaceae,plant,
+spearmint,mint (spearmint),Mentha spicata,Lamiaceae,plant,mint
+peppermint,peppermint,Mentha x piperita,Lamiaceae,plant,
+oregano,oregano,Origanum vulgare,Lamiaceae,plant,
+marjoram,marjoram,Origanum majorana,Lamiaceae,plant,
+thyme,thyme,Thymus vulgaris,Lamiaceae,plant,
+elderberry,elderberry / elderflower,Sambucus nigra,Adoxaceae,plant,elderflower
+cilantro,cilantro / coriander,Coriandrum sativum,Apiaceae,plant,coriander
+carrot,carrot,Daucus carota,Apiaceae,plant,carrots
+cumin,cumin,Cuminum cyminum,Apiaceae,plant,
+parsnip,parsnip,Pastinaca sativa,Apiaceae,plant,
+caraway,caraway,Carum carvi,Apiaceae,plant,
+celery,celery / celeriac,Apium graveolens,Apiaceae,plant,celeriac;celery seed
+parsley,parsley,Petroselinum crispum,Apiaceae,plant,
+anise,anise,Pimpinella anisum,Apiaceae,plant,aniseed
+dill,dill,Anethum graveolens,Apiaceae,plant,
+fennel,fennel,Foeniculum vulgare,Apiaceae,plant,fennel seed
+artichoke,artichoke / cardoon,Cynara cardunculus,Asteraceae,plant,cardoon
+dandelion,dandelion,Taraxacum officinale,Asteraceae,plant,
+lettuce,lettuce,Lactuca sativa,Asteraceae,plant,romaine;iceberg;salad greens;mesclun
+chicory,chicory / radicchio,Cichorium intybus,Asteraceae,plant,radicchio;belgian endive;witloof
+endive,endive / escarole,Cichorium endivia,Asteraceae,plant,escarole;frisee
+sunflower,sunflower,Helianthus annuus,Asteraceae,plant,sunflower oil;sunflower seeds
+stevia,stevia,Stevia rebaudiana,Asteraceae,plant,
+chamomile,chamomile,Matricaria chamomilla,Asteraceae,plant,
+tarragon,tarragon,Artemisia dracunculus,Asteraceae,plant,wormwood;absinthe

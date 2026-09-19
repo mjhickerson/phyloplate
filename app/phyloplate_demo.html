@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Phyloplate</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,500&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F4F6F1; --panel:#E9EDE4; --ink:#1B231C; --ink-2:#4F5A51; --muted:#8A948B; --line:#CBD2C7;
+  --animal:#2F6DB5; --fungus:#7B58A8; --plant:#2E7A3F; --green:#7DB33A; --red:#B8394B; --brown:#A2701F; --other:#3A9A9A;
+  --hi:#1B231C; --hi-soft:#B9C2B6; --sans:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --serif:"Fraunces",Georgia,"Times New Roman",serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#151A16; --panel:#1E2620; --ink:#E9ECE4; --ink-2:#B9C1B7; --muted:#7E877E; --line:#33403A;
+    --animal:#6E9FDB; --fungus:#B394E0; --plant:#5DB56F; --green:#A3D65A; --red:#E06A79; --brown:#D9A24A; --other:#5FC4C4;
+    --hi:#E9ECE4; --hi-soft:#3D4A42;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#151A16; --panel:#1E2620; --ink:#E9ECE4; --ink-2:#B9C1B7; --muted:#7E877E; --line:#33403A;
+  --animal:#6E9FDB; --fungus:#B394E0; --plant:#5DB56F; --green:#A3D65A; --red:#E06A79; --brown:#D9A24A; --other:#5FC4C4;
+  --hi:#E9ECE4; --hi-soft:#3D4A42;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.45}
+body{padding:0 20px 80px}
+.wrap{max-width:1040px;margin:0 auto}
+header{display:flex;align-items:baseline;justify-content:space-between;padding:26px 0 8px;gap:16px;flex-wrap:wrap}
+.wordmark{font-family:var(--serif);font-weight:600;font-size:22px;letter-spacing:-.01em}
+.wordmark span{font-weight:300;font-style:italic;color:var(--ink-2)}
+nav a{color:var(--ink-2);text-decoration:none;margin-left:18px;font-size:15px}
+nav a:hover{color:var(--ink);text-decoration:underline}
+h1{font-family:var(--serif);font-weight:300;font-size:clamp(34px,5.4vw,58px);line-height:1.05;letter-spacing:-.02em;margin:34px 0 14px;max-width:16ch}
+.lede{font-size:18px;color:var(--ink-2);max-width:60ch;margin:0 0 26px}
+textarea{width:100%;min-height:128px;resize:vertical;font:inherit;font-size:17px;padding:14px 16px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);outline:none}
+textarea:focus{border-color:var(--ink-2);box-shadow:0 0 0 3px rgba(120,140,120,.18)}
+.row{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-top:12px}
+button{font:inherit;font-weight:600;cursor:pointer;border-radius:8px;border:1px solid var(--ink);padding:10px 18px;background:var(--ink);color:var(--bg)}
+button:hover{opacity:.9}
+button:disabled{opacity:.5;cursor:default}
+button.quiet{background:transparent;color:var(--ink);border-color:var(--line);font-weight:500}
+button.quiet:hover{border-color:var(--ink-2);opacity:1}
+button.tiny{padding:4px 10px;font-size:14px;border-radius:6px}
+button:focus-visible,textarea:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.examples{color:var(--muted);font-size:15px}
+.examples a{color:var(--ink-2);cursor:pointer;text-decoration:underline dotted;margin-right:10px}
+.status{font-size:15px;color:var(--ink-2);min-height:22px}
+.status.err{color:var(--red)}
+section{margin-top:52px}
+h2{font-family:var(--serif);font-weight:500;font-size:26px;letter-spacing:-.01em;margin:0 0 10px}
+h3{font-family:var(--serif);font-weight:500;font-size:19px;margin:22px 0 8px}
+.hidden{display:none !important}
+/* ingredient chips */
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 6px}
+.chip{display:inline-flex;align-items:center;gap:8px;padding:6px 8px 6px 10px;border:1px solid var(--line);border-radius:999px;background:var(--panel);font-size:15px;line-height:1}
+.chip.inferred{border-style:dashed}
+.chip .dot{width:10px;height:10px;border-radius:50%;flex:none}
+.chip .as{color:var(--muted);font-style:italic}
+.chip button{background:none;border:0;color:var(--muted);padding:0 2px;font-size:18px;line-height:1;font-weight:400}
+.chip button:hover{color:var(--red);opacity:1}
+.addbox{position:relative;display:inline-block;margin-top:6px}
+.addbox input{font:inherit;font-size:15px;padding:7px 12px;border:1px solid var(--line);border-radius:999px;background:var(--bg);color:var(--ink);width:260px}
+.sugg{position:absolute;top:100%;left:0;z-index:5;background:var(--bg);border:1px solid var(--line);border-radius:8px;margin-top:4px;min-width:320px;box-shadow:0 8px 24px rgba(0,0,0,.12);overflow:hidden}
+.sugg div{padding:8px 12px;cursor:pointer;font-size:15px;display:flex;gap:10px;align-items:center}
+.sugg div:hover,.sugg div.active{background:var(--panel)}
+.sugg i{color:var(--muted);font-size:13px}
+.sugg div.present{color:var(--muted);cursor:default}
+.sugg div.present:hover{background:transparent}
+.unmatched{color:var(--muted);font-size:15px;margin-top:6px}
+/* metrics */
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px 32px;margin:26px 0 8px;border-top:1px solid var(--line);padding-top:22px}
+.metric b{display:block;font-family:var(--serif);font-weight:300;font-size:52px;line-height:1;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.metric b small{font-size:22px;font-weight:300;margin-left:4px;color:var(--ink-2)}
+.metric span{display:block;color:var(--ink-2);font-size:15px;margin-top:6px;max-width:26ch}
+.note{color:var(--muted);font-size:15px;max-width:70ch}
+/* trees */
+.treewrap{margin-top:18px;overflow-x:auto}
+svg text{font-family:var(--sans)}
+svg .tiplabel{font-size:14px;fill:var(--ink)}
+svg .tipsp{font-size:12px;fill:var(--muted);font-style:italic}
+svg .nodelabel{font-size:11px;fill:var(--muted)}
+svg .axis text{font-size:11px;fill:var(--muted)}
+svg .axis line{stroke:var(--line)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px;color:var(--ink-2);margin-top:8px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:baseline}
+.toggle{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;font-size:14px}
+.toggle button{background:transparent;color:var(--ink-2);border:0;border-radius:0;padding:5px 12px;font-weight:500}
+.toggle button.on{background:var(--ink);color:var(--bg)}
+/* contributions */
+.contrib{margin-top:10px;display:grid;grid-template-columns:max-content 1fr max-content;gap:6px 14px;align-items:center;font-size:15px;max-width:720px}
+.contrib .bar{height:9px;border-radius:5px;background:var(--hi-soft);position:relative;overflow:hidden}
+.contrib .bar i{position:absolute;inset:0;width:0;border-radius:5px}
+.contrib .v{font-variant-numeric:tabular-nums;color:var(--ink-2);text-align:right}
+.contrib .shared{color:var(--muted)}
+/* radial */
+.radialwrap{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:24px;align-items:start;margin-top:14px}
+@media (max-width:760px){.radialwrap{grid-template-columns:1fr}}
+.radialwrap svg{width:100%;height:auto;max-width:660px}
+.radialwrap .side p{margin:0 0 12px;color:var(--ink-2);font-size:15px}
+.radialwrap .side b{font-family:var(--serif);font-weight:500;color:var(--ink)}
+/* log */
+.log table{border-collapse:collapse;width:100%;font-size:15px;margin-top:10px}
+.log th,.log td{text-align:left;padding:8px 10px 8px 0;border-bottom:1px solid var(--line);vertical-align:top}
+.log th{font-weight:600;color:var(--ink-2)}
+.log td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.weekline{font-size:17px;margin:8px 0 4px}
+.weekline b{font-family:var(--serif);font-weight:500}
+/* data */
+.data p{max-width:70ch;color:var(--ink-2)}
+.data label{display:block;margin:10px 0;font-size:15px}
+.data input[type=file]{font:inherit;font-size:14px}
+code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.92em;background:var(--panel);padding:1px 5px;border-radius:4px}
+footer{margin-top:64px;border-top:1px solid var(--line);padding-top:16px;color:var(--muted);font-size:14px;max-width:80ch}
+@media (prefers-reduced-motion:no-preference){.chip{transition:opacity .15s}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="wordmark">Phyloplate <span>prototype</span></div>
+  <nav><a href="#log">Meal log</a><a href="#data">Data</a><a href="#method">Method</a></nav>
+</header>
+
+<h1>How much of the tree of life is on your plate?</h1>
+<p class="lede">Paste a recipe or name a dish. Every ingredient gets mapped to the organism it came from, the eukaryote tree gets pruned to what's on the plate, and the branch lengths get added up: millions of years of evolution per meal.</p>
+
+<textarea id="recipe" placeholder="e.g. miso soup with kombu dashi, tofu, wakame and scallions&#10;or paste the ingredient list from a recipe"></textarea>
+<div class="row">
+  <button id="score">Score this meal</button>
+  <button id="stop" class="quiet hidden">Stop</button>
+  <div class="status" id="status"></div>
+</div>
+<div class="examples">Try:
+  <a data-ex="Cheeseburger with onions, lettuce, tomato and ketchup on a sesame bun, side of fries">cheeseburger and fries</a>
+  <a data-ex="Miso soup with kombu dashi, wakame, silken tofu and scallions; a bowl of white rice; grilled salmon; pickled daikon; a sheet of toasted nori">Japanese set meal</a>
+  <a data-ex="2 cups all-purpose flour&#10;1 tsp salt&#10;1 packet active dry yeast&#10;3 tbsp olive oil&#10;1 cup warm water&#10;1 cup crushed San Marzano tomatoes&#10;8 oz fresh mozzarella&#10;fresh basil leaves&#10;grated parmesan">margherita pizza recipe</a>
+  <a data-ex="Sauteed maitake and lion's mane mushrooms with garlic and thyme, dulse flakes, a fried duck egg, buckwheat groats, sea urchin roe, and a glass of lambic (barley, wheat, hops, yeast)">a hippie's dream</a>
+</div>
+
+<section id="results" class="hidden">
+  <h2>Ingredients found</h2>
+  <p class="note">Dashed chips were inferred, from a dish name or from an "or" alternative in the recipe. Remove anything wrong, add anything missing.</p>
+  <div class="chips" id="chips"></div>
+  <div class="addbox"><input id="add" placeholder="Add an ingredient" autocomplete="off"><div class="sugg hidden" id="sugg"></div></div>
+  <div class="unmatched" id="unmatched"></div>
+
+  <div class="metrics">
+    <div class="metric"><b id="m-pd">0</b><span>Faith's phylogenetic diversity: total branch length spanning the meal, root included (millions of years)</span></div>
+    <div class="metric"><b id="m-rich">0</b><span>Species richness: distinct organisms on the plate</span></div>
+    <div class="metric"><b id="m-cov">0<small>%</small></b><span id="m-cov-note">of the tracked edible tree's total branch length</span></div>
+    <div class="metric"><b id="m-span">0</b><span id="m-span-note">Myr spanned below the meal's own common ancestor</span></div>
+  </div>
+
+  <h3>The meal's tree</h3>
+  <div class="row" style="margin-top:0">
+    <div class="toggle" id="scale"><button class="on" data-s="sqrt">square-root time</button><button data-s="linear">linear time</button></div>
+    <div class="legend" id="legend"></div>
+  </div>
+  <div class="treewrap"><svg id="mealtree"></svg></div>
+
+  <h3>Who did the work</h3>
+  <p class="note">Each organism's private share of the total: branches it alone reaches. What's left over is shared trunk.</p>
+  <div class="contrib" id="contrib"></div>
+
+  <h3>Coverage of the edible tree</h3>
+  <div class="radialwrap">
+    <svg id="radial" viewBox="0 0 700 700"></svg>
+    <div class="side" id="radialside"></div>
+  </div>
+
+  <div class="row" style="margin-top:22px"><button id="logbtn">Log this meal</button><span class="status" id="logstatus"></span></div>
+</section>
+
+<section id="log" class="log">
+  <h2>Meal log</h2>
+  <p class="note">Meals you log stay in this browser. The weekly score is the PD of everything eaten in the last seven days combined, which is where the shallow branches start to matter.</p>
+  <div id="week"></div>
+  <div id="logtable"></div>
+</section>
+
+<section id="data" class="data">
+  <h2>Data</h2>
+  <p>Tree version <b>demo-0.1</b>. The built-in tree has <b id="d-tips">0</b> edible taxa and <b id="d-total">0</b> Myr of branch length. Node ages in this build are approximate placeholders: deep splits follow published ranges loosely, shallow ones are educated guesses. Do not quote them. To test another tree, load a Newick whose tip labels are ids plus a CSV with columns <code>id, common_name, species, lineage, clade, aliases</code>; clade is one of animal, fungus, plant, green, red, brown, other; branch lengths in Myr, ultrametric.</p>
+  <label>Newick <input type="file" id="f-newick" accept=".nwk,.newick,.tre,.tree,.txt"></label>
+  <label>Taxon CSV <input type="file" id="f-csv" accept=".csv,.txt"></label>
+  <div class="row"><button id="loaddata" class="quiet">Use these files</button><span class="status" id="datastatus"></span></div>
+</section>
+
+<section id="method">
+  <h2>Method</h2>
+  <p class="note">PD is Faith's (1992) phylogenetic diversity: the sum of branch lengths of the minimum subtree connecting the meal's taxa to the root of the tree. Richness is the count of distinct taxa. Coverage divides the meal's PD by the total branch length of the tracked edible tree, so it depends on how many edible taxa are tracked. The span below the common ancestor is the same sum without the path from the meal's MRCA to the root; it is zero for a single-organism meal. Prokaryotes are excluded on purpose. Amounts are ignored; an abundance-weighted variant (Chao, Chiu and Jost's phylogenetic Hill numbers) is the natural next step.</p>
+</section>
+
+<footer>Ingredient parsing uses Claude through the viewer's own account; the page then resolves each organism against its own taxon table, so nothing outside the table can be scored. Tree data: placeholder ages, not citable. Tree version demo-0.1; scores change when the tree does. Built as a prototype for a phylogenetic-diversity diet score.</footer>
+</div>
+
+<script id="treedata" type="application/json">{"name":"Eukaryotes_Amorphea_-_Diaphoretickes","age":1800.0,"children":[{"name":"Opisthokonta","age":1100.0,"children":[{"name":"Fungi","age":800.0,"children":[{"id":"rhizopus","common":"tempeh mold","species":"Rhizopus oligosporus","lineage":"Mucoromycota","clade":"fungus","aliases":"tempeh","age":0.0},{"name":"Dikarya","age":600.0,"children":[{"name":"Ascomycota","age":500.0,"children":[{"id":"yeast","common":"baker's / brewer's yeast","species":"Saccharomyces cerevisiae","lineage":"Saccharomycetes","clade":"fungus","aliases":"yeast;bread;beer;wine;sourdough;leavened","age":0.0},{"name":"Pezizomycotina","age":400.0,"children":[{"name":"Pezizales","age":250.0,"children":[{"name":"Tuber","age":30.0,"children":[{"id":"black-truffle","common":"black truffle","species":"Tuber melanosporum","lineage":"Pezizales","clade":"fungus","aliases":"truffle","age":0.0},{"id":"white-truffle","common":"white truffle","species":"Tuber magnatum","lineage":"Pezizales","clade":"fungus","aliases":"","age":0.0}]},{"id":"morel","common":"morel","species":"Morchella esculenta","lineage":"Pezizales","clade":"fungus","aliases":"morels","age":0.0}]},{"name":"Leotiomyceta","age":300.0,"children":[{"name":"Eurotiales","age":100.0,"children":[{"id":"koji","common":"koji mold","species":"Aspergillus oryzae","lineage":"Eurotiales","clade":"fungus","aliases":"koji;miso;soy sauce;sake;mirin","age":0.0},{"name":"Penicillium","age":20.0,"children":[{"id":"penicillium-roqueforti","common":"blue cheese mold","species":"Penicillium roqueforti","lineage":"Eurotiales","clade":"fungus","aliases":"blue cheese;roquefort;gorgonzola;stilton","age":0.0},{"id":"penicillium-camemberti","common":"camembert mold","species":"Penicillium camemberti","lineage":"Eurotiales","clade":"fungus","aliases":"brie;camembert","age":0.0}]}]},{"id":"quorn","common":"mycoprotein","species":"Fusarium venenatum","lineage":"Hypocreales","clade":"fungus","aliases":"quorn","age":0.0}]}]}]},{"name":"Basidiomycota","age":550.0,"children":[{"id":"huitlacoche","common":"huitlacoche","species":"Ustilago maydis","lineage":"Ustilaginales","clade":"fungus","aliases":"corn smut","age":0.0},{"name":"Agaricomycotina","age":450.0,"children":[{"id":"snow-fungus","common":"snow fungus","species":"Tremella fuciformis","lineage":"Tremellales","clade":"fungus","aliases":"white fungus","age":0.0},{"name":"Agaricomycetes","age":300.0,"children":[{"id":"chanterelle","common":"chanterelle","species":"Cantharellus cibarius","lineage":"Cantharellales","clade":"fungus","aliases":"","age":0.0},{"name":"","age":280.0,"children":[{"id":"wood-ear","common":"wood ear","species":"Auricularia auricula-judae","lineage":"Auriculariales","clade":"fungus","aliases":"black fungus;cloud ear","age":0.0},{"name":"","age":260.0,"children":[{"id":"lions-mane","common":"lion's mane","species":"Hericium erinaceus","lineage":"Russulales","clade":"fungus","aliases":"","age":0.0},{"name":"","age":240.0,"children":[{"id":"maitake","common":"maitake","species":"Grifola frondosa","lineage":"Polyporales","clade":"fungus","aliases":"hen of the woods","age":0.0},{"name":"Agaricomycetidae","age":200.0,"children":[{"id":"porcini","common":"porcini","species":"Boletus edulis","lineage":"Boletales","clade":"fungus","aliases":"cep;penny bun","age":0.0},{"name":"Agaricales","age":120.0,"children":[{"id":"button-mushroom","common":"button / cremini / portobello","species":"Agaricus bisporus","lineage":"Agaricales","clade":"fungus","aliases":"mushroom;mushrooms;cremini;portobello;portabella;champignon","age":0.0},{"name":"","age":110.0,"children":[{"id":"oyster-mushroom","common":"oyster mushroom","species":"Pleurotus ostreatus","lineage":"Agaricales","clade":"fungus","aliases":"king oyster","age":0.0},{"name":"","age":90.0,"children":[{"id":"enoki","common":"enoki","species":"Flammulina velutipes","lineage":"Agaricales","clade":"fungus","aliases":"enokitake","age":0.0},{"id":"shiitake","common":"shiitake","species":"Lentinula edodes","lineage":"Agaricales","clade":"fungus","aliases":"","age":0.0}]}]}]}]}]}]}]}]}]}]}]}]},{"name":"Metazoa","age":700.0,"children":[{"id":"jellyfish","common":"edible jellyfish","species":"Rhopilema esculentum","lineage":"Cnidaria","clade":"animal","aliases":"","age":0.0},{"name":"Bilateria","age":600.0,"children":[{"name":"Deuterostomia","age":580.0,"children":[{"name":"Echinodermata","age":450.0,"children":[{"id":"sea-urchin","common":"sea urchin (uni)","species":"Mesocentrotus / Strongylocentrotus spp.","lineage":"Echinoidea","clade":"animal","aliases":"uni","age":0.0},{"id":"sea-cucumber","common":"sea cucumber","species":"Apostichopus japonicus","lineage":"Holothuroidea","clade":"animal","aliases":"","age":0.0}]},{"name":"Chordata","age":520.0,"children":[{"id":"sea-pineapple","common":"sea pineapple (tunicate)","species":"Halocynthia roretzi","lineage":"Tunicata","clade":"animal","aliases":"sea squirt;meongge","age":0.0},{"name":"Vertebrata","age":500.0,"children":[{"id":"lamprey","common":"lamprey","species":"Petromyzon marinus","lineage":"Petromyzontiformes","clade":"animal","aliases":"","age":0.0},{"name":"Gnathostomata","age":460.0,"children":[{"name":"Chondrichthyes","age":300.0,"children":[{"id":"dogfish","common":"dogfish / shark","species":"Squalus acanthias","lineage":"Squaliformes","clade":"animal","aliases":"shark;rock salmon","age":0.0},{"id":"skate","common":"skate","species":"Leucoraja / Raja spp.","lineage":"Rajiformes","clade":"animal","aliases":"ray","age":0.0}]},{"name":"Osteichthyes","age":430.0,"children":[{"name":"Actinopterygii","age":350.0,"children":[{"id":"sturgeon","common":"sturgeon (caviar)","species":"Acipenser spp.","lineage":"Acipenseriformes","clade":"animal","aliases":"caviar","age":0.0},{"name":"Teleostei","age":300.0,"children":[{"id":"eel","common":"eel","species":"Anguilla spp.","lineage":"Anguilliformes","clade":"animal","aliases":"unagi;anago","age":0.0},{"name":"","age":260.0,"children":[{"name":"Otocephala","age":230.0,"children":[{"name":"Clupeiformes","age":60.0,"children":[{"id":"anchovy","common":"anchovy","species":"Engraulis spp.","lineage":"Clupeiformes","clade":"animal","aliases":"anchovies;fish sauce;nam pla;boquerones","age":0.0},{"name":"","age":30.0,"children":[{"id":"herring","common":"herring","species":"Clupea harengus","lineage":"Clupeiformes","clade":"animal","aliases":"","age":0.0},{"id":"sardine","common":"sardine","species":"Sardina pilchardus","lineage":"Clupeiformes","clade":"animal","aliases":"sardines;pilchard","age":0.0}]}]},{"name":"Otophysi","age":180.0,"children":[{"id":"carp","common":"carp","species":"Cyprinus carpio","lineage":"Cypriniformes","clade":"animal","aliases":"","age":0.0},{"id":"catfish","common":"catfish","species":"Ictalurus punctatus","lineage":"Siluriformes","clade":"animal","aliases":"","age":0.0}]}]},{"name":"Euteleostei","age":230.0,"children":[{"name":"Salmonidae","age":20.0,"children":[{"id":"atlantic-salmon","common":"Atlantic salmon","species":"Salmo salar","lineage":"Salmonidae","clade":"animal","aliases":"salmon;lox;gravlax;smoked salmon","age":0.0},{"name":"Oncorhynchus","age":8.0,"children":[{"id":"rainbow-trout","common":"rainbow trout","species":"Oncorhynchus mykiss","lineage":"Salmonidae","clade":"animal","aliases":"trout;steelhead","age":0.0},{"id":"sockeye","common":"Pacific salmon","species":"Oncorhynchus nerka","lineage":"Salmonidae","clade":"animal","aliases":"sockeye;coho;king salmon;chinook","age":0.0}]}]},{"name":"Neoteleostei","age":150.0,"children":[{"name":"Gadidae","age":15.0,"children":[{"id":"haddock","common":"haddock","species":"Melanogrammus aeglefinus","lineage":"Gadiformes","clade":"animal","aliases":"","age":0.0},{"name":"","age":10.0,"children":[{"id":"cod","common":"cod","species":"Gadus morhua","lineage":"Gadiformes","clade":"animal","aliases":"bacalao;salt cod","age":0.0},{"id":"pollock","common":"pollock","species":"Gadus chalcogrammus","lineage":"Gadiformes","clade":"animal","aliases":"surimi;fish sticks","age":0.0}]}]},{"name":"Percomorpha","age":120.0,"children":[{"id":"tilapia","common":"tilapia","species":"Oreochromis niloticus","lineage":"Cichlidae","clade":"animal","aliases":"","age":0.0},{"name":"","age":100.0,"children":[{"name":"Carangaria","age":80.0,"children":[{"name":"Pleuronectiformes","age":40.0,"children":[{"id":"halibut","common":"halibut","species":"Hippoglossus hippoglossus","lineage":"Pleuronectiformes","clade":"animal","aliases":"flounder","age":0.0},{"id":"sole","common":"sole","species":"Solea solea","lineage":"Pleuronectiformes","clade":"animal","aliases":"","age":0.0}]},{"name":"","age":60.0,"children":[{"id":"mahi-mahi","common":"mahi-mahi","species":"Coryphaena hippurus","lineage":"Coryphaenidae","clade":"animal","aliases":"dorado;dolphinfish","age":0.0},{"id":"swordfish","common":"swordfish","species":"Xiphias gladius","lineage":"Xiphiidae","clade":"animal","aliases":"","age":0.0}]}]},{"name":"","age":95.0,"children":[{"name":"Scombridae","age":45.0,"children":[{"id":"tuna","common":"tuna","species":"Thunnus spp.","lineage":"Scombridae","clade":"animal","aliases":"bluefin;yellowfin;albacore;ahi","age":0.0},{"id":"mackerel","common":"mackerel","species":"Scomber scombrus","lineage":"Scombridae","clade":"animal","aliases":"saba","age":0.0}]},{"name":"Eupercaria","age":90.0,"children":[{"id":"sea-bass","common":"sea bass","species":"Dicentrarchus labrax","lineage":"Moronidae","clade":"animal","aliases":"branzino;striped bass","age":0.0},{"name":"","age":80.0,"children":[{"id":"snapper","common":"snapper","species":"Lutjanus spp.","lineage":"Lutjanidae","clade":"animal","aliases":"","age":0.0},{"id":"grouper","common":"grouper","species":"Epinephelus spp.","lineage":"Serranidae","clade":"animal","aliases":"","age":0.0}]}]}]}]}]}]}]}]}]}]},{"name":"Tetrapoda","age":350.0,"children":[{"id":"frog","common":"frog legs","species":"Pelophylax spp.","lineage":"Anura","clade":"animal","aliases":"","age":0.0},{"name":"Amniota","age":320.0,"children":[{"name":"Sauropsida","age":260.0,"children":[{"id":"snapping-turtle","common":"snapping turtle","species":"Chelydra serpentina","lineage":"Testudines","clade":"animal","aliases":"turtle","age":0.0},{"name":"Archosauria","age":250.0,"children":[{"id":"alligator","common":"alligator","species":"Alligator mississippiensis","lineage":"Crocodilia","clade":"animal","aliases":"crocodile","age":0.0},{"name":"Aves","age":100.0,"children":[{"id":"ostrich","common":"ostrich","species":"Struthio camelus","lineage":"Struthioniformes","clade":"animal","aliases":"emu","age":0.0},{"name":"Neognathae","age":90.0,"children":[{"id":"pigeon","common":"pigeon / squab","species":"Columba livia","lineage":"Columbiformes","clade":"animal","aliases":"squab","age":0.0},{"name":"Galloanserae","age":80.0,"children":[{"name":"Anseriformes","age":20.0,"children":[{"id":"duck","common":"duck","species":"Anas platyrhynchos","lineage":"Anseriformes","clade":"animal","aliases":"duck egg;foie gras","age":0.0},{"id":"goose","common":"goose","species":"Anser anser","lineage":"Anseriformes","clade":"animal","aliases":"","age":0.0}]},{"name":"Galliformes","age":45.0,"children":[{"id":"guinea-fowl","common":"guinea fowl","species":"Numida meleagris","lineage":"Galliformes","clade":"animal","aliases":"","age":0.0},{"name":"","age":40.0,"children":[{"id":"quail","common":"quail","species":"Coturnix coturnix","lineage":"Galliformes","clade":"animal","aliases":"quail egg","age":0.0},{"name":"Phasianidae","age":30.0,"children":[{"id":"turkey","common":"turkey","species":"Meleagris gallopavo","lineage":"Galliformes","clade":"animal","aliases":"","age":0.0},{"name":"","age":20.0,"children":[{"id":"pheasant","common":"pheasant","species":"Phasianus colchicus","lineage":"Galliformes","clade":"animal","aliases":"","age":0.0},{"id":"chicken","common":"chicken","species":"Gallus gallus","lineage":"Galliformes","clade":"animal","aliases":"egg;eggs;hen;poultry","age":0.0}]}]}]}]}]}]}]}]}]},{"name":"Mammalia","age":160.0,"children":[{"id":"kangaroo","common":"kangaroo","species":"Macropus spp.","lineage":"Diprotodontia","clade":"animal","aliases":"","age":0.0},{"name":"Boreoeutheria","age":95.0,"children":[{"name":"Euarchontoglires","age":80.0,"children":[{"id":"guinea-pig","common":"guinea pig (cuy)","species":"Cavia porcellus","lineage":"Rodentia","clade":"animal","aliases":"cuy","age":0.0},{"name":"Leporidae","age":12.0,"children":[{"id":"rabbit","common":"rabbit","species":"Oryctolagus cuniculus","lineage":"Lagomorpha","clade":"animal","aliases":"","age":0.0},{"id":"hare","common":"hare","species":"Lepus europaeus","lineage":"Lagomorpha","clade":"animal","aliases":"","age":0.0}]}]},{"name":"Laurasiatheria","age":78.0,"children":[{"id":"horse","common":"horse","species":"Equus caballus","lineage":"Perissodactyla","clade":"animal","aliases":"","age":0.0},{"name":"Artiodactyla","age":65.0,"children":[{"id":"camel","common":"camel","species":"Camelus dromedarius","lineage":"Tylopoda","clade":"animal","aliases":"","age":0.0},{"name":"","age":62.0,"children":[{"id":"pig","common":"pig","species":"Sus scrofa","lineage":"Suina","clade":"animal","aliases":"pork;bacon;ham;lard;prosciutto;sausage;pancetta;gelatin","age":0.0},{"name":"Ruminantia","age":28.0,"children":[{"name":"Cervidae","age":8.0,"children":[{"id":"venison","common":"deer (venison)","species":"Odocoileus virginianus","lineage":"Cervidae","clade":"animal","aliases":"deer","age":0.0},{"id":"red-deer","common":"red deer / elk","species":"Cervus elaphus","lineage":"Cervidae","clade":"animal","aliases":"elk","age":0.0}]},{"name":"Bovidae","age":20.0,"children":[{"name":"Caprinae","age":7.0,"children":[{"id":"sheep","common":"sheep","species":"Ovis aries","lineage":"Bovidae","clade":"animal","aliases":"lamb;mutton;feta;pecorino;sheep milk","age":0.0},{"id":"goat","common":"goat","species":"Capra hircus","lineage":"Bovidae","clade":"animal","aliases":"chevre;goat cheese;goat milk","age":0.0}]},{"name":"Bovinae","age":12.0,"children":[{"id":"water-buffalo","common":"water buffalo","species":"Bubalus bubalis","lineage":"Bovidae","clade":"animal","aliases":"buffalo mozzarella","age":0.0},{"name":"Bos_-_Bison","age":3.0,"children":[{"id":"cattle","common":"cattle","species":"Bos taurus","lineage":"Bovidae","clade":"animal","aliases":"beef;milk;cheese;butter;cream;yogurt;ghee;steak;veal;whey;parmesan;cheddar;mozzarella;burger;hamburger;cheeseburger;ground beef","age":0.0},{"id":"bison","common":"bison","species":"Bison bison","lineage":"Bovidae","clade":"animal","aliases":"buffalo","age":0.0}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]},{"name":"Protostomia","age":580.0,"children":[{"name":"Mollusca","age":530.0,"children":[{"name":"Bivalvia","age":480.0,"children":[{"name":"Pteriomorphia","age":440.0,"children":[{"id":"oyster","common":"oyster","species":"Crassostrea / Magallana spp.","lineage":"Ostreida","clade":"animal","aliases":"oysters","age":0.0},{"name":"","age":420.0,"children":[{"id":"mussel","common":"mussel","species":"Mytilus edulis","lineage":"Mytilida","clade":"animal","aliases":"mussels","age":0.0},{"id":"scallop","common":"scallop","species":"Placopecten / Pecten spp.","lineage":"Pectinida","clade":"animal","aliases":"scallops","age":0.0}]}]},{"name":"Heterodonta","age":300.0,"children":[{"id":"cockle","common":"cockle","species":"Cerastoderma edule","lineage":"Cardiida","clade":"animal","aliases":"","age":0.0},{"name":"","age":250.0,"children":[{"id":"razor-clam","common":"razor clam","species":"Ensis spp.","lineage":"Adapedonta","clade":"animal","aliases":"","age":0.0},{"name":"","age":220.0,"children":[{"id":"hard-clam","common":"hard clam (quahog)","species":"Mercenaria mercenaria","lineage":"Venerida","clade":"animal","aliases":"clam;clams;quahog;littleneck;cherrystone;manila clam","age":0.0},{"name":"","age":200.0,"children":[{"id":"soft-shell-clam","common":"soft-shell clam (steamer)","species":"Mya arenaria","lineage":"Myida","clade":"animal","aliases":"steamers","age":0.0},{"id":"geoduck","common":"geoduck","species":"Panopea generosa","lineage":"Adapedonta","clade":"animal","aliases":"","age":0.0}]}]}]}]}]},{"name":"","age":500.0,"children":[{"name":"Gastropoda","age":450.0,"children":[{"id":"abalone","common":"abalone","species":"Haliotis spp.","lineage":"Vetigastropoda","clade":"animal","aliases":"","age":0.0},{"name":"","age":400.0,"children":[{"id":"escargot","common":"land snail (escargot)","species":"Helix pomatia","lineage":"Stylommatophora","clade":"animal","aliases":"snail;snails","age":0.0},{"name":"Caenogastropoda","age":200.0,"children":[{"id":"periwinkle","common":"periwinkle","species":"Littorina littorea","lineage":"Littorinimorpha","clade":"animal","aliases":"winkle;winkles","age":0.0},{"name":"","age":180.0,"children":[{"id":"whelk","common":"whelk","species":"Buccinum undatum","lineage":"Neogastropoda","clade":"animal","aliases":"","age":0.0},{"id":"conch","common":"queen conch","species":"Aliger gigas","lineage":"Littorinimorpha","clade":"animal","aliases":"","age":0.0}]}]}]}]},{"name":"Coleoidea","age":260.0,"children":[{"id":"octopus","common":"octopus","species":"Octopus vulgaris","lineage":"Octopoda","clade":"animal","aliases":"pulpo;tako","age":0.0},{"name":"Decapodiformes","age":150.0,"children":[{"id":"squid","common":"squid","species":"Doryteuthis / Loligo spp.","lineage":"Myopsida","clade":"animal","aliases":"calamari;ika","age":0.0},{"id":"cuttlefish","common":"cuttlefish","species":"Sepia officinalis","lineage":"Sepiida","clade":"animal","aliases":"","age":0.0}]}]}]}]},{"name":"Pancrustacea","age":500.0,"children":[{"name":"Malacostraca","age":420.0,"children":[{"id":"krill","common":"krill","species":"Euphausia superba","lineage":"Euphausiacea","clade":"animal","aliases":"","age":0.0},{"name":"Decapoda","age":380.0,"children":[{"id":"shrimp","common":"shrimp","species":"Penaeus / Litopenaeus spp.","lineage":"Dendrobranchiata","clade":"animal","aliases":"prawns;prawn;ebi","age":0.0},{"name":"Pleocyemata","age":350.0,"children":[{"id":"freshwater-prawn","common":"freshwater prawn","species":"Macrobrachium rosenbergii","lineage":"Caridea","clade":"animal","aliases":"","age":0.0},{"name":"Reptantia","age":300.0,"children":[{"name":"Astacidea","age":250.0,"children":[{"id":"lobster","common":"lobster","species":"Homarus americanus","lineage":"Astacidea","clade":"animal","aliases":"","age":0.0},{"id":"crayfish","common":"crayfish","species":"Procambarus clarkii","lineage":"Astacidea","clade":"animal","aliases":"crawfish;crawdad","age":0.0}]},{"name":"","age":260.0,"children":[{"id":"king-crab","common":"king crab","species":"Paralithodes camtschaticus","lineage":"Anomura","clade":"animal","aliases":"","age":0.0},{"name":"Brachyura","age":120.0,"children":[{"id":"blue-crab","common":"blue crab","species":"Callinectes sapidus","lineage":"Brachyura","clade":"animal","aliases":"crab;crabs;crab meat","age":0.0},{"id":"dungeness-crab","common":"Dungeness crab","species":"Metacarcinus magister","lineage":"Brachyura","clade":"animal","aliases":"","age":0.0}]}]}]}]}]}]},{"name":"Hexapoda","age":400.0,"children":[{"name":"Orthoptera","age":200.0,"children":[{"id":"cricket","common":"cricket","species":"Acheta domesticus","lineage":"Orthoptera","clade":"animal","aliases":"crickets;cricket flour","age":0.0},{"id":"grasshopper","common":"grasshopper","species":"Sphenarium / Locusta spp.","lineage":"Orthoptera","clade":"animal","aliases":"chapulines;locust","age":0.0}]},{"name":"Holometabola","age":330.0,"children":[{"id":"honeybee","common":"honey bee (honey)","species":"Apis mellifera","lineage":"Hymenoptera","clade":"animal","aliases":"honey;royal jelly;bee pollen","age":0.0},{"name":"","age":300.0,"children":[{"id":"mealworm","common":"mealworm","species":"Tenebrio molitor","lineage":"Coleoptera","clade":"animal","aliases":"","age":0.0},{"id":"silkworm","common":"silkworm pupa","species":"Bombyx mori","lineage":"Lepidoptera","clade":"animal","aliases":"beondegi","age":0.0}]}]}]}]}]}]}]}]},{"name":"Diaphoretickes","age":1700.0,"children":[{"name":"Phaeophyceae_brown_algae","age":100.0,"children":[{"name":"Laminariales","age":30.0,"children":[{"id":"kombu","common":"kombu (kelp)","species":"Saccharina japonica","lineage":"Laminariales","clade":"brown","aliases":"kelp;dashi;kelp noodles;laminaria","age":0.0},{"name":"Alariaceae","age":15.0,"children":[{"id":"wakame","common":"wakame","species":"Undaria pinnatifida","lineage":"Laminariales","clade":"brown","aliases":"","age":0.0},{"id":"alaria","common":"winged kelp","species":"Alaria esculenta","lineage":"Laminariales","clade":"brown","aliases":"","age":0.0}]}]},{"name":"Fucales","age":60.0,"children":[{"id":"hijiki","common":"hijiki","species":"Sargassum fusiforme","lineage":"Fucales","clade":"brown","aliases":"","age":0.0},{"name":"Fucaceae","age":30.0,"children":[{"id":"rockweed","common":"rockweed","species":"Ascophyllum nodosum","lineage":"Fucales","clade":"brown","aliases":"knotted wrack","age":0.0},{"id":"bladderwrack","common":"bladderwrack","species":"Fucus vesiculosus","lineage":"Fucales","clade":"brown","aliases":"","age":0.0}]}]}]},{"name":"Archaeplastida","age":1500.0,"children":[{"name":"Rhodophyta_red_algae","age":1000.0,"children":[{"name":"Bangiales","age":60.0,"children":[{"id":"nori","common":"nori","species":"Pyropia yezoensis","lineage":"Bangiales","clade":"red","aliases":"seaweed;sushi seaweed;gim;kim","age":0.0},{"id":"laver","common":"laver","species":"Porphyra umbilicalis","lineage":"Bangiales","clade":"red","aliases":"laverbread","age":0.0}]},{"name":"Florideophyceae","age":600.0,"children":[{"id":"dulse","common":"dulse","species":"Palmaria palmata","lineage":"Palmariales","clade":"red","aliases":"","age":0.0},{"name":"","age":400.0,"children":[{"id":"agar","common":"agar (Gelidium)","species":"Gelidium spp.","lineage":"Gelidiales","clade":"red","aliases":"agar-agar;kanten","age":0.0},{"name":"","age":300.0,"children":[{"id":"irish-moss","common":"Irish moss (carrageenan)","species":"Chondrus crispus","lineage":"Gigartinales","clade":"red","aliases":"carrageenan","age":0.0},{"id":"ogo","common":"ogo (Gracilaria)","species":"Gracilaria spp.","lineage":"Gracilariales","clade":"red","aliases":"gracilaria","age":0.0}]}]}]}]},{"name":"Viridiplantae","age":1000.0,"children":[{"name":"Chlorophyta_green_algae","age":600.0,"children":[{"id":"chlorella","common":"chlorella","species":"Chlorella vulgaris","lineage":"Chlorellales","clade":"green","aliases":"","age":0.0},{"name":"Ulvophyceae","age":400.0,"children":[{"id":"sea-lettuce","common":"sea lettuce","species":"Ulva lactuca","lineage":"Ulvales","clade":"green","aliases":"aonori;aosa;ulva;ao-nori","age":0.0},{"id":"sea-grapes","common":"sea grapes","species":"Caulerpa lentillifera","lineage":"Bryopsidales","clade":"green","aliases":"umibudo","age":0.0}]}]},{"name":"Euphyllophyta","age":400.0,"children":[{"id":"fiddlehead","common":"fiddlehead fern","species":"Matteuccia struthiopteris","lineage":"Polypodiales","clade":"plant","aliases":"ostrich fern","age":0.0},{"name":"Spermatophyta","age":320.0,"children":[{"name":"Gymnosperms","age":300.0,"children":[{"id":"ginkgo","common":"ginkgo nut","species":"Ginkgo biloba","lineage":"Ginkgoales","clade":"plant","aliases":"","age":0.0},{"name":"Conifers","age":250.0,"children":[{"id":"juniper","common":"juniper berry","species":"Juniperus communis","lineage":"Cupressaceae","clade":"plant","aliases":"gin","age":0.0},{"name":"Pinus","age":40.0,"children":[{"id":"pine-nut","common":"pine nut (stone pine)","species":"Pinus pinea","lineage":"Pinaceae","clade":"plant","aliases":"pignoli;pinoli","age":0.0},{"id":"korean-pine-nut","common":"Korean pine nut","species":"Pinus koraiensis","lineage":"Pinaceae","clade":"plant","aliases":"","age":0.0}]}]}]},{"name":"Angiosperms","age":150.0,"children":[{"name":"Magnoliids","age":130.0,"children":[{"id":"black-pepper","common":"black pepper","species":"Piper nigrum","lineage":"Piperales","clade":"plant","aliases":"pepper;peppercorn;white pepper","age":0.0},{"name":"","age":120.0,"children":[{"id":"nutmeg","common":"nutmeg / mace","species":"Myristica fragrans","lineage":"Magnoliales","clade":"plant","aliases":"mace","age":0.0},{"name":"Lauraceae","age":60.0,"children":[{"id":"avocado","common":"avocado","species":"Persea americana","lineage":"Laurales","clade":"plant","aliases":"guacamole","age":0.0},{"name":"","age":40.0,"children":[{"id":"cinnamon","common":"cinnamon","species":"Cinnamomum verum","lineage":"Laurales","clade":"plant","aliases":"cassia","age":0.0},{"id":"bay-leaf","common":"bay leaf","species":"Laurus nobilis","lineage":"Laurales","clade":"plant","aliases":"bay","age":0.0}]}]}]}]},{"name":"","age":145.0,"children":[{"name":"Monocots","age":135.0,"children":[{"id":"taro","common":"taro","species":"Colocasia esculenta","lineage":"Alismatales","clade":"plant","aliases":"poi;dasheen","age":0.0},{"name":"","age":125.0,"children":[{"id":"yam","common":"yam","species":"Dioscorea spp.","lineage":"Dioscoreales","clade":"plant","aliases":"ube;nagaimo","age":0.0},{"name":"","age":120.0,"children":[{"name":"Asparagales","age":100.0,"children":[{"id":"vanilla","common":"vanilla","species":"Vanilla planifolia","lineage":"Orchidaceae","clade":"plant","aliases":"","age":0.0},{"name":"","age":80.0,"children":[{"id":"asparagus","common":"asparagus","species":"Asparagus officinalis","lineage":"Asparagaceae","clade":"plant","aliases":"","age":0.0},{"name":"Allium","age":15.0,"children":[{"id":"chive","common":"chive","species":"Allium schoenoprasum","lineage":"Amaryllidaceae","clade":"plant","aliases":"chives","age":0.0},{"name":"","age":12.0,"children":[{"id":"leek","common":"leek","species":"Allium ampeloprasum","lineage":"Amaryllidaceae","clade":"plant","aliases":"leeks;elephant garlic","age":0.0},{"name":"","age":10.0,"children":[{"id":"onion","common":"onion","species":"Allium cepa","lineage":"Amaryllidaceae","clade":"plant","aliases":"onions;shallot;shallots;scallion;scallions;green onion;spring onion","age":0.0},{"id":"garlic","common":"garlic","species":"Allium sativum","lineage":"Amaryllidaceae","clade":"plant","aliases":"","age":0.0}]}]}]}]}]},{"name":"Commelinids","age":115.0,"children":[{"name":"Arecaceae","age":60.0,"children":[{"id":"date","common":"date palm","species":"Phoenix dactylifera","lineage":"Arecaceae","clade":"plant","aliases":"dates","age":0.0},{"name":"","age":50.0,"children":[{"id":"coconut","common":"coconut","species":"Cocos nucifera","lineage":"Arecaceae","clade":"plant","aliases":"coconut milk;coconut oil;coconut cream","age":0.0},{"id":"oil-palm","common":"oil palm","species":"Elaeis guineensis","lineage":"Arecaceae","clade":"plant","aliases":"palm oil;palm sugar","age":0.0}]}]},{"name":"","age":110.0,"children":[{"name":"Zingiberales","age":80.0,"children":[{"id":"banana","common":"banana / plantain","species":"Musa spp.","lineage":"Musaceae","clade":"plant","aliases":"plantain;plantains","age":0.0},{"name":"Zingiberaceae","age":40.0,"children":[{"id":"cardamom","common":"cardamom","species":"Elettaria cardamomum","lineage":"Zingiberaceae","clade":"plant","aliases":"","age":0.0},{"name":"","age":30.0,"children":[{"id":"ginger","common":"ginger","species":"Zingiber officinale","lineage":"Zingiberaceae","clade":"plant","aliases":"","age":0.0},{"id":"turmeric","common":"turmeric","species":"Curcuma longa","lineage":"Zingiberaceae","clade":"plant","aliases":"","age":0.0}]}]}]},{"name":"Poales","age":100.0,"children":[{"id":"pineapple","common":"pineapple","species":"Ananas comosus","lineage":"Bromeliaceae","clade":"plant","aliases":"","age":0.0},{"name":"Poaceae","age":75.0,"children":[{"name":"BEP_clade","age":50.0,"children":[{"id":"rice","common":"rice","species":"Oryza sativa","lineage":"Poaceae","clade":"plant","aliases":"sushi rice;rice vinegar;rice noodles;rice flour;mochi;sake","age":0.0},{"name":"Pooideae","age":30.0,"children":[{"id":"oat","common":"oat","species":"Avena sativa","lineage":"Poaceae","clade":"plant","aliases":"oats;oatmeal;rolled oats","age":0.0},{"name":"Triticeae","age":12.0,"children":[{"id":"barley","common":"barley","species":"Hordeum vulgare","lineage":"Poaceae","clade":"plant","aliases":"malt;beer;pearl barley","age":0.0},{"name":"","age":5.0,"children":[{"id":"wheat","common":"wheat","species":"Triticum aestivum","lineage":"Poaceae","clade":"plant","aliases":"flour;bread;pasta;noodles;bun;couscous;bulgur;semolina;durum;seitan;soy sauce;tortilla;crackers;breadcrumbs;panko;pastry","age":0.0},{"id":"rye","common":"rye","species":"Secale cereale","lineage":"Poaceae","clade":"plant","aliases":"","age":0.0}]}]}]}]},{"name":"PACMAD_clade","age":30.0,"children":[{"id":"millet","common":"millet","species":"Pennisetum / Panicum spp.","lineage":"Poaceae","clade":"plant","aliases":"pearl millet;proso","age":0.0},{"name":"","age":12.0,"children":[{"id":"maize","common":"maize (corn)","species":"Zea mays","lineage":"Poaceae","clade":"plant","aliases":"corn;cornmeal;polenta;masa;corn syrup;cornstarch;popcorn;grits;tortilla","age":0.0},{"name":"","age":8.0,"children":[{"id":"sorghum","common":"sorghum","species":"Sorghum bicolor","lineage":"Poaceae","clade":"plant","aliases":"","age":0.0},{"id":"sugarcane","common":"sugarcane","species":"Saccharum officinarum","lineage":"Poaceae","clade":"plant","aliases":"sugar;cane sugar;molasses;rum;brown sugar","age":0.0}]}]}]}]}]}]}]}]}]}]},{"name":"Eudicots","age":130.0,"children":[{"id":"poppy-seed","common":"poppy seed","species":"Papaver somniferum","lineage":"Ranunculales","clade":"plant","aliases":"","age":0.0},{"name":"","age":125.0,"children":[{"name":"Proteales","age":110.0,"children":[{"id":"lotus","common":"lotus root","species":"Nelumbo nucifera","lineage":"Nelumbonaceae","clade":"plant","aliases":"","age":0.0},{"id":"macadamia","common":"macadamia","species":"Macadamia integrifolia","lineage":"Proteaceae","clade":"plant","aliases":"","age":0.0}]},{"name":"Pentapetalae","age":115.0,"children":[{"id":"currant","common":"currant / gooseberry","species":"Ribes spp.","lineage":"Saxifragales","clade":"plant","aliases":"blackcurrant;gooseberry;cassis","age":0.0},{"name":"","age":112.0,"children":[{"name":"Caryophyllales","age":90.0,"children":[{"name":"Polygonaceae","age":50.0,"children":[{"id":"buckwheat","common":"buckwheat","species":"Fagopyrum esculentum","lineage":"Polygonaceae","clade":"plant","aliases":"soba;kasha","age":0.0},{"id":"rhubarb","common":"rhubarb","species":"Rheum rhabarbarum","lineage":"Polygonaceae","clade":"plant","aliases":"","age":0.0}]},{"name":"","age":75.0,"children":[{"id":"prickly-pear","common":"prickly pear (nopal)","species":"Opuntia ficus-indica","lineage":"Cactaceae","clade":"plant","aliases":"nopales;cactus","age":0.0},{"name":"Amaranthaceae","age":60.0,"children":[{"id":"amaranth","common":"amaranth","species":"Amaranthus spp.","lineage":"Amaranthaceae","clade":"plant","aliases":"","age":0.0},{"name":"","age":55.0,"children":[{"id":"beet","common":"beet / chard / sugar beet","species":"Beta vulgaris","lineage":"Amaranthaceae","clade":"plant","aliases":"beetroot;chard;swiss chard;beet sugar","age":0.0},{"name":"","age":40.0,"children":[{"id":"spinach","common":"spinach","species":"Spinacia oleracea","lineage":"Amaranthaceae","clade":"plant","aliases":"","age":0.0},{"id":"quinoa","common":"quinoa","species":"Chenopodium quinoa","lineage":"Amaranthaceae","clade":"plant","aliases":"","age":0.0}]}]}]}]}]},{"name":"","age":110.0,"children":[{"name":"Rosids","age":108.0,"children":[{"id":"grape","common":"grape","species":"Vitis vinifera","lineage":"Vitales","clade":"plant","aliases":"wine;raisin;raisins;grapes;wine vinegar;balsamic","age":0.0},{"name":"","age":105.0,"children":[{"name":"Fabids","age":100.0,"children":[{"name":"Malpighiales","age":80.0,"children":[{"id":"cassava","common":"cassava","species":"Manihot esculenta","lineage":"Euphorbiaceae","clade":"plant","aliases":"tapioca;yuca;manioc","age":0.0},{"id":"passionfruit","common":"passion fruit","species":"Passiflora edulis","lineage":"Passifloraceae","clade":"plant","aliases":"","age":0.0}]},{"name":"Nitrogen-fixing_clade","age":95.0,"children":[{"name":"Fabaceae","age":65.0,"children":[{"id":"tamarind","common":"tamarind","species":"Tamarindus indica","lineage":"Fabaceae","clade":"plant","aliases":"","age":0.0},{"name":"","age":60.0,"children":[{"id":"carob","common":"carob","species":"Ceratonia siliqua","lineage":"Fabaceae","clade":"plant","aliases":"","age":0.0},{"name":"Papilionoideae","age":58.0,"children":[{"id":"peanut","common":"peanut","species":"Arachis hypogaea","lineage":"Fabaceae","clade":"plant","aliases":"peanuts;peanut butter;groundnut","age":0.0},{"name":"","age":50.0,"children":[{"name":"Phaseoloids","age":20.0,"children":[{"id":"soy","common":"soybean","species":"Glycine max","lineage":"Fabaceae","clade":"plant","aliases":"soy;tofu;soy sauce;miso;edamame;tempeh;soy milk;natto;tamari","age":0.0},{"name":"","age":8.0,"children":[{"id":"common-bean","common":"common bean","species":"Phaseolus vulgaris","lineage":"Fabaceae","clade":"plant","aliases":"black beans;kidney beans;pinto;green beans;navy beans;cannellini","age":0.0},{"name":"Vigna","age":3.0,"children":[{"id":"mung-bean","common":"mung bean","species":"Vigna radiata","lineage":"Fabaceae","clade":"plant","aliases":"bean sprouts","age":0.0},{"id":"cowpea","common":"cowpea / black-eyed pea","species":"Vigna unguiculata","lineage":"Fabaceae","clade":"plant","aliases":"black-eyed peas","age":0.0}]}]}]},{"name":"IRLC","age":25.0,"children":[{"id":"licorice","common":"licorice","species":"Glycyrrhiza glabra","lineage":"Fabaceae","clade":"plant","aliases":"","age":0.0},{"name":"","age":22.0,"children":[{"id":"chickpea","common":"chickpea","species":"Cicer arietinum","lineage":"Fabaceae","clade":"plant","aliases":"garbanzo;hummus;chana","age":0.0},{"name":"","age":18.0,"children":[{"id":"fenugreek","common":"fenugreek","species":"Trigonella foenum-graecum","lineage":"Fabaceae","clade":"plant","aliases":"methi","age":0.0},{"name":"","age":15.0,"children":[{"id":"fava","common":"fava bean","species":"Vicia faba","lineage":"Fabaceae","clade":"plant","aliases":"broad bean","age":0.0},{"name":"","age":12.0,"children":[{"id":"pea","common":"pea","species":"Pisum sativum","lineage":"Fabaceae","clade":"plant","aliases":"peas;split peas;snap peas","age":0.0},{"id":"lentil","common":"lentil","species":"Lens culinaris","lineage":"Fabaceae","clade":"plant","aliases":"lentils;dal","age":0.0}]}]}]}]}]}]}]}]}]},{"name":"","age":92.0,"children":[{"name":"Rosales","age":90.0,"children":[{"name":"Rosaceae","age":85.0,"children":[{"name":"Rosoideae","age":55.0,"children":[{"id":"strawberry","common":"strawberry","species":"Fragaria x ananassa","lineage":"Rosaceae","clade":"plant","aliases":"strawberries","age":0.0},{"name":"Rubus","age":10.0,"children":[{"id":"raspberry","common":"raspberry","species":"Rubus idaeus","lineage":"Rosaceae","clade":"plant","aliases":"raspberries","age":0.0},{"id":"blackberry","common":"blackberry","species":"Rubus fruticosus agg.","lineage":"Rosaceae","clade":"plant","aliases":"blackberries","age":0.0}]}]},{"name":"Amygdaloideae","age":60.0,"children":[{"name":"Maleae","age":20.0,"children":[{"id":"apple","common":"apple","species":"Malus domestica","lineage":"Rosaceae","clade":"plant","aliases":"cider;apples;applesauce","age":0.0},{"name":"","age":15.0,"children":[{"id":"pear","common":"pear","species":"Pyrus communis","lineage":"Rosaceae","clade":"plant","aliases":"","age":0.0},{"id":"quince","common":"quince","species":"Cydonia oblonga","lineage":"Rosaceae","clade":"plant","aliases":"","age":0.0}]}]},{"name":"Prunus","age":25.0,"children":[{"id":"cherry","common":"cherry","species":"Prunus avium","lineage":"Rosaceae","clade":"plant","aliases":"cherries;sour cherry","age":0.0},{"name":"","age":15.0,"children":[{"name":"","age":5.0,"children":[{"id":"peach","common":"peach / nectarine","species":"Prunus persica","lineage":"Rosaceae","clade":"plant","aliases":"nectarine","age":0.0},{"id":"almond","common":"almond","species":"Prunus dulcis","lineage":"Rosaceae","clade":"plant","aliases":"almonds;marzipan;almond milk","age":0.0}]},{"name":"","age":8.0,"children":[{"id":"plum","common":"plum","species":"Prunus domestica","lineage":"Rosaceae","clade":"plant","aliases":"prune;prunes;umeboshi","age":0.0},{"id":"apricot","common":"apricot","species":"Prunus armeniaca","lineage":"Rosaceae","clade":"plant","aliases":"","age":0.0}]}]}]}]}]},{"name":"","age":75.0,"children":[{"name":"Cannabaceae","age":20.0,"children":[{"id":"hops","common":"hops","species":"Humulus lupulus","lineage":"Cannabaceae","clade":"plant","aliases":"beer;ipa","age":0.0},{"id":"hemp","common":"hemp seed","species":"Cannabis sativa","lineage":"Cannabaceae","clade":"plant","aliases":"","age":0.0}]},{"name":"Moraceae","age":60.0,"children":[{"id":"fig","common":"fig","species":"Ficus carica","lineage":"Moraceae","clade":"plant","aliases":"figs","age":0.0},{"name":"","age":40.0,"children":[{"id":"mulberry","common":"mulberry","species":"Morus spp.","lineage":"Moraceae","clade":"plant","aliases":"","age":0.0},{"name":"Artocarpus","age":15.0,"children":[{"id":"jackfruit","common":"jackfruit","species":"Artocarpus heterophyllus","lineage":"Moraceae","clade":"plant","aliases":"","age":0.0},{"id":"breadfruit","common":"breadfruit","species":"Artocarpus altilis","lineage":"Moraceae","clade":"plant","aliases":"","age":0.0}]}]}]}]}]},{"name":"","age":85.0,"children":[{"name":"Cucurbitaceae","age":50.0,"children":[{"id":"bitter-melon","common":"bitter melon","species":"Momordica charantia","lineage":"Cucurbitaceae","clade":"plant","aliases":"bitter gourd","age":0.0},{"name":"","age":45.0,"children":[{"name":"Cucurbita","age":5.0,"children":[{"id":"zucchini","common":"zucchini / pumpkin (C. pepo)","species":"Cucurbita pepo","lineage":"Cucurbitaceae","clade":"plant","aliases":"summer squash;pumpkin;acorn squash;courgette;pepitas","age":0.0},{"id":"butternut","common":"butternut / kabocha","species":"Cucurbita moschata / maxima","lineage":"Cucurbitaceae","clade":"plant","aliases":"winter squash;kabocha;hubbard","age":0.0}]},{"name":"","age":30.0,"children":[{"id":"watermelon","common":"watermelon","species":"Citrullus lanatus","lineage":"Cucurbitaceae","clade":"plant","aliases":"","age":0.0},{"name":"Cucumis","age":10.0,"children":[{"id":"cucumber","common":"cucumber","species":"Cucumis sativus","lineage":"Cucurbitaceae","clade":"plant","aliases":"pickle;pickles;gherkin","age":0.0},{"id":"melon","common":"melon (cantaloupe, honeydew)","species":"Cucumis melo","lineage":"Cucurbitaceae","clade":"plant","aliases":"cantaloupe;honeydew","age":0.0}]}]}]}]},{"name":"Fagales","age":80.0,"children":[{"name":"Fagaceae","age":60.0,"children":[{"id":"chestnut","common":"chestnut","species":"Castanea spp.","lineage":"Fagaceae","clade":"plant","aliases":"chestnuts","age":0.0},{"id":"acorn","common":"acorn","species":"Quercus spp.","lineage":"Fagaceae","clade":"plant","aliases":"oak","age":0.0}]},{"name":"","age":70.0,"children":[{"id":"hazelnut","common":"hazelnut","species":"Corylus avellana","lineage":"Betulaceae","clade":"plant","aliases":"filbert;hazelnuts","age":0.0},{"name":"Juglandaceae","age":40.0,"children":[{"id":"walnut","common":"walnut","species":"Juglans regia","lineage":"Juglandaceae","clade":"plant","aliases":"walnuts","age":0.0},{"id":"pecan","common":"pecan","species":"Carya illinoinensis","lineage":"Juglandaceae","clade":"plant","aliases":"pecans","age":0.0}]}]}]}]}]}]}]},{"name":"Malvids","age":100.0,"children":[{"name":"Myrtales","age":85.0,"children":[{"id":"pomegranate","common":"pomegranate","species":"Punica granatum","lineage":"Lythraceae","clade":"plant","aliases":"","age":0.0},{"name":"Myrtaceae","age":60.0,"children":[{"id":"guava","common":"guava","species":"Psidium guajava","lineage":"Myrtaceae","clade":"plant","aliases":"","age":0.0},{"name":"","age":55.0,"children":[{"id":"clove","common":"clove","species":"Syzygium aromaticum","lineage":"Myrtaceae","clade":"plant","aliases":"cloves","age":0.0},{"id":"allspice","common":"allspice","species":"Pimenta dioica","lineage":"Myrtaceae","clade":"plant","aliases":"","age":0.0}]}]}]},{"name":"","age":95.0,"children":[{"name":"Sapindales","age":80.0,"children":[{"name":"Citrus","age":8.0,"children":[{"id":"lime","common":"lime","species":"Citrus aurantiifolia","lineage":"Rutaceae","clade":"plant","aliases":"key lime;makrut","age":0.0},{"name":"","age":5.0,"children":[{"id":"lemon","common":"lemon","species":"Citrus limon","lineage":"Rutaceae","clade":"plant","aliases":"lemons","age":0.0},{"name":"","age":3.0,"children":[{"id":"grapefruit","common":"grapefruit","species":"Citrus paradisi","lineage":"Rutaceae","clade":"plant","aliases":"pomelo","age":0.0},{"name":"","age":2.0,"children":[{"id":"orange","common":"orange","species":"Citrus sinensis","lineage":"Rutaceae","clade":"plant","aliases":"oranges;orange juice","age":0.0},{"id":"mandarin","common":"mandarin","species":"Citrus reticulata","lineage":"Rutaceae","clade":"plant","aliases":"clementine;tangerine;satsuma","age":0.0}]}]}]}]},{"name":"","age":70.0,"children":[{"name":"Sapindaceae","age":60.0,"children":[{"id":"maple","common":"maple (syrup)","species":"Acer saccharum","lineage":"Sapindaceae","clade":"plant","aliases":"maple syrup","age":0.0},{"id":"lychee","common":"lychee","species":"Litchi chinensis","lineage":"Sapindaceae","clade":"plant","aliases":"","age":0.0}]},{"name":"Anacardiaceae","age":45.0,"children":[{"id":"mango","common":"mango","species":"Mangifera indica","lineage":"Anacardiaceae","clade":"plant","aliases":"","age":0.0},{"name":"","age":42.0,"children":[{"id":"sumac","common":"sumac","species":"Rhus coriaria","lineage":"Anacardiaceae","clade":"plant","aliases":"za'atar","age":0.0},{"name":"","age":40.0,"children":[{"id":"cashew","common":"cashew","species":"Anacardium occidentale","lineage":"Anacardiaceae","clade":"plant","aliases":"cashews","age":0.0},{"id":"pistachio","common":"pistachio","species":"Pistacia vera","lineage":"Anacardiaceae","clade":"plant","aliases":"pistachios","age":0.0}]}]}]}]}]},{"name":"","age":90.0,"children":[{"name":"Brassicales","age":75.0,"children":[{"id":"papaya","common":"papaya","species":"Carica papaya","lineage":"Caricaceae","clade":"plant","aliases":"","age":0.0},{"name":"","age":70.0,"children":[{"id":"caper","common":"caper","species":"Capparis spinosa","lineage":"Capparaceae","clade":"plant","aliases":"capers","age":0.0},{"name":"Brassicaceae","age":35.0,"children":[{"name":"Cardamineae","age":20.0,"children":[{"id":"watercress","common":"watercress","species":"Nasturtium officinale","lineage":"Brassicaceae","clade":"plant","aliases":"","age":0.0},{"name":"","age":10.0,"children":[{"id":"horseradish","common":"horseradish","species":"Armoracia rusticana","lineage":"Brassicaceae","clade":"plant","aliases":"","age":0.0},{"id":"wasabi","common":"wasabi","species":"Eutrema japonicum","lineage":"Brassicaceae","clade":"plant","aliases":"","age":0.0}]}]},{"name":"Brassiceae","age":20.0,"children":[{"id":"arugula","common":"arugula","species":"Eruca vesicaria","lineage":"Brassicaceae","clade":"plant","aliases":"rocket","age":0.0},{"name":"","age":15.0,"children":[{"id":"radish","common":"radish","species":"Raphanus sativus","lineage":"Brassicaceae","clade":"plant","aliases":"daikon","age":0.0},{"name":"","age":12.0,"children":[{"id":"white-mustard","common":"white mustard / yellow mustard","species":"Sinapis alba","lineage":"Brassicaceae","clade":"plant","aliases":"mustard;yellow mustard;mustard seed","age":0.0},{"name":"","age":8.0,"children":[{"id":"brown-mustard","common":"brown mustard / mustard greens","species":"Brassica juncea","lineage":"Brassicaceae","clade":"plant","aliases":"dijon;mustard greens;gai choy","age":0.0},{"name":"Brassica","age":4.0,"children":[{"id":"turnip","common":"turnip / bok choy / napa","species":"Brassica rapa","lineage":"Brassicaceae","clade":"plant","aliases":"bok choy;napa cabbage;pak choi;turnip greens;mizuna;rapini","age":0.0},{"name":"","age":3.0,"children":[{"id":"cabbage","common":"cabbage / kale / broccoli","species":"Brassica oleracea","lineage":"Brassicaceae","clade":"plant","aliases":"kale;broccoli;cauliflower;brussels sprouts;collard;kohlrabi;sauerkraut;kimchi;coleslaw","age":0.0},{"id":"canola","common":"canola / rutabaga","species":"Brassica napus","lineage":"Brassicaceae","clade":"plant","aliases":"rapeseed;canola oil;rutabaga;swede","age":0.0}]}]}]}]}]}]}]}]},{"name":"Malvaceae","age":65.0,"children":[{"id":"durian","common":"durian","species":"Durio zibethinus","lineage":"Malvaceae","clade":"plant","aliases":"","age":0.0},{"name":"","age":55.0,"children":[{"id":"cacao","common":"cacao","species":"Theobroma cacao","lineage":"Malvaceae","clade":"plant","aliases":"chocolate;cocoa","age":0.0},{"name":"","age":50.0,"children":[{"id":"okra","common":"okra","species":"Abelmoschus esculentus","lineage":"Malvaceae","clade":"plant","aliases":"","age":0.0},{"id":"roselle","common":"roselle (hibiscus)","species":"Hibiscus sabdariffa","lineage":"Malvaceae","clade":"plant","aliases":"hibiscus;jamaica","age":0.0}]}]}]}]}]}]}]}]}]},{"name":"Asterids","age":108.0,"children":[{"name":"Ericales","age":90.0,"children":[{"id":"brazil-nut","common":"Brazil nut","species":"Bertholletia excelsa","lineage":"Lecythidaceae","clade":"plant","aliases":"","age":0.0},{"name":"","age":85.0,"children":[{"id":"persimmon","common":"persimmon","species":"Diospyros kaki","lineage":"Ebenaceae","clade":"plant","aliases":"","age":0.0},{"name":"","age":75.0,"children":[{"id":"tea","common":"tea","species":"Camellia sinensis","lineage":"Theaceae","clade":"plant","aliases":"green tea;black tea;matcha;oolong","age":0.0},{"name":"","age":65.0,"children":[{"id":"kiwi","common":"kiwi","species":"Actinidia deliciosa","lineage":"Actinidiaceae","clade":"plant","aliases":"kiwifruit","age":0.0},{"name":"Vaccinium","age":15.0,"children":[{"id":"blueberry","common":"blueberry","species":"Vaccinium corymbosum","lineage":"Ericaceae","clade":"plant","aliases":"blueberries","age":0.0},{"name":"","age":12.0,"children":[{"id":"cranberry","common":"cranberry","species":"Vaccinium macrocarpon","lineage":"Ericaceae","clade":"plant","aliases":"cranberries","age":0.0},{"id":"lingonberry","common":"lingonberry","species":"Vaccinium vitis-idaea","lineage":"Ericaceae","clade":"plant","aliases":"","age":0.0}]}]}]}]}]}]},{"name":"","age":100.0,"children":[{"name":"Lamiids","age":95.0,"children":[{"name":"Solanales","age":60.0,"children":[{"id":"sweet-potato","common":"sweet potato","species":"Ipomoea batatas","lineage":"Convolvulaceae","clade":"plant","aliases":"yam (US);camote","age":0.0},{"name":"Solanaceae","age":20.0,"children":[{"id":"tomatillo","common":"tomatillo","species":"Physalis philadelphica","lineage":"Solanaceae","clade":"plant","aliases":"goldenberry","age":0.0},{"name":"","age":17.0,"children":[{"name":"Capsicum","age":3.0,"children":[{"id":"chili","common":"chili / bell pepper","species":"Capsicum annuum","lineage":"Solanaceae","clade":"plant","aliases":"bell pepper;jalapeno;paprika;cayenne;chile;chilli;red pepper flakes","age":0.0},{"id":"habanero","common":"habanero / scotch bonnet","species":"Capsicum chinense","lineage":"Solanaceae","clade":"plant","aliases":"scotch bonnet","age":0.0}]},{"name":"Solanum","age":14.0,"children":[{"id":"eggplant","common":"eggplant","species":"Solanum melongena","lineage":"Solanaceae","clade":"plant","aliases":"aubergine","age":0.0},{"name":"","age":8.0,"children":[{"id":"tomato","common":"tomato","species":"Solanum lycopersicum","lineage":"Solanaceae","clade":"plant","aliases":"tomatoes;ketchup;catsup;tomato paste;marinara;salsa","age":0.0},{"id":"potato","common":"potato","species":"Solanum tuberosum","lineage":"Solanaceae","clade":"plant","aliases":"potatoes;fries;french fries;chips","age":0.0}]}]}]}]}]},{"name":"","age":90.0,"children":[{"name":"Coffea","age":5.0,"children":[{"id":"coffee","common":"coffee (arabica)","species":"Coffea arabica","lineage":"Rubiaceae","clade":"plant","aliases":"espresso","age":0.0},{"id":"robusta","common":"robusta coffee","species":"Coffea canephora","lineage":"Rubiaceae","clade":"plant","aliases":"","age":0.0}]},{"name":"Lamiales","age":75.0,"children":[{"id":"olive","common":"olive","species":"Olea europaea","lineage":"Oleaceae","clade":"plant","aliases":"olive oil;olives","age":0.0},{"name":"","age":65.0,"children":[{"id":"sesame","common":"sesame","species":"Sesamum indicum","lineage":"Pedaliaceae","clade":"plant","aliases":"tahini;sesame oil;sesame seeds","age":0.0},{"name":"Lamiaceae","age":45.0,"children":[{"id":"shiso","common":"shiso (perilla)","species":"Perilla frutescens","lineage":"Lamiaceae","clade":"plant","aliases":"perilla","age":0.0},{"name":"Nepetoideae","age":35.0,"children":[{"name":"Ocimeae","age":20.0,"children":[{"id":"basil","common":"basil","species":"Ocimum basilicum","lineage":"Lamiaceae","clade":"plant","aliases":"thai basil;pesto","age":0.0},{"id":"lavender","common":"lavender","species":"Lavandula angustifolia","lineage":"Lamiaceae","clade":"plant","aliases":"","age":0.0}]},{"name":"Mentheae","age":30.0,"children":[{"name":"Salvia","age":15.0,"children":[{"id":"sage","common":"sage","species":"Salvia officinalis","lineage":"Lamiaceae","clade":"plant","aliases":"","age":0.0},{"id":"rosemary","common":"rosemary","species":"Salvia rosmarinus","lineage":"Lamiaceae","clade":"plant","aliases":"","age":0.0}]},{"name":"","age":18.0,"children":[{"name":"Mentha","age":3.0,"children":[{"id":"spearmint","common":"mint (spearmint)","species":"Mentha spicata","lineage":"Lamiaceae","clade":"plant","aliases":"mint","age":0.0},{"id":"peppermint","common":"peppermint","species":"Mentha x piperita","lineage":"Lamiaceae","clade":"plant","aliases":"","age":0.0}]},{"name":"","age":12.0,"children":[{"name":"Origanum","age":5.0,"children":[{"id":"oregano","common":"oregano","species":"Origanum vulgare","lineage":"Lamiaceae","clade":"plant","aliases":"","age":0.0},{"id":"marjoram","common":"marjoram","species":"Origanum majorana","lineage":"Lamiaceae","clade":"plant","aliases":"","age":0.0}]},{"id":"thyme","common":"thyme","species":"Thymus vulgaris","lineage":"Lamiaceae","clade":"plant","aliases":"","age":0.0}]}]}]}]}]}]}]}]}]},{"name":"Campanulids","age":95.0,"children":[{"id":"elderberry","common":"elderberry / elderflower","species":"Sambucus nigra","lineage":"Adoxaceae","clade":"plant","aliases":"elderflower","age":0.0},{"name":"","age":90.0,"children":[{"name":"Apiaceae","age":50.0,"children":[{"id":"cilantro","common":"cilantro / coriander","species":"Coriandrum sativum","lineage":"Apiaceae","clade":"plant","aliases":"coriander","age":0.0},{"name":"","age":45.0,"children":[{"name":"","age":25.0,"children":[{"id":"carrot","common":"carrot","species":"Daucus carota","lineage":"Apiaceae","clade":"plant","aliases":"carrots","age":0.0},{"id":"cumin","common":"cumin","species":"Cuminum cyminum","lineage":"Apiaceae","clade":"plant","aliases":"","age":0.0}]},{"name":"","age":40.0,"children":[{"id":"parsnip","common":"parsnip","species":"Pastinaca sativa","lineage":"Apiaceae","clade":"plant","aliases":"","age":0.0},{"name":"","age":35.0,"children":[{"id":"caraway","common":"caraway","species":"Carum carvi","lineage":"Apiaceae","clade":"plant","aliases":"","age":0.0},{"name":"","age":30.0,"children":[{"name":"","age":15.0,"children":[{"id":"celery","common":"celery / celeriac","species":"Apium graveolens","lineage":"Apiaceae","clade":"plant","aliases":"celeriac;celery seed","age":0.0},{"id":"parsley","common":"parsley","species":"Petroselinum crispum","lineage":"Apiaceae","clade":"plant","aliases":"","age":0.0}]},{"name":"","age":20.0,"children":[{"id":"anise","common":"anise","species":"Pimpinella anisum","lineage":"Apiaceae","clade":"plant","aliases":"aniseed","age":0.0},{"name":"","age":10.0,"children":[{"id":"dill","common":"dill","species":"Anethum graveolens","lineage":"Apiaceae","clade":"plant","aliases":"","age":0.0},{"id":"fennel","common":"fennel","species":"Foeniculum vulgare","lineage":"Apiaceae","clade":"plant","aliases":"fennel seed","age":0.0}]}]}]}]}]}]}]},{"name":"Asteraceae","age":50.0,"children":[{"id":"artichoke","common":"artichoke / cardoon","species":"Cynara cardunculus","lineage":"Asteraceae","clade":"plant","aliases":"cardoon","age":0.0},{"name":"","age":40.0,"children":[{"name":"Cichorieae","age":20.0,"children":[{"id":"dandelion","common":"dandelion","species":"Taraxacum officinale","lineage":"Asteraceae","clade":"plant","aliases":"","age":0.0},{"name":"","age":15.0,"children":[{"id":"lettuce","common":"lettuce","species":"Lactuca sativa","lineage":"Asteraceae","clade":"plant","aliases":"romaine;iceberg;salad greens;mesclun","age":0.0},{"name":"Cichorium","age":8.0,"children":[{"id":"chicory","common":"chicory / radicchio","species":"Cichorium intybus","lineage":"Asteraceae","clade":"plant","aliases":"radicchio;belgian endive;witloof","age":0.0},{"id":"endive","common":"endive / escarole","species":"Cichorium endivia","lineage":"Asteraceae","clade":"plant","aliases":"escarole;frisee","age":0.0}]}]}]},{"name":"Asteroideae","age":30.0,"children":[{"name":"","age":25.0,"children":[{"id":"sunflower","common":"sunflower","species":"Helianthus annuus","lineage":"Asteraceae","clade":"plant","aliases":"sunflower oil;sunflower seeds","age":0.0},{"id":"stevia","common":"stevia","species":"Stevia rebaudiana","lineage":"Asteraceae","clade":"plant","aliases":"","age":0.0}]},{"name":"","age":28.0,"children":[{"id":"chamomile","common":"chamomile","species":"Matricaria chamomilla","lineage":"Asteraceae","clade":"plant","aliases":"","age":0.0},{"id":"tarragon","common":"tarragon","species":"Artemisia dracunculus","lineage":"Asteraceae","clade":"plant","aliases":"wormwood;absinthe","age":0.0}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}],"version":"demo-0.1"}</script>
+<script>
+(() => {
+'use strict';
+const $ = s => document.querySelector(s);
+const CLADES = {animal:'Animals', fungus:'Fungi', plant:'Land plants', green:'Green algae', red:'Red algae', brown:'Brown algae', other:'Other protists'};
+const CLADE_ORDER = ['animal','fungus','plant','green','red','brown','other'];
+const fmt = n => Math.round(n).toLocaleString('en-US');
+
+// ---------- data model ----------
+let DATA = null, PHRASES = []; // {root, nodes[], tips[], byId, total, rootAge}
+function buildIndex(root){
+  const nodes = [], tips = [], byId = new Map();
+  let total = 0;
+  (function walk(n, parent){
+    n.parent = parent; n.isTip = !n.children; nodes.push(n);
+    n.bl = parent ? parent.age - n.age : 0; total += n.bl;
+    if (n.isTip){ tips.push(n); byId.set(n.id, n); }
+    else n.children.forEach(c => walk(c, n));
+  })(root, null);
+  // leaf order index & subtree clade sets
+  tips.forEach((t, i) => t.leafIndex = i);
+  (function clades(n){
+    if (n.isTip){ n.cladeSet = new Set([n.clade]); n.nTips = 1; return; }
+    n.cladeSet = new Set(); n.nTips = 0;
+    n.children.forEach(c => { clades(c); c.cladeSet.forEach(x => n.cladeSet.add(x)); n.nTips += c.nTips; });
+  })(root);
+  return {root, nodes, tips, byId, total, rootAge: root.age};
+}
+function loadTree(root){
+  DATA = buildIndex(root);
+  DATA.bySpecies = new Map(); DATA.byGenus = new Map();
+  for (const t of DATA.tips){
+    const key = normSpecies(t.species);
+    if (key && !DATA.bySpecies.has(key)) DATA.bySpecies.set(key, t);
+    const g = key.split(' ')[0];
+    if (g){ if (!DATA.byGenus.has(g)) DATA.byGenus.set(g, []); DATA.byGenus.get(g).push(t); }
+  }
+  buildMatcher();
+  $('#d-tips').textContent = DATA.tips.length;
+  $('#d-total').textContent = fmt(DATA.total);
+  $('#m-cov-note').textContent = `of the tracked edible tree's total branch length (${DATA.tips.length} taxa, ${fmt(DATA.total)} Myr)`;
+}
+loadTree(JSON.parse($('#treedata').textContent));
+
+function normSpecies(sp){
+  return String(sp||'').toLowerCase().replace(/[×x]\s+/g,' ').replace(/\bkl\.\s*/g,'').replace(/\b(var|subsp|ssp|cv|f)\.?\s+\S+/g,'').replace(/[^a-z\s-]/g,' ').trim().split(/\s+/).slice(0,2).join(' ');
+}
+// resolve one parser item {species, common, as, inferred} to a table taxon
+function resolveItem(it){
+  const key = normSpecies(it.species);
+  let t = DATA.bySpecies.get(key);
+  if (t) return {id:t.id, as:it.as||'', inferred:!!it.inferred, how:'species'};
+  const g = key.split(' ')[0];
+  const cong = g ? (DATA.byGenus.get(g) || []) : [];
+  if (cong.length){
+    let pick = cong[0];
+    if (cong.length > 1 && it.common){ const hit = search(it.common).find(x => cong.includes(x)); if (hit) pick = hit; }
+    return {id:pick.id, as:(it.as||'') + ' (closest: ' + pick.common + ')', inferred:!!it.inferred, how:'genus'};
+  }
+  for (const q of [it.common, it.as]){
+    if (!q) continue;
+    const hits = search(q);
+    if (hits.length && (hits[0].common.toLowerCase() === String(q).toLowerCase() || hits.length === 1))
+      return {id:hits[0].id, as:(it.as||''), inferred:!!it.inferred, how:'common'};
+  }
+  return null;
+}
+// ---------- metrics ----------
+function metrics(ids){
+  const set = new Set(ids.filter(id => DATA.byId.has(id)));
+  const marked = new Set();
+  for (const id of set){ let n = DATA.byId.get(id); while (n){ marked.add(n); n = n.parent; } }
+  let pd = 0; marked.forEach(n => pd += n.bl);
+  // MRCA: deepest marked node with >=2 marked children, or the single tip
+  let mrca = DATA.root;
+  while (!mrca.isTip){
+    const mk = mrca.children.filter(c => marked.has(c));
+    if (mk.length === 1) mrca = mk[0]; else break;
+  }
+  const span = set.size >= 2 ? pd - (DATA.rootAge - mrca.age) : 0;
+  // private contributions: walk up from each tip while the node is its parent's only marked child
+  const contrib = [];
+  for (const id of set){
+    let n = DATA.byId.get(id), u = 0;
+    while (n.parent){
+      u += n.bl;
+      if (n.parent.children.filter(c => marked.has(c)).length > 1) break;
+      n = n.parent;
+    }
+    contrib.push({id, unique: u});
+  }
+  contrib.sort((a,b) => b.unique - a.unique);
+  const shared = pd - contrib.reduce((s,c) => s + c.unique, 0);
+  return {pd, richness: set.size, coverage: DATA.total ? pd / DATA.total : 0, span, mrca, contrib, shared, marked};
+}
+
+// ---------- local matcher (fallback + add box) ----------
+function buildMatcher(){
+  const map = new Map();
+  for (const t of DATA.tips){
+    const ph = new Set();
+    t.common.split('/').forEach(s => ph.add(s.replace(/\(.*?\)/g,'').trim()));
+    (t.aliases||'').split(';').forEach(s => s.trim() && ph.add(s.trim()));
+    ph.add(t.species.replace(/ spp\.| agg\.| x /g,' ').trim());
+    for (const p of ph){ const q = p.toLowerCase(); if (q.length >= 3) map.set(q, (map.get(q) || []).concat(t.id)); }
+  }
+  PHRASES = [...map].map(([p, ids]) => ({p, ids}));
+  PHRASES.sort((a,b) => b.p.length - a.p.length);
+}
+function localMatch(text){
+  let work = ' ' + text.toLowerCase().replace(/[^a-z0-9\s'-]/g,' ') + ' ';
+  const found = [];
+  for (const {p,ids} of PHRASES){
+    const re = new RegExp('(?<![a-z])' + p.replace(/[.*+?^${}()|[\]\\]/g,'\\$&').replace(/\s+/g,'\\s+') + '(?:s|es)?(?![a-z])');
+    const m = work.match(re);
+    if (m){ for (const id of ids) if (!found.some(f => f.id === id)) found.push({id, as: m[0].trim(), inferred:false}); work = work.replace(re, ' '); }
+  }
+  return found;
+}
+function search(q){
+  q = q.toLowerCase().trim(); if (!q) return [];
+  const forms = [q];
+  if (q.endsWith('ies') && q.length > 4) forms.push(q.slice(0,-3) + 'y');
+  if (q.endsWith('es') && q.length > 4) forms.push(q.slice(0,-2));
+  if (q.endsWith('s') && q.length > 3) forms.push(q.slice(0,-1));
+  const out = [];
+  for (const t of DATA.tips){
+    const hay = (t.common + ' ' + t.species + ' ' + t.lineage + ' ' + (t.aliases||'')).toLowerCase();
+    const words = hay.split(/[^a-z]+/);
+    let score = 0;
+    for (const f of forms){
+      if (t.common.toLowerCase().startsWith(f)) score = Math.max(score, 3);
+      else if (words.some(w => w.startsWith(f))) score = Math.max(score, 2);
+      else if (hay.includes(f)) score = Math.max(score, 1);
+    }
+    if (score) out.push({t, score});
+  }
+  return out.sort((a,b) => b.score - a.score || a.t.common.localeCompare(b.t.common)).slice(0,8).map(x => x.t);
+}
+
+// ---------- state & ingredients UI ----------
+let meal = []; // [{id, as, inferred}]
+let lastText = '';
+function setMeal(list){
+  const seen = new Set();
+  meal = list.filter(x => DATA.byId.has(x.id) && !seen.has(x.id) && seen.add(x.id));
+  renderAll();
+}
+function renderChips(){
+  const c = $('#chips'); c.innerHTML = '';
+  if (!meal.length){ c.innerHTML = '<span class="note">Nothing mapped yet. Add ingredients below.</span>'; return; }
+  for (const m of meal){
+    const t = DATA.byId.get(m.id);
+    const el = document.createElement('span');
+    el.className = 'chip' + (m.inferred ? ' inferred' : '');
+    el.innerHTML = `<i class="dot" style="background:var(--${t.clade})"></i><span>${esc(t.common)}</span>` +
+      (m.as && m.as.toLowerCase() !== t.common.toLowerCase() ? `<span class="as">${esc(m.as)}</span>` : '') +
+      `<button title="Remove" aria-label="Remove ${esc(t.common)}">×</button>`;
+    el.querySelector('button').onclick = () => { meal = meal.filter(x => x.id !== m.id); renderAll(); };
+    c.appendChild(el);
+  }
+}
+const esc = s => String(s).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+
+// add box
+const addIn = $('#add'), sugg = $('#sugg');
+let suggItems = [], suggActive = -1;
+function showSugg(){
+  const all = search(addIn.value);
+  const items = all.filter(t => !meal.some(m => m.id === t.id));
+  suggItems = items; suggActive = -1;
+  sugg.innerHTML = all.map(t => { const on = meal.some(m => m.id === t.id);
+    return `<div data-id="${t.id}" class="${on ? 'present' : ''}"><i class="dot" style="background:var(--${t.clade});width:10px;height:10px;border-radius:50%;display:inline-block"></i>${esc(t.common)} <i>${esc(t.species)}${on ? ' · already on the plate' : ''}</i></div>`; }).join('');
+  sugg.classList.toggle('hidden', !all.length);
+  sugg.querySelectorAll('div:not(.present)').forEach(d => d.onmousedown = e => { e.preventDefault(); pick(d.dataset.id); });
+  sugg.querySelectorAll('div.present').forEach(d => d.onmousedown = e => e.preventDefault());
+}
+function pick(id){ meal.push({id, as:'', inferred:false}); addIn.value=''; sugg.classList.add('hidden'); renderAll(); addIn.focus(); }
+addIn.addEventListener('input', showSugg);
+addIn.addEventListener('focus', showSugg);
+addIn.addEventListener('blur', () => setTimeout(() => sugg.classList.add('hidden'), 120));
+addIn.addEventListener('keydown', e => {
+  if (e.key === 'ArrowDown'){ suggActive = Math.min(suggActive+1, suggItems.length-1); }
+  else if (e.key === 'ArrowUp'){ suggActive = Math.max(suggActive-1, 0); }
+  else if (e.key === 'Enter'){ e.preventDefault(); const t = suggItems[suggActive] || suggItems[0]; if (t) pick(t.id); return; }
+  else if (e.key === 'Escape'){ sugg.classList.add('hidden'); return; }
+  else return;
+  e.preventDefault();
+  sugg.querySelectorAll('div:not(.present)').forEach((d,i) => d.classList.toggle('active', i === suggActive));
+});
+
+// ---------- rendering ----------
+let scaleMode = 'sqrt';
+$('#scale').addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b) return;
+  scaleMode = b.dataset.s; $('#scale').querySelectorAll('button').forEach(x => x.classList.toggle('on', x === b));
+  renderMealTree();
+});
+function xOf(age, W){ const r = age / DATA.rootAge; return W * (1 - (scaleMode === 'sqrt' ? Math.sqrt(r) : r)); }
+
+function renderAll(){
+  renderChips();
+  const ids = meal.map(m => m.id);
+  const M = metrics(ids);
+  $('#m-pd').textContent = fmt(M.pd);
+  $('#m-rich').textContent = M.richness;
+  $('#m-cov').innerHTML = (M.coverage*100).toFixed(1) + '<small>%</small>';
+  $('#m-span').textContent = fmt(M.span);
+  $('#m-span-note').textContent = M.richness >= 2
+    ? `Myr spanned below the meal's own common ancestor (${M.mrca.name || 'unnamed node'}, ${fmt(M.mrca.age)} Ma)`
+    : `Myr spanned below the meal's own common ancestor (needs two or more organisms)`;
+  renderMealTree(M);
+  renderContrib(M);
+  renderRadial(M);
+  renderLegend();
+}
+function renderLegend(){
+  const present = new Set(meal.map(m => DATA.byId.get(m.id).clade));
+  $('#legend').innerHTML = CLADE_ORDER.filter(c => present.has(c)).map(c => `<span><i style="background:var(--${c})"></i>${CLADES[c]}</span>`).join('');
+}
+
+function induced(node, marked){
+  if (node.isTip) return marked.has(node) ? {n:node, kids:[]} : null;
+  const kids = node.children.filter(c => marked.has(c));
+  if (!kids.length) return null;
+  if (kids.length === 1 && node !== DATA.root) return induced(kids[0], marked);
+  return {n:node, kids: kids.map(k => induced(k, marked)).filter(Boolean)};
+}
+function edgeColor(node){ return node.cladeSet.size === 1 ? `var(--${[...node.cladeSet][0]})` : 'var(--hi)'; }
+
+function renderMealTree(M){
+  M = M || metrics(meal.map(m => m.id));
+  const svg = $('#mealtree'); svg.innerHTML = '';
+  if (!M.richness){ svg.setAttribute('viewBox','0 0 900 60'); svg.innerHTML = '<text x="0" y="30" class="tipsp">Add an ingredient to draw the tree.</text>'; return; }
+  const tree = induced(DATA.root, M.marked);
+  const LAB = 310, W = 940, TW = W - LAB - 12, ROW = 26, TOP = 22, BOT = 40;
+  let leaf = 0;
+  const pos = new Map();
+  (function lay(t){
+    if (!t.kids.length){ pos.set(t, {x: xOf(t.n.age, TW) + 8, y: TOP + leaf*ROW + ROW/2}); leaf++; return; }
+    t.kids.forEach(lay);
+    const ys = t.kids.map(k => pos.get(k).y);
+    pos.set(t, {x: xOf(t.n.age, TW) + 8, y: (Math.min(...ys)+Math.max(...ys))/2});
+  })(tree);
+  const H = TOP + Math.max(leaf,2)*ROW + BOT;
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  svg.style.width = '100%'; svg.style.minWidth = '640px';
+  const ns = 'http://www.w3.org/2000/svg';
+  const el = (tag, attrs, txt) => { const e = document.createElementNS(ns, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (txt != null) e.textContent = txt; return e; };
+  // axis
+  const ax = el('g', {class:'axis'});
+  const ticks = [DATA.rootAge,1500,1000,700,500,300,200,100,50,20,10,0].filter(a => a <= DATA.rootAge && (a === DATA.rootAge || a < DATA.rootAge*0.9));
+  let lastX = -100;
+  for (const a of ticks){
+    const x = xOf(a, TW) + 8;
+    if (x - lastX < 34 && a !== 0) continue; lastX = x;
+    ax.appendChild(el('line', {x1:x, x2:x, y1:TOP-8, y2:H-BOT+6, 'stroke-dasharray':'2 4'}));
+    ax.appendChild(el('text', {x, y:H-BOT+20, 'text-anchor': a === DATA.rootAge ? 'start' : 'middle'}, a === 0 ? 'now' : fmt(a)+' Ma'));
+  }
+  svg.appendChild(ax);
+  // edges
+  const g = el('g', {fill:'none','stroke-width':2,'stroke-linecap':'round','stroke-linejoin':'round'});
+  (function draw(t){
+    const p = pos.get(t);
+    for (const k of t.kids){
+      const c = pos.get(k);
+      g.appendChild(el('path', {d:`M${p.x} ${p.y} V${c.y} H${c.x}`, stroke: edgeColor(k.n)}));
+      draw(k);
+    }
+  })(tree);
+  svg.appendChild(g);
+  // root stub
+  const rp = pos.get(tree);
+  svg.appendChild(el('path', {d:`M${rp.x-6} ${rp.y} H${rp.x}`, stroke:'var(--hi)','stroke-width':2}));
+  // nodes + labels
+  const drawn = [];
+  (function labels(t){
+    const p = pos.get(t);
+    if (!t.kids.length){
+      svg.appendChild(el('circle', {cx:p.x, cy:p.y, r:4, fill:`var(--${t.n.clade})`}));
+      svg.appendChild(el('text', {x:p.x+10, y:p.y+1, class:'tiplabel','dominant-baseline':'middle'}, t.n.common));
+      const w = t.n.common.length*7.2 + 16;
+      svg.appendChild(el('text', {x:p.x+10+w, y:p.y+1, class:'tipsp','dominant-baseline':'middle'}, t.n.species));
+    } else {
+      svg.appendChild(el('circle', {cx:p.x, cy:p.y, r:3, fill:'var(--bg)', stroke:'var(--hi)','stroke-width':1.5}));
+      let lab = t.n.name;
+      if (!lab){ let a = t.n.parent; while (a && !a.name) a = a.parent; if (a) lab = 'within ' + a.name; }
+      if (lab){
+        const left = t === tree || p.x < 150;
+        const text = `${lab}, ${fmt(t.n.age)} Ma`, w = text.length * 5.6;
+        const box = {x1: left ? p.x + 6 : p.x - 6 - w, x2: left ? p.x + 6 + w : p.x - 6, y: p.y - 7};
+        const clash = drawn.some(b => Math.abs(b.y - box.y) < 12 && b.x1 < box.x2 && box.x1 < b.x2);
+        if (!clash){ drawn.push(box); svg.appendChild(el('text', {x: left ? p.x + 6 : p.x - 6, y: p.y - 7, class:'nodelabel','text-anchor': left ? 'start' : 'end'}, text)); }
+      }
+      t.kids.forEach(labels);
+    }
+  })(tree);
+}
+
+function renderContrib(M){
+  const c = $('#contrib'); c.innerHTML = '';
+  if (!M.richness) return;
+  const max = Math.max(M.shared, ...M.contrib.map(x => x.unique), 1);
+  const row = (label, v, color, cls='') => {
+    c.insertAdjacentHTML('beforeend', `<span class="${cls}">${label}</span><span class="bar"><i style="width:${(100*v/max).toFixed(1)}%;background:${color}"></i></span><span class="v ${cls}">${fmt(v)} Myr</span>`);
+  };
+  for (const x of M.contrib){ const t = DATA.byId.get(x.id); row(esc(t.common), x.unique, `var(--${t.clade})`); }
+  if (M.richness >= 2) row('shared trunk', M.shared, 'var(--hi-soft)', 'shared');
+}
+
+// radial full tree with the meal's induced subtree highlighted
+const radialCache = {};
+function radialLayout(){
+  if (radialCache.data === DATA) return radialCache;
+  const n = DATA.tips.length, R = 285, cx = 350, cy = 350;
+  const ang = new Map(), rad = new Map();
+  (function lay(node){
+    if (node.isTip){ ang.set(node, (node.leafIndex / n) * 2*Math.PI - Math.PI/2); }
+    else { node.children.forEach(lay); const a = node.children.map(c => ang.get(c)); ang.set(node, (Math.min(...a)+Math.max(...a))/2); }
+    rad.set(node, R * (1 - Math.sqrt(node.age / DATA.rootAge)));
+  })(DATA.root);
+  const pt = (node) => { const a = ang.get(node), r = rad.get(node); return [cx + r*Math.cos(a), cy + r*Math.sin(a)]; };
+  const edgePath = (p, c) => {
+    const pr = rad.get(p), pa = ang.get(p), ca = ang.get(c);
+    const [x1,y1] = [cx + pr*Math.cos(pa), cy + pr*Math.sin(pa)];
+    const [x2,y2] = [cx + pr*Math.cos(ca), cy + pr*Math.sin(ca)];
+    const [x3,y3] = pt(c);
+    const sweep = ca > pa ? 1 : 0, large = Math.abs(ca - pa) > Math.PI ? 1 : 0;
+    return pr < 1 ? `M${x3.toFixed(1)} ${y3.toFixed(1)} L${cx} ${cy}` : `M${x1.toFixed(1)} ${y1.toFixed(1)} A${pr.toFixed(1)} ${pr.toFixed(1)} 0 ${large} ${sweep} ${x2.toFixed(1)} ${y2.toFixed(1)} L${x3.toFixed(1)} ${y3.toFixed(1)}`;
+  };
+  // clade arcs for labels: contiguous runs of tips by clade
+  const runs = []; let cur = null;
+  for (const t of DATA.tips){ if (cur && cur.clade === t.clade) cur.end = t.leafIndex; else { cur = {clade:t.clade, start:t.leafIndex, end:t.leafIndex}; runs.push(cur); } }
+  Object.assign(radialCache, {data:DATA, ang, rad, pt, edgePath, runs, n, R, cx, cy});
+  return radialCache;
+}
+function renderRadial(M){
+  const L = radialLayout();
+  const svg = $('#radial'); svg.innerHTML = '';
+  const ns = 'http://www.w3.org/2000/svg';
+  const el = (tag, attrs, txt) => { const e = document.createElementNS(ns, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (txt != null) e.textContent = txt; return e; };
+  const base = el('g', {fill:'none', stroke:'var(--line)', 'stroke-width':1});
+  const hi = el('g', {fill:'none', stroke:'var(--hi)', 'stroke-width':2.2, 'stroke-linecap':'round'});
+  const dots = el('g', {});
+  for (const node of DATA.nodes){
+    if (!node.parent) continue;
+    const d = L.edgePath(node.parent, node);
+    if (M.marked.has(node)) hi.appendChild(el('path', {d, stroke: edgeColor(node)}));
+    else base.appendChild(el('path', {d}));
+    if (node.isTip){
+      const [x,y] = L.pt(node);
+      const on = M.marked.has(node);
+      const c = el('circle', {cx:x.toFixed(1), cy:y.toFixed(1), r: on ? 5 : (DATA.tips.length > 600 ? 1.1 : 2), fill:`var(--${node.clade})`, opacity: on ? 1 : .4});
+      c.appendChild(el('title', {}, `${node.common} (${node.species})`));
+      dots.appendChild(c);
+    }
+  }
+  svg.append(base, hi, dots);
+  // clade labels around the rim
+  for (const r of L.runs){
+    if (r.end - r.start < Math.max(2, DATA.tips.length * 0.02)) continue;
+    const a = ((r.start + r.end)/2 / L.n) * 2*Math.PI - Math.PI/2;
+    const rr = L.R + 22;
+    const x = L.cx + rr*Math.cos(a), y = L.cy + rr*Math.sin(a);
+    const t = el('text', {x:x.toFixed(1), y:y.toFixed(1), 'font-size':12, fill:`var(--${r.clade})`, 'text-anchor':'middle', 'dominant-baseline':'middle'}, CLADES[r.clade]);
+    svg.appendChild(t);
+  }
+  // side text
+  const side = $('#radialside');
+  if (!M.richness){ side.innerHTML = '<p>The whole tracked edible tree. Score a meal to light up the branches it reaches.</p>'; return; }
+  const cladesHit = CLADE_ORDER.filter(c => meal.some(m => DATA.byId.get(m.id).clade === c));
+  const missing = CLADE_ORDER.filter(c => !cladesHit.includes(c));
+  const deepest = M.contrib[0] ? DATA.byId.get(M.contrib[0].id) : null;
+  side.innerHTML = `<p>This meal reaches <b>${cladesHit.length} of ${CLADE_ORDER.length}</b> major lineages${missing.length ? ': missing ' + missing.map(c => CLADES[c].toLowerCase()).join(', ') : ''}.</p>` +
+    (deepest ? `<p>Biggest private contribution: <b>${esc(deepest.common)}</b>, ${fmt(M.contrib[0].unique)} Myr of branch that nothing else on the plate reaches.</p>` : '') +
+    `<p>Highlighted branches are the meal's subtree; faint ones are the rest of the tracked edible tree. Radius is square-root time, root at the centre.</p>`;
+}
+
+// ---------- parsing with Claude ----------
+let sample = null, ctl = null, sampleKnown = false;
+const samplePromise = (async () => { try { sample = window.claude?.use ? await window.claude.use('sample') : null; } catch { sample = null; } sampleKnown = true; })();
+
+function buildPrompt(text){
+  return `You map foods to the organisms they come from, for a phylogenetic-diversity calculator.
+
+Task: read the recipe or dish description at the end and list every ingredient that comes from a eukaryotic organism, giving the organism's accepted Latin binomial ("Genus species") and a short English common name for the organism.
+Rules:
+- One entry per distinct organism, each at most once. Use the species name, not a cultivar or variety (Brassica oleracea for kale, cabbage and broccoli alike; Bos taurus for beef and for dairy).
+- Processed foods map to their source organisms: bread or pasta → wheat (bread also → yeast); cheese, butter, milk, cream, yogurt → cattle unless sheep, goat or buffalo is stated; soy sauce → soy + wheat + koji; miso → soy + koji; tofu → soy; beer → barley + hops + yeast; wine → grape + yeast; sugar → sugarcane; ketchup → tomato; chocolate → cacao; honey → honeybee; tempeh → soy + tempeh mold; fish sauce → anchovy; dashi → kombu (and bonito → tuna).
+- Silently drop water, ice, salt, minerals, vinegar, baking soda, and synthetic additives: they go nowhere, not in "unmatched". Never include bacteria.
+- Composite pantry items map to their usual components as "inferred": true: vegetable broth → onion, carrot, celery; curry powder → turmeric, cumin, cilantro, chili; garam masala → cumin, cilantro, cardamom, cinnamon, clove, black pepper; five-spice → cinnamon, clove, fennel, anise, black pepper.
+- If the text names a dish rather than listing ingredients (for example "cheeseburger" or "pad thai"), infer its typical ingredients and mark those "inferred": true. Ingredients written explicitly are "inferred": false.
+- When the text offers alternatives ("olive oil or ghee", "chicken or vegetable broth"), map the first option normally and add each further alternative as its own entry with "inferred": true and "as" set to "or: <the alternative>", so the reader can drop the one they did not use. Optional or "to taste" garnishes are not alternatives; map them normally.
+- "as" is the short phrase from the text (or the inferred ingredient name).
+Reply with only JSON, no prose: {"ingredients":[{"species":"Genus species","common":"...","as":"...","inferred":false}]}
+
+Text:
+"""
+${text.slice(0, 6000)}
+"""`;
+}
+async function score(){
+  const text = $('#recipe').value.trim();
+  if (!text){ setStatus('Type or paste something first.'); return; }
+  lastText = text;
+  $('#results').classList.remove('hidden');
+  $('#unmatched').textContent = '';
+  if (!sampleKnown){ setStatus('Connecting…'); await samplePromise; }
+  if (!sample){
+    setMeal(localMatch(text));
+    setStatus('Claude is not available in this view, so ingredients were matched by keyword only. Check the chips.');
+    return;
+  }
+  const btn = $('#score'), stop = $('#stop');
+  btn.disabled = true; stop.classList.remove('hidden');
+  setStatus('Reading the recipe…');
+  ctl = new AbortController();
+  try {
+    const out = await sample.json(buildPrompt(text), {modelTier:'quick', signal: ctl.signal});
+    const list = Array.isArray(out?.ingredients) ? out.ingredients : [];
+    const clean = [], un = [];
+    for (const x of list){
+      if (!x || typeof x !== 'object') continue;
+      const r = resolveItem({species:String(x.species||''), common:String(x.common||''), as:String(x.as||''), inferred:!!x.inferred});
+      if (r) clean.push(r); else un.push(`${x.common || x.as || '?'} (${x.species || 'no species'})`);
+    }
+    setMeal(clean);
+    $('#unmatched').textContent = un.length ? 'Not in the taxon table: ' + un.join(', ') : '';
+    setStatus(clean.length ? `Mapped ${clean.length} organism${clean.length === 1 ? '' : 's'}.` : 'Nothing mapped. Try listing ingredients explicitly.');
+  } catch (e) {
+    const code = e?.code || 'upstream_error';
+    if (code === 'cancelled'){ setStatus('Stopped.'); }
+    else if (['not_granted','sampling_disabled','not_declared','capability_disabled','capability_removed'].includes(code)){
+      sample = null; setMeal(localMatch(text)); setStatus('Claude is not available here, so ingredients were matched by keyword only.');
+    }
+    else if (code === 'invalid_json'){ setMeal(localMatch(text)); setStatus('The parser answered in the wrong shape; fell back to keyword matching. Try again if it looks off.', true); }
+    else if (code === 'rate_limited'){ setMeal(localMatch(text)); setStatus('Rate limited; used keyword matching for now. Try again in a minute.', true); }
+    else { setMeal(localMatch(text)); setStatus('Parsing failed (' + code + '); used keyword matching instead.', true); }
+  } finally {
+    btn.disabled = false; stop.classList.add('hidden'); ctl = null;
+    document.getElementById('results').scrollIntoView({behavior:'smooth', block:'start'});
+  }
+}
+function setStatus(msg, err){ const s = $('#status'); s.textContent = msg; s.classList.toggle('err', !!err); }
+$('#score').onclick = score;
+$('#stop').onclick = () => ctl?.abort();
+$('#recipe').addEventListener('keydown', e => { if ((e.metaKey || e.ctrlKey) && e.key === 'Enter') score(); });
+document.querySelectorAll('.examples a').forEach(a => a.onclick = () => { $('#recipe').value = a.dataset.ex.replace(/&#10;/g,'\n'); score(); });
+
+// ---------- meal log (localStorage) ----------
+const KEY = 'phyloplate:meals';
+function readLog(){ try { return JSON.parse(localStorage.getItem(KEY) || '[]'); } catch { return []; } }
+function writeLog(v){ try { localStorage.setItem(KEY, JSON.stringify(v)); return true; } catch { return false; } }
+$('#logbtn').onclick = () => {
+  if (!meal.length){ $('#logstatus').textContent = 'Nothing to log.'; return; }
+  const log = readLog();
+  const name = (lastText || meal.map(m => DATA.byId.get(m.id).common).join(', ')).replace(/\s+/g,' ').slice(0, 60);
+  log.unshift({ts: Date.now(), name, ids: meal.map(m => m.id)});
+  $('#logstatus').textContent = writeLog(log) ? 'Logged.' : 'Could not save in this browser.';
+  renderLog();
+};
+function renderLog(){
+  const log = readLog();
+  const week = log.filter(m => Date.now() - m.ts < 7*864e5);
+  const wIds = [...new Set(week.flatMap(m => m.ids))];
+  const W = metrics(wIds);
+  $('#week').innerHTML = week.length
+    ? `<div class="weekline">Last seven days: <b>${week.length}</b> meal${week.length===1?'':'s'}, <b>${W.richness}</b> organisms, PD <b>${fmt(W.pd)} Myr</b>, <b>${(W.coverage*100).toFixed(1)}%</b> of the tracked tree.</div>`
+    : '<div class="weekline">No meals logged this week.</div>';
+  const tb = $('#logtable');
+  if (!log.length){ tb.innerHTML = ''; return; }
+  tb.innerHTML = '<table><thead><tr><th>When</th><th>Meal</th><th>Richness</th><th>PD (Myr)</th><th></th></tr></thead><tbody>' +
+    log.map((m, i) => { const M = metrics(m.ids); return `<tr><td class="num">${new Date(m.ts).toLocaleDateString(undefined,{month:'short',day:'numeric'})}</td><td>${esc(m.name)}</td><td class="num">${M.richness}</td><td class="num">${fmt(M.pd)}</td><td><button class="tiny quiet" data-i="${i}">Remove</button></td></tr>`; }).join('') +
+    '</tbody></table>';
+  tb.querySelectorAll('button').forEach(b => b.onclick = () => { const l = readLog(); l.splice(+b.dataset.i, 1); writeLog(l); renderLog(); });
+}
+renderLog();
+
+// ---------- custom data ----------
+function parseNewick(s){
+  s = s.trim().replace(/;\s*$/,'');
+  let i = 0;
+  function node(){
+    const n = {};
+    if (s[i] === '('){
+      i++; n.children = [node()];
+      while (s[i] === ','){ i++; n.children.push(node()); }
+      if (s[i] !== ')') throw new Error('Expected ) at ' + i); i++;
+    }
+    let label = '';
+    while (i < s.length && !':,()'.includes(s[i])) label += s[i++];
+    label = label.trim().replace(/^'|'$/g,'');
+    if (n.children) n.name = label.replace(/_/g,' '); else n.id = label;
+    if (s[i] === ':'){ i++; let num=''; while (i < s.length && !',()'.includes(s[i])) num += s[i++]; n.bl = parseFloat(num) || 0; }
+    return n;
+  }
+  const root = node();
+  if (i < s.length) throw new Error('Trailing characters in Newick');
+  // ages from heights (max distance to a tip)
+  (function h(n){ if (!n.children){ n.age = 0; return 0; } n.age = Math.max(...n.children.map(c => h(c) + (c.bl || 0))); return n.age; })(root);
+  return root;
+}
+function parseCSV(text){
+  const rows = []; let row = [], cell = '', q = false;
+  for (let i = 0; i < text.length; i++){
+    const ch = text[i];
+    if (q){ if (ch === '"'){ if (text[i+1] === '"'){ cell += '"'; i++; } else q = false; } else cell += ch; }
+    else if (ch === '"') q = true;
+    else if (ch === ','){ row.push(cell); cell = ''; }
+    else if (ch === '\n' || ch === '\r'){ if (ch === '\r' && text[i+1] === '\n') i++; row.push(cell); rows.push(row); row = []; cell = ''; }
+    else cell += ch;
+  }
+  if (cell.length || row.length){ row.push(cell); rows.push(row); }
+  const head = rows.shift().map(h => h.trim().toLowerCase());
+  return rows.filter(r => r.some(c => c.trim())).map(r => Object.fromEntries(head.map((h, i) => [h, (r[i] || '').trim()])));
+}
+$('#loaddata').onclick = async () => {
+  const fN = $('#f-newick').files[0], fC = $('#f-csv').files[0], st = $('#datastatus');
+  if (!fN || !fC){ st.textContent = 'Pick both files.'; return; }
+  try {
+    const root = parseNewick(await fN.text());
+    const rows = parseCSV(await fC.text());
+    const byId = new Map(rows.map(r => [r.id, r]));
+    let missing = 0;
+    (function fill(n){
+      if (n.children){ n.children.forEach(fill); return; }
+      const r = byId.get(n.id);
+      if (!r){ missing++; n.common = n.id; n.species = ''; n.lineage = ''; n.clade = 'plant'; n.aliases = ''; return; }
+      n.common = r.common_name || r.common || n.id; n.species = r.species || ''; n.lineage = r.lineage || '';
+      n.clade = CLADES[r.clade] ? r.clade : 'plant'; n.aliases = r.aliases || '';
+    })(root);
+    loadTree(root); meal = []; renderAll(); renderLog();
+    st.textContent = `Loaded ${DATA.tips.length} taxa, ${fmt(DATA.total)} Myr.` + (missing ? ` ${missing} tips had no CSV row.` : '');
+  } catch (e) { st.textContent = 'Could not load: ' + (e.message || e); }
+};
+
+renderAll();
+})();
+</script>
+</body>
+</html>

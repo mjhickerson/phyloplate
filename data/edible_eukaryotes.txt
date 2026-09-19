@@ -1,0 +1,3318 @@
+## Brown algae | brown
+Saccharina japonica|kombu|Laminariaceae
+Saccharina latissima|sugar kelp|Laminariaceae
+Laminaria digitata|oarweed|Laminariaceae
+Laminaria hyperborea|tangle kelp|Laminariaceae
+Laminaria ochroleuca|golden kelp|Laminariaceae
+Undaria pinnatifida|wakame|Alariaceae
+Alaria esculenta|winged kelp / dabberlocks|Alariaceae
+Alaria marginata|ribbon kelp|Alariaceae
+Ecklonia cava|kajime|Lessoniaceae
+Ecklonia radiata|common kelp (Australia)|Lessoniaceae
+Eisenia bicyclis|arame|Lessoniaceae
+Macrocystis pyrifera|giant kelp|Laminariaceae
+Nereocystis luetkeana|bull kelp|Laminariaceae
+Postelsia palmaeformis|sea palm|Laminariaceae
+Lessonia nigrescens|huiro negro|Lessoniaceae
+Durvillaea antarctica|cochayuyo|Durvillaeaceae
+Sargassum fusiforme|hijiki|Sargassaceae
+Sargassum horneri|akamoku|Sargassaceae
+Sargassum muticum|wireweed|Sargassaceae
+Ascophyllum nodosum|rockweed / knotted wrack|Fucaceae
+Fucus vesiculosus|bladderwrack|Fucaceae
+Fucus serratus|serrated wrack|Fucaceae
+Fucus spiralis|spiral wrack|Fucaceae
+Himanthalia elongata|sea spaghetti|Himanthaliaceae
+Cladosiphon okamuranus|mozuku|Chordariaceae
+Nemacystus decipiens|ito-mozuku|Chordariaceae
+Petalonia binghamiae|seiyo-habanori|Scytosiphonaceae
+Analipus japonicus|matsumo|Ralfsiaceae
+Chorda filum|sea lace|Chordaceae
+## Red algae | red
+Pyropia yezoensis|nori|Bangiaceae
+Pyropia tenera|asakusa nori|Bangiaceae
+Pyropia haitanensis|tan zicai|Bangiaceae
+Porphyra umbilicalis|laver|Bangiaceae
+Porphyra purpurea|purple laver|Bangiaceae
+Porphyra dioica|laver (Atlantic)|Bangiaceae
+Bangia fuscopurpurea|bangia|Bangiaceae
+Palmaria palmata|dulse|Palmariaceae
+Palmaria mollis|Pacific dulse|Palmariaceae
+Devaleraea mollis|red ribbon|Palmariaceae
+Chondrus crispus|Irish moss|Gigartinaceae
+Mastocarpus stellatus|false Irish moss|Phyllophoraceae
+Gigartina skottsbergii|luga negra|Gigartinaceae
+Chondracanthus chamissoi|chicorea de mar|Gigartinaceae
+Gracilaria gracilis|ogo|Gracilariaceae
+Gracilaria edulis|ceylon moss|Gracilariaceae
+Gracilaria verrucosa|gracilaria|Gracilariaceae
+Gracilariopsis lemaneiformis|longxucai|Gracilariaceae
+Gelidium amansii|tengusa (agar)|Gelidiaceae
+Gelidium corneum|agar weed|Gelidiaceae
+Pterocladiella capillacea|hirakusa|Pterocladiaceae
+Kappaphycus alvarezii|cottonii (carrageenan)|Solieriaceae
+Eucheuma denticulatum|spinosum|Solieriaceae
+Asparagopsis taxiformis|limu kohu|Bonnemaisoniaceae
+Asparagopsis armata|harpoon weed|Bonnemaisoniaceae
+Callophyllis variegata|carola|Kallymeniaceae
+Meristotheca papulosa|tosakanori|Solieriaceae
+Grateloupia turuturu|devil's tongue weed|Halymeniaceae
+Hypnea musciformis|hooked red weed|Cystocloniaceae
+Gloiopeltis furcata|funori|Endocladiaceae
+Osmundea pinnatifida|pepper dulse|Rhodomelaceae
+Vertebrata lanosa|truffle seaweed|Rhodomelaceae
+Catenella nipae|catenella|Caulacanthaceae
+Nemalion helminthoides|sea noodle / umisomen|Liagoraceae
+Acanthophora spicifera|limu lipeepee|Rhodomelaceae
+Sarcodia ceylanica|sarcodia|Sarcodiaceae
+Solieria robusta|solieria|Solieriaceae
+Halymenia durvillei|halymenia|Halymeniaceae
+Betaphycus gelatinus|gelatinous betaphycus|Solieriaceae
+Dumontia contorta|dumont's tubular weed|Dumontiaceae
+Ahnfeltia plicata|landlady's wig|Ahnfeltiaceae
+## Green algae | green
+Ulva lactuca|sea lettuce|Ulvaceae
+Ulva prolifera|aonori|Ulvaceae
+Ulva pertusa|aosa|Ulvaceae
+Ulva intestinalis|gutweed|Ulvaceae
+Ulva rigida|rigid sea lettuce|Ulvaceae
+Ulva linza|linza|Ulvaceae
+Monostroma nitidum|hitoegusa|Monostromataceae
+Monostroma latissimum|monostroma|Monostromataceae
+Caulerpa lentillifera|sea grapes / umibudo|Caulerpaceae
+Caulerpa racemosa|lato|Caulerpaceae
+Codium fragile|miru / dead man's fingers|Codiaceae
+Codium tomentosum|velvet horn|Codiaceae
+Chlorella vulgaris|chlorella|Chlorellaceae
+Auxenochlorella pyrenoidosa|chlorella (pyrenoidosa)|Chlorellaceae
+Haematococcus lacustris|haematococcus (astaxanthin)|Haematococcaceae
+Dunaliella salina|dunaliella|Dunaliellaceae
+Prasiola japonica|kawanori|Prasiolaceae
+## Other protists | other
+Euglena gracilis|euglena (midorimushi)|Euglenaceae
+## Fungi: yeasts and moulds | fungus
+Saccharomyces cerevisiae|baker's / brewer's yeast|Saccharomycetaceae
+Saccharomyces pastorianus|lager yeast|Saccharomycetaceae
+Saccharomyces bayanus|wine yeast|Saccharomycetaceae
+Brettanomyces bruxellensis|brett|Pichiaceae
+Kluyveromyces lactis|kefir yeast|Saccharomycetaceae
+Kluyveromyces marxianus|kefir yeast (marxianus)|Saccharomycetaceae
+Debaryomyces hansenii|cheese-rind yeast|Debaryomycetaceae
+Geotrichum candidum|cheese mould (geotrichum)|Dipodascaceae
+Torulaspora delbrueckii|torulaspora (wine)|Saccharomycetaceae
+Aspergillus oryzae|koji|Aspergillaceae
+Aspergillus sojae|soy sauce koji|Aspergillaceae
+Aspergillus luchuensis|awamori koji|Aspergillaceae
+Penicillium roqueforti|blue cheese mould|Aspergillaceae
+Penicillium camemberti|camembert mould|Aspergillaceae
+Penicillium nalgiovense|salami mould|Aspergillaceae
+Fusarium venenatum|mycoprotein (Quorn)|Nectriaceae
+Monascus purpureus|red yeast rice|Monascaceae
+Neurospora sitophila|oncom mould|Sordariaceae
+Neurospora intermedia|oncom mould (intermedia)|Sordariaceae
+Rhizopus oligosporus|tempeh mould|Rhizopodaceae
+Rhizopus oryzae|tempeh / ragi mould|Rhizopodaceae
+Actinomucor elegans|sufu mould|Mucoraceae
+Mucor racemosus|mucor (cheese)|Mucoraceae
+## Fungi: mushrooms and truffles | fungus
+Tuber melanosporum|black truffle|Tuberaceae
+Tuber magnatum|white truffle|Tuberaceae
+Tuber aestivum|summer truffle|Tuberaceae
+Tuber borchii|bianchetto truffle|Tuberaceae
+Tuber indicum|Chinese truffle|Tuberaceae
+Tuber oregonense|Oregon white truffle|Tuberaceae
+Morchella esculenta|morel|Morchellaceae
+Morchella elata|black morel|Morchellaceae
+Morchella americana|American yellow morel|Morchellaceae
+Morchella importuna|landscape morel|Morchellaceae
+Gyromitra esculenta|false morel (processed)|Discinaceae
+Sarcoscypha coccinea|scarlet elf cup|Sarcoscyphaceae
+Aleuria aurantia|orange peel fungus|Pyronemataceae
+Cordyceps militaris|cordyceps|Cordycipitaceae
+Ophiocordyceps sinensis|caterpillar fungus|Ophiocordycipitaceae
+Hypomyces lactifluorum|lobster mushroom|Hypocreaceae
+Cyttaria espinosae|digüeñe|Cyttariaceae
+Agaricus bisporus|button / cremini / portobello|Agaricaceae
+Agaricus campestris|field mushroom|Agaricaceae
+Agaricus arvensis|horse mushroom|Agaricaceae
+Agaricus augustus|the prince|Agaricaceae
+Agaricus subrufescens|almond mushroom (blazei)|Agaricaceae
+Lentinula edodes|shiitake|Omphalotaceae
+Pleurotus ostreatus|oyster mushroom|Pleurotaceae
+Pleurotus eryngii|king oyster|Pleurotaceae
+Pleurotus pulmonarius|phoenix oyster|Pleurotaceae
+Pleurotus citrinopileatus|golden oyster|Pleurotaceae
+Pleurotus djamor|pink oyster|Pleurotaceae
+Pleurotus cornucopiae|branched oyster|Pleurotaceae
+Pleurotus giganteus|giant oyster|Pleurotaceae
+Flammulina filiformis|enoki (cultivated)|Physalacriaceae
+Flammulina velutipes|velvet shank|Physalacriaceae
+Hypsizygus tessellatus|buna-shimeji|Lyophyllaceae
+Lyophyllum shimeji|hon-shimeji|Lyophyllaceae
+Volvariella volvacea|straw mushroom|Pluteaceae
+Auricularia auricula-judae|wood ear|Auriculariaceae
+Auricularia heimuer|black wood ear|Auriculariaceae
+Auricularia polytricha|cloud ear|Auriculariaceae
+Auricularia cornea|jelly ear (cornea)|Auriculariaceae
+Tremella fuciformis|snow fungus|Tremellaceae
+Naematelia aurantialba|golden ear|Naemateliaceae
+Grifola frondosa|maitake|Grifolaceae
+Hericium erinaceus|lion's mane|Hericiaceae
+Hericium coralloides|coral tooth|Hericiaceae
+Boletus edulis|porcini|Boletaceae
+Boletus aereus|bronze bolete|Boletaceae
+Boletus reticulatus|summer bolete|Boletaceae
+Boletus pinophilus|pine bolete|Boletaceae
+Imleria badia|bay bolete|Boletaceae
+Leccinum scabrum|birch bolete|Boletaceae
+Leccinum aurantiacum|orange birch bolete|Boletaceae
+Suillus luteus|slippery jack|Suillaceae
+Suillus granulatus|weeping bolete|Suillaceae
+Suillus bovinus|jersey cow bolete|Suillaceae
+Gyroporus castaneus|chestnut bolete|Gyroporaceae
+Phlebopus portentosus|black bolete (Thai)|Boletinellaceae
+Cantharellus cibarius|chanterelle|Cantharellaceae
+Cantharellus formosus|Pacific golden chanterelle|Cantharellaceae
+Cantharellus cinnabarinus|cinnabar chanterelle|Cantharellaceae
+Cantharellus lateritius|smooth chanterelle|Cantharellaceae
+Craterellus cornucopioides|black trumpet|Cantharellaceae
+Craterellus tubaeformis|winter chanterelle|Cantharellaceae
+Hydnum repandum|hedgehog mushroom|Hydnaceae
+Hydnum rufescens|terracotta hedgehog|Hydnaceae
+Sparassis crispa|cauliflower fungus|Sparassidaceae
+Laetiporus sulphureus|chicken of the woods|Fomitopsidaceae
+Laetiporus cincinnatus|white-pored chicken of the woods|Fomitopsidaceae
+Fistulina hepatica|beefsteak fungus|Fistulinaceae
+Cerioporus squamosus|dryad's saddle|Polyporaceae
+Macrolepiota procera|parasol mushroom|Agaricaceae
+Coprinus comatus|shaggy ink cap|Agaricaceae
+Calvatia gigantea|giant puffball|Agaricaceae
+Lycoperdon perlatum|common puffball|Agaricaceae
+Amanita caesarea|Caesar's mushroom|Amanitaceae
+Amanita jacksonii|American Caesar|Amanitaceae
+Amanita rubescens|blusher|Amanitaceae
+Russula virescens|green-cracking russula|Russulaceae
+Russula cyanoxantha|charcoal burner|Russulaceae
+Lactarius deliciosus|saffron milk cap|Russulaceae
+Lactarius deterrimus|false saffron milk cap|Russulaceae
+Lactarius indigo|indigo milk cap|Russulaceae
+Lactifluus volemus|weeping milk cap|Russulaceae
+Armillaria mellea|honey fungus|Physalacriaceae
+Armillaria ostoyae|dark honey fungus|Physalacriaceae
+Tricholoma matsutake|matsutake|Tricholomataceae
+Tricholoma murrillianum|American matsutake|Tricholomataceae
+Calocybe gambosa|St George's mushroom|Lyophyllaceae
+Marasmius oreades|fairy ring champignon|Marasmiaceae
+Lepista nuda|wood blewit|Tricholomataceae
+Lepista personata|field blewit|Tricholomataceae
+Kuehneromyces mutabilis|sheathed woodtuft|Strophariaceae
+Pholiota nameko|nameko|Strophariaceae
+Pholiota adiposa|chestnut mushroom (adiposa)|Strophariaceae
+Stropharia rugosoannulata|wine cap|Strophariaceae
+Cyclocybe aegerita|pioppino|Strophariaceae
+Termitomyces titanicus|giant termite mushroom|Lyophyllaceae
+Termitomyces robustus|termite mushroom|Lyophyllaceae
+Phallus indusiatus|bamboo fungus|Phallaceae
+Ganoderma lucidum|reishi|Ganodermataceae
+Ganoderma lingzhi|lingzhi|Ganodermataceae
+Trametes versicolor|turkey tail|Polyporaceae
+Inonotus obliquus|chaga|Hymenochaetaceae
+Ustilago maydis|huitlacoche|Ustilaginaceae
+Ramaria botrytis|cauliflower coral|Gomphaceae
+Gomphus clavatus|pig's ear|Gomphaceae
+Sarcodon imbricatus|shingled hedgehog|Bankeraceae
+Albatrellus ovinus|sheep polypore|Albatrellaceae
+Lentinus squarrosulus|lentinus (tropical)|Polyporaceae
+Lentinus polychrous|hed kradang|Polyporaceae
+Schizophyllum commune|split gill|Schizophyllaceae
+Rhodocollybia butyracea|butter cap|Omphalotaceae
+Hygrophorus russula|pink waxcap|Hygrophoraceae
+Chroogomphus rutilus|copper spike|Gomphidiaceae
+Strobilomyces strobilaceus|old man of the woods|Boletaceae
+## Cnidarians, echinoderms, tunicates, worms and other invertebrates | animal
+Rhopilema esculentum|edible jellyfish|Rhizostomatidae
+Rhopilema hispidum|sand jellyfish|Rhizostomatidae
+Stomolophus meleagris|cannonball jellyfish|Stomolophidae
+Nemopilema nomurai|Nomura's jellyfish|Rhizostomatidae
+Anemonia viridis|snakelocks anemone (ortiguillas)|Actiniidae
+Strongylocentrotus purpuratus|purple sea urchin|Strongylocentrotidae
+Strongylocentrotus droebachiensis|green sea urchin|Strongylocentrotidae
+Mesocentrotus franciscanus|red sea urchin|Strongylocentrotidae
+Mesocentrotus nudus|northern sea urchin (kita-murasaki)|Strongylocentrotidae
+Heliocidaris crassispina|murasaki uni|Echinometridae
+Paracentrotus lividus|purple urchin (Mediterranean)|Parechinidae
+Loxechinus albus|Chilean sea urchin|Parechinidae
+Tripneustes gratilla|collector urchin|Toxopneustidae
+Echinus esculentus|edible sea urchin|Echinidae
+Apostichopus japonicus|Japanese sea cucumber|Stichopodidae
+Apostichopus californicus|California sea cucumber|Stichopodidae
+Holothuria scabra|sandfish|Holothuriidae
+Stichopus horrens|dragonfish sea cucumber|Stichopodidae
+Thelenota ananas|prickly redfish|Stichopodidae
+Cucumaria frondosa|orange-footed sea cucumber|Cucumariidae
+Isostichopus fuscus|brown sea cucumber|Stichopodidae
+Halocynthia roretzi|sea pineapple|Pyuridae
+Halocynthia aurantium|sea peach|Pyuridae
+Pyura chilensis|piure|Pyuridae
+Microcosmus sabatieri|violet (sea fig)|Pyuridae
+Styela clava|mideodeok|Styelidae
+Branchiostoma belcheri|amphioxus (lancelet)|Branchiostomatidae
+Sipunculus nudus|peanut worm|Sipunculidae
+Urechis unicinctus|fat innkeeper worm (gaebul)|Urechidae
+Palola viridis|palolo worm|Eunicidae
+Lingula anatina|lamp shell (brachiopod)|Lingulidae
+## Molluscs | animal
+Crassostrea virginica|eastern oyster|Ostreidae
+Magallana gigas|Pacific oyster|Ostreidae
+Magallana angulata|Portuguese oyster|Ostreidae
+Ostrea edulis|European flat oyster|Ostreidae
+Ostrea lurida|Olympia oyster|Ostreidae
+Saccostrea glomerata|Sydney rock oyster|Ostreidae
+Mytilus edulis|blue mussel|Mytilidae
+Mytilus galloprovincialis|Mediterranean mussel|Mytilidae
+Mytilus chilensis|Chilean mussel|Mytilidae
+Perna canaliculus|green-lipped mussel|Mytilidae
+Perna viridis|Asian green mussel|Mytilidae
+Perna perna|brown mussel|Mytilidae
+Choromytilus chorus|choro zapato|Mytilidae
+Modiolus modiolus|horse mussel|Mytilidae
+Placopecten magellanicus|sea scallop|Pectinidae
+Pecten maximus|king scallop|Pectinidae
+Pecten jacobaeus|Mediterranean scallop|Pectinidae
+Argopecten irradians|bay scallop|Pectinidae
+Argopecten purpuratus|Peruvian scallop|Pectinidae
+Mizuhopecten yessoensis|Yesso scallop (hotate)|Pectinidae
+Chlamys islandica|Iceland scallop|Pectinidae
+Aequipecten opercularis|queen scallop|Pectinidae
+Mercenaria mercenaria|hard clam (quahog)|Veneridae
+Mya arenaria|soft-shell clam|Myidae
+Panopea generosa|geoduck|Hiatellidae
+Ensis leei|Atlantic jackknife clam|Pharidae
+Ensis magnus|razor clam (Europe)|Pharidae
+Solen marginatus|grooved razor|Solenidae
+Siliqua patula|Pacific razor clam|Pharidae
+Spisula solidissima|Atlantic surf clam|Mactridae
+Mactromeris polynyma|Arctic surf clam (hokkigai)|Mactridae
+Cerastoderma edule|common cockle|Cardiidae
+Ruditapes philippinarum|Manila clam|Veneridae
+Ruditapes decussatus|grooved carpet shell|Veneridae
+Venerupis corrugata|pullet carpet shell|Veneridae
+Meretrix lusoria|hamaguri|Veneridae
+Meretrix lyrata|lyrate hard clam|Veneridae
+Paphia undulata|undulating venus (lala)|Veneridae
+Saxidomus gigantea|butter clam|Veneridae
+Leukoma staminea|Pacific littleneck|Veneridae
+Callista chione|smooth venus|Veneridae
+Chamelea gallina|striped venus (vongola)|Veneridae
+Dosinia exoleta|rayed artemis|Veneridae
+Tridacna gigas|giant clam|Cardiidae
+Tridacna maxima|small giant clam|Cardiidae
+Tegillarca granosa|blood cockle|Arcidae
+Anadara broughtonii|akagai|Arcidae
+Atrina pectinata|pen shell (tairagi)|Pinnidae
+Pinctada margaritifera|black-lip pearl oyster|Margaritidae
+Corbicula fluminea|Asian clam|Cyrenidae
+Corbicula japonica|shijimi|Cyrenidae
+Donax trunculus|wedge clam (tellina)|Donacidae
+Donax variabilis|coquina clam|Donacidae
+Glycymeris glycymeris|dog cockle|Glycymerididae
+Arctica islandica|ocean quahog|Arcticidae
+Tresus capax|fat gaper (horse clam)|Mactridae
+Pholas dactylus|common piddock|Pholadidae
+Kuphus polythalamius|giant shipworm|Teredinidae
+Bactronophorus thoracites|tamilok (shipworm)|Teredinidae
+Haliotis discus|Japanese abalone (ezo awabi)|Haliotidae
+Haliotis rufescens|red abalone|Haliotidae
+Haliotis midae|South African abalone (perlemoen)|Haliotidae
+Haliotis iris|paua|Haliotidae
+Haliotis tuberculata|ormer|Haliotidae
+Haliotis laevigata|greenlip abalone|Haliotidae
+Haliotis rubra|blacklip abalone|Haliotidae
+Haliotis diversicolor|small abalone|Haliotidae
+Helix pomatia|Roman snail (escargot)|Helicidae
+Cornu aspersum|garden snail (petit-gris)|Helicidae
+Helix lucorum|Turkish snail|Helicidae
+Otala lactea|milk snail|Helicidae
+Lissachatina fulica|giant African snail|Achatinidae
+Archachatina marginata|giant West African snail|Achatinidae
+Littorina littorea|periwinkle|Littorinidae
+Tympanotonus fuscatus|mangrove periwinkle (West Africa)|Potamididae
+Telescopium telescopium|horn snail (mud creeper)|Potamididae
+Buccinum undatum|common whelk|Buccinidae
+Busycon carica|knobbed whelk|Busyconidae
+Busycotypus canaliculatus|channeled whelk|Busyconidae
+Babylonia areolata|spotted babylon|Babyloniidae
+Babylonia japonica|Japanese babylon (bai)|Babyloniidae
+Aliger gigas|queen conch|Strombidae
+Turbo cornutus|sazae (horned turban)|Turbinidae
+Turbo marmoratus|green turban|Turbinidae
+Lunella coronata|coronate moon turban|Turbinidae
+Tectus niloticus|trochus (top shell)|Tegulidae
+Phorcus turbinatus|turbinate monodont|Trochidae
+Rapana venosa|veined rapa whelk|Muricidae
+Hexaplex trunculus|banded dye-murex|Muricidae
+Bolinus brandaris|purple dye murex|Muricidae
+Concholepas concholepas|loco|Muricidae
+Nucella lapillus|dog whelk|Muricidae
+Fissurella latimarginata|lapa negra (keyhole limpet)|Fissurellidae
+Patella vulgata|common limpet|Patellidae
+Cellana grata|Japanese limpet|Nacellidae
+Nerita albicilla|nerite|Neritidae
+Pila globosa|apple snail|Ampullariidae
+Pomacea canaliculata|golden apple snail|Ampullariidae
+Cipangopaludina chinensis|Chinese mystery snail|Viviparidae
+Viviparus viviparus|river snail|Viviparidae
+Semisulcospira libertina|kawanina|Semisulcospiridae
+Melanoides tuberculata|red-rimmed melania|Thiaridae
+Dolabella auricularia|wedge sea hare|Aplysiidae
+Chiton magnificus|Chilean chiton|Chitonidae
+Acanthopleura granulata|fuzzy chiton|Chitonidae
+Octopus vulgaris|common octopus|Octopodidae
+Octopus sinensis|East Asian common octopus|Octopodidae
+Enteroctopus dofleini|giant Pacific octopus|Enteroctopodidae
+Octopus maya|Mexican four-eyed octopus|Octopodidae
+Octopus cyanea|day octopus (he'e)|Octopodidae
+Eledone cirrhosa|curled octopus|Eledonidae
+Eledone moschata|musky octopus|Eledonidae
+Amphioctopus fangsiao|iidako|Octopodidae
+Octopus minor|long-arm octopus (nakji)|Octopodidae
+Doryteuthis pealeii|longfin inshore squid|Loliginidae
+Doryteuthis opalescens|California market squid|Loliginidae
+Loligo vulgaris|European squid|Loliginidae
+Loligo forbesii|veined squid|Loliginidae
+Loligo reynaudii|chokka squid|Loliginidae
+Uroteuthis edulis|swordtip squid|Loliginidae
+Uroteuthis duvaucelii|Indian squid|Loliginidae
+Sepioteuthis lessoniana|bigfin reef squid|Loliginidae
+Sepioteuthis sepioidea|Caribbean reef squid|Loliginidae
+Todarodes pacificus|Japanese flying squid (surume-ika)|Ommastrephidae
+Todarodes sagittatus|European flying squid|Ommastrephidae
+Illex argentinus|Argentine shortfin squid|Ommastrephidae
+Illex illecebrosus|northern shortfin squid|Ommastrephidae
+Dosidicus gigas|Humboldt squid|Ommastrephidae
+Ommastrephes bartramii|neon flying squid|Ommastrephidae
+Nototodarus sloanii|New Zealand arrow squid|Ommastrephidae
+Watasenia scintillans|firefly squid (hotaru-ika)|Enoploteuthidae
+Sepia officinalis|common cuttlefish|Sepiidae
+Sepia esculenta|golden cuttlefish|Sepiidae
+Sepia pharaonis|pharaoh cuttlefish|Sepiidae
+Sepia lycidas|kisslip cuttlefish|Sepiidae
+Sepiella japonica|Japanese spineless cuttlefish|Sepiidae
+Sepiola atlantica|little cuttle|Sepiolidae
+Euprymna berryi|double-ear bobtail squid|Sepiolidae
+## Crustaceans and barnacles | animal
+Penaeus monodon|giant tiger prawn|Penaeidae
+Penaeus vannamei|whiteleg shrimp|Penaeidae
+Penaeus indicus|Indian white prawn|Penaeidae
+Penaeus japonicus|kuruma prawn|Penaeidae
+Penaeus chinensis|Chinese white shrimp|Penaeidae
+Penaeus semisulcatus|green tiger prawn|Penaeidae
+Penaeus merguiensis|banana prawn|Penaeidae
+Penaeus setiferus|Atlantic white shrimp|Penaeidae
+Penaeus aztecus|brown shrimp (Gulf)|Penaeidae
+Penaeus duorarum|pink shrimp (Gulf)|Penaeidae
+Metapenaeus monoceros|speckled shrimp|Penaeidae
+Xiphopenaeus kroyeri|Atlantic seabob|Penaeidae
+Pandalus borealis|northern shrimp|Pandalidae
+Pandalus platyceros|spot prawn|Pandalidae
+Pandalus jordani|ocean pink shrimp|Pandalidae
+Heterocarpus reedi|Chilean nylon shrimp|Pandalidae
+Crangon crangon|brown shrimp (North Sea)|Crangonidae
+Sclerocrangon boreas|sculptured shrimp|Crangonidae
+Palaemon serratus|common prawn|Palaemonidae
+Macrobrachium rosenbergii|giant river prawn|Palaemonidae
+Macrobrachium nipponense|oriental river prawn|Palaemonidae
+Aristaeomorpha foliacea|giant red shrimp|Aristeidae
+Aristeus antennatus|blue and red shrimp (gamba roja)|Aristeidae
+Pleoticus muelleri|Argentine red shrimp|Solenoceridae
+Plesionika edwardsii|striped soldier shrimp|Pandalidae
+Acetes japonicus|akiami paste shrimp|Sergestidae
+Acetes indicus|jawla paste shrimp|Sergestidae
+Euphausia superba|Antarctic krill|Euphausiidae
+Euphausia pacifica|Pacific krill (isada)|Euphausiidae
+Neomysis intermedia|Japanese mysid (ami)|Mysidae
+Homarus americanus|American lobster|Nephropidae
+Homarus gammarus|European lobster|Nephropidae
+Nephrops norvegicus|langoustine|Nephropidae
+Metanephrops challengeri|New Zealand scampi|Nephropidae
+Panulirus argus|Caribbean spiny lobster|Palinuridae
+Panulirus cygnus|western rock lobster|Palinuridae
+Panulirus interruptus|California spiny lobster|Palinuridae
+Panulirus ornatus|ornate spiny lobster|Palinuridae
+Panulirus homarus|scalloped spiny lobster|Palinuridae
+Palinurus elephas|European spiny lobster|Palinuridae
+Jasus edwardsii|southern rock lobster|Palinuridae
+Jasus lalandii|West Coast rock lobster|Palinuridae
+Sagmariasus verreauxi|eastern rock lobster|Palinuridae
+Thenus orientalis|Moreton Bay bug|Scyllaridae
+Scyllarides latus|Mediterranean slipper lobster|Scyllaridae
+Ibacus peronii|Balmain bug|Scyllaridae
+Munida gregaria|squat lobster (langostino)|Munididae
+Pleuroncodes monodon|red squat lobster|Munididae
+Procambarus clarkii|red swamp crayfish|Cambaridae
+Astacus astacus|noble crayfish|Astacidae
+Pacifastacus leniusculus|signal crayfish|Astacidae
+Austropotamobius pallipes|white-clawed crayfish|Astacidae
+Cherax quadricarinatus|redclaw|Parastacidae
+Cherax destructor|yabby|Parastacidae
+Cherax cainii|marron|Parastacidae
+Faxonius virilis|virile crayfish|Cambaridae
+Cancer pagurus|brown crab|Cancridae
+Metacarcinus magister|Dungeness crab|Cancridae
+Callinectes sapidus|blue crab|Portunidae
+Portunus trituberculatus|gazami crab|Portunidae
+Portunus pelagicus|blue swimmer crab|Portunidae
+Scylla serrata|mud crab|Portunidae
+Scylla paramamosain|green mud crab|Portunidae
+Charybdis feriata|crucifix crab|Portunidae
+Charybdis japonica|Asian paddle crab|Portunidae
+Necora puber|velvet crab|Polybiidae
+Carcinus maenas|European shore crab|Carcinidae
+Chionoecetes opilio|snow crab|Oregoniidae
+Chionoecetes bairdi|tanner crab|Oregoniidae
+Chionoecetes japonicus|red snow crab (beni-zuwai)|Oregoniidae
+Paralithodes camtschaticus|red king crab|Lithodidae
+Paralithodes platypus|blue king crab|Lithodidae
+Lithodes santolla|southern king crab (centolla)|Lithodidae
+Lithodes aequispinus|golden king crab|Lithodidae
+Maja squinado|Mediterranean spider crab|Majidae
+Maja brachydactyla|Atlantic spider crab|Majidae
+Eriocheir sinensis|Chinese mitten crab|Varunidae
+Eriocheir japonica|Japanese mitten crab|Varunidae
+Menippe mercenaria|Florida stone crab|Menippidae
+Ranina ranina|spanner crab|Raninidae
+Cardisoma guanhumi|blue land crab|Gecarcinidae
+Ucides cordatus|mangrove crab (caranguejo-uçá)|Ucididae
+Erimacrus isenbeckii|horsehair crab (kegani)|Cheiragonidae
+Pseudocarcinus gigas|Tasmanian giant crab|Menippidae
+Chaceon quinquedens|red deep-sea crab|Geryonidae
+Ovalipes catharus|paddle crab|Ovalipidae
+Oratosquilla oratoria|Japanese mantis shrimp (shako)|Squillidae
+Squilla mantis|spottail mantis shrimp|Squillidae
+Harpiosquilla raphidea|giant mantis shrimp|Squillidae
+Pollicipes pollicipes|goose barnacle (percebes)|Pollicipedidae
+Pollicipes polymerus|Pacific goose barnacle|Pollicipedidae
+Austromegabalanus psittacus|picoroco|Balanidae
+Lepas anatifera|pelagic goose barnacle|Lepadidae
+Tachypleus gigas|horseshoe crab (eggs)|Limulidae
+Carcinoscorpius rotundicauda|mangrove horseshoe crab (eggs)|Limulidae
+## Insects, arachnids and myriapods | animal
+Acheta domesticus|house cricket|Gryllidae
+Gryllus bimaculatus|two-spotted cricket|Gryllidae
+Gryllodes sigillatus|banded cricket|Gryllidae
+Brachytrupes membranaceus|giant cricket|Gryllidae
+Locusta migratoria|migratory locust|Acrididae
+Schistocerca gregaria|desert locust|Acrididae
+Sphenarium purpurascens|chapulín|Pyrgomorphidae
+Ruspolia differens|nsenene (bush cricket)|Tettigoniidae
+Tenebrio molitor|mealworm|Tenebrionidae
+Zophobas morio|superworm|Tenebrionidae
+Alphitobius diaperinus|lesser mealworm (buffalo worm)|Tenebrionidae
+Bombyx mori|silkworm pupa|Bombycidae
+Antheraea pernyi|tussah silkmoth pupa|Saturniidae
+Samia ricini|eri silkworm|Saturniidae
+Gonimbrasia belina|mopane worm|Saturniidae
+Cirina forda|shea caterpillar (kanni)|Saturniidae
+Rhynchophorus ferrugineus|red palm weevil larva|Curculionidae
+Rhynchophorus phoenicis|African palm weevil larva|Curculionidae
+Rhynchophorus palmarum|South American palm weevil (chontacuro)|Curculionidae
+Oryctes rhinoceros|rhinoceros beetle larva|Scarabaeidae
+Hermetia illucens|black soldier fly larva|Stratiomyidae
+Chaoborus edulis|lake fly (kungu)|Chaoboridae
+Apis mellifera|honey bee (honey)|Apidae
+Apis cerana|Asian honey bee (honey)|Apidae
+Apis dorsata|giant honey bee (honey)|Apidae
+Melipona beecheii|Maya stingless bee (honey)|Apidae
+Tetragonula carbonaria|sugarbag bee (honey)|Apidae
+Vespa mandarinia|giant hornet larvae (hachinoko)|Vespidae
+Vespula flaviceps|yellowjacket larvae|Vespidae
+Polybia occidentalis|wasp brood (Mexico)|Vespidae
+Atta laevigata|hormigas culonas (leafcutter ant)|Formicidae
+Oecophylla smaragdina|weaver ant eggs|Formicidae
+Liometopum apiculatum|escamoles|Formicidae
+Macrotermes bellicosus|termite (alate)|Termitidae
+Macrotermes subhyalinus|termite (subhyalinus)|Termitidae
+Lethocerus indicus|giant water bug (maeng da)|Belostomatidae
+Corisella texcocana|ahuautle (water boatman eggs)|Corixidae
+Encosternum delegorguei|edible stink bug|Tessaratomidae
+Euschistus taxcoensis|jumil|Pentatomidae
+Cryptotympana atrata|black cicada|Cicadidae
+Magicicada septendecim|periodical cicada|Cicadidae
+Cybister tripunctatus|diving beetle (long ga)|Dytiscidae
+Endoxyla leucomochla|witchetty grub|Cossidae
+Aegiale hesperiaris|maguey worm (white)|Hesperiidae
+Comadia redtenbacheri|red maguey worm (chinicuil)|Cossidae
+Holotrichia parallela|chafer grub (Chinese)|Scarabaeidae
+Cyriopagopus albostriatus|edible tarantula (a-ping)|Theraphosidae
+Heterometrus longimanus|Asian forest scorpion|Scorpionidae
+Scolopendra subspinipes|giant centipede (skewered)|Scolopendridae
+## Jawless and cartilaginous fishes | animal
+Petromyzon marinus|sea lamprey|Petromyzontidae
+Lampetra fluviatilis|river lamprey|Petromyzontidae
+Lethenteron camtschaticum|Arctic lamprey|Petromyzontidae
+Entosphenus tridentatus|Pacific lamprey|Petromyzontidae
+Geotria australis|pouched lamprey|Geotriidae
+Eptatretus burgeri|inshore hagfish (kkomjangeo)|Myxinidae
+Eptatretus stoutii|Pacific hagfish|Myxinidae
+Squalus acanthias|spiny dogfish|Squalidae
+Mustelus mustelus|smoothhound|Triakidae
+Mustelus canis|dusky smoothhound|Triakidae
+Galeorhinus galeus|tope / school shark|Triakidae
+Scyliorhinus canicula|small-spotted catshark|Scyliorhinidae
+Prionace glauca|blue shark|Carcharhinidae
+Isurus oxyrinchus|shortfin mako|Lamnidae
+Lamna nasus|porbeagle|Lamnidae
+Raja clavata|thornback ray|Rajidae
+Leucoraja erinacea|little skate|Rajidae
+Amblyraja radiata|thorny skate|Rajidae
+Beringraja binoculata|big skate|Rajidae
+Maculabatis gerrardi|whitespotted whipray|Dasyatidae
+Callorhinchus milii|elephant fish|Callorhinchidae
+Chimaera monstrosa|rabbitfish (chimaera)|Chimaeridae
+## Bony fishes: primitive groups, eels, herrings, carps, catfish, characins | animal
+Acipenser gueldenstaedtii|Russian sturgeon (osetra)|Acipenseridae
+Acipenser stellatus|stellate sturgeon (sevruga)|Acipenseridae
+Acipenser baerii|Siberian sturgeon|Acipenseridae
+Acipenser transmontanus|white sturgeon|Acipenseridae
+Acipenser oxyrinchus|Atlantic sturgeon|Acipenseridae
+Huso huso|beluga sturgeon|Acipenseridae
+Polyodon spathula|paddlefish|Polyodontidae
+Lepisosteus osseus|longnose gar|Lepisosteidae
+Atractosteus spatula|alligator gar|Lepisosteidae
+Amia calva|bowfin|Amiidae
+Polypterus senegalus|bichir|Polypteridae
+Protopterus annectens|West African lungfish|Protopteridae
+Anguilla anguilla|European eel|Anguillidae
+Anguilla japonica|Japanese eel (unagi)|Anguillidae
+Anguilla rostrata|American eel|Anguillidae
+Anguilla australis|shortfin eel|Anguillidae
+Conger conger|European conger|Congridae
+Conger myriaster|whitespotted conger (anago)|Congridae
+Muraenesox cinereus|daggertooth pike conger (hamo)|Muraenesocidae
+Gymnothorax javanicus|giant moray|Muraenidae
+Elops saurus|ladyfish|Elopidae
+Megalops atlanticus|tarpon|Megalopidae
+Albula vulpes|bonefish|Albulidae
+Chitala ornata|clown featherback|Notopteridae
+Notopterus notopterus|bronze featherback|Notopteridae
+Arapaima gigas|arapaima (pirarucu)|Arapaimidae
+Heterotis niloticus|African bonytongue|Arapaimidae
+Hiodon alosoides|goldeye|Hiodontidae
+Mormyrops anguilloides|cornish jack|Mormyridae
+Gymnarchus niloticus|aba|Gymnarchidae
+Clupea harengus|Atlantic herring|Clupeidae
+Clupea pallasii|Pacific herring|Clupeidae
+Sardina pilchardus|European pilchard (sardine)|Clupeidae
+Sardinops sagax|Pacific sardine|Clupeidae
+Sardinella aurita|round sardinella|Dorosomatidae
+Sardinella longiceps|Indian oil sardine|Dorosomatidae
+Sprattus sprattus|sprat|Clupeidae
+Alosa sapidissima|American shad|Alosidae
+Alosa alosa|allis shad|Alosidae
+Alosa pseudoharengus|alewife|Alosidae
+Brevoortia tyrannus|Atlantic menhaden|Alosidae
+Ethmalosa fimbriata|bonga shad|Dorosomatidae
+Tenualosa ilisha|hilsa|Dorosomatidae
+Konosirus punctatus|dotted gizzard shad (kohada)|Dorosomatidae
+Engraulis encrasicolus|European anchovy|Engraulidae
+Engraulis japonicus|Japanese anchovy|Engraulidae
+Engraulis ringens|Peruvian anchoveta|Engraulidae
+Engraulis mordax|northern anchovy|Engraulidae
+Stolephorus indicus|Indian anchovy|Engraulidae
+Coilia nasus|Japanese grenadier anchovy|Engraulidae
+Chanos chanos|milkfish|Chanidae
+Cyprinus carpio|common carp|Cyprinidae
+Carassius carassius|crucian carp|Cyprinidae
+Carassius gibelio|Prussian carp|Cyprinidae
+Ctenopharyngodon idella|grass carp|Xenocyprididae
+Hypophthalmichthys molitrix|silver carp|Xenocyprididae
+Hypophthalmichthys nobilis|bighead carp|Xenocyprididae
+Mylopharyngodon piceus|black carp|Xenocyprididae
+Megalobrama amblycephala|Wuchang bream|Xenocyprididae
+Labeo rohita|rohu|Cyprinidae
+Labeo catla|catla|Cyprinidae
+Cirrhinus cirrhosus|mrigal|Cyprinidae
+Cirrhinus molitorella|mud carp|Cyprinidae
+Barbonymus gonionotus|silver barb|Cyprinidae
+Barbus barbus|barbel|Cyprinidae
+Tor putitora|golden mahseer|Cyprinidae
+Tor tambroides|Malaysian mahseer (empurau)|Cyprinidae
+Tinca tinca|tench|Tincidae
+Abramis brama|common bream|Leuciscidae
+Rutilus rutilus|roach|Leuciscidae
+Squalius cephalus|chub|Leuciscidae
+Leuciscus idus|ide|Leuciscidae
+Elopichthys bambusa|yellowcheek|Xenocyprididae
+Misgurnus anguillicaudatus|pond loach (dojo)|Cobitidae
+Catostomus commersonii|white sucker|Catostomidae
+Ictiobus bubalus|smallmouth buffalo|Catostomidae
+Pangasianodon hypophthalmus|striped catfish (basa/swai)|Pangasiidae
+Pangasius bocourti|basa|Pangasiidae
+Pangasianodon gigas|Mekong giant catfish|Pangasiidae
+Ictalurus punctatus|channel catfish|Ictaluridae
+Ictalurus furcatus|blue catfish|Ictaluridae
+Ameiurus nebulosus|brown bullhead|Ictaluridae
+Pylodictis olivaris|flathead catfish|Ictaluridae
+Silurus glanis|wels catfish|Siluridae
+Silurus asotus|Amur catfish|Siluridae
+Wallago attu|wallago|Siluridae
+Clarias gariepinus|African sharptooth catfish|Clariidae
+Clarias batrachus|walking catfish|Clariidae
+Clarias macrocephalus|broadhead catfish|Clariidae
+Heterobranchus longifilis|vundu|Clariidae
+Hemibagrus nemurus|Asian redtail catfish|Bagridae
+Bagrus bajad|bayad|Bagridae
+Chrysichthys nigrodigitatus|bagrid catfish (West Africa)|Claroteidae
+Synodontis schall|Nile squeaker|Mochokidae
+Pseudoplatystoma corruscans|surubí|Pimelodidae
+Pseudoplatystoma fasciatum|barred sorubim|Pimelodidae
+Brachyplatystoma rousseauxii|dourada|Pimelodidae
+Brachyplatystoma filamentosum|piraíba|Pimelodidae
+Phractocephalus hemioliopterus|redtail catfish|Pimelodidae
+Rhamdia quelen|South American catfish (jundiá)|Heptapteridae
+Netuma thalassina|giant sea catfish|Ariidae
+Bagre marinus|gafftopsail catfish|Ariidae
+Genidens barbus|white sea catfish|Ariidae
+Tandanus tandanus|eel-tailed catfish|Plotosidae
+Bagarius yarrelli|goonch|Sisoridae
+Pterygoplichthys pardalis|Amazon sailfin catfish|Loricariidae
+Malapterurus electricus|electric catfish|Malapteruridae
+Colossoma macropomum|tambaqui|Serrasalmidae
+Piaractus brachypomus|pirapitinga|Serrasalmidae
+Piaractus mesopotamicus|pacu|Serrasalmidae
+Pygocentrus nattereri|red-bellied piranha|Serrasalmidae
+Prochilodus lineatus|sábalo (curimba)|Prochilodontidae
+Prochilodus nigricans|curimatã|Prochilodontidae
+Brycon amazonicus|matrinxã|Bryconidae
+Salminus brasiliensis|dorado|Bryconidae
+Hoplias malabaricus|trahira|Erythrinidae
+Leporinus obtusidens|piapara|Anostomidae
+Hydrocynus vittatus|tigerfish|Alestidae
+Distichodus rostratus|grass-eater|Distichodontidae
+Citharinus citharus|moon fish|Citharinidae
+## Bony fishes: salmon, smelts, pike, cod, and relatives | animal
+Salmo salar|Atlantic salmon|Salmonidae
+Salmo trutta|brown / sea trout|Salmonidae
+Oncorhynchus mykiss|rainbow trout / steelhead|Salmonidae
+Oncorhynchus nerka|sockeye salmon|Salmonidae
+Oncorhynchus kisutch|coho salmon|Salmonidae
+Oncorhynchus tshawytscha|chinook salmon|Salmonidae
+Oncorhynchus keta|chum salmon|Salmonidae
+Oncorhynchus gorbuscha|pink salmon|Salmonidae
+Oncorhynchus masou|masu salmon|Salmonidae
+Oncorhynchus clarkii|cutthroat trout|Salmonidae
+Salvelinus alpinus|Arctic char|Salmonidae
+Salvelinus fontinalis|brook trout|Salmonidae
+Salvelinus namaycush|lake trout|Salmonidae
+Salvelinus malma|Dolly Varden|Salmonidae
+Salvelinus leucomaenis|white-spotted char (iwana)|Salmonidae
+Hucho hucho|huchen|Salmonidae
+Hucho taimen|taimen|Salmonidae
+Thymallus thymallus|grayling|Salmonidae
+Thymallus arcticus|Arctic grayling|Salmonidae
+Coregonus clupeaformis|lake whitefish|Salmonidae
+Coregonus lavaretus|European whitefish|Salmonidae
+Coregonus albula|vendace|Salmonidae
+Coregonus artedi|cisco|Salmonidae
+Stenodus leucichthys|inconnu (sheefish)|Salmonidae
+Osmerus mordax|rainbow smelt|Osmeridae
+Osmerus eperlanus|European smelt|Osmeridae
+Hypomesus nipponensis|wakasagi|Osmeridae
+Mallotus villosus|capelin|Osmeridae
+Thaleichthys pacificus|eulachon|Osmeridae
+Plecoglossus altivelis|ayu|Plecoglossidae
+Salangichthys microdon|Japanese icefish (shirauo)|Salangidae
+Neosalanx taihuensis|Taihu icefish|Salangidae
+Galaxias maculatus|inanga (whitebait)|Galaxiidae
+Esox lucius|northern pike|Esocidae
+Esox masquinongy|muskellunge|Esocidae
+Gadus morhua|Atlantic cod|Gadidae
+Gadus macrocephalus|Pacific cod|Gadidae
+Gadus chalcogrammus|Alaska pollock|Gadidae
+Melanogrammus aeglefinus|haddock|Gadidae
+Pollachius virens|saithe (coley)|Gadidae
+Pollachius pollachius|pollack|Gadidae
+Merlangius merlangus|whiting|Gadidae
+Micromesistius poutassou|blue whiting|Gadidae
+Trisopterus luscus|pouting|Gadidae
+Boreogadus saida|polar cod|Gadidae
+Eleginus gracilis|saffron cod|Gadidae
+Molva molva|ling|Lotidae
+Molva dypterygia|blue ling|Lotidae
+Brosme brosme|cusk (tusk)|Lotidae
+Lota lota|burbot|Lotidae
+Merluccius merluccius|European hake|Merlucciidae
+Merluccius hubbsi|Argentine hake|Merlucciidae
+Merluccius productus|Pacific hake|Merlucciidae
+Merluccius capensis|shallow-water Cape hake|Merlucciidae
+Merluccius paradoxus|deep-water Cape hake|Merlucciidae
+Merluccius australis|southern hake|Merlucciidae
+Merluccius bilinearis|silver hake|Merlucciidae
+Macruronus novaezelandiae|hoki|Merlucciidae
+Macruronus magellanicus|Patagonian grenadier|Merlucciidae
+Urophycis tenuis|white hake|Phycidae
+Urophycis chuss|red hake|Phycidae
+Coryphaenoides rupestris|roundnose grenadier|Macrouridae
+Genypterus blacodes|pink ling (kingklip)|Ophidiidae
+Genypterus capensis|kingklip|Ophidiidae
+Genypterus chilensis|congrio colorado|Ophidiidae
+Lophius piscatorius|monkfish|Lophiidae
+Lophius americanus|American angler|Lophiidae
+Lophius litulon|yellow goosefish (ankou)|Lophiidae
+Lophius budegassa|blackbellied angler|Lophiidae
+Zeus faber|John Dory|Zeidae
+Beryx splendens|splendid alfonsino|Berycidae
+Beryx decadactylus|alfonsino|Berycidae
+Hoplostethus atlanticus|orange roughy|Trachichthyidae
+Myripristis berndti|bigscale soldierfish (menpachi)|Holocentridae
+Lampris guttatus|opah|Lampridae
+Harpadon nehereus|Bombay duck|Synodontidae
+Saurida undosquamis|brushtooth lizardfish|Synodontidae
+Mugil cephalus|flathead grey mullet (bottarga)|Mugilidae
+Chelon labrosus|thicklip grey mullet|Mugilidae
+Planiliza haematocheila|redlip mullet|Mugilidae
+Mugil curema|white mullet|Mugilidae
+Atherina boyeri|big-scale sand smelt|Atherinidae
+Odontesthes bonariensis|pejerrey|Atherinopsidae
+Chirostoma humboldtianum|charal|Atherinopsidae
+Menidia menidia|Atlantic silverside|Atherinopsidae
+Cololabis saira|Pacific saury (sanma)|Scomberesocidae
+Scomberesox saurus|Atlantic saury|Scomberesocidae
+Belone belone|garfish|Belonidae
+Hemiramphus brasiliensis|ballyhoo|Hemiramphidae
+Cheilopogon agoo|Japanese flying fish (tobiuo)|Exocoetidae
+Cypselurus poecilopterus|yellowwing flyingfish (tobiko)|Exocoetidae
+Monopterus albus|Asian swamp eel|Synbranchidae
+Mastacembelus armatus|zig-zag eel|Mastacembelidae
+Oryzias latipes|medaka (historically eaten)|Adrianichthyidae
+## Bony fishes: perch-like fishes, tunas, flatfishes and others | animal
+Sebastes norvegicus|golden redfish|Sebastidae
+Sebastes mentella|beaked redfish|Sebastidae
+Sebastes alutus|Pacific ocean perch|Sebastidae
+Sebastes schlegelii|Korean rockfish (jopi-bolrak)|Sebastidae
+Sebastes inermis|Japanese rockfish (mebaru)|Sebastidae
+Sebastes flavidus|yellowtail rockfish|Sebastidae
+Sebastes melanops|black rockfish|Sebastidae
+Sebastolobus alascanus|shortspine thornyhead|Sebastidae
+Helicolenus dactylopterus|blackbelly rosefish|Sebastidae
+Scorpaena scrofa|red scorpionfish (rascasse)|Scorpaenidae
+Scorpaena porcus|black scorpionfish|Scorpaenidae
+Pterois volitans|red lionfish|Scorpaenidae
+Anoplopoma fimbria|sablefish|Anoplopomatidae
+Hexagrammos otakii|fat greenling (ainame)|Hexagrammidae
+Ophiodon elongatus|lingcod|Hexagrammidae
+Pleurogrammus azonus|Okhotsk atka mackerel (hokke)|Hexagrammidae
+Scorpaenichthys marmoratus|cabezon|Cottidae
+Cyclopterus lumpus|lumpfish (roe)|Cyclopteridae
+Chelidonichthys lucerna|tub gurnard|Triglidae
+Eutrigla gurnardus|grey gurnard|Triglidae
+Prionotus carolinus|northern searobin|Triglidae
+Platycephalus indicus|bartail flathead|Platycephalidae
+Perca fluviatilis|European perch|Percidae
+Perca flavescens|yellow perch|Percidae
+Sander lucioperca|zander|Percidae
+Sander vitreus|walleye|Percidae
+Sander canadensis|sauger|Percidae
+Dicentrarchus labrax|European sea bass (branzino)|Moronidae
+Morone saxatilis|striped bass|Moronidae
+Morone chrysops|white bass|Moronidae
+Morone americana|white perch|Moronidae
+Lateolabrax japonicus|Japanese sea bass (suzuki)|Lateolabracidae
+Epinephelus marginatus|dusky grouper|Serranidae
+Epinephelus aeneus|white grouper|Serranidae
+Epinephelus coioides|orange-spotted grouper|Serranidae
+Epinephelus malabaricus|Malabar grouper|Serranidae
+Epinephelus lanceolatus|giant grouper|Serranidae
+Epinephelus fuscoguttatus|brown-marbled grouper|Serranidae
+Epinephelus morio|red grouper|Serranidae
+Epinephelus striatus|Nassau grouper|Serranidae
+Mycteroperca bonaci|black grouper|Serranidae
+Mycteroperca microlepis|gag|Serranidae
+Plectropomus leopardus|coral trout|Serranidae
+Cephalopholis miniata|coral hind|Serranidae
+Hyporthodus nigritus|Warsaw grouper|Serranidae
+Polyprion americanus|wreckfish|Polyprionidae
+Serranus cabrilla|comber|Serranidae
+Doederleinia berycoides|blackthroat seaperch (nodoguro)|Acropomatidae
+Micropterus salmoides|largemouth bass|Centrarchidae
+Micropterus dolomieu|smallmouth bass|Centrarchidae
+Lepomis macrochirus|bluegill|Centrarchidae
+Pomoxis nigromaculatus|black crappie|Centrarchidae
+Lutjanus campechanus|northern red snapper|Lutjanidae
+Lutjanus argentimaculatus|mangrove red snapper|Lutjanidae
+Lutjanus griseus|grey snapper|Lutjanidae
+Lutjanus synagris|lane snapper|Lutjanidae
+Lutjanus analis|mutton snapper|Lutjanidae
+Lutjanus purpureus|southern red snapper|Lutjanidae
+Lutjanus johnii|John's snapper|Lutjanidae
+Lutjanus malabaricus|Malabar blood snapper|Lutjanidae
+Lutjanus bohar|two-spot red snapper|Lutjanidae
+Lutjanus kasmira|bluestripe snapper (ta'ape)|Lutjanidae
+Ocyurus chrysurus|yellowtail snapper|Lutjanidae
+Rhomboplites aurorubens|vermilion snapper|Lutjanidae
+Pristipomoides filamentosus|crimson jobfish (opakapaka)|Lutjanidae
+Etelis coruscans|deepwater longtail red snapper (onaga)|Lutjanidae
+Etelis carbunculus|ruby snapper (ehu)|Lutjanidae
+Aprion virescens|green jobfish (uku)|Lutjanidae
+Haemulon plumierii|white grunt|Haemulidae
+Anisotremus virginicus|porkfish|Haemulidae
+Plectorhinchus gibbosus|brown sweetlips|Haemulidae
+Pomadasys commersonnii|spotted grunter|Haemulidae
+Parapristipoma trilineatum|chicken grunt (isaki)|Haemulidae
+Sparus aurata|gilthead sea bream|Sparidae
+Pagrus pagrus|red porgy|Sparidae
+Pagrus major|red sea bream (madai)|Sparidae
+Chrysophrys auratus|Australasian snapper|Sparidae
+Dentex dentex|common dentex|Sparidae
+Dentex gibbosus|pink dentex|Sparidae
+Diplodus sargus|white sea bream|Sparidae
+Diplodus vulgaris|two-banded sea bream|Sparidae
+Diplodus annularis|annular sea bream|Sparidae
+Boops boops|bogue|Sparidae
+Sarpa salpa|salema|Sparidae
+Lithognathus mormyrus|sand steenbras|Sparidae
+Spondyliosoma cantharus|black sea bream|Sparidae
+Pagellus bogaraveo|blackspot sea bream|Sparidae
+Pagellus erythrinus|common pandora|Sparidae
+Pagellus acarne|axillary sea bream|Sparidae
+Archosargus probatocephalus|sheepshead|Sparidae
+Stenotomus chrysops|scup|Sparidae
+Calamus bajonado|jolthead porgy|Sparidae
+Acanthopagrus schlegelii|blackhead sea bream (kurodai)|Sparidae
+Acanthopagrus latus|yellowfin sea bream|Sparidae
+Acanthopagrus berda|picnic sea bream|Sparidae
+Evynnis tumifrons|yellowback sea bream|Sparidae
+Argyrops spinifer|king soldier bream|Sparidae
+Rhabdosargus sarba|goldlined sea bream|Sparidae
+Petrus rupestris|red steenbras|Sparidae
+Chrysoblephus laticeps|roman|Sparidae
+Argyrosomus regius|meagre|Sciaenidae
+Argyrosomus japonicus|mulloway (kob)|Sciaenidae
+Sciaenops ocellatus|red drum|Sciaenidae
+Cynoscion nebulosus|spotted seatrout|Sciaenidae
+Cynoscion regalis|weakfish|Sciaenidae
+Cynoscion squamipinnis|corvina (Pacific)|Sciaenidae
+Micropogonias undulatus|Atlantic croaker|Sciaenidae
+Micropogonias furnieri|whitemouth croaker|Sciaenidae
+Larimichthys crocea|large yellow croaker|Sciaenidae
+Larimichthys polyactis|small yellow croaker|Sciaenidae
+Pseudotolithus senegalensis|cassava croaker|Sciaenidae
+Umbrina cirrosa|shi drum|Sciaenidae
+Pogonias cromis|black drum|Sciaenidae
+Otolithes ruber|tigertooth croaker|Sciaenidae
+Pennahia argentata|silver croaker|Sciaenidae
+Atractoscion nobilis|white seabass|Sciaenidae
+Cilus gilberti|corvina (Chile)|Sciaenidae
+Miichthys miiuy|brown croaker|Sciaenidae
+Mullus surmuletus|striped red mullet|Mullidae
+Mullus barbatus|red mullet|Mullidae
+Parupeneus multifasciatus|manybar goatfish (moano)|Mullidae
+Upeneus moluccensis|goldband goatfish|Mullidae
+Eleutheronema tetradactylum|fourfinger threadfin|Polynemidae
+Polydactylus sexfilis|six-finger threadfin (moi)|Polynemidae
+Seriola quinqueradiata|Japanese amberjack (buri/hamachi)|Carangidae
+Seriola dumerili|greater amberjack|Carangidae
+Seriola lalandi|yellowtail kingfish|Carangidae
+Seriola rivoliana|almaco jack (kampachi)|Carangidae
+Trachurus trachurus|Atlantic horse mackerel|Carangidae
+Trachurus japonicus|Japanese jack mackerel (aji)|Carangidae
+Trachurus murphyi|Chilean jack mackerel|Carangidae
+Trachurus mediterraneus|Mediterranean horse mackerel|Carangidae
+Trachurus symmetricus|Pacific jack mackerel|Carangidae
+Decapterus macarellus|mackerel scad|Carangidae
+Selar crumenophthalmus|bigeye scad (akule)|Carangidae
+Caranx hippos|crevalle jack|Carangidae
+Caranx ignobilis|giant trevally|Carangidae
+Caranx crysos|blue runner|Carangidae
+Caranx melampygus|bluefin trevally|Carangidae
+Trachinotus carolinus|Florida pompano|Carangidae
+Trachinotus falcatus|permit|Carangidae
+Trachinotus blochii|snubnose pompano|Carangidae
+Trachinotus ovatus|pompano (Mediterranean)|Carangidae
+Pseudocaranx dentex|white trevally|Carangidae
+Elagatis bipinnulata|rainbow runner|Carangidae
+Megalaspis cordyla|torpedo scad|Carangidae
+Lichia amia|leerfish|Carangidae
+Alectis ciliaris|African pompano|Carangidae
+Coryphaena hippurus|mahi-mahi|Coryphaenidae
+Rachycentron canadum|cobia|Rachycentridae
+Pomatomus saltatrix|bluefish|Pomatomidae
+Lobotes surinamensis|tripletail|Lobotidae
+Gerres oyena|common silver-biddy|Gerreidae
+Leiognathus equulus|common ponyfish|Leiognathidae
+Sillago sihama|silver sillago|Sillaginidae
+Sillaginodes punctatus|King George whiting|Sillaginidae
+Lates calcarifer|barramundi|Latidae
+Lates niloticus|Nile perch|Latidae
+Lates japonicus|akame|Latidae
+Terapon jarbua|jarbua terapon|Terapontidae
+Kuhlia sandvicensis|Hawaiian flagtail (aholehole)|Kuhliidae
+Oreochromis niloticus|Nile tilapia|Cichlidae
+Oreochromis mossambicus|Mozambique tilapia|Cichlidae
+Oreochromis aureus|blue tilapia|Cichlidae
+Coptodon rendalli|redbreast tilapia|Cichlidae
+Coptodon zillii|redbelly tilapia|Cichlidae
+Sarotherodon galilaeus|mango tilapia|Cichlidae
+Sarotherodon melanotheron|blackchin tilapia|Cichlidae
+Cichla ocellaris|butterfly peacock bass|Cichlidae
+Cichla temensis|speckled pavon|Cichlidae
+Astronotus ocellatus|oscar|Cichlidae
+Boulengerochromis microlepis|giant cichlid|Cichlidae
+Labrus bergylta|ballan wrasse|Labridae
+Semicossyphus pulcher|California sheephead|Labridae
+Tautoga onitis|tautog|Labridae
+Choerodon schoenleinii|blackspot tuskfish|Labridae
+Bodianus rufus|Spanish hogfish|Labridae
+Lachnolaimus maximus|hogfish|Labridae
+Scarus ghobban|blue-barred parrotfish|Scaridae
+Sparisoma viride|stoplight parrotfish|Scaridae
+Chaetodipterus faber|Atlantic spadefish|Ephippidae
+Scatophagus argus|spotted scat|Scatophagidae
+Siganus canaliculatus|white-spotted rabbitfish|Siganidae
+Siganus guttatus|golden rabbitfish|Siganidae
+Siganus rivulatus|marbled spinefoot|Siganidae
+Siganus fuscescens|mottled spinefoot|Siganidae
+Naso unicornis|bluespine unicornfish (kala)|Acanthuridae
+Acanthurus triostegus|convict tang (manini)|Acanthuridae
+Sphyraena barracuda|great barracuda|Sphyraenidae
+Sphyraena sphyraena|European barracuda|Sphyraenidae
+Sphyraena jello|pickhandle barracuda|Sphyraenidae
+Lepidocybium flavobrunneum|escolar|Gempylidae
+Ruvettus pretiosus|oilfish|Gempylidae
+Thyrsites atun|snoek|Gempylidae
+Rexea solandri|gemfish|Gempylidae
+Trichiurus lepturus|largehead hairtail|Trichiuridae
+Lepidopus caudatus|silver scabbardfish|Trichiuridae
+Aphanopus carbo|black scabbardfish|Trichiuridae
+Thunnus thynnus|Atlantic bluefin tuna|Scombridae
+Thunnus orientalis|Pacific bluefin tuna|Scombridae
+Thunnus maccoyii|southern bluefin tuna|Scombridae
+Thunnus albacares|yellowfin tuna|Scombridae
+Thunnus obesus|bigeye tuna|Scombridae
+Thunnus alalunga|albacore|Scombridae
+Thunnus atlanticus|blackfin tuna|Scombridae
+Thunnus tonggol|longtail tuna|Scombridae
+Katsuwonus pelamis|skipjack (katsuo)|Scombridae
+Euthynnus affinis|kawakawa|Scombridae
+Euthynnus alletteratus|little tunny|Scombridae
+Auxis thazard|frigate tuna|Scombridae
+Auxis rochei|bullet tuna|Scombridae
+Sarda sarda|Atlantic bonito|Scombridae
+Sarda orientalis|striped bonito|Scombridae
+Sarda chiliensis|Pacific bonito|Scombridae
+Scomber scombrus|Atlantic mackerel|Scombridae
+Scomber japonicus|chub mackerel (saba)|Scombridae
+Scomber colias|Atlantic chub mackerel|Scombridae
+Scomber australasicus|blue mackerel|Scombridae
+Rastrelliger kanagurta|Indian mackerel|Scombridae
+Rastrelliger brachysoma|short mackerel|Scombridae
+Scomberomorus commerson|narrow-barred Spanish mackerel|Scombridae
+Scomberomorus cavalla|king mackerel|Scombridae
+Scomberomorus maculatus|Atlantic Spanish mackerel|Scombridae
+Scomberomorus niphonius|Japanese Spanish mackerel (sawara)|Scombridae
+Scomberomorus guttatus|Indo-Pacific king mackerel|Scombridae
+Scomberomorus regalis|cero|Scombridae
+Scomberomorus sierra|Pacific sierra|Scombridae
+Acanthocybium solandri|wahoo|Scombridae
+Gymnosarda unicolor|dogtooth tuna|Scombridae
+Xiphias gladius|swordfish|Xiphiidae
+Makaira nigricans|blue marlin|Istiophoridae
+Kajikia audax|striped marlin|Istiophoridae
+Kajikia albida|white marlin|Istiophoridae
+Istiophorus platypterus|Indo-Pacific sailfish|Istiophoridae
+Hyperoglyphe antarctica|bluenose warehou|Centrolophidae
+Seriolella brama|blue warehou|Centrolophidae
+Seriolella punctata|silver warehou|Centrolophidae
+Pampus argenteus|silver pomfret|Stromateidae
+Pampus chinensis|Chinese pomfret|Stromateidae
+Peprilus triacanthus|butterfish|Stromateidae
+Brama brama|Atlantic pomfret|Bramidae
+Hippoglossus hippoglossus|Atlantic halibut|Pleuronectidae
+Hippoglossus stenolepis|Pacific halibut|Pleuronectidae
+Reinhardtius hippoglossoides|Greenland halibut|Pleuronectidae
+Paralichthys olivaceus|olive flounder (hirame)|Paralichthyidae
+Paralichthys dentatus|summer flounder (fluke)|Paralichthyidae
+Paralichthys lethostigma|southern flounder|Paralichthyidae
+Paralichthys californicus|California halibut|Paralichthyidae
+Pseudopleuronectes americanus|winter flounder|Pleuronectidae
+Platichthys flesus|European flounder|Pleuronectidae
+Platichthys stellatus|starry flounder|Pleuronectidae
+Pleuronectes platessa|European plaice|Pleuronectidae
+Limanda limanda|dab|Pleuronectidae
+Limanda aspera|yellowfin sole|Pleuronectidae
+Limanda ferruginea|yellowtail flounder|Pleuronectidae
+Microstomus kitt|lemon sole|Pleuronectidae
+Microstomus pacificus|Pacific Dover sole|Pleuronectidae
+Glyptocephalus cynoglossus|witch flounder|Pleuronectidae
+Glyptocephalus zachirus|rex sole|Pleuronectidae
+Lepidopsetta bilineata|rock sole|Pleuronectidae
+Atheresthes stomias|arrowtooth flounder|Pleuronectidae
+Eopsetta jordani|petrale sole|Pleuronectidae
+Parophrys vetulus|English sole|Pleuronectidae
+Hippoglossoides platessoides|American plaice|Pleuronectidae
+Verasper variegatus|spotted halibut (hoshigarei)|Pleuronectidae
+Kareius bicoloratus|stone flounder|Pleuronectidae
+Solea solea|common sole (Dover sole)|Soleidae
+Solea senegalensis|Senegalese sole|Soleidae
+Pegusa lascaris|sand sole|Soleidae
+Dicologlossa cuneata|wedge sole|Soleidae
+Cynoglossus semilaevis|tongue sole|Cynoglossidae
+Scophthalmus maximus|turbot|Scophthalmidae
+Scophthalmus rhombus|brill|Scophthalmidae
+Lepidorhombus whiffiagonis|megrim|Scophthalmidae
+Psettodes erumei|Indian spiny turbot|Psettodidae
+Rhombosolea plebeia|sand flounder (NZ)|Rhombosoleidae
+Colistium nudipinnis|New Zealand turbot|Rhombosoleidae
+Pseudorhombus arsius|largetooth flounder|Paralichthyidae
+Takifugu rubripes|tiger puffer (torafugu)|Tetraodontidae
+Takifugu poecilonotus|fine-patterned puffer|Tetraodontidae
+Balistes capriscus|grey triggerfish|Balistidae
+Balistes vetula|queen triggerfish|Balistidae
+Stephanolepis cirrhifer|thread-sail filefish (kawahagi)|Monacanthidae
+Thamnaconus modestus|black scraper (umazurahagi)|Monacanthidae
+Aluterus monoceros|unicorn leatherjacket|Monacanthidae
+Acanthogobius flavimanus|yellowfin goby (haze)|Gobiidae
+Boleophthalmus pectinirostris|great blue-spotted mudskipper|Oxudercidae
+Glossogobius giuris|tank goby|Gobiidae
+Oxyeleotris marmorata|marble goby|Butidae
+Sicyopterus lagocephalus|red-tailed goby (fry: bichique)|Oxudercidae
+Channa striata|striped snakehead|Channidae
+Channa argus|northern snakehead|Channidae
+Channa maculata|blotched snakehead|Channidae
+Channa micropeltes|giant snakehead|Channidae
+Parachanna obscura|African snakehead|Channidae
+Anabas testudineus|climbing perch|Anabantidae
+Trichopodus pectoralis|snakeskin gourami|Osphronemidae
+Osphronemus goramy|giant gourami|Osphronemidae
+Helostoma temminckii|kissing gourami|Helostomatidae
+Trachinus draco|greater weever|Trachinidae
+Uranoscopus japonicus|Japanese stargazer|Uranoscopidae
+Ammodytes personatus|Pacific sand lance (ikanago)|Ammodytidae
+Ammodytes marinus|lesser sand eel|Ammodytidae
+Champsocephalus gunnari|mackerel icefish|Channichthyidae
+Dissostichus eleginoides|Patagonian toothfish|Nototheniidae
+Dissostichus mawsoni|Antarctic toothfish|Nototheniidae
+Notothenia rossii|marbled rockcod|Nototheniidae
+Eleginops maclovinus|Patagonian blenny (róbalo)|Eleginopidae
+Emmelichthys nitidus|Cape bonnetmouth (redbait)|Emmelichthyidae
+Kyphosus sectatrix|Bermuda chub|Kyphosidae
+Girella punctata|largescale blackfish (mejina)|Kyphosidae
+Scorpis lineolata|silver sweep|Kyphosidae
+Oplegnathus fasciatus|barred knifejaw (ishidai)|Oplegnathidae
+Nemadactylus macropterus|tarakihi|Latridae
+Latris lineata|striped trumpeter|Latridae
+Arripis trutta|Australian salmon (kahawai)|Arripidae
+Arripis georgianus|Australian herring|Arripidae
+Glaucosoma hebraicum|West Australian dhufish|Glaucosomatidae
+Pseudopentaceros wheeleri|pelagic armourhead|Pentacerotidae
+Lopholatilus chamaeleonticeps|golden tilefish|Malacanthidae
+Branchiostegus japonicus|horsehead tilefish (amadai)|Malacanthidae
+Priacanthus arenatus|Atlantic bigeye|Priacanthidae
+Zoarces americanus|ocean pout|Zoarcidae
+Anarhichas lupus|Atlantic wolffish|Anarhichadidae
+Anarhichas minor|spotted wolffish|Anarhichadidae
+Anarrhichthys ocellatus|wolf eel|Anarhichadidae
+Maccullochella peelii|Murray cod|Percichthyidae
+Macquaria ambigua|golden perch|Percichthyidae
+Percichthys trucha|Patagonian perch|Percichthyidae
+Siniperca chuatsi|mandarin fish|Sinipercidae
+Lethrinus nebulosus|spangled emperor|Lethrinidae
+Lethrinus olivaceus|longface emperor|Lethrinidae
+Lethrinus miniatus|trumpet emperor|Lethrinidae
+Monotaxis grandoculis|humpnose big-eye bream|Lethrinidae
+Nemipterus virgatus|golden threadfin bream|Nemipteridae
+Nemipterus japonicus|Japanese threadfin bream|Nemipteridae
+Scolopsis vosmeri|whitecheek monocle bream|Nemipteridae
+Caesio cuning|redbelly yellowtail fusilier|Caesionidae
+Mene maculata|moonfish|Menidae
+Drepane punctata|spotted sicklefish|Drepaneidae
+Sicyases sanguineus|pejesapo|Gobiesocidae
+Pristolepis marginata|Malabar leaffish|Pristolepididae
+Bathygobius fuscus|dusky frillgoby|Gobiidae
+Oreochromis andersonii|three-spotted tilapia|Cichlidae
+Hemichromis fasciatus|banded jewelfish|Cichlidae
+## Amphibians and reptiles | animal
+Pelophylax kl. esculentus|edible frog|Ranidae
+Pelophylax ridibundus|marsh frog|Ranidae
+Lithobates catesbeianus|American bullfrog|Ranidae
+Lithobates pipiens|northern leopard frog|Ranidae
+Hoplobatrachus rugulosus|Chinese edible frog|Dicroglossidae
+Hoplobatrachus tigerinus|Indian bullfrog|Dicroglossidae
+Fejervarya limnocharis|rice-field frog|Dicroglossidae
+Limnonectes macrodon|stone creek frog|Dicroglossidae
+Quasipaa spinosa|giant spiny frog|Dicroglossidae
+Pyxicephalus adspersus|African bullfrog|Pyxicephalidae
+Leptodactylus pentadactylus|smoky jungle frog|Leptodactylidae
+Chelydra serpentina|snapping turtle|Chelydridae
+Pelodiscus sinensis|Chinese softshell turtle|Trionychidae
+Apalone spinifera|spiny softshell|Trionychidae
+Apalone ferox|Florida softshell|Trionychidae
+Amyda cartilaginea|Asiatic softshell|Trionychidae
+Trachemys scripta|pond slider|Emydidae
+Malaclemys terrapin|diamondback terrapin|Emydidae
+Alligator mississippiensis|American alligator|Alligatoridae
+Crocodylus niloticus|Nile crocodile|Crocodylidae
+Crocodylus porosus|saltwater crocodile|Crocodylidae
+Crocodylus siamensis|Siamese crocodile (farmed)|Crocodylidae
+Caiman yacare|yacare caiman|Alligatoridae
+Iguana iguana|green iguana|Iguanidae
+Ctenosaura similis|black spiny-tailed iguana (garrobo)|Iguanidae
+Ctenosaura pectinata|Mexican spiny-tailed iguana|Iguanidae
+Python bivittatus|Burmese python|Pythonidae
+Malayopython reticulatus|reticulated python|Pythonidae
+Ptyas mucosa|oriental ratsnake|Colubridae
+Naja atra|Chinese cobra (snake soup)|Elapidae
+Bungarus multicinctus|many-banded krait (snake soup)|Elapidae
+Crotalus atrox|western diamondback rattlesnake|Viperidae
+Varanus salvator|Asian water monitor|Varanidae
+Varanus niloticus|Nile monitor|Varanidae
+Salvator merianae|black-and-white tegu|Teiidae
+## Birds | animal
+Gallus gallus|chicken|Phasianidae
+Meleagris gallopavo|turkey|Phasianidae
+Coturnix japonica|Japanese quail|Phasianidae
+Coturnix coturnix|common quail|Phasianidae
+Numida meleagris|helmeted guineafowl|Numididae
+Phasianus colchicus|common pheasant|Phasianidae
+Perdix perdix|grey partridge|Phasianidae
+Alectoris rufa|red-legged partridge|Phasianidae
+Alectoris chukar|chukar|Phasianidae
+Francolinus pondicerianus|grey francolin|Phasianidae
+Pternistis capensis|Cape spurfowl|Phasianidae
+Colinus virginianus|northern bobwhite|Odontophoridae
+Callipepla californica|California quail|Odontophoridae
+Bonasa umbellus|ruffed grouse|Phasianidae
+Lagopus lagopus|willow ptarmigan / red grouse|Phasianidae
+Lagopus muta|rock ptarmigan|Phasianidae
+Tetrao urogallus|western capercaillie|Phasianidae
+Lyrurus tetrix|black grouse|Phasianidae
+Tetrastes bonasia|hazel grouse|Phasianidae
+Tympanuchus cupido|greater prairie chicken|Phasianidae
+Dendragapus obscurus|dusky grouse|Phasianidae
+Pavo cristatus|Indian peafowl (farmed)|Phasianidae
+Anas platyrhynchos|mallard / domestic duck|Anatidae
+Cairina moschata|Muscovy duck|Anatidae
+Anser anser|greylag / domestic goose|Anatidae
+Anser cygnoides|swan goose (Chinese goose)|Anatidae
+Anser albifrons|greater white-fronted goose|Anatidae
+Branta canadensis|Canada goose|Anatidae
+Anas acuta|northern pintail|Anatidae
+Anas crecca|Eurasian teal|Anatidae
+Mareca penelope|Eurasian wigeon|Anatidae
+Mareca strepera|gadwall|Anatidae
+Spatula clypeata|northern shoveler|Anatidae
+Aythya valisineria|canvasback|Anatidae
+Aix sponsa|wood duck|Anatidae
+Somateria mollissima|common eider|Anatidae
+Plectropterus gambensis|spur-winged goose|Anatidae
+Dendrocygna viduata|white-faced whistling duck|Anatidae
+Columba livia|rock pigeon / squab|Columbidae
+Columba palumbus|wood pigeon|Columbidae
+Streptopelia decaocto|Eurasian collared dove|Columbidae
+Zenaida macroura|mourning dove|Columbidae
+Zenaida asiatica|white-winged dove|Columbidae
+Struthio camelus|ostrich|Struthionidae
+Dromaius novaehollandiae|emu|Dromaiidae
+Rhea americana|greater rhea|Rheidae
+Tinamus major|great tinamou|Tinamidae
+Nothura maculosa|spotted nothura|Tinamidae
+Rhynchotus rufescens|red-winged tinamou|Tinamidae
+Eudromia elegans|elegant crested tinamou|Tinamidae
+Scolopax rusticola|Eurasian woodcock|Scolopacidae
+Scolopax minor|American woodcock|Scolopacidae
+Gallinago gallinago|common snipe|Scolopacidae
+Fulica atra|Eurasian coot|Rallidae
+Gallinula chloropus|common moorhen|Rallidae
+Uria lomvia|thick-billed murre|Alcidae
+Uria aalge|common guillemot|Alcidae
+Fratercula arctica|Atlantic puffin|Alcidae
+Fulmarus glacialis|northern fulmar|Procellariidae
+Ardenna grisea|sooty shearwater (muttonbird)|Procellariidae
+Ardenna tenuirostris|short-tailed shearwater (yolla)|Procellariidae
+Chroicocephalus ridibundus|black-headed gull (eggs)|Laridae
+Crax fasciolata|bare-faced curassow|Cracidae
+Penelope obscura|dusky-legged guan|Cracidae
+Ortalis vetula|plain chachalaca|Cracidae
+Alectura lathami|Australian brushturkey (eggs)|Megapodiidae
+Megapodius freycinet|dusky megapode (eggs)|Megapodiidae
+Passer montanus|Eurasian tree sparrow|Passeridae
+Emberiza hortulana|ortolan bunting (historical)|Emberizidae
+Aerodramus fuciphagus|edible-nest swiftlet (bird's nest)|Apodidae
+## Mammals | animal
+Bos taurus|cattle|Bovidae
+Bos indicus|zebu|Bovidae
+Bos grunniens|domestic yak|Bovidae
+Bos javanicus|banteng / Bali cattle|Bovidae
+Bos frontalis|gayal (mithun)|Bovidae
+Bubalus bubalis|water buffalo|Bovidae
+Syncerus caffer|African buffalo|Bovidae
+Bison bison|American bison|Bovidae
+Bison bonasus|European bison (wisent)|Bovidae
+Ovis aries|sheep|Bovidae
+Ovis canadensis|bighorn sheep|Bovidae
+Capra hircus|goat|Bovidae
+Capra ibex|Alpine ibex|Bovidae
+Oreamnos americanus|mountain goat|Bovidae
+Rupicapra rupicapra|chamois|Bovidae
+Antilocapra americana|pronghorn|Antilocapridae
+Cervus elaphus|red deer|Cervidae
+Cervus canadensis|elk (wapiti)|Cervidae
+Cervus nippon|sika deer|Cervidae
+Dama dama|fallow deer|Cervidae
+Odocoileus virginianus|white-tailed deer|Cervidae
+Odocoileus hemionus|mule deer|Cervidae
+Alces alces|moose|Cervidae
+Rangifer tarandus|reindeer / caribou|Cervidae
+Capreolus capreolus|roe deer|Cervidae
+Axis axis|chital|Cervidae
+Rusa unicolor|sambar|Cervidae
+Rusa timorensis|Javan rusa|Cervidae
+Muntiacus reevesi|Reeves's muntjac|Cervidae
+Hydropotes inermis|water deer|Cervidae
+Aepyceros melampus|impala|Bovidae
+Connochaetes taurinus|blue wildebeest|Bovidae
+Tragelaphus strepsiceros|greater kudu|Bovidae
+Tragelaphus scriptus|bushbuck|Bovidae
+Taurotragus oryx|common eland|Bovidae
+Oryx gazella|gemsbok|Bovidae
+Antidorcas marsupialis|springbok|Bovidae
+Alcelaphus buselaphus|hartebeest|Bovidae
+Damaliscus pygargus|blesbok|Bovidae
+Kobus ellipsiprymnus|waterbuck|Bovidae
+Sylvicapra grimmia|common duiker|Bovidae
+Philantomba monticola|blue duiker|Bovidae
+Raphicerus campestris|steenbok|Bovidae
+Boselaphus tragocamelus|nilgai|Bovidae
+Antilope cervicapra|blackbuck|Bovidae
+Sus scrofa|pig / wild boar|Suidae
+Sus barbatus|bearded pig|Suidae
+Sus celebensis|Celebes warty pig|Suidae
+Phacochoerus africanus|common warthog|Suidae
+Potamochoerus porcus|red river hog|Suidae
+Potamochoerus larvatus|bushpig|Suidae
+Babyrousa celebensis|babirusa|Suidae
+Pecari tajacu|collared peccary|Tayassuidae
+Tayassu pecari|white-lipped peccary|Tayassuidae
+Camelus dromedarius|dromedary|Camelidae
+Camelus bactrianus|Bactrian camel|Camelidae
+Lama glama|llama|Camelidae
+Vicugna pacos|alpaca|Camelidae
+Lama guanicoe|guanaco|Camelidae
+Hippopotamus amphibius|hippopotamus|Hippopotamidae
+Giraffa camelopardalis|giraffe|Giraffidae
+Balaenoptera acutorostrata|common minke whale|Balaenopteridae
+Balaenoptera bonaerensis|Antarctic minke whale|Balaenopteridae
+Balaenoptera physalus|fin whale|Balaenopteridae
+Globicephala melas|long-finned pilot whale|Delphinidae
+Delphinapterus leucas|beluga|Monodontidae
+Monodon monoceros|narwhal|Monodontidae
+Balaena mysticetus|bowhead whale|Balaenidae
+Phocoenoides dalli|Dall's porpoise|Phocoenidae
+Equus caballus|horse|Equidae
+Equus asinus|donkey|Equidae
+Equus quagga|plains zebra|Equidae
+Tapirus terrestris|South American tapir|Tapiridae
+Pagophilus groenlandicus|harp seal|Phocidae
+Pusa hispida|ringed seal|Phocidae
+Erignathus barbatus|bearded seal|Phocidae
+Phoca vitulina|harbour seal|Phocidae
+Odobenus rosmarus|walrus|Odobenidae
+Callorhinus ursinus|northern fur seal|Otariidae
+Ursus americanus|American black bear|Ursidae
+Ursus arctos|brown bear|Ursidae
+Ursus maritimus|polar bear|Ursidae
+Canis lupus|dog (familiaris)|Canidae
+Nyctereutes procyonoides|raccoon dog|Canidae
+Procyon lotor|raccoon|Procyonidae
+Meles meles|European badger|Mustelidae
+Didelphis virginiana|Virginia opossum|Didelphidae
+Didelphis marsupialis|common opossum|Didelphidae
+Cavia porcellus|guinea pig (cuy)|Caviidae
+Hydrochoerus hydrochaeris|capybara|Caviidae
+Cuniculus paca|lowland paca|Cuniculidae
+Dasyprocta leporina|red-rumped agouti|Dasyproctidae
+Dasyprocta punctata|Central American agouti|Dasyproctidae
+Myocastor coypus|nutria (coypu)|Echimyidae
+Ondatra zibethicus|muskrat|Cricetidae
+Castor canadensis|American beaver|Castoridae
+Castor fiber|Eurasian beaver|Castoridae
+Sciurus carolinensis|eastern grey squirrel|Sciuridae
+Sciurus niger|fox squirrel|Sciuridae
+Marmota monax|groundhog|Sciuridae
+Marmota sibirica|Mongolian marmot (tarbagan)|Sciuridae
+Thryonomys swinderianus|greater cane rat (grasscutter)|Thryonomyidae
+Cricetomys gambianus|Gambian pouched rat|Nesomyidae
+Rattus argentiventer|ricefield rat|Muridae
+Bandicota bengalensis|lesser bandicoot rat|Muridae
+Lagostomus maximus|plains viscacha|Chinchillidae
+Dinomys branickii|pacarana|Dinomyidae
+Erethizon dorsatum|North American porcupine|Erethizontidae
+Hystrix cristata|crested porcupine|Hystricidae
+Atherurus africanus|African brush-tailed porcupine|Hystricidae
+Glis glis|edible dormouse|Gliridae
+Oryctolagus cuniculus|European rabbit|Leporidae
+Lepus europaeus|European hare|Leporidae
+Lepus timidus|mountain hare|Leporidae
+Lepus americanus|snowshoe hare|Leporidae
+Lepus californicus|black-tailed jackrabbit|Leporidae
+Sylvilagus floridanus|eastern cottontail|Leporidae
+Macropus giganteus|eastern grey kangaroo|Macropodidae
+Osphranter rufus|red kangaroo|Macropodidae
+Macropus fuliginosus|western grey kangaroo|Macropodidae
+Notamacropus rufogriseus|red-necked wallaby|Macropodidae
+Wallabia bicolor|swamp wallaby|Macropodidae
+Trichosurus vulpecula|common brushtail possum|Phalangeridae
+Vombatus ursinus|common wombat|Vombatidae
+Isoodon macrourus|northern brown bandicoot|Peramelidae
+Tachyglossus aculeatus|short-beaked echidna|Tachyglossidae
+Dasypus novemcinctus|nine-banded armadillo|Dasypodidae
+Procavia capensis|rock hyrax|Procaviidae
+Orycteropus afer|aardvark|Orycteropodidae
+Pteropus vampyrus|large flying fox|Pteropodidae
+Pteropus mariannus|Mariana fruit bat|Pteropodidae
+Eidolon helvum|straw-coloured fruit bat|Pteropodidae
+Dugong dugon|dugong|Dugongidae
+## Ferns, horsetails and other non-seed plants | plant
+Matteuccia struthiopteris|ostrich fern (fiddlehead)|Onocleaceae
+Pteridium aquilinum|bracken (warabi)|Dennstaedtiaceae
+Osmunda japonica|zenmai|Osmundaceae
+Osmundastrum cinnamomeum|cinnamon fern|Osmundaceae
+Diplazium esculentum|vegetable fern (paco)|Athyriaceae
+Stenochlaena palustris|midin|Blechnaceae
+Ceratopteris thalictroides|water sprite|Pteridaceae
+Marsilea drummondii|nardoo|Marsileaceae
+Angiopteris evecta|giant fern (starch)|Marattiaceae
+Equisetum arvense|field horsetail (tsukushi)|Equisetaceae
+## Gymnosperms | plant
+Pinus pinea|stone pine (pine nut)|Pinaceae
+Pinus koraiensis|Korean pine (pine nut)|Pinaceae
+Pinus sibirica|Siberian pine (cedar nut)|Pinaceae
+Pinus cembra|Swiss stone pine|Pinaceae
+Pinus gerardiana|chilgoza pine|Pinaceae
+Pinus edulis|Colorado pinyon|Pinaceae
+Pinus monophylla|single-leaf pinyon|Pinaceae
+Pinus armandii|Chinese white pine (nut)|Pinaceae
+Pinus sylvestris|Scots pine (inner bark, needles)|Pinaceae
+Picea glauca|white spruce (tips)|Pinaceae
+Picea abies|Norway spruce (tips)|Pinaceae
+Abies balsamea|balsam fir (tips)|Pinaceae
+Pseudotsuga menziesii|Douglas fir (tips)|Pinaceae
+Larix laricina|tamarack (inner bark)|Pinaceae
+Araucaria araucana|monkey puzzle (piñón)|Araucariaceae
+Araucaria angustifolia|Paraná pine (pinhão)|Araucariaceae
+Araucaria bidwillii|bunya pine|Araucariaceae
+Podocarpus macrophyllus|kusamaki (fleshy receptacle)|Podocarpaceae
+Ginkgo biloba|ginkgo nut|Ginkgoaceae
+Juniperus communis|common juniper (berry)|Cupressaceae
+Torreya nucifera|kaya nut|Taxaceae
+Torreya grandis|Chinese torreya nut|Taxaceae
+Gnetum gnemon|melinjo (emping)|Gnetaceae
+Gnetum africanum|eru (okazi leaf)|Gnetaceae
+Ephedra nevadensis|Mormon tea|Ephedraceae
+Cycas revoluta|sago cycad (processed)|Cycadaceae
+Cycas circinalis|queen sago (processed)|Cycadaceae
+Dioon edule|chamal (processed)|Zamiaceae
+Macrozamia communis|burrawang (processed)|Zamiaceae
+Zamia integrifolia|coontie (Florida arrowroot)|Zamiaceae
+## Basal angiosperms and magnoliids | plant
+Nymphaea lotus|Egyptian white water lily|Nymphaeaceae
+Nymphaea nouchali|blue water lily (shapla)|Nymphaeaceae
+Euryale ferox|fox nut (makhana)|Nymphaeaceae
+Brasenia schreberi|watershield (junsai)|Cabombaceae
+Nuphar lutea|yellow water lily (seeds)|Nymphaeaceae
+Illicium verum|star anise|Schisandraceae
+Schisandra chinensis|five-flavour berry (omija)|Schisandraceae
+Piper nigrum|black pepper|Piperaceae
+Piper longum|long pepper|Piperaceae
+Piper cubeba|cubeb|Piperaceae
+Piper retrofractum|Javanese long pepper|Piperaceae
+Piper betle|betel leaf|Piperaceae
+Piper methysticum|kava|Piperaceae
+Piper auritum|hoja santa|Piperaceae
+Piper sarmentosum|wild betel (cha phlu)|Piperaceae
+Piper guineense|Ashanti pepper (uziza)|Piperaceae
+Piper borbonense|voatsiperifery|Piperaceae
+Peperomia pellucida|shiny bush (pansit-pansitan)|Piperaceae
+Houttuynia cordata|fish mint|Saururaceae
+Persea americana|avocado|Lauraceae
+Persea schiedeana|chinene|Lauraceae
+Cinnamomum verum|Ceylon cinnamon|Lauraceae
+Cinnamomum cassia|cassia|Lauraceae
+Cinnamomum burmannii|Indonesian cinnamon|Lauraceae
+Cinnamomum loureiroi|Saigon cinnamon|Lauraceae
+Cinnamomum tamala|tejpat (Indian bay)|Lauraceae
+Laurus nobilis|bay laurel|Lauraceae
+Litsea cubeba|may chang|Lauraceae
+Lindera benzoin|spicebush|Lauraceae
+Sassafras albidum|sassafras (filé)|Lauraceae
+Umbellularia californica|California bay|Lauraceae
+Myristica fragrans|nutmeg / mace|Myristicaceae
+Myristica argentea|Papuan nutmeg|Myristicaceae
+Monodora myristica|calabash nutmeg (ehuru)|Annonaceae
+Annona muricata|soursop|Annonaceae
+Annona squamosa|sugar apple|Annonaceae
+Annona cherimola|cherimoya|Annonaceae
+Annona reticulata|custard apple|Annonaceae
+Annona mucosa|biribá|Annonaceae
+Asimina triloba|pawpaw|Annonaceae
+Xylopia aethiopica|grains of Selim|Annonaceae
+Uvaria chamae|finger root (bush banana)|Annonaceae
+Magnolia grandiflora|southern magnolia (petals)|Magnoliaceae
+Tasmannia lanceolata|Tasmanian pepperberry|Winteraceae
+Drimys winteri|canelo|Winteraceae
+Canella winterana|wild cinnamon|Canellaceae
+Warburgia ugandensis|pepper-bark tree|Canellaceae
+Peumus boldus|boldo|Monimiaceae
+Atherosperma moschatum|southern sassafras|Atherospermataceae
+Acorus calamus|sweet flag|Acoraceae
+## Monocots: aroids, yams, lilies, orchids, asparagus family, alliums | plant
+Colocasia esculenta|taro|Araceae
+Wolffia globosa|watermeal (khai-nam)|Araceae
+Xanthosoma sagittifolium|malanga (yautía)|Araceae
+Alocasia macrorrhizos|giant taro|Araceae
+Cyrtosperma merkusii|swamp taro (pulaka)|Araceae
+Amorphophallus konjac|konjac|Araceae
+Amorphophallus paeoniifolius|elephant foot yam|Araceae
+Monstera deliciosa|monstera fruit|Araceae
+Sagittaria sagittifolia|arrowhead (cigu)|Alismataceae
+Sagittaria latifolia|wapato|Alismataceae
+Aponogeton distachyos|waterblommetjie|Aponogetonaceae
+Ottelia alismoides|ottelia|Hydrocharitaceae
+Zostera marina|eelgrass (seeds)|Zosteraceae
+Dioscorea alata|greater yam (ube)|Dioscoreaceae
+Dioscorea rotundata|white Guinea yam|Dioscoreaceae
+Dioscorea cayenensis|yellow yam|Dioscoreaceae
+Dioscorea esculenta|lesser yam|Dioscoreaceae
+Dioscorea bulbifera|air potato|Dioscoreaceae
+Dioscorea trifida|cush-cush yam|Dioscoreaceae
+Dioscorea japonica|Japanese mountain yam|Dioscoreaceae
+Dioscorea polystachya|Chinese yam (nagaimo)|Dioscoreaceae
+Dioscorea dumetorum|bitter yam|Dioscoreaceae
+Tacca leontopetaloides|Polynesian arrowroot|Dioscoreaceae
+Pandanus amaryllifolius|pandan|Pandanaceae
+Pandanus tectorius|screwpine (hala fruit)|Pandanaceae
+Pandanus conoideus|red fruit (buah merah)|Pandanaceae
+Pandanus julianettii|karuka nut|Pandanaceae
+Lilium lancifolium|tiger lily bulb|Liliaceae
+Lilium brownii|Brown's lily (bai he)|Liliaceae
+Lilium davidii|David's lily bulb|Liliaceae
+Erythronium japonicum|katakuri|Liliaceae
+Erythronium grandiflorum|glacier lily|Liliaceae
+Fritillaria camschatcensis|northern rice-root|Liliaceae
+Calochortus nuttallii|sego lily|Liliaceae
+Medeola virginiana|Indian cucumber-root|Liliaceae
+Smilax aspera|rough bindweed (shoots)|Smilacaceae
+Smilax china|China root|Smilacaceae
+Smilax ornata|sarsaparilla|Smilacaceae
+Bomarea edulis|salsilla|Alstroemeriaceae
+Asparagus officinalis|asparagus|Asparagaceae
+Asparagus acutifolius|wild asparagus|Asparagaceae
+Asparagus racemosus|shatavari|Asparagaceae
+Agave tequilana|blue agave|Asparagaceae
+Agave americana|century plant (aguamiel)|Asparagaceae
+Agave salmiana|maguey pulquero|Asparagaceae
+Agave angustifolia|espadín (mezcal)|Asparagaceae
+Yucca baccata|banana yucca|Asparagaceae
+Yucca gigantea|izote (flowers)|Asparagaceae
+Camassia quamash|camas|Asparagaceae
+Camassia leichtlinii|great camas|Asparagaceae
+Polygonatum odoratum|Solomon's seal (shoots)|Asparagaceae
+Maianthemum racemosum|false Solomon's seal (shoots)|Asparagaceae
+Hosta sieboldiana|urui|Asparagaceae
+Ornithogalum pyrenaicum|Bath asparagus|Asparagaceae
+Leopoldia comosa|lampascioni (tassel hyacinth)|Asparagaceae
+Cordyline fruticosa|ti (root)|Asparagaceae
+Cordyline australis|cabbage tree|Asparagaceae
+Chlorophytum borivilianum|safed musli|Asparagaceae
+Allium cepa|onion / shallot|Amaryllidaceae
+Allium sativum|garlic|Amaryllidaceae
+Allium ampeloprasum|leek / elephant garlic|Amaryllidaceae
+Allium schoenoprasum|chives|Amaryllidaceae
+Allium fistulosum|Welsh onion (negi)|Amaryllidaceae
+Allium tuberosum|garlic chives|Amaryllidaceae
+Allium chinense|rakkyo|Amaryllidaceae
+Allium ursinum|ramsons|Amaryllidaceae
+Allium tricoccum|ramps|Amaryllidaceae
+Allium victorialis|victory onion|Amaryllidaceae
+Allium hookeri|Hooker's chives|Amaryllidaceae
+Allium canadense|wild onion|Amaryllidaceae
+Allium oschaninii|French grey shallot|Amaryllidaceae
+Allium macrostemon|long-stamen chive|Amaryllidaceae
+Allium × proliferum|Egyptian walking onion|Amaryllidaceae
+Vanilla planifolia|vanilla|Orchidaceae
+Vanilla tahitensis|Tahitian vanilla|Orchidaceae
+Vanilla pompona|pompona vanilla|Orchidaceae
+Orchis mascula|early purple orchid (salep)|Orchidaceae
+Dactylorhiza romana|salep orchid|Orchidaceae
+Gastrodia elata|tianma|Orchidaceae
+Dendrobium officinale|tie pi shi hu|Orchidaceae
+Satyrium buchananii|chikanda orchid|Orchidaceae
+Disa robusta|chikanda orchid (Disa)|Orchidaceae
+Crocus sativus|saffron|Iridaceae
+Gladiolus dalenii|natal lily (corm)|Iridaceae
+Aloe vera|aloe vera|Asphodelaceae
+Aloe ferox|Cape aloe|Asphodelaceae
+Hemerocallis fulva|daylily|Asphodelaceae
+Hemerocallis citrina|citron daylily (huang hua cai)|Asphodelaceae
+Eremurus spectabilis|foxtail lily (shoots)|Asphodelaceae
+Asphodelus ramosus|asphodel (tubers)|Asphodelaceae
+Dianella caerulea|blue flax-lily (berries)|Asphodelaceae
+Curculigo latifolia|lumbah (curculin)|Hypoxidaceae
+## Monocots: palms | plant
+Cocos nucifera|coconut|Arecaceae
+Phoenix dactylifera|date palm|Arecaceae
+Phoenix sylvestris|wild date palm (jaggery)|Arecaceae
+Elaeis guineensis|African oil palm|Arecaceae
+Elaeis oleifera|American oil palm|Arecaceae
+Metroxylon sagu|sago palm|Arecaceae
+Arenga pinnata|sugar palm (kolang kaling)|Arecaceae
+Borassus flabellifer|palmyra palm (toddy, nungu)|Arecaceae
+Borassus aethiopum|African palmyra|Arecaceae
+Nypa fruticans|nipa palm (attap)|Arecaceae
+Caryota urens|kitul (fishtail palm)|Arecaceae
+Salacca zalacca|salak (snake fruit)|Arecaceae
+Salacca wallichiana|rakum|Arecaceae
+Bactris gasipaes|peach palm (pejibaye)|Arecaceae
+Euterpe oleracea|açaí|Arecaceae
+Euterpe edulis|juçara (palm heart)|Arecaceae
+Euterpe precatoria|açaí-do-amazonas|Arecaceae
+Mauritia flexuosa|buriti (moriche)|Arecaceae
+Oenocarpus bataua|patauá|Arecaceae
+Astrocaryum aculeatum|tucumã|Arecaceae
+Astrocaryum vulgare|awarra|Arecaceae
+Attalea speciosa|babassu|Arecaceae
+Attalea maripa|inajá|Arecaceae
+Acrocomia aculeata|macaúba (coyol)|Arecaceae
+Butia capitata|jelly palm|Arecaceae
+Jubaea chilensis|Chilean wine palm (coquito)|Arecaceae
+Hyphaene thebaica|doum palm|Arecaceae
+Roystonea regia|royal palm (heart)|Arecaceae
+Sabal palmetto|cabbage palmetto|Arecaceae
+Serenoa repens|saw palmetto|Arecaceae
+Washingtonia filifera|California fan palm (fruit)|Arecaceae
+Chamaerops humilis|dwarf fan palm|Arecaceae
+Calamus tenuis|rattan (shoots)|Arecaceae
+Corypha utan|gebang palm (sago)|Arecaceae
+Raphia hookeri|raffia palm (palm wine)|Arecaceae
+Areca catechu|areca nut|Arecaceae
+Syagrus coronata|licuri|Arecaceae
+Syagrus romanzoffiana|queen palm|Arecaceae
+Parajubaea cocoides|chonta (coco cumbi)|Arecaceae
+Brahea edulis|Guadalupe palm|Arecaceae
+Chamaedorea tepejilote|pacaya|Arecaceae
+Prestoea acuminata|palmito (mountain cabbage)|Arecaceae
+Eugeissona utilis|wild Bornean sago|Arecaceae
+Livistona australis|cabbage-tree palm|Arecaceae
+## Monocots: gingers, bananas, arrowroots, spiderworts | plant
+Musa acuminata|banana (acuminata)|Musaceae
+Musa balbisiana|banana (balbisiana)|Musaceae
+Musa × paradisiaca|plantain / banana hybrids|Musaceae
+Ensete ventricosum|enset|Musaceae
+Zingiber officinale|ginger|Zingiberaceae
+Zingiber mioga|myoga|Zingiberaceae
+Zingiber zerumbet|shampoo ginger (awapuhi)|Zingiberaceae
+Zingiber montanum|cassumunar ginger|Zingiberaceae
+Curcuma longa|turmeric|Zingiberaceae
+Curcuma zedoaria|zedoary|Zingiberaceae
+Curcuma amada|mango ginger|Zingiberaceae
+Curcuma zanthorrhiza|temulawak|Zingiberaceae
+Curcuma aromatica|wild turmeric|Zingiberaceae
+Curcuma caesia|black turmeric|Zingiberaceae
+Curcuma angustifolia|East Indian arrowroot|Zingiberaceae
+Elettaria cardamomum|green cardamom|Zingiberaceae
+Amomum subulatum|black cardamom|Zingiberaceae
+Lanxangia tsaoko|tsaoko (cao guo)|Zingiberaceae
+Aframomum melegueta|grains of paradise|Zingiberaceae
+Aframomum corrorima|Ethiopian cardamom (korerima)|Zingiberaceae
+Aframomum daniellii|bastard melegueta|Zingiberaceae
+Alpinia galanga|greater galangal|Zingiberaceae
+Alpinia officinarum|lesser galangal|Zingiberaceae
+Alpinia zerumbet|shell ginger (leaves)|Zingiberaceae
+Kaempferia galanga|kencur|Zingiberaceae
+Kaempferia parviflora|black ginger|Zingiberaceae
+Boesenbergia rotunda|fingerroot (krachai)|Zingiberaceae
+Etlingera elatior|torch ginger|Zingiberaceae
+Hedychium coronarium|white ginger lily (flowers)|Zingiberaceae
+Hellenia speciosa|crepe ginger|Costaceae
+Maranta arundinacea|arrowroot|Marantaceae
+Goeppertia allouia|lerén (Guinea arrowroot)|Marantaceae
+Thaumatococcus daniellii|katemfe (thaumatin)|Marantaceae
+Canna indica|achira (Queensland arrowroot)|Cannaceae
+Commelina communis|Asiatic dayflower|Commelinaceae
+Commelina benghalensis|Benghal dayflower|Commelinaceae
+Monochoria vaginalis|heartshape false pickerelweed|Pontederiaceae
+## Monocots: grasses, sedges, cattails, bromeliads | plant
+Oryza sativa|rice|Poaceae
+Oryza glaberrima|African rice|Poaceae
+Zizania palustris|wild rice (northern)|Poaceae
+Zizania aquatica|wild rice (southern)|Poaceae
+Zizania latifolia|Manchurian wild rice (jiaobai)|Poaceae
+Triticum aestivum|bread wheat|Poaceae
+Triticum turgidum|durum / emmer|Poaceae
+Triticum spelta|spelt|Poaceae
+Triticum monococcum|einkorn|Poaceae
+Triticum turanicum|khorasan wheat|Poaceae
+Triticum timopheevii|Timopheev's wheat|Poaceae
+× Triticosecale|triticale|Poaceae
+Secale cereale|rye|Poaceae
+Hordeum vulgare|barley|Poaceae
+Avena sativa|oat|Poaceae
+Avena byzantina|red oat|Poaceae
+Avena abyssinica|Ethiopian oat|Poaceae
+Thinopyrum intermedium|Kernza (intermediate wheatgrass)|Poaceae
+Zea mays|maize|Poaceae
+Sorghum bicolor|sorghum|Poaceae
+Cenchrus americanus|pearl millet|Poaceae
+Eleusine coracana|finger millet|Poaceae
+Panicum miliaceum|proso millet|Poaceae
+Panicum sumatrense|little millet|Poaceae
+Setaria italica|foxtail millet|Poaceae
+Echinochloa esculenta|Japanese barnyard millet|Poaceae
+Echinochloa frumentacea|Indian barnyard millet|Poaceae
+Paspalum scrobiculatum|kodo millet|Poaceae
+Brachiaria deflexa|Guinea millet|Poaceae
+Digitaria exilis|fonio|Poaceae
+Digitaria iburua|black fonio|Poaceae
+Eragrostis tef|teff|Poaceae
+Coix lacryma-jobi|Job's tears|Poaceae
+Saccharum officinarum|sugarcane|Poaceae
+Saccharum edule|duruka (pitpit)|Poaceae
+Bambusa vulgaris|common bamboo (shoots)|Poaceae
+Bambusa oldhamii|Oldham's bamboo (shoots)|Poaceae
+Bambusa tulda|Bengal bamboo (shoots)|Poaceae
+Dendrocalamus asper|giant bamboo (shoots)|Poaceae
+Dendrocalamus latiflorus|Taiwan giant bamboo (shoots)|Poaceae
+Dendrocalamus hamiltonii|Hamilton's bamboo (shoots)|Poaceae
+Phyllostachys edulis|moso bamboo (shoots)|Poaceae
+Phyllostachys bambusoides|madake (shoots)|Poaceae
+Phyllostachys dulcis|sweetshoot bamboo|Poaceae
+Phyllostachys nigra|black bamboo (shoots)|Poaceae
+Phyllostachys praecox|early bamboo (shoots)|Poaceae
+Gigantochloa levis|bolo bamboo (shoots)|Poaceae
+Melocanna baccifera|muli bamboo (bamboo rice)|Poaceae
+Cymbopogon citratus|lemongrass|Poaceae
+Cymbopogon flexuosus|East Indian lemongrass|Poaceae
+Chrysopogon zizanioides|vetiver|Poaceae
+Anthoxanthum nitens|sweetgrass (żubrówka)|Poaceae
+Glyceria fluitans|floating sweet-grass (manna)|Poaceae
+Eriocoma hymenoides|Indian ricegrass|Poaceae
+Phragmites australis|common reed (shoots, manna)|Poaceae
+Elymus repens|couch grass (rhizome)|Poaceae
+Ananas comosus|pineapple|Bromeliaceae
+Bromelia pinguin|piñuela|Bromeliaceae
+Bromelia karatas|karatas|Bromeliaceae
+Greigia sphacelata|chupón|Bromeliaceae
+Puya chilensis|chagual (shoots)|Bromeliaceae
+Cyperus esculentus|tiger nut (chufa)|Cyperaceae
+Eleocharis dulcis|Chinese water chestnut|Cyperaceae
+Cyperus rotundus|nut grass (tubers)|Cyperaceae
+Schoenoplectus acutus|tule (rhizome, pollen)|Cyperaceae
+Bolboschoenus maritimus|sea clubrush (tubers)|Cyperaceae
+Cyperus papyrus|papyrus (pith)|Cyperaceae
+Typha latifolia|broadleaf cattail|Typhaceae
+Typha angustifolia|narrowleaf cattail|Typhaceae
+Typha domingensis|southern cattail|Typhaceae
+## Eudicots: buttercups, poppies, lotus, proteas, gunnera, saxifrages, grapes | plant
+Papaver somniferum|opium poppy (seed)|Papaveraceae
+Papaver rhoeas|corn poppy (petals, greens)|Papaveraceae
+Nigella sativa|black seed (kalonji)|Ranunculaceae
+Caltha palustris|marsh marigold (cooked)|Ranunculaceae
+Berberis vulgaris|barberry (zereshk)|Berberidaceae
+Berberis aquifolium|Oregon grape|Berberidaceae
+Podophyllum peltatum|mayapple (ripe fruit)|Berberidaceae
+Akebia quinata|akebia (chocolate vine)|Lardizabalaceae
+Akebia trifoliata|three-leaf akebia|Lardizabalaceae
+Stauntonia hexaphylla|mube|Lardizabalaceae
+Decaisnea insignis|blue sausage fruit|Lardizabalaceae
+Nelumbo nucifera|lotus (root, seed)|Nelumbonaceae
+Nelumbo lutea|American lotus|Nelumbonaceae
+Macadamia integrifolia|macadamia|Proteaceae
+Macadamia tetraphylla|rough-shelled macadamia|Proteaceae
+Gevuina avellana|Chilean hazelnut|Proteaceae
+Persoonia pinifolia|geebung|Proteaceae
+Hicksbeachia pinnatifolia|red bopple nut|Proteaceae
+Brabejum stellatifolium|wild almond (processed)|Proteaceae
+Gunnera tinctoria|nalca (Chilean rhubarb)|Gunneraceae
+Dillenia indica|elephant apple|Dilleniaceae
+Dillenia philippinensis|katmon|Dilleniaceae
+Ribes nigrum|blackcurrant|Grossulariaceae
+Ribes rubrum|redcurrant|Grossulariaceae
+Ribes uva-crispa|gooseberry|Grossulariaceae
+Ribes hirtellum|American gooseberry|Grossulariaceae
+Ribes aureum|golden currant|Grossulariaceae
+Ribes × nidigrolaria|jostaberry|Grossulariaceae
+Ribes divaricatum|coastal black gooseberry|Grossulariaceae
+Rhodiola rosea|roseroot|Crassulaceae
+Hylotelephium telephium|orpine (leaves)|Crassulaceae
+Umbilicus rupestris|navelwort|Crassulaceae
+Hydrangea serrata|amacha (sweet tea)|Hydrangeaceae
+Chrysosplenium alternifolium|golden saxifrage|Saxifragaceae
+Cynomorium coccineum|Maltese fungus|Cynomoriaceae
+Vitis vinifera|grape|Vitaceae
+Vitis labrusca|fox grape (Concord)|Vitaceae
+Vitis rotundifolia|muscadine|Vitaceae
+Vitis riparia|riverbank grape|Vitaceae
+Vitis aestivalis|summer grape|Vitaceae
+Vitis amurensis|Amur grape|Vitaceae
+Vitis coignetiae|crimson glory vine (yamabudo)|Vitaceae
+Cissus quadrangularis|veldt grape (stems)|Vitaceae
+Balanites aegyptiaca|desert date|Zygophyllaceae
+Catha edulis|khat|Celastraceae
+## Eudicots: oxalis, starfruit, cassava, passionfruit, mangosteen, willow, spurge relatives | plant
+Averrhoa carambola|starfruit|Oxalidaceae
+Averrhoa bilimbi|bilimbi|Oxalidaceae
+Oxalis tuberosa|oca|Oxalidaceae
+Oxalis acetosella|wood sorrel|Oxalidaceae
+Oxalis stricta|yellow wood sorrel|Oxalidaceae
+Oxalis pes-caprae|Bermuda buttercup (sour grass)|Oxalidaceae
+Elaeocarpus serratus|Ceylon olive|Elaeocarpaceae
+Elaeocarpus bancroftii|Kuranda quandong|Elaeocarpaceae
+Davidsonia pruriens|Davidson's plum|Cunoniaceae
+Davidsonia jerseyana|Davidson's plum (NSW)|Cunoniaceae
+Manihot esculenta|cassava|Euphorbiaceae
+Plukenetia volubilis|sacha inchi|Euphorbiaceae
+Aleurites moluccanus|candlenut|Euphorbiaceae
+Cnidoscolus aconitifolius|chaya|Euphorbiaceae
+Ricinodendron heudelotii|njangsa|Euphorbiaceae
+Tetracarpidium conophorum|African walnut (conophor)|Euphorbiaceae
+Sauropus androgynus|katuk (sweet leaf)|Phyllanthaceae
+Phyllanthus emblica|amla|Phyllanthaceae
+Phyllanthus acidus|Otaheite gooseberry|Phyllanthaceae
+Antidesma bunius|bignay|Phyllanthaceae
+Baccaurea motleyana|rambai|Phyllanthaceae
+Baccaurea ramiflora|Burmese grape|Phyllanthaceae
+Baccaurea angulata|belimbing hutan|Phyllanthaceae
+Uapaca kirkiana|masuku (wild loquat)|Phyllanthaceae
+Passiflora edulis|passion fruit|Passifloraceae
+Passiflora ligularis|sweet granadilla|Passifloraceae
+Passiflora quadrangularis|giant granadilla|Passifloraceae
+Passiflora tripartita|banana passionfruit (curuba)|Passifloraceae
+Passiflora tarminiana|curuba india|Passifloraceae
+Passiflora incarnata|maypop|Passifloraceae
+Passiflora laurifolia|water lemon|Passifloraceae
+Passiflora maliformis|sweet calabash|Passifloraceae
+Passiflora alata|winged-stem passion flower|Passifloraceae
+Turnera diffusa|damiana|Passifloraceae
+Flacourtia indica|governor's plum|Salicaceae
+Flacourtia jangomas|Indian plum (paniala)|Salicaceae
+Flacourtia inermis|lovi-lovi|Salicaceae
+Dovyalis caffra|kei apple|Salicaceae
+Dovyalis hebecarpa|ketembilla|Salicaceae
+Oncoba spinosa|snuff-box tree (fruit)|Salicaceae
+Viola odorata|sweet violet (flowers)|Violaceae
+Viola tricolor|heartsease|Violaceae
+Garcinia mangostana|mangosteen|Clusiaceae
+Garcinia gummi-gutta|Malabar tamarind (kodampuli)|Clusiaceae
+Garcinia indica|kokum|Clusiaceae
+Garcinia atroviridis|asam gelugor|Clusiaceae
+Garcinia kola|bitter kola|Clusiaceae
+Garcinia livingstonei|African mangosteen|Clusiaceae
+Garcinia humilis|achachairú|Clusiaceae
+Garcinia madruno|madroño|Clusiaceae
+Garcinia prainiana|button mangosteen|Clusiaceae
+Garcinia xanthochymus|gamboge (false mangosteen)|Clusiaceae
+Garcinia cowa|cowa|Clusiaceae
+Platonia insignis|bacuri|Clusiaceae
+Mammea americana|mamey apple|Calophyllaceae
+Hypericum perforatum|St John's wort (tea)|Hypericaceae
+Erythroxylum coca|coca (leaf)|Erythroxylaceae
+Chrysobalanus icaco|cocoplum|Chrysobalanaceae
+Licania platypus|sansapote|Chrysobalanaceae
+Parinari curatellifolia|mobola plum|Chrysobalanaceae
+Neocarya macrophylla|gingerbread plum|Chrysobalanaceae
+Malpighia emarginata|acerola|Malpighiaceae
+Byrsonima crassifolia|nance|Malpighiaceae
+Bunchosia armeniaca|peanut butter fruit|Malpighiaceae
+Linum usitatissimum|flax (linseed)|Linaceae
+Pangium edule|keluak|Achariaceae
+Irvingia gabonensis|bush mango (dika nut)|Irvingiaceae
+Irvingia wombolu|bitter bush mango|Irvingiaceae
+Panda oleosa|panda nut|Pandaceae
+Endopleura uchi|uxi|Humiriaceae
+Caryocar brasiliense|pequi|Caryocaraceae
+Caryocar villosum|piquiá|Caryocaraceae
+Caryocar nuciferum|souari nut|Caryocaraceae
+## Eudicots: legumes | plant
+Glycine max|soybean|Fabaceae
+Phaseolus vulgaris|common bean|Fabaceae
+Phaseolus lunatus|lima bean|Fabaceae
+Phaseolus coccineus|runner bean|Fabaceae
+Phaseolus acutifolius|tepary bean|Fabaceae
+Phaseolus dumosus|year bean|Fabaceae
+Vigna radiata|mung bean|Fabaceae
+Vigna unguiculata|cowpea / yardlong bean|Fabaceae
+Vigna angularis|adzuki bean|Fabaceae
+Vigna mungo|urad (black gram)|Fabaceae
+Vigna aconitifolia|moth bean|Fabaceae
+Vigna umbellata|rice bean|Fabaceae
+Vigna subterranea|Bambara groundnut|Fabaceae
+Vigna vexillata|zombi pea (tuber)|Fabaceae
+Vigna lanceolata|bush potato (maloga bean)|Fabaceae
+Pisum sativum|pea|Fabaceae
+Lens culinaris|lentil|Fabaceae
+Cicer arietinum|chickpea|Fabaceae
+Vicia faba|fava bean|Fabaceae
+Vicia ervilia|bitter vetch|Fabaceae
+Lathyrus sativus|grass pea|Fabaceae
+Lathyrus tuberosus|tuberous pea|Fabaceae
+Arachis hypogaea|peanut|Fabaceae
+Cajanus cajan|pigeon pea|Fabaceae
+Lablab purpureus|hyacinth bean|Fabaceae
+Canavalia ensiformis|jack bean|Fabaceae
+Canavalia gladiata|sword bean|Fabaceae
+Psophocarpus tetragonolobus|winged bean|Fabaceae
+Pachyrhizus erosus|jicama|Fabaceae
+Pachyrhizus tuberosus|Amazonian yam bean|Fabaceae
+Pachyrhizus ahipa|ahipa|Fabaceae
+Mucuna pruriens|velvet bean (processed)|Fabaceae
+Macrotyloma uniflorum|horse gram|Fabaceae
+Macrotyloma geocarpum|Kersting's groundnut|Fabaceae
+Sphenostylis stenocarpa|African yam bean|Fabaceae
+Tylosema esculentum|marama bean|Fabaceae
+Cyamopsis tetragonoloba|guar|Fabaceae
+Lupinus albus|white lupin|Fabaceae
+Lupinus angustifolius|narrow-leafed lupin|Fabaceae
+Lupinus luteus|yellow lupin|Fabaceae
+Lupinus mutabilis|tarwi|Fabaceae
+Trigonella foenum-graecum|fenugreek|Fabaceae
+Trigonella caerulea|blue fenugreek|Fabaceae
+Medicago sativa|alfalfa (sprouts)|Fabaceae
+Melilotus officinalis|sweet clover (flavouring)|Fabaceae
+Trifolium pratense|red clover (flowers)|Fabaceae
+Glycyrrhiza glabra|liquorice|Fabaceae
+Glycyrrhiza uralensis|Chinese liquorice|Fabaceae
+Astragalus membranaceus|huang qi (astragalus)|Fabaceae
+Astragalus gummifer|tragacanth|Fabaceae
+Senegalia senegal|gum arabic|Fabaceae
+Vachellia seyal|red acacia (gum talha)|Fabaceae
+Acacia aneura|mulga (seed)|Fabaceae
+Acacia victoriae|wattleseed (gundabluey)|Fabaceae
+Acacia colei|Cole's wattle (seed)|Fabaceae
+Prosopis glandulosa|honey mesquite|Fabaceae
+Prosopis pallida|huarango|Fabaceae
+Prosopis alba|algarrobo blanco|Fabaceae
+Prosopis juliflora|mesquite (juliflora)|Fabaceae
+Prosopis cineraria|khejri (sangri)|Fabaceae
+Ceratonia siliqua|carob|Fabaceae
+Tamarindus indica|tamarind|Fabaceae
+Detarium senegalense|ditax|Fabaceae
+Detarium microcarpum|sweet detar|Fabaceae
+Dialium guineense|velvet tamarind|Fabaceae
+Dialium indum|tamarind plum (keranji)|Fabaceae
+Dialium cochinchinense|velvet tamarind (Indochina)|Fabaceae
+Parkia biglobosa|African locust bean (dawadawa)|Fabaceae
+Parkia speciosa|petai (stink bean)|Fabaceae
+Parkia timoriana|tree bean (yongchak)|Fabaceae
+Pentaclethra macrophylla|African oil bean|Fabaceae
+Inga edulis|ice-cream bean|Fabaceae
+Inga feuilleei|pacay|Fabaceae
+Inga spectabilis|guaba machete|Fabaceae
+Leucaena leucocephala|leucaena (pods)|Fabaceae
+Leucaena esculenta|guaje|Fabaceae
+Pithecellobium dulce|guamúchil (Manila tamarind)|Fabaceae
+Archidendron jiringa|jengkol|Fabaceae
+Archidendron bubalinum|kerdas|Fabaceae
+Bauhinia purpurea|orchid tree (buds)|Fabaceae
+Bauhinia variegata|kachnar|Fabaceae
+Cercis canadensis|eastern redbud (flowers)|Fabaceae
+Cercis siliquastrum|Judas tree (flowers)|Fabaceae
+Gleditsia triacanthos|honey locust (pod pulp)|Fabaceae
+Gymnocladus dioicus|Kentucky coffeetree (roasted)|Fabaceae
+Senna occidentalis|mogdad coffee|Fabaceae
+Senna obtusifolia|sicklepod (kawal)|Fabaceae
+Senna siamea|cassod tree (khi-lek)|Fabaceae
+Afzelia africana|African mahogany (seeds)|Fabaceae
+Schotia brachypetala|weeping boer-bean (seeds)|Fabaceae
+Erythrina edulis|chachafruto (basul)|Fabaceae
+Sesbania grandiflora|agati (vegetable hummingbird)|Fabaceae
+Sesbania sesban|Egyptian riverhemp (leaves)|Fabaceae
+Neptunia oleracea|water mimosa|Fabaceae
+Apios americana|groundnut (hopniss)|Fabaceae
+Apios fortunei|hodoimo|Fabaceae
+Pueraria montana|kudzu (starch)|Fabaceae
+Flemingia vestita|sohphlang|Fabaceae
+Cordeauxia edulis|yeheb nut|Fabaceae
+Pediomelum esculentum|prairie turnip|Fabaceae
+Amphicarpaea bracteata|hog peanut|Fabaceae
+Clitoria ternatea|butterfly pea (flower)|Fabaceae
+Crotalaria longirostrata|chipilín|Fabaceae
+Styphnolobium japonicum|pagoda tree (buds, huai hua)|Fabaceae
+Dipteryx odorata|tonka bean|Fabaceae
+Dipteryx alata|baru nut|Fabaceae
+Castanospermum australe|Moreton Bay chestnut (processed)|Fabaceae
+Hymenaea courbaril|jatobá|Fabaceae
+Hymenaea stigonocarpa|jatobá-do-cerrado|Fabaceae
+Cynometra cauliflora|nam-nam|Fabaceae
+Parkinsonia aculeata|Jerusalem thorn (seeds)|Fabaceae
+Parkinsonia florida|blue palo verde (seeds)|Fabaceae
+Olneya tesota|desert ironwood (seeds)|Fabaceae
+Caragana arborescens|Siberian pea shrub|Fabaceae
+Robinia pseudoacacia|black locust (flowers)|Fabaceae
+Wisteria floribunda|Japanese wisteria (flowers)|Fabaceae
+Quillaja saponaria|soapbark (foaming agent)|Quillajaceae
+## Eudicots: rose family | plant
+Malus domestica|apple|Rosaceae
+Malus sylvestris|European crab apple|Rosaceae
+Malus baccata|Siberian crab apple|Rosaceae
+Malus sieversii|wild apple (Tian Shan)|Rosaceae
+Pyrus communis|European pear|Rosaceae
+Pyrus pyrifolia|Asian pear (nashi)|Rosaceae
+Pyrus bretschneideri|Ya pear|Rosaceae
+Pyrus ussuriensis|Ussurian pear|Rosaceae
+Cydonia oblonga|quince|Rosaceae
+Chaenomeles speciosa|flowering quince|Rosaceae
+Chaenomeles japonica|Japanese quince|Rosaceae
+Pseudocydonia sinensis|Chinese quince|Rosaceae
+Mespilus germanica|medlar|Rosaceae
+Crataegus monogyna|hawthorn|Rosaceae
+Crataegus pinnatifida|Chinese hawthorn (shanzha)|Rosaceae
+Crataegus mexicana|tejocote|Rosaceae
+Crataegus azarolus|azarole|Rosaceae
+Crataegus aestivalis|mayhaw|Rosaceae
+Sorbus aucuparia|rowan|Rosaceae
+Sorbus domestica|service tree|Rosaceae
+Sorbus torminalis|wild service tree|Rosaceae
+Sorbus aria|whitebeam|Rosaceae
+Aronia melanocarpa|black chokeberry|Rosaceae
+Aronia arbutifolia|red chokeberry|Rosaceae
+Amelanchier alnifolia|saskatoon|Rosaceae
+Amelanchier canadensis|shadbush|Rosaceae
+Amelanchier lamarckii|juneberry|Rosaceae
+Eriobotrya japonica|loquat|Rosaceae
+Docynia indica|assam apple|Rosaceae
+Osteomeles anthyllidifolia|ulei|Rosaceae
+Heteromeles arbutifolia|toyon|Rosaceae
+Prunus persica|peach / nectarine|Rosaceae
+Prunus dulcis|almond|Rosaceae
+Prunus armeniaca|apricot|Rosaceae
+Prunus domestica|European plum|Rosaceae
+Prunus salicina|Japanese plum|Rosaceae
+Prunus cerasifera|cherry plum|Rosaceae
+Prunus spinosa|sloe|Rosaceae
+Prunus mume|ume|Rosaceae
+Prunus avium|sweet cherry|Rosaceae
+Prunus cerasus|sour cherry|Rosaceae
+Prunus serotina|black cherry|Rosaceae
+Prunus virginiana|chokecherry|Rosaceae
+Prunus tomentosa|Nanking cherry|Rosaceae
+Prunus pumila|sand cherry|Rosaceae
+Prunus americana|American plum|Rosaceae
+Prunus angustifolia|Chickasaw plum|Rosaceae
+Prunus maritima|beach plum|Rosaceae
+Prunus mahaleb|mahleb|Rosaceae
+Prunus laurocerasus|cherry laurel (taflan)|Rosaceae
+Prunus padus|bird cherry|Rosaceae
+Prunus simonii|apricot plum|Rosaceae
+Prunus fruticosa|steppe cherry|Rosaceae
+Prunus ilicifolia|hollyleaf cherry (islay)|Rosaceae
+Prunus subcordata|Klamath plum|Rosaceae
+Prunus brigantina|Briançon apricot|Rosaceae
+Oemleria cerasiformis|osoberry|Rosaceae
+Fragaria × ananassa|garden strawberry|Rosaceae
+Fragaria vesca|woodland strawberry|Rosaceae
+Fragaria chiloensis|beach strawberry|Rosaceae
+Fragaria virginiana|Virginia strawberry|Rosaceae
+Fragaria moschata|musk strawberry|Rosaceae
+Potentilla anserina|silverweed (roots)|Rosaceae
+Rubus idaeus|red raspberry|Rosaceae
+Rubus occidentalis|black raspberry|Rosaceae
+Rubus strigosus|American red raspberry|Rosaceae
+Rubus fruticosus|blackberry|Rosaceae
+Rubus ursinus|Pacific blackberry|Rosaceae
+Rubus allegheniensis|Allegheny blackberry|Rosaceae
+Rubus laciniatus|cutleaf blackberry|Rosaceae
+Rubus loganobaccus|loganberry|Rosaceae
+Rubus chamaemorus|cloudberry|Rosaceae
+Rubus arcticus|Arctic bramble|Rosaceae
+Rubus caesius|dewberry|Rosaceae
+Rubus phoenicolasius|wineberry|Rosaceae
+Rubus ellipticus|yellow Himalayan raspberry|Rosaceae
+Rubus niveus|Mysore raspberry|Rosaceae
+Rubus rosifolius|Mauritius raspberry|Rosaceae
+Rubus spectabilis|salmonberry|Rosaceae
+Rubus parviflorus|thimbleberry|Rosaceae
+Rubus leucodermis|whitebark raspberry|Rosaceae
+Rubus glaucus|mora andina|Rosaceae
+Rosa canina|dog rose (hips)|Rosaceae
+Rosa rugosa|rugosa rose (hips)|Rosaceae
+Rosa damascena|damask rose (rosewater)|Rosaceae
+Rosa centifolia|cabbage rose|Rosaceae
+Rosa gallica|French rose|Rosaceae
+Rosa rubiginosa|sweet briar (rosa mosqueta)|Rosaceae
+Rosa roxburghii|chestnut rose|Rosaceae
+Sanguisorba minor|salad burnet|Rosaceae
+Filipendula ulmaria|meadowsweet|Rosaceae
+Filipendula vulgaris|dropwort (tubers)|Rosaceae
+Geum urbanum|wood avens (root)|Rosaceae
+Margyricarpus pinnatus|pearlberry|Rosaceae
+Hesperomeles obtusifolia|cerote|Rosaceae
+Prinsepia utilis|Himalayan cherry prinsepia (oil)|Rosaceae
+## Eudicots: fig, mulberry, hemp, hops, nettle, elm, buckthorn, oleaster families | plant
+Ficus carica|fig|Moraceae
+Ficus racemosa|cluster fig|Moraceae
+Ficus auriculata|Roxburgh fig|Moraceae
+Ficus sycomorus|sycamore fig|Moraceae
+Ficus palmata|Punjab fig|Moraceae
+Ficus pumila|aiyu (jelly fig)|Moraceae
+Ficus deltoidea|mistletoe fig (tea)|Moraceae
+Morus alba|white mulberry|Moraceae
+Morus nigra|black mulberry|Moraceae
+Morus rubra|red mulberry|Moraceae
+Morus macroura|long mulberry|Moraceae
+Artocarpus heterophyllus|jackfruit|Moraceae
+Artocarpus altilis|breadfruit|Moraceae
+Artocarpus camansi|breadnut|Moraceae
+Artocarpus integer|cempedak|Moraceae
+Artocarpus odoratissimus|marang|Moraceae
+Artocarpus lacucha|monkey jack|Moraceae
+Artocarpus rigidus|monkey jackfruit|Moraceae
+Artocarpus sericicarpus|pedalai|Moraceae
+Treculia africana|African breadfruit|Moraceae
+Brosimum alicastrum|Maya nut (ramón)|Moraceae
+Maclura tricuspidata|che (cudrania)|Moraceae
+Broussonetia papyrifera|paper mulberry (fruit)|Moraceae
+Pseudolmedia laevis|leche caspi|Moraceae
+Humulus lupulus|hops|Cannabaceae
+Cannabis sativa|hemp (seed)|Cannabaceae
+Celtis australis|Mediterranean hackberry|Cannabaceae
+Celtis occidentalis|common hackberry|Cannabaceae
+Celtis laevigata|sugarberry|Cannabaceae
+Celtis integrifolia|African hackberry (leaves)|Cannabaceae
+Urtica dioica|stinging nettle|Urticaceae
+Urtica urens|small nettle|Urticaceae
+Laportea canadensis|wood nettle|Urticaceae
+Laportea aestuans|West Indian woodnettle|Urticaceae
+Girardinia diversifolia|Himalayan nettle|Urticaceae
+Pipturus albidus|mamaki|Urticaceae
+Elatostema involucratum|uwabami-so|Urticaceae
+Debregeasia longifolia|orange wild rhea (fruit)|Urticaceae
+Pourouma cecropiifolia|Amazon tree grape (uvilla)|Urticaceae
+Myrianthus arboreus|giant yellow mulberry|Urticaceae
+Cecropia peltata|trumpet tree (fruit)|Urticaceae
+Ulmus rubra|slippery elm|Ulmaceae
+Ulmus pumila|Siberian elm (samaras)|Ulmaceae
+Ziziphus jujuba|jujube|Rhamnaceae
+Ziziphus mauritiana|ber (Indian jujube)|Rhamnaceae
+Ziziphus lotus|lotus jujube|Rhamnaceae
+Ziziphus spina-christi|Christ's thorn jujube|Rhamnaceae
+Ziziphus mucronata|buffalo thorn|Rhamnaceae
+Ziziphus nummularia|wild jujube (jhar ber)|Rhamnaceae
+Ziziphus joazeiro|juazeiro|Rhamnaceae
+Hovenia dulcis|Japanese raisin tree|Rhamnaceae
+Ceanothus americanus|New Jersey tea|Rhamnaceae
+Sageretia thea|Chinese sweet plum|Rhamnaceae
+Berchemia discolor|bird plum|Rhamnaceae
+Elaeagnus angustifolia|Russian olive|Elaeagnaceae
+Elaeagnus umbellata|autumn olive|Elaeagnaceae
+Elaeagnus multiflora|goumi|Elaeagnaceae
+Elaeagnus latifolia|bastard oleaster|Elaeagnaceae
+Hippophae rhamnoides|sea buckthorn|Elaeagnaceae
+Shepherdia argentea|silver buffaloberry|Elaeagnaceae
+Shepherdia canadensis|soapberry (Indian ice cream)|Elaeagnaceae
+## Eudicots: gourds, beeches, walnuts, bayberries | plant
+Cucurbita pepo|zucchini / pumpkin (pepo)|Cucurbitaceae
+Cucurbita maxima|winter squash (maxima)|Cucurbitaceae
+Cucurbita moschata|butternut squash|Cucurbitaceae
+Cucurbita argyrosperma|cushaw|Cucurbitaceae
+Cucurbita ficifolia|fig-leaf gourd (chilacayote)|Cucurbitaceae
+Cucumis sativus|cucumber|Cucurbitaceae
+Cucumis melo|melon|Cucurbitaceae
+Cucumis metuliferus|kiwano (horned melon)|Cucurbitaceae
+Cucumis anguria|West Indian gherkin|Cucurbitaceae
+Citrullus lanatus|watermelon|Cucurbitaceae
+Citrullus mucosospermus|egusi melon|Cucurbitaceae
+Cucumeropsis mannii|egusi (mannii)|Cucurbitaceae
+Lagenaria siceraria|bottle gourd (calabash)|Cucurbitaceae
+Luffa acutangula|ridge gourd|Cucurbitaceae
+Luffa aegyptiaca|sponge gourd|Cucurbitaceae
+Momordica charantia|bitter melon|Cucurbitaceae
+Momordica cochinchinensis|gac|Cucurbitaceae
+Momordica dioica|spine gourd (kakrol)|Cucurbitaceae
+Momordica balsamina|balsam apple|Cucurbitaceae
+Benincasa hispida|winter melon (wax gourd)|Cucurbitaceae
+Trichosanthes cucumerina|snake gourd|Cucurbitaceae
+Trichosanthes dioica|pointed gourd (parwal)|Cucurbitaceae
+Coccinia grandis|ivy gourd (tindora)|Cucurbitaceae
+Coccinia abyssinica|anchote|Cucurbitaceae
+Sechium edule|chayote|Cucurbitaceae
+Cyclanthera pedata|caigua (achocha)|Cucurbitaceae
+Praecitrullus fistulosus|tinda|Cucurbitaceae
+Melothria scabra|cucamelon|Cucurbitaceae
+Telfairia occidentalis|fluted pumpkin (ugu)|Cucurbitaceae
+Telfairia pedata|oyster nut|Cucurbitaceae
+Hodgsonia macrocarpa|lard seed|Cucurbitaceae
+Siraitia grosvenorii|monk fruit (luo han guo)|Cucurbitaceae
+Gynostemma pentaphyllum|jiaogulan|Cucurbitaceae
+Acanthosicyos horridus|nara melon|Cucurbitaceae
+Sicana odorifera|cassabanana|Cucurbitaceae
+Thladiantha dubia|Manchu tubergourd|Cucurbitaceae
+Begonia fimbristipula|zi bei tian kui (tea)|Begoniaceae
+Corynocarpus laevigatus|karaka (processed)|Corynocarpaceae
+Castanea sativa|sweet chestnut|Fagaceae
+Castanea crenata|Japanese chestnut|Fagaceae
+Castanea mollissima|Chinese chestnut|Fagaceae
+Castanea dentata|American chestnut|Fagaceae
+Castanea pumila|chinquapin|Fagaceae
+Castanea henryi|Henry's chestnut|Fagaceae
+Castanopsis cuspidata|Japanese chinquapin (shii)|Fagaceae
+Castanopsis sieboldii|sudajii|Fagaceae
+Castanopsis indica|Indian chestnut|Fagaceae
+Quercus ilex|holm oak (acorn)|Fagaceae
+Quercus rotundifolia|holm oak (bellota)|Fagaceae
+Quercus alba|white oak (acorn)|Fagaceae
+Quercus macrocarpa|bur oak (acorn)|Fagaceae
+Quercus emoryi|Emory oak (bellota)|Fagaceae
+Quercus lobata|valley oak (acorn)|Fagaceae
+Quercus kelloggii|California black oak (acorn)|Fagaceae
+Quercus agrifolia|coast live oak (acorn)|Fagaceae
+Quercus acutissima|sawtooth oak (acorn)|Fagaceae
+Quercus dentata|daimyo oak (acorn)|Fagaceae
+Quercus mongolica|Mongolian oak (dotori)|Fagaceae
+Quercus robur|English oak (acorn)|Fagaceae
+Quercus petraea|sessile oak (acorn)|Fagaceae
+Quercus brantii|Brant's oak (acorn bread)|Fagaceae
+Quercus variabilis|Chinese cork oak (acorn)|Fagaceae
+Notholithocarpus densiflorus|tanoak (acorn)|Fagaceae
+Fagus sylvatica|European beech (beechnut)|Fagaceae
+Fagus grandifolia|American beech (beechnut)|Fagaceae
+Fagus crenata|Japanese beech (beechnut)|Fagaceae
+Chrysolepis chrysophylla|golden chinquapin|Fagaceae
+Corylus avellana|hazelnut|Betulaceae
+Corylus maxima|filbert|Betulaceae
+Corylus americana|American hazelnut|Betulaceae
+Corylus cornuta|beaked hazelnut|Betulaceae
+Corylus heterophylla|Asian hazel|Betulaceae
+Corylus colurna|Turkish hazel|Betulaceae
+Corylus chinensis|Chinese hazel|Betulaceae
+Betula pendula|silver birch (sap)|Betulaceae
+Betula alleghaniensis|yellow birch (sap)|Betulaceae
+Betula lenta|sweet birch (birch beer)|Betulaceae
+Betula papyrifera|paper birch (sap)|Betulaceae
+Juglans regia|Persian walnut|Juglandaceae
+Juglans nigra|black walnut|Juglandaceae
+Juglans cinerea|butternut|Juglandaceae
+Juglans ailantifolia|Japanese walnut (heartnut)|Juglandaceae
+Juglans mandshurica|Manchurian walnut|Juglandaceae
+Juglans neotropica|Andean walnut|Juglandaceae
+Carya illinoinensis|pecan|Juglandaceae
+Carya ovata|shagbark hickory|Juglandaceae
+Carya laciniosa|shellbark hickory|Juglandaceae
+Carya tomentosa|mockernut hickory|Juglandaceae
+Carya cathayensis|Chinese hickory|Juglandaceae
+Cyclocarya paliurus|sweet tea tree|Juglandaceae
+Myrica rubra|yangmei (Chinese bayberry)|Myricaceae
+Myrica gale|bog myrtle (gruit)|Myricaceae
+Myrica esculenta|box myrtle (kaphal)|Myricaceae
+Morella faya|firetree (fruit)|Myricaceae
+Comptonia peregrina|sweetfern (tea)|Myricaceae
+## Eudicots: myrtles, pomegranate, water caltrop, evening primrose, terminalia | plant
+Psidium guajava|guava|Myrtaceae
+Psidium cattleyanum|strawberry guava|Myrtaceae
+Psidium guineense|Brazilian guava|Myrtaceae
+Psidium friedrichsthalianum|Costa Rican guava|Myrtaceae
+Acca sellowiana|feijoa|Myrtaceae
+Syzygium aromaticum|clove|Myrtaceae
+Syzygium cumini|jamun|Myrtaceae
+Syzygium jambos|rose apple|Myrtaceae
+Syzygium malaccense|Malay apple|Myrtaceae
+Syzygium samarangense|wax apple|Myrtaceae
+Syzygium aqueum|water apple|Myrtaceae
+Syzygium polyanthum|Indonesian bay (daun salam)|Myrtaceae
+Syzygium anisatum|aniseed myrtle|Myrtaceae
+Syzygium luehmannii|riberry|Myrtaceae
+Syzygium australe|brush cherry|Myrtaceae
+Syzygium paniculatum|magenta lilly pilly|Myrtaceae
+Syzygium suborbiculare|lady apple|Myrtaceae
+Eugenia uniflora|Surinam cherry (pitanga)|Myrtaceae
+Eugenia stipitata|araçá-boi|Myrtaceae
+Eugenia brasiliensis|grumichama|Myrtaceae
+Eugenia pyriformis|uvaia|Myrtaceae
+Eugenia luschnathiana|pitomba (Eugenia)|Myrtaceae
+Eugenia reinwardtiana|beach cherry|Myrtaceae
+Eugenia involucrata|cereja-do-rio-grande|Myrtaceae
+Plinia cauliflora|jabuticaba|Myrtaceae
+Plinia edulis|cambucá|Myrtaceae
+Myrciaria dubia|camu camu|Myrtaceae
+Myrciaria floribunda|rumberry|Myrtaceae
+Myrciaria glazioviana|cabeludinha|Myrtaceae
+Campomanesia xanthocarpa|guabiroba|Myrtaceae
+Campomanesia lineatifolia|palillo|Myrtaceae
+Campomanesia adamantium|gabiroba|Myrtaceae
+Pimenta dioica|allspice|Myrtaceae
+Pimenta racemosa|West Indian bay|Myrtaceae
+Myrtus communis|myrtle (berries)|Myrtaceae
+Luma apiculata|arrayán (Chilean myrtle)|Myrtaceae
+Ugni molinae|murta (Chilean guava)|Myrtaceae
+Amomyrtus luma|luma|Myrtaceae
+Backhousia citriodora|lemon myrtle|Myrtaceae
+Backhousia myrtifolia|cinnamon myrtle|Myrtaceae
+Kunzea pomifera|muntries|Myrtaceae
+Rhodomyrtus tomentosa|rose myrtle|Myrtaceae
+Eucalyptus globulus|Tasmanian blue gum (oil)|Myrtaceae
+Eucalyptus gunnii|cider gum (sap)|Myrtaceae
+Bellucia pentamera|coronillo|Melastomataceae
+Melastoma malabathricum|Malabar melastome (fruit)|Melastomataceae
+Punica granatum|pomegranate|Lythraceae
+Trapa natans|water caltrop|Lythraceae
+Trapa bicornis|ling nut|Lythraceae
+Sonneratia caseolaris|mangrove apple|Lythraceae
+Oenothera biennis|evening primrose|Onagraceae
+Chamerion angustifolium|fireweed|Onagraceae
+Ludwigia adscendens|water primrose (rau dua)|Onagraceae
+Fuchsia magellanica|hardy fuchsia (berries)|Onagraceae
+Terminalia catappa|sea almond|Combretaceae
+Terminalia ferdinandiana|Kakadu plum|Combretaceae
+Terminalia chebula|haritaki|Combretaceae
+Terminalia bellirica|bibhitaki|Combretaceae
+Terminalia kaernbachii|okari nut|Combretaceae
+Combretum micranthum|kinkeliba|Combretaceae
+Aphloia theiformis|albizia tea (Mauritius)|Aphloiaceae
+## Eudicots: citrus, mango, cashew, lychee, maple, mahogany relatives | plant
+Citrus sinensis|sweet orange|Rutaceae
+Citrus reticulata|mandarin|Rutaceae
+Citrus limon|lemon|Rutaceae
+Citrus aurantiifolia|key lime|Rutaceae
+Citrus latifolia|Persian lime|Rutaceae
+Citrus paradisi|grapefruit|Rutaceae
+Citrus maxima|pomelo|Rutaceae
+Citrus medica|citron|Rutaceae
+Citrus aurantium|bitter orange|Rutaceae
+Citrus hystrix|makrut lime|Rutaceae
+Citrus japonica|kumquat|Rutaceae
+Citrus junos|yuzu|Rutaceae
+Citrus sudachi|sudachi|Rutaceae
+Citrus sphaerocarpa|kabosu|Rutaceae
+Citrus depressa|shikuwasa|Rutaceae
+Citrus unshiu|satsuma|Rutaceae
+Citrus clementina|clementine|Rutaceae
+Citrus bergamia|bergamot|Rutaceae
+Citrus limetta|sweet lime|Rutaceae
+Citrus australasica|finger lime|Rutaceae
+Citrus australis|round lime|Rutaceae
+Citrus glauca|desert lime|Rutaceae
+Citrus trifoliata|trifoliate orange|Rutaceae
+Citrus natsudaidai|natsumikan|Rutaceae
+Citrus hassaku|hassaku|Rutaceae
+Citrus iyo|iyokan|Rutaceae
+Aegle marmelos|bael|Rutaceae
+Limonia acidissima|wood apple|Rutaceae
+Clausena lansium|wampee|Rutaceae
+Murraya koenigii|curry leaf|Rutaceae
+Zanthoxylum piperitum|sansho|Rutaceae
+Zanthoxylum bungeanum|Sichuan pepper|Rutaceae
+Zanthoxylum armatum|timur (Nepal pepper)|Rutaceae
+Zanthoxylum simulans|Chinese prickly ash|Rutaceae
+Zanthoxylum schinifolium|green Sichuan pepper|Rutaceae
+Zanthoxylum rhetsa|Indian prickly ash (teppal)|Rutaceae
+Zanthoxylum acanthopodium|andaliman|Rutaceae
+Zanthoxylum americanum|toothache tree|Rutaceae
+Ruta graveolens|rue|Rutaceae
+Ruta chalepensis|fringed rue|Rutaceae
+Casimiroa edulis|white sapote|Rutaceae
+Glycosmis pentaphylla|orangeberry|Rutaceae
+Triphasia trifolia|limeberry|Rutaceae
+Agathosma betulina|buchu|Rutaceae
+Toddalia asiatica|orange climber|Rutaceae
+Tetradium ruticarpum|evodia (wu zhu yu)|Rutaceae
+Quassia amara|bitterwood|Simaroubaceae
+Lansium domesticum|langsat (duku)|Meliaceae
+Sandoricum koetjape|santol|Meliaceae
+Azadirachta indica|neem (flowers)|Meliaceae
+Toona sinensis|Chinese toon (xiangchun)|Meliaceae
+Mangifera indica|mango|Anacardiaceae
+Mangifera odorata|kuwini|Anacardiaceae
+Mangifera caesia|binjai|Anacardiaceae
+Mangifera foetida|horse mango (bachang)|Anacardiaceae
+Mangifera pajang|bambangan|Anacardiaceae
+Anacardium occidentale|cashew|Anacardiaceae
+Pistacia vera|pistachio|Anacardiaceae
+Pistacia terebinthus|terebinth (menengiç)|Anacardiaceae
+Pistacia lentiscus|mastic|Anacardiaceae
+Pistacia chinensis|Chinese pistache (leaves)|Anacardiaceae
+Rhus coriaria|sumac|Anacardiaceae
+Rhus typhina|staghorn sumac|Anacardiaceae
+Rhus glabra|smooth sumac|Anacardiaceae
+Schinus molle|Peruvian pepper (pink peppercorn)|Anacardiaceae
+Schinus terebinthifolia|Brazilian pepper|Anacardiaceae
+Spondias mombin|yellow mombin (hog plum)|Anacardiaceae
+Spondias purpurea|jocote|Anacardiaceae
+Spondias dulcis|ambarella|Anacardiaceae
+Spondias pinnata|wild mango (amra)|Anacardiaceae
+Spondias tuberosa|umbu|Anacardiaceae
+Sclerocarya birrea|marula|Anacardiaceae
+Bouea macrophylla|gandaria|Anacardiaceae
+Dracontomelon dao|dao|Anacardiaceae
+Dracontomelon duperreanum|sau|Anacardiaceae
+Choerospondias axillaris|lapsi (Nepali hog plum)|Anacardiaceae
+Lannea microcarpa|African grape|Anacardiaceae
+Harpephyllum caffrum|wild plum (Cape)|Anacardiaceae
+Buchanania lanzan|chironji|Anacardiaceae
+Pleiogynium timoriense|Burdekin plum|Anacardiaceae
+Cyrtocarpa procera|chupandilla|Anacardiaceae
+Amphipterygium adstringens|cuachalalate|Anacardiaceae
+Canarium ovatum|pili nut|Burseraceae
+Canarium indicum|galip nut|Burseraceae
+Canarium album|Chinese olive|Burseraceae
+Canarium odontophyllum|dabai|Burseraceae
+Canarium schweinfurthii|African elemi|Burseraceae
+Dacryodes edulis|safou (African pear)|Burseraceae
+Dacryodes macrophylla|atom (fruit)|Burseraceae
+Protium heptaphyllum|almécega (fruit)|Burseraceae
+Litchi chinensis|lychee|Sapindaceae
+Dimocarpus longan|longan|Sapindaceae
+Nephelium lappaceum|rambutan|Sapindaceae
+Nephelium ramboutan-ake|pulasan|Sapindaceae
+Nephelium hypoleucum|korlan|Sapindaceae
+Pometia pinnata|matoa (taun)|Sapindaceae
+Blighia sapida|ackee|Sapindaceae
+Melicoccus bijugatus|mamoncillo (quenepa)|Sapindaceae
+Talisia esculenta|pitomba|Sapindaceae
+Paullinia cupana|guaraná|Sapindaceae
+Schleichera oleosa|kusum|Sapindaceae
+Lepisanthes fruticosa|luna nut|Sapindaceae
+Cubilia cubili|kubili nut|Sapindaceae
+Alectryon tomentosus|hairy alectryon|Sapindaceae
+Acer saccharum|sugar maple|Sapindaceae
+Acer nigrum|black maple|Sapindaceae
+Acer rubrum|red maple (sap)|Sapindaceae
+Acer saccharinum|silver maple (sap)|Sapindaceae
+Acer palmatum|Japanese maple (momiji tempura)|Sapindaceae
+Aesculus turbinata|Japanese horse chestnut (tochi)|Sapindaceae
+Aesculus californica|California buckeye (processed)|Sapindaceae
+Nitraria sibirica|Siberian nitraria|Nitrariaceae
+Pelargonium graveolens|rose geranium|Geraniaceae
+## Eudicots: cacao, okra, cotton, hibiscus, jute, linden, baobab, durian, brassicas, capers, papaya, moringa, nasturtium | plant
+Theobroma cacao|cacao|Malvaceae
+Theobroma grandiflorum|cupuaçu|Malvaceae
+Theobroma bicolor|mocambo (pataxte)|Malvaceae
+Theobroma subincanum|cupuí|Malvaceae
+Herrania purpurea|monkey cacao|Malvaceae
+Cola nitida|kola nut|Malvaceae
+Cola acuminata|abata kola|Malvaceae
+Cola lepidota|monkey kola|Malvaceae
+Abelmoschus esculentus|okra|Malvaceae
+Abelmoschus manihot|aibika|Malvaceae
+Abelmoschus moschatus|ambrette|Malvaceae
+Abelmoschus caillei|West African okra|Malvaceae
+Hibiscus sabdariffa|roselle|Malvaceae
+Hibiscus rosa-sinensis|Chinese hibiscus (flowers)|Malvaceae
+Hibiscus cannabinus|kenaf (leaves)|Malvaceae
+Hibiscus acetosella|false roselle|Malvaceae
+Hibiscus syriacus|rose of Sharon (flowers)|Malvaceae
+Hibiscus tiliaceus|sea hibiscus (leaves)|Malvaceae
+Gossypium hirsutum|upland cotton (seed oil)|Malvaceae
+Gossypium barbadense|Pima cotton (seed oil)|Malvaceae
+Malva sylvestris|common mallow|Malvaceae
+Malva verticillata|Chinese mallow|Malvaceae
+Malva neglecta|dwarf mallow|Malvaceae
+Malva parviflora|cheeseweed|Malvaceae
+Althaea officinalis|marshmallow|Malvaceae
+Alcea rosea|hollyhock|Malvaceae
+Corchorus olitorius|jute mallow (molokhia)|Malvaceae
+Corchorus capsularis|white jute (leaves)|Malvaceae
+Tilia cordata|small-leaved lime (linden)|Malvaceae
+Tilia platyphyllos|large-leaved lime|Malvaceae
+Tilia americana|American basswood|Malvaceae
+Grewia asiatica|phalsa|Malvaceae
+Grewia tenax|white crossberry|Malvaceae
+Grewia flavescens|donkey berry|Malvaceae
+Sterculia foetida|Java olive (seeds)|Malvaceae
+Sterculia urens|karaya gum|Malvaceae
+Brachychiton populneus|kurrajong (seeds)|Malvaceae
+Firmiana simplex|Chinese parasol tree (seeds)|Malvaceae
+Scaphium affine|malva nut (pang da hai)|Malvaceae
+Guazuma ulmifolia|guácima|Malvaceae
+Durio zibethinus|durian|Malvaceae
+Durio graveolens|red-fleshed durian|Malvaceae
+Durio kutejensis|lai|Malvaceae
+Durio oxleyanus|kerantungan|Malvaceae
+Durio dulcis|durian marangang|Malvaceae
+Bombax ceiba|red silk-cotton (semal flowers)|Malvaceae
+Adansonia digitata|baobab|Malvaceae
+Adansonia grandidieri|Grandidier's baobab|Malvaceae
+Adansonia gregorii|boab|Malvaceae
+Pachira aquatica|Malabar chestnut|Malvaceae
+Pachira glabra|saba nut|Malvaceae
+Quararibea cordata|South American sapote (chupa-chupa)|Malvaceae
+Pseudobombax ellipticum|shaving brush tree (flowers)|Malvaceae
+Kleinhovia hospita|guest tree (leaves)|Malvaceae
+Anoda cristata|alache|Malvaceae
+Malvaviscus arboreus|Turk's cap (flowers, tea)|Malvaceae
+Thespesia garckeana|African chewing gum (snot apple)|Malvaceae
+Thespesia populnea|portia tree (leaves)|Malvaceae
+Callirhoe involucrata|purple poppy mallow (root)|Malvaceae
+Bixa orellana|annatto|Bixaceae
+Amoreuxia palmatifida|saya (Sonoran root)|Bixaceae
+Shorea robusta|sal (seed butter)|Dipterocarpaceae
+Shorea stenoptera|illipe (tengkawang)|Dipterocarpaceae
+Vateria indica|dhupa (seed fat)|Dipterocarpaceae
+Muntingia calabura|Jamaican cherry (aratiles)|Muntingiaceae
+Cistus creticus|pink rockrose (tea)|Cistaceae
+Brassica oleracea|cabbage / kale / broccoli / cauliflower|Brassicaceae
+Brassica rapa|turnip / bok choy / napa|Brassicaceae
+Brassica napus|rapeseed / rutabaga|Brassicaceae
+Brassica juncea|brown mustard / mustard greens|Brassicaceae
+Brassica nigra|black mustard|Brassicaceae
+Brassica carinata|Ethiopian mustard|Brassicaceae
+Brassica tournefortii|Sahara mustard (seed)|Brassicaceae
+Sinapis alba|white mustard|Brassicaceae
+Sinapis arvensis|charlock|Brassicaceae
+Raphanus sativus|radish / daikon|Brassicaceae
+Raphanus raphanistrum|wild radish|Brassicaceae
+Eruca vesicaria|arugula (rocket)|Brassicaceae
+Diplotaxis tenuifolia|wild rocket|Brassicaceae
+Diplotaxis erucoides|white wall-rocket|Brassicaceae
+Diplotaxis muralis|annual wall-rocket|Brassicaceae
+Nasturtium officinale|watercress|Brassicaceae
+Nasturtium microphyllum|narrow-fruited watercress|Brassicaceae
+Armoracia rusticana|horseradish|Brassicaceae
+Eutrema japonicum|wasabi|Brassicaceae
+Barbarea verna|upland cress|Brassicaceae
+Barbarea vulgaris|winter cress|Brassicaceae
+Lepidium sativum|garden cress|Brassicaceae
+Lepidium meyenii|maca|Brassicaceae
+Lepidium latifolium|dittander|Brassicaceae
+Lepidium virginicum|Virginia pepperweed|Brassicaceae
+Lepidium draba|hoary cress (buds)|Brassicaceae
+Capsella bursa-pastoris|shepherd's purse|Brassicaceae
+Cardamine hirsuta|hairy bittercress|Brassicaceae
+Cardamine pratensis|cuckooflower|Brassicaceae
+Cardamine diphylla|crinkleroot|Brassicaceae
+Cardamine concatenata|cutleaf toothwort|Brassicaceae
+Alliaria petiolata|garlic mustard|Brassicaceae
+Sisymbrium officinale|hedge mustard|Brassicaceae
+Sisymbrium irio|London rocket|Brassicaceae
+Descurainia sophia|flixweed (seed)|Brassicaceae
+Descurainia pinnata|tansy mustard (seed)|Brassicaceae
+Crambe maritima|sea kale|Brassicaceae
+Cakile maritima|sea rocket|Brassicaceae
+Cakile edentula|American sea rocket|Brassicaceae
+Camelina sativa|camelina (gold-of-pleasure)|Brassicaceae
+Thlaspi arvense|field pennycress (seed)|Brassicaceae
+Bunias orientalis|Turkish rocket|Brassicaceae
+Bunias erucago|crested warty cabbage|Brassicaceae
+Hirschfeldia incana|shortpod mustard|Brassicaceae
+Rorippa palustris|marsh yellowcress|Brassicaceae
+Cochlearia officinalis|scurvy grass|Brassicaceae
+Orychophragmus violaceus|Chinese violet cress|Brassicaceae
+Moricandia arvensis|violet cabbage|Brassicaceae
+Stanleya pinnata|prince's plume (greens)|Brassicaceae
+Lobularia maritima|sweet alyssum (flowers)|Brassicaceae
+Schouwia purpurea|Tuareg cabbage (alwat)|Brassicaceae
+Rapistrum rugosum|bastard cabbage|Brassicaceae
+Pugionium cornutum|sand cabbage (shacong)|Brassicaceae
+Chorispora tenella|blue mustard|Brassicaceae
+Turritis glabra|tower mustard|Brassicaceae
+Capparis spinosa|caper|Capparaceae
+Capparis decidua|ker (kair)|Capparaceae
+Capparis mitchellii|bush orange|Capparaceae
+Boscia senegalensis|hanza (dilo)|Capparaceae
+Boscia albitrunca|shepherd's tree|Capparaceae
+Maerua crassifolia|maerua (leaves)|Capparaceae
+Crateva religiosa|sacred garlic pear|Capparaceae
+Cleome gynandra|spider plant (African cabbage)|Cleomaceae
+Cleome viscosa|Asian spiderflower (seed)|Cleomaceae
+Carica papaya|papaya|Caricaceae
+Vasconcellea × heilbornii|babaco|Caricaceae
+Vasconcellea pubescens|mountain papaya|Caricaceae
+Vasconcellea monoica|col de montaña|Caricaceae
+Jacaratia mexicana|bonete|Caricaceae
+Jacaratia spinosa|jaracatiá|Caricaceae
+Moringa oleifera|moringa (drumstick)|Moringaceae
+Moringa stenopetala|African moringa|Moringaceae
+Tropaeolum majus|garden nasturtium|Tropaeolaceae
+Tropaeolum tuberosum|mashua|Tropaeolaceae
+Tropaeolum minus|dwarf nasturtium|Tropaeolaceae
+Salvadora persica|toothbrush tree (miswak fruit)|Salvadoraceae
+Dobera glabra|dobera (fruit)|Salvadoraceae
+Limnanthes alba|meadowfoam (oil)|Limnanthaceae
+Pentadiplandra brazzeana|brazzein berry|Pentadiplandraceae
+## Eudicots: amaranths, beets, quinoa, buckwheat, rhubarb, sorrel, purslane, cacti, ice plants, pokeweed | plant
+Beta vulgaris|beet / chard / sugar beet|Amaranthaceae
+Spinacia oleracea|spinach|Amaranthaceae
+Chenopodium quinoa|quinoa|Amaranthaceae
+Chenopodium album|lamb's quarters (bathua)|Amaranthaceae
+Chenopodium berlandieri|huauzontle|Amaranthaceae
+Chenopodium pallidicaule|kañiwa|Amaranthaceae
+Chenopodium giganteum|tree spinach|Amaranthaceae
+Chenopodium ficifolium|fig-leaved goosefoot|Amaranthaceae
+Blitum bonus-henricus|Good King Henry|Amaranthaceae
+Blitum capitatum|strawberry blite|Amaranthaceae
+Dysphania ambrosioides|epazote|Amaranthaceae
+Atriplex hortensis|orache|Amaranthaceae
+Atriplex halimus|sea orache|Amaranthaceae
+Atriplex nummularia|old man saltbush|Amaranthaceae
+Atriplex canescens|fourwing saltbush (seed)|Amaranthaceae
+Salicornia europaea|samphire (glasswort)|Amaranthaceae
+Salicornia bigelovii|dwarf glasswort|Amaranthaceae
+Sarcocornia quinqueflora|beaded samphire|Amaranthaceae
+Salsola soda|agretti|Amaranthaceae
+Salsola komarovii|okahijiki|Amaranthaceae
+Suaeda maritima|sea blite|Amaranthaceae
+Suaeda salsa|yan di jian (sea blite)|Amaranthaceae
+Bassia scoparia|kochia (tonburi)|Amaranthaceae
+Agriophyllum squarrosum|sand rice|Amaranthaceae
+Enchylaena tomentosa|ruby saltbush|Amaranthaceae
+Amaranthus cruentus|red amaranth (grain)|Amaranthaceae
+Amaranthus hypochondriacus|Prince's feather (grain)|Amaranthaceae
+Amaranthus caudatus|love-lies-bleeding (kiwicha)|Amaranthaceae
+Amaranthus tricolor|leaf amaranth (callaloo)|Amaranthaceae
+Amaranthus dubius|spleen amaranth|Amaranthaceae
+Amaranthus viridis|slender amaranth|Amaranthaceae
+Amaranthus blitum|purple amaranth (vlita)|Amaranthaceae
+Amaranthus retroflexus|redroot pigweed|Amaranthaceae
+Amaranthus spinosus|spiny amaranth|Amaranthaceae
+Amaranthus hybridus|smooth amaranth|Amaranthaceae
+Amaranthus palmeri|Palmer amaranth (seed)|Amaranthaceae
+Celosia argentea|Lagos spinach (soko)|Amaranthaceae
+Alternanthera sessilis|sessile joyweed|Amaranthaceae
+Deeringia amaranthoides|deeringia (leaves)|Amaranthaceae
+Stellaria media|chickweed|Caryophyllaceae
+Silene vulgaris|bladder campion (sculpit)|Caryophyllaceae
+Saponaria officinalis|soapwort|Caryophyllaceae
+Gypsophila arrostii|halva root (çöven)|Caryophyllaceae
+Honckenya peploides|sea sandwort|Caryophyllaceae
+Dianthus caryophyllus|carnation (petals)|Caryophyllaceae
+Paronychia argentea|Algerian tea|Caryophyllaceae
+Fagopyrum esculentum|buckwheat|Polygonaceae
+Fagopyrum tataricum|Tartary buckwheat|Polygonaceae
+Rheum rhabarbarum|rhubarb|Polygonaceae
+Rheum rhaponticum|false rhubarb|Polygonaceae
+Rheum ribes|Persian rhubarb (rivas)|Polygonaceae
+Rumex acetosa|sorrel|Polygonaceae
+Rumex scutatus|French sorrel|Polygonaceae
+Rumex acetosella|sheep sorrel|Polygonaceae
+Rumex patientia|patience dock|Polygonaceae
+Rumex crispus|curly dock|Polygonaceae
+Rumex vesicarius|bladder dock (hummeidh)|Polygonaceae
+Rumex hymenosepalus|canaigre|Polygonaceae
+Rumex sanguineus|bloody dock|Polygonaceae
+Rumex alpinus|monk's rhubarb|Polygonaceae
+Oxyria digyna|mountain sorrel|Polygonaceae
+Bistorta officinalis|bistort|Polygonaceae
+Bistorta vivipara|alpine bistort|Polygonaceae
+Persicaria odorata|Vietnamese coriander (rau răm)|Polygonaceae
+Persicaria hydropiper|water pepper (tade)|Polygonaceae
+Persicaria minor|kesum|Polygonaceae
+Reynoutria japonica|Japanese knotweed (shoots)|Polygonaceae
+Coccoloba uvifera|sea grape|Polygonaceae
+Antigonon leptopus|coral vine (tubers)|Polygonaceae
+Portulaca oleracea|purslane|Portulacaceae
+Claytonia perfoliata|miner's lettuce|Montiaceae
+Claytonia sibirica|Siberian spring beauty|Montiaceae
+Claytonia virginica|spring beauty (fairy spuds)|Montiaceae
+Montia fontana|water blinks|Montiaceae
+Lewisia rediviva|bitterroot|Montiaceae
+Talinum fruticosum|Ceylon spinach (waterleaf)|Talinaceae
+Talinum paniculatum|jewels of Opar (leaves)|Talinaceae
+Basella alba|Malabar spinach|Basellaceae
+Ullucus tuberosus|ulluco|Basellaceae
+Anredera cordifolia|Madeira vine|Basellaceae
+Portulacaria afra|spekboom|Didiereaceae
+Opuntia ficus-indica|prickly pear (nopal, tuna)|Cactaceae
+Opuntia engelmannii|Engelmann's prickly pear|Cactaceae
+Opuntia humifusa|eastern prickly pear|Cactaceae
+Opuntia phaeacantha|tulip prickly pear|Cactaceae
+Opuntia robusta|nopal tapón|Cactaceae
+Opuntia cochenillifera|cochineal nopal|Cactaceae
+Opuntia joconostle|xoconostle|Cactaceae
+Opuntia matudae|xoconostle (matudae)|Cactaceae
+Cylindropuntia acanthocarpa|buckhorn cholla (buds)|Cactaceae
+Selenicereus undatus|white dragon fruit|Cactaceae
+Selenicereus costaricensis|red dragon fruit|Cactaceae
+Selenicereus megalanthus|yellow dragon fruit|Cactaceae
+Stenocereus thurberi|organ pipe cactus (pitaya dulce)|Cactaceae
+Stenocereus queretaroensis|pitaya de Querétaro|Cactaceae
+Stenocereus griseus|pitayo de Mayo|Cactaceae
+Stenocereus gummosus|pitaya agria|Cactaceae
+Stenocereus pruinosus|pitaya de octubre|Cactaceae
+Myrtillocactus geometrizans|garambullo|Cactaceae
+Carnegiea gigantea|saguaro|Cactaceae
+Pachycereus pringlei|cardón|Cactaceae
+Pachycereus pecten-aboriginum|hairbrush cactus (fruit)|Cactaceae
+Cereus repandus|Peruvian apple cactus|Cactaceae
+Cereus jamacaru|mandacaru|Cactaceae
+Echinocereus engelmannii|strawberry hedgehog cactus|Cactaceae
+Ferocactus wislizeni|fishhook barrel (cactus candy)|Cactaceae
+Echinocactus platyacanthus|biznaga (acitrón)|Cactaceae
+Pereskia aculeata|ora-pro-nóbis|Cactaceae
+Leuenbergeria bleo|rose cactus (leaves)|Cactaceae
+Pereskia grandifolia|rose cactus (grandifolia)|Cactaceae
+Escontria chiotilla|jiotilla|Cactaceae
+Polaskia chichipe|chichipe|Cactaceae
+Eulychnia acida|copao|Cactaceae
+Echinopsis chiloensis|quisco (guillave)|Cactaceae
+Corryocactus brevistylus|sancayo|Cactaceae
+Tetragonia tetragonioides|New Zealand spinach|Aizoaceae
+Carpobrotus edulis|sour fig (Hottentot fig)|Aizoaceae
+Carpobrotus rossii|karkalla|Aizoaceae
+Mesembryanthemum crystallinum|ice plant|Aizoaceae
+Sesuvium portulacastrum|sea purslane|Aizoaceae
+Trianthema portulacastrum|horse purslane|Aizoaceae
+Phytolacca americana|pokeweed (poke sallet)|Phytolaccaceae
+Phytolacca acinosa|Indian pokeweed|Phytolaccaceae
+Mirabilis expansa|mauka|Nyctaginaceae
+Boerhavia diffusa|punarnava|Nyctaginaceae
+Pisonia grandis|lettuce tree|Nyctaginaceae
+Glinus oppositifolius|slender carpetweed|Molluginaceae
+Santalum acuminatum|quandong|Santalaceae
+Santalum spicatum|Australian sandalwood (nut)|Santalaceae
+Exocarpos cupressiformis|native cherry|Santalaceae
+Ximenia americana|yellow plum (tallow wood)|Ximeniaceae
+Ximenia caffra|sourplum|Ximeniaceae
+Coula edulis|coula nut|Coulaceae
+## Eudicots: cornels, heaths, tea, kiwi, persimmon, sapotes, Brazil nut, primroses | plant
+Cornus mas|cornelian cherry|Cornaceae
+Cornus kousa|kousa dogwood (fruit)|Cornaceae
+Cornus canadensis|bunchberry|Cornaceae
+Cornus officinalis|Japanese cornel (shanzhuyu)|Cornaceae
+Nyssa ogeche|Ogeechee lime|Nyssaceae
+Nyssa sylvatica|black tupelo (fruit)|Nyssaceae
+Mentzelia albicaulis|whitestem blazingstar (seed)|Loasaceae
+Vaccinium corymbosum|highbush blueberry|Ericaceae
+Vaccinium angustifolium|lowbush blueberry|Ericaceae
+Vaccinium virgatum|rabbiteye blueberry|Ericaceae
+Vaccinium myrtillus|bilberry|Ericaceae
+Vaccinium macrocarpon|cranberry|Ericaceae
+Vaccinium oxycoccos|small cranberry|Ericaceae
+Vaccinium vitis-idaea|lingonberry|Ericaceae
+Vaccinium uliginosum|bog bilberry|Ericaceae
+Vaccinium ovatum|evergreen huckleberry|Ericaceae
+Vaccinium membranaceum|black huckleberry|Ericaceae
+Vaccinium parvifolium|red huckleberry|Ericaceae
+Vaccinium deliciosum|Cascade bilberry|Ericaceae
+Vaccinium ovalifolium|oval-leaf blueberry|Ericaceae
+Vaccinium reticulatum|ohelo|Ericaceae
+Vaccinium floribundum|mortiño|Ericaceae
+Vaccinium meridionale|agraz|Ericaceae
+Vaccinium arctostaphylos|Caucasian whortleberry|Ericaceae
+Vaccinium stamineum|deerberry|Ericaceae
+Vaccinium arboreum|sparkleberry|Ericaceae
+Gaylussacia baccata|black huckleberry (Gaylussacia)|Ericaceae
+Gaylussacia frondosa|dangleberry|Ericaceae
+Arbutus unedo|strawberry tree|Ericaceae
+Arbutus menziesii|Pacific madrone (berries)|Ericaceae
+Arctostaphylos uva-ursi|bearberry|Ericaceae
+Arctostaphylos glauca|bigberry manzanita|Ericaceae
+Arctostaphylos pungens|pointleaf manzanita|Ericaceae
+Arctous alpina|alpine bearberry|Ericaceae
+Gaultheria procumbens|wintergreen|Ericaceae
+Gaultheria shallon|salal|Ericaceae
+Gaultheria hispida|snowberry (Tasmania)|Ericaceae
+Gaultheria mucronata|prickly heath (berries)|Ericaceae
+Gaultheria fragrantissima|fragrant wintergreen|Ericaceae
+Empetrum nigrum|crowberry|Ericaceae
+Empetrum rubrum|red crowberry (diddle-dee)|Ericaceae
+Calluna vulgaris|heather|Ericaceae
+Rhododendron arboreum|tree rhododendron (flowers)|Ericaceae
+Rhododendron tomentosum|marsh Labrador tea|Ericaceae
+Rhododendron groenlandicum|Labrador tea|Ericaceae
+Oxydendrum arboreum|sourwood|Ericaceae
+Macleania rupestris|uva camarona|Ericaceae
+Cavendishia bracteata|cavendishia (fruit)|Ericaceae
+Actinidia deliciosa|kiwifruit|Actinidiaceae
+Actinidia chinensis|golden kiwifruit|Actinidiaceae
+Actinidia arguta|hardy kiwi|Actinidiaceae
+Actinidia kolomikta|Arctic kiwi|Actinidiaceae
+Actinidia polygama|silver vine|Actinidiaceae
+Actinidia eriantha|white kiwi|Actinidiaceae
+Saurauia napaulensis|gogan (fruit)|Actinidiaceae
+Camellia sinensis|tea|Theaceae
+Camellia oleifera|tea seed oil|Theaceae
+Camellia japonica|Japanese camellia (seed oil)|Theaceae
+Camellia sasanqua|sasanqua (seed oil)|Theaceae
+Camellia taliensis|wild tea (Yunnan)|Theaceae
+Diospyros kaki|persimmon|Ebenaceae
+Diospyros virginiana|American persimmon|Ebenaceae
+Diospyros lotus|date-plum|Ebenaceae
+Diospyros blancoi|mabolo (velvet apple)|Ebenaceae
+Diospyros digyna|black sapote|Ebenaceae
+Diospyros mespiliformis|jackalberry|Ebenaceae
+Diospyros texana|Texas persimmon|Ebenaceae
+Diospyros malabarica|gaub|Ebenaceae
+Diospyros decandra|thị|Ebenaceae
+Euclea crispa|blue guarri (fruit)|Ebenaceae
+Manilkara zapota|sapodilla|Sapotaceae
+Manilkara huberi|massaranduba|Sapotaceae
+Manilkara kauki|caqui|Sapotaceae
+Manilkara bidentata|balata|Sapotaceae
+Pouteria sapota|mamey sapote|Sapotaceae
+Pouteria campechiana|canistel|Sapotaceae
+Pouteria lucuma|lúcuma|Sapotaceae
+Pouteria caimito|abiu|Sapotaceae
+Pouteria viridis|green sapote|Sapotaceae
+Pouteria macrophylla|cutite|Sapotaceae
+Chrysophyllum cainito|star apple|Sapotaceae
+Chrysophyllum albidum|African star apple (udara)|Sapotaceae
+Chrysophyllum oliviforme|satinleaf|Sapotaceae
+Synsepalum dulcificum|miracle berry|Sapotaceae
+Vitellaria paradoxa|shea|Sapotaceae
+Argania spinosa|argan|Sapotaceae
+Mimusops elengi|Spanish cherry (bakul)|Sapotaceae
+Mimusops zeyheri|Transvaal red milkwood|Sapotaceae
+Madhuca longifolia|mahua|Sapotaceae
+Baillonella toxisperma|moabi (oil)|Sapotaceae
+Englerophytum magalismontanum|stem fruit (stamvrug)|Sapotaceae
+Planchonella australis|black apple|Sapotaceae
+Bertholletia excelsa|Brazil nut|Lecythidaceae
+Lecythis pisonis|sapucaia nut|Lecythidaceae
+Lecythis zabucajo|paradise nut|Lecythidaceae
+Gustavia superba|membrillo (Gustavia)|Lecythidaceae
+Grias peruviana|sachamango|Lecythidaceae
+Barringtonia edulis|cut nut (pao)|Lecythidaceae
+Barringtonia procera|cut nut (procera)|Lecythidaceae
+Planchonia careya|cocky apple|Lecythidaceae
+Napoleonaea vogelii|Napoleon's hat (fruit)|Lecythidaceae
+Styrax benzoin|benzoin|Styracaceae
+Halesia carolina|silverbell (pickled fruit)|Styracaceae
+Primula veris|cowslip (flowers)|Primulaceae
+Primula vulgaris|primrose (flowers)|Primulaceae
+Ardisia elliptica|shoebutton ardisia|Primulaceae
+Ardisia compressa|capulín (Ardisia)|Primulaceae
+Embelia ribes|false black pepper (vidanga)|Primulaceae
+Myrsine africana|African boxwood (fruit)|Primulaceae
+Impatiens glandulifera|Himalayan balsam (seed)|Balsaminaceae
+Fouquieria splendens|ocotillo (flowers)|Fouquieriaceae
+Cyclamen persicum|cyclamen (tuber, historical)|Primulaceae
+## Eudicots: coffee, dogbane, gentian, borage, nightshades, morning glories | plant
+Coffea arabica|arabica coffee|Rubiaceae
+Coffea canephora|robusta coffee|Rubiaceae
+Coffea liberica|liberica coffee|Rubiaceae
+Coffea stenophylla|highland coffee|Rubiaceae
+Genipa americana|jenipapo|Rubiaceae
+Morinda citrifolia|noni|Rubiaceae
+Vangueria infausta|wild medlar|Rubiaceae
+Vangueria madagascariensis|Spanish tamarind|Rubiaceae
+Gardenia jasminoides|gardenia (fruit colourant)|Rubiaceae
+Gardenia erubescens|gardenia (fruit, Sahel)|Rubiaceae
+Randia echinocarpa|papache|Rubiaceae
+Sarcocephalus latifolius|African peach|Rubiaceae
+Uncaria gambir|gambir|Rubiaceae
+Cinchona officinalis|quinine bark|Rubiaceae
+Cinchona pubescens|red cinchona|Rubiaceae
+Galium odoratum|sweet woodruff|Rubiaceae
+Galium verum|lady's bedstraw (rennet)|Rubiaceae
+Hamelia patens|firebush (fruit)|Rubiaceae
+Alibertia edulis|marmelada|Rubiaceae
+Borojoa patinoi|borojó|Rubiaceae
+Posoqueria latifolia|needle flower tree (fruit)|Rubiaceae
+Carissa macrocarpa|Natal plum|Apocynaceae
+Carissa carandas|karonda|Apocynaceae
+Carissa spinarum|conkerberry|Apocynaceae
+Hancornia speciosa|mangaba|Apocynaceae
+Couma macrocarpa|sorva|Apocynaceae
+Couma utilis|sorva pequena|Apocynaceae
+Landolphia kirkii|sand apricot-vine|Apocynaceae
+Landolphia owariensis|white rubber vine (fruit)|Apocynaceae
+Saba senegalensis|weda (madd)|Apocynaceae
+Saba comorensis|bungo|Apocynaceae
+Willughbeia angustifolia|willughbeia (fruit)|Apocynaceae
+Asclepias syriaca|common milkweed (shoots, pods)|Apocynaceae
+Asclepias speciosa|showy milkweed|Apocynaceae
+Gymnema sylvestre|gurmar|Apocynaceae
+Caralluma fimbriata|caralluma|Apocynaceae
+Caralluma edulis|edible caralluma|Apocynaceae
+Hoodia gordonii|hoodia|Apocynaceae
+Fockea edulis|kambroo|Apocynaceae
+Telosma cordata|Tonkin jasmine (flowers)|Apocynaceae
+Dregea volubilis|green wax flower (leaves)|Apocynaceae
+Gongronema latifolium|utazi|Apocynaceae
+Leptadenia hastata|leptadenia (leaves)|Apocynaceae
+Gonolobus edulis|cuayote|Apocynaceae
+Ceropegia bulbosa|ceropegia (tuber)|Apocynaceae
+Strychnos spinosa|monkey orange|Loganiaceae
+Strychnos cocculoides|corky-bark monkey orange|Loganiaceae
+Strychnos madagascariensis|black monkey orange|Loganiaceae
+Gentiana lutea|yellow gentian|Gentianaceae
+Centaurium erythraea|centaury|Gentianaceae
+Swertia chirayita|chirayta|Gentianaceae
+Eucommia ulmoides|du zhong (tea)|Eucommiaceae
+Poraqueiba sericea|umari|Icacinaceae
+Borago officinalis|borage|Boraginaceae
+Symphytum officinale|comfrey (historical)|Boraginaceae
+Anchusa azurea|Italian bugloss (flowers)|Boraginaceae
+Anchusa officinalis|common bugloss|Boraginaceae
+Echium plantagineum|Paterson's curse (seed oil)|Boraginaceae
+Pulmonaria officinalis|lungwort|Boraginaceae
+Mertensia maritima|oysterleaf|Boraginaceae
+Cordia myxa|Assyrian plum (lasura)|Boraginaceae
+Cordia dichotoma|Indian cherry (lasoda)|Boraginaceae
+Cordia dodecandra|ciricote|Boraginaceae
+Cordia boissieri|anacahuita|Boraginaceae
+Cordia sinensis|grey-leaved saucerberry|Boraginaceae
+Ehretia acuminata|koda (fruit)|Boraginaceae
+Ehretia anacua|anaqua|Boraginaceae
+Ehretia tinifolia|roble (fruit)|Boraginaceae
+Ehretia microphylla|Fukien tea|Boraginaceae
+Hydrophyllum virginianum|Virginia waterleaf|Hydrophyllaceae
+Eriodictyon californicum|yerba santa|Namaceae
+Pholisma sonorae|sand food|Lennoaceae
+Solanum lycopersicum|tomato|Solanaceae
+Solanum pimpinellifolium|currant tomato|Solanaceae
+Solanum tuberosum|potato|Solanaceae
+Solanum stenotomum|pitiquiña potato|Solanaceae
+Solanum ajanhuiri|ajanhuiri potato|Solanaceae
+Solanum juzepczukii|bitter potato (juzepczukii)|Solanaceae
+Solanum curtilobum|bitter potato (curtilobum)|Solanaceae
+Solanum melongena|eggplant|Solanaceae
+Solanum aethiopicum|African eggplant (garden egg)|Solanaceae
+Solanum macrocarpon|gboma eggplant|Solanaceae
+Solanum torvum|turkey berry (pea eggplant)|Solanaceae
+Solanum muricatum|pepino dulce|Solanaceae
+Solanum quitoense|naranjilla (lulo)|Solanaceae
+Solanum betaceum|tamarillo|Solanaceae
+Solanum sessiliflorum|cocona|Solanaceae
+Solanum sisymbriifolium|litchi tomato|Solanaceae
+Solanum nigrum|black nightshade (cooked)|Solanaceae
+Solanum americanum|American nightshade|Solanaceae
+Solanum scabrum|garden huckleberry (managu)|Solanaceae
+Solanum retroflexum|wonderberry|Solanaceae
+Solanum villosum|hairy nightshade|Solanaceae
+Solanum caripense|tzimbalo|Solanaceae
+Solanum centrale|bush tomato (desert raisin)|Solanaceae
+Solanum lycocarpum|wolf apple|Solanaceae
+Solanum anguivi|forest bitterberry|Solanaceae
+Capsicum annuum|chili / bell pepper|Solanaceae
+Capsicum chinense|habanero|Solanaceae
+Capsicum frutescens|tabasco / bird's eye|Solanaceae
+Capsicum baccatum|ají amarillo|Solanaceae
+Capsicum pubescens|rocoto|Solanaceae
+Physalis philadelphica|tomatillo|Solanaceae
+Physalis peruviana|goldenberry (cape gooseberry)|Solanaceae
+Physalis pruinosa|ground cherry|Solanaceae
+Physalis angulata|cutleaf groundcherry|Solanaceae
+Physalis pubescens|husk tomato|Solanaceae
+Physalis alkekengi|Chinese lantern|Solanaceae
+Physalis grisea|strawberry tomato|Solanaceae
+Lycium barbarum|goji berry|Solanaceae
+Lycium chinense|Chinese boxthorn (goji, leaves)|Solanaceae
+Lycium ruthenicum|black goji|Solanaceae
+Lycium andersonii|water jacket (berries)|Solanaceae
+Jaltomata procumbens|jaltomate|Solanaceae
+Withania somnifera|ashwagandha|Solanaceae
+Withania coagulans|paneer dodi (vegetable rennet)|Solanaceae
+Ipomoea batatas|sweet potato|Convolvulaceae
+Ipomoea aquatica|water spinach (kangkong)|Convolvulaceae
+Ipomoea costata|bush potato (Ipomoea)|Convolvulaceae
+Ipomoea pandurata|man-of-the-earth (root)|Convolvulaceae
+Ipomoea leptophylla|bush morning glory (root)|Convolvulaceae
+Sphenoclea zeylanica|chickenspike|Sphenocleaceae
+## Eudicots: mints, olives, sesame, verbenas, acanthus, bignonias, plantains, broomrapes | plant
+Ocimum basilicum|sweet basil|Lamiaceae
+Ocimum tenuiflorum|holy basil (tulsi)|Lamiaceae
+Ocimum gratissimum|African basil (clove basil)|Lamiaceae
+Ocimum americanum|hoary basil|Lamiaceae
+Ocimum × africanum|lemon basil|Lamiaceae
+Ocimum kilimandscharicum|camphor basil|Lamiaceae
+Lavandula angustifolia|English lavender|Lamiaceae
+Lavandula × intermedia|lavandin|Lamiaceae
+Lavandula stoechas|Spanish lavender|Lamiaceae
+Salvia officinalis|sage|Lamiaceae
+Salvia rosmarinus|rosemary|Lamiaceae
+Salvia hispanica|chia|Lamiaceae
+Salvia columbariae|golden chia|Lamiaceae
+Salvia sclarea|clary sage|Lamiaceae
+Salvia fruticosa|Greek sage|Lamiaceae
+Salvia lavandulifolia|Spanish sage|Lamiaceae
+Salvia elegans|pineapple sage|Lamiaceae
+Salvia apiana|white sage (seed)|Lamiaceae
+Salvia miltiorrhiza|danshen|Lamiaceae
+Mentha spicata|spearmint|Lamiaceae
+Mentha × piperita|peppermint|Lamiaceae
+Mentha aquatica|water mint|Lamiaceae
+Mentha arvensis|corn mint|Lamiaceae
+Mentha canadensis|Japanese mint (hakka)|Lamiaceae
+Mentha longifolia|horse mint|Lamiaceae
+Mentha suaveolens|apple mint|Lamiaceae
+Mentha pulegium|pennyroyal|Lamiaceae
+Mentha requienii|Corsican mint|Lamiaceae
+Mentha × villosa|hierbabuena (mojito mint)|Lamiaceae
+Mentha australis|river mint|Lamiaceae
+Origanum vulgare|oregano|Lamiaceae
+Origanum majorana|marjoram|Lamiaceae
+Origanum onites|Turkish oregano|Lamiaceae
+Origanum syriacum|Syrian oregano (za'atar)|Lamiaceae
+Origanum dictamnus|dittany of Crete|Lamiaceae
+Thymus vulgaris|thyme|Lamiaceae
+Thymus serpyllum|wild thyme|Lamiaceae
+Thymus citriodorus|lemon thyme|Lamiaceae
+Thymus mastichina|mastic thyme|Lamiaceae
+Thymus zygis|Spanish thyme|Lamiaceae
+Thymus pulegioides|broad-leaved thyme|Lamiaceae
+Thymbra capitata|conehead thyme|Lamiaceae
+Thymbra spicata|za'atar farsi|Lamiaceae
+Zataria multiflora|Shirazi thyme|Lamiaceae
+Satureja hortensis|summer savory|Lamiaceae
+Satureja montana|winter savory|Lamiaceae
+Satureja thymbra|pink savory|Lamiaceae
+Micromeria fruticosa|white-leaved savory (zuta)|Lamiaceae
+Clinopodium nepeta|lesser calamint|Lamiaceae
+Clinopodium vulgare|wild basil|Lamiaceae
+Melissa officinalis|lemon balm|Lamiaceae
+Nepeta cataria|catnip|Lamiaceae
+Hyssopus officinalis|hyssop|Lamiaceae
+Monarda didyma|bee balm|Lamiaceae
+Monarda fistulosa|wild bergamot|Lamiaceae
+Monarda punctata|spotted bee balm|Lamiaceae
+Monarda citriodora|lemon bee balm|Lamiaceae
+Agastache foeniculum|anise hyssop|Lamiaceae
+Agastache rugosa|Korean mint (bangah)|Lamiaceae
+Agastache mexicana|Mexican giant hyssop|Lamiaceae
+Perilla frutescens|shiso (perilla)|Lamiaceae
+Elsholtzia ciliata|Vietnamese balm (kinh giới)|Lamiaceae
+Coleus amboinicus|Cuban oregano (Indian borage)|Lamiaceae
+Plectranthus edulis|Ethiopian potato (oromo dinich)|Lamiaceae
+Coleus rotundifolius|Chinese potato (Hausa potato)|Lamiaceae
+Plectranthus esculentus|Livingstone potato|Lamiaceae
+Coleus barbatus|forskohlii (pickled root)|Lamiaceae
+Stachys affinis|Chinese artichoke (crosnes)|Lamiaceae
+Stachys palustris|marsh woundwort (tubers)|Lamiaceae
+Lamium album|white deadnettle|Lamiaceae
+Lamium purpureum|purple deadnettle|Lamiaceae
+Glechoma hederacea|ground ivy|Lamiaceae
+Prunella vulgaris|self-heal|Lamiaceae
+Marrubium vulgare|horehound|Lamiaceae
+Ziziphora clinopodioides|kakuti|Lamiaceae
+Ziziphora tenuior|ziziphora|Lamiaceae
+Dracocephalum moldavica|Moldavian dragonhead|Lamiaceae
+Lallemantia iberica|dragon's head (balangu)|Lamiaceae
+Lallemantia royleana|tukhm-e-balanga|Lamiaceae
+Hedeoma pulegioides|American pennyroyal|Lamiaceae
+Poliomintha longiflora|Mexican oregano (Lamiaceae)|Lamiaceae
+Sideritis scardica|mountain tea (Sideritis)|Lamiaceae
+Sideritis raeseri|Greek mountain tea|Lamiaceae
+Sideritis syriaca|Cretan mountain tea|Lamiaceae
+Hyptis suaveolens|chan (seed)|Lamiaceae
+Hyptis spicigera|black sesame (Africa)|Lamiaceae
+Lycopus uniflorus|northern bugleweed (tubers)|Lamiaceae
+Monardella odoratissima|coyote mint|Lamiaceae
+Pycnanthemum virginianum|Virginia mountain mint|Lamiaceae
+Minthostachys mollis|muña|Lamiaceae
+Minthostachys verticillata|peperina|Lamiaceae
+Prostanthera rotundifolia|round-leaved mintbush|Lamiaceae
+Vitex agnus-castus|chaste tree (monk's pepper)|Lamiaceae
+Vitex doniana|black plum (Vitex)|Lamiaceae
+Clerodendrum glandulosum|East Indian glory bower (leaves)|Lamiaceae
+Leucas aspera|thumbai (leaves)|Lamiaceae
+Olea europaea|olive|Oleaceae
+Jasminum sambac|Arabian jasmine (jasmine tea)|Oleaceae
+Jasminum officinale|common jasmine (flavouring)|Oleaceae
+Osmanthus fragrans|osmanthus (gui hua)|Oleaceae
+Fraxinus ornus|manna ash|Oleaceae
+Syringa vulgaris|lilac (flowers)|Oleaceae
+Sesamum indicum|sesame|Pedaliaceae
+Sesamum radiatum|black benniseed (leaves)|Pedaliaceae
+Ceratotheca sesamoides|false sesame|Pedaliaceae
+Proboscidea parviflora|devil's claw (pods, seeds)|Martyniaceae
+Lippia graveolens|Mexican oregano|Verbenaceae
+Lippia alba|bushy lippia|Verbenaceae
+Lippia javanica|fever tea|Verbenaceae
+Aloysia citrodora|lemon verbena|Verbenaceae
+Aloysia polystachya|té de burro|Verbenaceae
+Phyla scaberrima|Aztec sweet herb|Verbenaceae
+Verbena officinalis|vervain (tea)|Verbenaceae
+Asystasia gangetica|Chinese violet (leaves)|Acanthaceae
+Rungia klossii|mushroom plant|Acanthaceae
+Justicia insularis|justicia (leaves, Africa)|Acanthaceae
+Avicennia marina|grey mangrove (processed seeds)|Acanthaceae
+Andrographis paniculata|king of bitters|Acanthaceae
+Hygrophila auriculata|kokilaksha (seed)|Acanthaceae
+Parmentiera aculeata|cuajilote|Bignoniaceae
+Parmentiera cereifera|candle tree|Bignoniaceae
+Crescentia cujete|calabash tree (seeds)|Bignoniaceae
+Crescentia alata|jícaro|Bignoniaceae
+Kigelia africana|sausage tree (fermented)|Bignoniaceae
+Oroxylum indicum|broken bones tree (pods)|Bignoniaceae
+Mansoa alliacea|garlic vine|Bignoniaceae
+Dolichandrone spathacea|mangrove trumpet tree (flowers)|Bignoniaceae
+Plantago major|greater plantain|Plantaginaceae
+Plantago lanceolata|ribwort plantain|Plantaginaceae
+Plantago coronopus|buck's-horn plantain (erba stella)|Plantaginaceae
+Plantago ovata|psyllium|Plantaginaceae
+Plantago afra|black psyllium|Plantaginaceae
+Plantago asiatica|Asian plantain (oobako)|Plantaginaceae
+Veronica beccabunga|brooklime|Plantaginaceae
+Veronica americana|American brooklime|Plantaginaceae
+Bacopa monnieri|brahmi|Plantaginaceae
+Limnophila aromatica|rice paddy herb (ngò om)|Plantaginaceae
+Scoparia dulcis|sweet broom|Plantaginaceae
+Rehmannia glutinosa|dihuang|Orobanchaceae
+Cistanche deserticola|desert cistanche (rou cong rong)|Orobanchaceae
+Escobedia grandiflora|azafrán de raíz|Orobanchaceae
+Euphrasia officinalis|eyebright|Orobanchaceae
+Verbascum thapsus|great mullein (tea)|Scrophulariaceae
+Capraria biflora|goatweed (tea)|Scrophulariaceae
+Mimulus guttatus|seep monkeyflower (greens)|Phrymaceae
+Ilex paraguariensis|yerba mate|Aquifoliaceae
+Ilex guayusa|guayusa|Aquifoliaceae
+Ilex vomitoria|yaupon|Aquifoliaceae
+Ilex kudingcha|kuding tea|Aquifoliaceae
+Ilex latifolia|tarajo holly (kuding)|Aquifoliaceae
+Ilex cassine|dahoon holly|Aquifoliaceae
+Ilex dumosa|yerba señorita|Aquifoliaceae
+Helwingia japonica|helwingia (leaves)|Helwingiaceae
+## Eudicots: daisies, bellflowers, elders, valerians | plant
+Lactuca sativa|lettuce|Asteraceae
+Lactuca serriola|prickly lettuce|Asteraceae
+Lactuca indica|Indian lettuce|Asteraceae
+Lactuca perennis|blue lettuce|Asteraceae
+Cicerbita alpina|alpine sow-thistle (turt)|Asteraceae
+Cichorium intybus|chicory / radicchio|Asteraceae
+Cichorium endivia|endive / escarole|Asteraceae
+Cichorium spinosum|stamnagathi|Asteraceae
+Taraxacum officinale|dandelion|Asteraceae
+Sonchus oleraceus|sow thistle|Asteraceae
+Sonchus asper|prickly sow thistle|Asteraceae
+Sonchus arvensis|field sow thistle|Asteraceae
+Reichardia picroides|French scorzonera|Asteraceae
+Helminthotheca echioides|bristly oxtongue|Asteraceae
+Crepis vesicaria|beaked hawksbeard|Asteraceae
+Hypochaeris radicata|cat's ear|Asteraceae
+Tragopogon porrifolius|salsify|Asteraceae
+Tragopogon pratensis|meadow salsify|Asteraceae
+Tragopogon dubius|yellow salsify|Asteraceae
+Scorzonera hispanica|black salsify|Asteraceae
+Podospermum laciniatum|cut-leaved viper's grass|Asteraceae
+Scolymus hispanicus|golden thistle (tagarnina)|Asteraceae
+Scolymus maculatus|spotted golden thistle|Asteraceae
+Cynara cardunculus|artichoke / cardoon|Asteraceae
+Onopordum acanthium|cotton thistle|Asteraceae
+Silybum marianum|milk thistle|Asteraceae
+Cirsium oleraceum|cabbage thistle|Asteraceae
+Cirsium edule|edible thistle|Asteraceae
+Cirsium dipsacolepis|yamagobo|Asteraceae
+Notobasis syriaca|Syrian thistle|Asteraceae
+Galactites tomentosus|purple milk thistle|Asteraceae
+Arctium lappa|burdock (gobo)|Asteraceae
+Arctium minus|lesser burdock|Asteraceae
+Carthamus tinctorius|safflower|Asteraceae
+Carlina acaulis|stemless carline thistle|Asteraceae
+Centaurea benedicta|blessed thistle|Asteraceae
+Centaurea cyanus|cornflower (petals)|Asteraceae
+Saussurea costus|costus root|Asteraceae
+Gundelia tournefortii|akkoub (tumble thistle)|Asteraceae
+Helianthus annuus|sunflower|Asteraceae
+Helianthus tuberosus|Jerusalem artichoke|Asteraceae
+Helianthus strumosus|woodland sunflower (tubers)|Asteraceae
+Stevia rebaudiana|stevia|Asteraceae
+Tagetes lucida|Mexican tarragon|Asteraceae
+Tagetes minuta|huacatay|Asteraceae
+Tagetes erecta|Aztec marigold|Asteraceae
+Tagetes patula|French marigold|Asteraceae
+Tagetes filifolia|anisillo|Asteraceae
+Tagetes tenuifolia|signet marigold|Asteraceae
+Porophyllum ruderale|pápalo|Asteraceae
+Porophyllum linaria|pipicha|Asteraceae
+Pectis papposa|cinchweed (limoncillo)|Asteraceae
+Calendula officinalis|pot marigold|Asteraceae
+Calendula arvensis|field marigold|Asteraceae
+Chrysanthemum morifolium|florist's chrysanthemum (tea)|Asteraceae
+Chrysanthemum indicum|Indian chrysanthemum|Asteraceae
+Glebionis coronaria|garland chrysanthemum (shungiku)|Asteraceae
+Glebionis segetum|corn marigold (mantilida)|Asteraceae
+Tanacetum vulgare|tansy|Asteraceae
+Tanacetum balsamita|costmary|Asteraceae
+Matricaria chamomilla|German chamomile|Asteraceae
+Chamaemelum nobile|Roman chamomile|Asteraceae
+Achillea millefolium|yarrow|Asteraceae
+Artemisia dracunculus|tarragon|Asteraceae
+Artemisia absinthium|wormwood|Asteraceae
+Artemisia annua|sweet wormwood (qinghao)|Asteraceae
+Artemisia vulgaris|mugwort|Asteraceae
+Artemisia princeps|Japanese mugwort (yomogi)|Asteraceae
+Artemisia argyi|Chinese mugwort|Asteraceae
+Artemisia lactiflora|white mugwort|Asteraceae
+Artemisia pontica|Roman wormwood|Asteraceae
+Artemisia abrotanum|southernwood|Asteraceae
+Artemisia genipi|génépi|Asteraceae
+Artemisia umbelliformis|white génépi|Asteraceae
+Artemisia glacialis|glacier wormwood|Asteraceae
+Artemisia ludoviciana|white sagebrush|Asteraceae
+Artemisia herba-alba|white wormwood (shih)|Asteraceae
+Artemisia afra|African wormwood|Asteraceae
+Artemisia arborescens|tree wormwood (sheeba)|Asteraceae
+Bidens pilosa|blackjack (leaves)|Asteraceae
+Cosmos caudatus|ulam raja|Asteraceae
+Cosmos sulphureus|sulphur cosmos (flowers)|Asteraceae
+Dahlia pinnata|garden dahlia (tubers)|Asteraceae
+Dahlia coccinea|red dahlia (tubers)|Asteraceae
+Smallanthus sonchifolius|yacón|Asteraceae
+Guizotia abyssinica|niger seed (nug)|Asteraceae
+Madia sativa|madia (melosa)|Asteraceae
+Rudbeckia laciniata|sochan|Asteraceae
+Echinacea purpurea|purple coneflower|Asteraceae
+Echinacea angustifolia|narrow-leaved coneflower|Asteraceae
+Iva annua|sumpweed|Asteraceae
+Melanthera biflora|beach sunflower (leaves)|Asteraceae
+Acmella oleracea|toothache plant (jambu)|Asteraceae
+Enydra fluctuans|helencha|Asteraceae
+Galinsoga parviflora|guascas|Asteraceae
+Galinsoga quadriradiata|shaggy soldier|Asteraceae
+Emilia sonchifolia|lilac tasselflower|Asteraceae
+Emilia coccinea|scarlet tasselflower|Asteraceae
+Crassocephalum crepidioides|ebolo (fireweed)|Asteraceae
+Crassocephalum rubens|Yoruba bologi|Asteraceae
+Gynura bicolor|Okinawan spinach|Asteraceae
+Gynura procumbens|longevity spinach|Asteraceae
+Gynura divaricata|bai zi cai|Asteraceae
+Petasites japonicus|fuki (butterbur)|Asteraceae
+Petasites frigidus|Arctic sweet coltsfoot|Asteraceae
+Tussilago farfara|coltsfoot|Asteraceae
+Ligularia fischeri|gomchwi|Asteraceae
+Parasenecio delphiniifolius|momijigasa|Asteraceae
+Syneilesis palmata|usan-namul|Asteraceae
+Farfugium japonicum|tsuwabuki|Asteraceae
+Doellingeria scabra|chwinamul|Asteraceae
+Aster yomena|yomena|Asteraceae
+Aster tataricus|Tatarian aster (root)|Asteraceae
+Solidago odora|sweet goldenrod|Asteraceae
+Bellis perennis|daisy|Asteraceae
+Helichrysum italicum|curry plant|Asteraceae
+Inula helenium|elecampane|Asteraceae
+Blumea balsamifera|sambong|Asteraceae
+Pluchea indica|Indian camphorweed (beluntas)|Asteraceae
+Vernonia amygdalina|bitter leaf|Asteraceae
+Vernonia calvoana|sweet bitterleaf|Asteraceae
+Vernonia hymenolepis|Cameroon bitterleaf|Asteraceae
+Carphephorus odoratissimus|vanilla plant (deer tongue)|Asteraceae
+Microseris lanceolata|murnong (yam daisy)|Asteraceae
+Chondrilla juncea|skeletonweed|Asteraceae
+Ixeris dentata|sseumbagwi|Asteraceae
+Crepidiastrum sonchifolium|go-deul-ppae-gi|Asteraceae
+Launaea taraxacifolia|African lettuce|Asteraceae
+Launaea cornuta|wild lettuce (East Africa)|Asteraceae
+Lapsana communis|nipplewort|Asteraceae
+Mycelis muralis|wall lettuce|Asteraceae
+Youngia japonica|Oriental false hawksbeard|Asteraceae
+Hyoseris radiata|hyoseris|Asteraceae
+Rhagadiolus stellatus|star hawkbit|Asteraceae
+Hedypnois rhagadioloides|Cretan weed|Asteraceae
+Baccharis trimera|carqueja|Asteraceae
+Ayapana triplinervis|ayapana|Asteraceae
+Hemistepta lyrata|lyrate hemistepta|Asteraceae
+Eclipta prostrata|false daisy|Asteraceae
+Tridax procumbens|coat buttons|Asteraceae
+Wedelia chinensis|Chinese wedelia|Asteraceae
+Campanula rapunculus|rampion|Campanulaceae
+Campanula rapunculoides|creeping bellflower (root)|Campanulaceae
+Phyteuma spicatum|spiked rampion|Campanulaceae
+Adenophora triphylla|Japanese lady bell (jandae)|Campanulaceae
+Adenophora stricta|shashen|Campanulaceae
+Codonopsis pilosula|dangshen|Campanulaceae
+Codonopsis lanceolata|deodeok|Campanulaceae
+Platycodon grandiflorus|balloon flower (doraji)|Campanulaceae
+Canarina canariensis|Canary bellflower (fruit)|Campanulaceae
+Cyphia digitata|baroe|Campanulaceae
+Menyanthes trifoliata|bogbean|Menyanthaceae
+Nymphoides peltata|fringed water lily (xing cai)|Menyanthaceae
+Sambucus nigra|elder|Adoxaceae
+Sambucus canadensis|American elder|Adoxaceae
+Sambucus cerulea|blue elderberry|Adoxaceae
+Sambucus racemosa|red elder (cooked)|Adoxaceae
+Sambucus williamsii|Chinese elder|Adoxaceae
+Viburnum opulus|guelder rose (kalina)|Adoxaceae
+Viburnum trilobum|highbush cranberry|Adoxaceae
+Viburnum edule|squashberry|Adoxaceae
+Viburnum lentago|nannyberry|Adoxaceae
+Viburnum prunifolium|blackhaw|Adoxaceae
+Viburnum cassinoides|witherod|Adoxaceae
+Viburnum dilatatum|linden arrowwood (fruit)|Adoxaceae
+Lonicera caerulea|haskap (honeyberry)|Caprifoliaceae
+Lonicera japonica|Japanese honeysuckle (flowers)|Caprifoliaceae
+Valeriana officinalis|valerian|Caprifoliaceae
+Valerianella locusta|corn salad (mâche)|Caprifoliaceae
+Valerianella eriocarpa|Italian corn salad|Caprifoliaceae
+Patrinia scabiosifolia|golden lace (mattari)|Caprifoliaceae
+Patrinia villosa|white patrinia|Caprifoliaceae
+Cephalaria syriaca|Syrian cephalaria (pelemir)|Caprifoliaceae
+Fedia cornucopiae|African valerian|Caprifoliaceae
+Centranthus ruber|red valerian|Caprifoliaceae
+Leycesteria formosa|Himalayan honeysuckle|Caprifoliaceae
+## Eudicots: carrot family, ginseng family, pittosporums | plant
+Daucus carota|carrot|Apiaceae
+Cuminum cyminum|cumin|Apiaceae
+Coriandrum sativum|cilantro / coriander|Apiaceae
+Petroselinum crispum|parsley|Apiaceae
+Apium graveolens|celery / celeriac|Apiaceae
+Apium prostratum|sea celery|Apiaceae
+Anethum graveolens|dill|Apiaceae
+Foeniculum vulgare|fennel|Apiaceae
+Pimpinella anisum|anise|Apiaceae
+Pimpinella saxifraga|burnet saxifrage|Apiaceae
+Carum carvi|caraway|Apiaceae
+Pastinaca sativa|parsnip|Apiaceae
+Angelica archangelica|angelica|Apiaceae
+Angelica sinensis|dong quai|Apiaceae
+Angelica gigas|Korean angelica (chamdanggwi)|Apiaceae
+Angelica dahurica|bai zhi|Apiaceae
+Angelica keiskei|ashitaba|Apiaceae
+Angelica atropurpurea|purplestem angelica|Apiaceae
+Angelica lucida|seacoast angelica|Apiaceae
+Levisticum officinale|lovage|Apiaceae
+Ligusticum scoticum|Scots lovage|Apiaceae
+Ligusticum porteri|oshá|Apiaceae
+Ligusticum striatum|chuanxiong|Apiaceae
+Myrrhis odorata|sweet cicely|Apiaceae
+Osmorhiza longistylis|aniseroot|Apiaceae
+Chaerophyllum bulbosum|turnip-rooted chervil|Apiaceae
+Anthriscus cerefolium|chervil|Apiaceae
+Smyrnium olusatrum|alexanders|Apiaceae
+Cryptotaenia japonica|mitsuba|Apiaceae
+Cryptotaenia canadensis|honewort|Apiaceae
+Oenanthe javanica|water dropwort (seri)|Apiaceae
+Centella asiatica|gotu kola (pegaga)|Apiaceae
+Eryngium foetidum|culantro|Apiaceae
+Eryngium maritimum|sea holly (root)|Apiaceae
+Arracacia xanthorrhiza|arracacha|Apiaceae
+Sium sisarum|skirret|Apiaceae
+Trachyspermum ammi|ajwain|Apiaceae
+Trachyspermum roxburghianum|radhuni|Apiaceae
+Bunium bulbocastanum|great pignut (earth chestnut)|Apiaceae
+Elwendia persica|kala jeera (shahi jeera)|Apiaceae
+Ferula assa-foetida|asafoetida|Apiaceae
+Ferula foetida|asafoetida (foetida)|Apiaceae
+Ferula communis|giant fennel (shoots)|Apiaceae
+Ferula gummosa|galbanum|Apiaceae
+Heracleum sphondylium|hogweed|Apiaceae
+Heracleum maximum|cow parsnip|Apiaceae
+Heracleum persicum|golpar|Apiaceae
+Peucedanum ostruthium|masterwort|Apiaceae
+Peucedanum japonicum|botanbofu|Apiaceae
+Meum athamanticum|spignel|Apiaceae
+Crithmum maritimum|rock samphire|Apiaceae
+Aegopodium podagraria|ground elder|Apiaceae
+Falcaria vulgaris|sickleweed (paghazeh)|Apiaceae
+Perideridia gairdneri|yampah|Apiaceae
+Perideridia oregana|Oregon yampah|Apiaceae
+Lomatium cous|cous biscuitroot|Apiaceae
+Lomatium nudicaule|Indian celery|Apiaceae
+Tordylium apulum|Mediterranean hartwort (kafkalithra)|Apiaceae
+Scandix pecten-veneris|shepherd's needle|Apiaceae
+Molopospermum peloponnesiacum|striped hemlock (coscoll)|Apiaceae
+Glehnia littoralis|hamabofu|Apiaceae
+Ridolfia segetum|false fennel|Apiaceae
+Ammi visnaga|khella|Apiaceae
+Athamanta cretensis|Cretan athamanta|Apiaceae
+Coelopleurum gmelinii|Gmelin's angelica|Apiaceae
+Panax ginseng|Korean ginseng|Araliaceae
+Panax quinquefolius|American ginseng|Araliaceae
+Panax notoginseng|sanqi|Araliaceae
+Panax japonicus|Japanese ginseng|Araliaceae
+Panax vietnamensis|Vietnamese ginseng|Araliaceae
+Eleutherococcus senticosus|Siberian ginseng|Araliaceae
+Eleutherococcus sessiliflorus|ogapi|Araliaceae
+Aralia cordata|udo|Araliaceae
+Aralia elata|Japanese angelica tree (tara-no-me)|Araliaceae
+Aralia racemosa|American spikenard|Araliaceae
+Aralia nudicaulis|wild sarsaparilla|Araliaceae
+Aralia continentalis|dokhwal|Araliaceae
+Oplopanax horridus|devil's club (shoots)|Araliaceae
+Kalopanax septemlobus|castor aralia (shoots)|Araliaceae
+Chengiopanax sciadophylloides|koshiabura|Araliaceae
+Polyscias fruticosa|Ming aralia|Araliaceae
+Polyscias scutellaria|shield aralia|Araliaceae
+Trevesia palmata|snowflake aralia (flowers)|Araliaceae
+Stilbocarpa polaris|Macquarie Island cabbage|Araliaceae
+Hydrocotyle sibthorpioides|lawn pennywort|Araliaceae
+Billardiera scandens|appleberry|Pittosporaceae
+Billardiera longiflora|purple appleberry|Pittosporaceae

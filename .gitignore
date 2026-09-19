@@ -1,0 +1,6 @@
+# Trees derived from TimeTree data are not redistributable and must never be committed.
+private/
+*timetree*
+!data/edible_eukaryotes_timetree_upload.txt
+__pycache__/
+.DS_Store
