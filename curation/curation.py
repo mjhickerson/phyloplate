@@ -2,7 +2,7 @@
 
 # Bump TREE_VERSION whenever anything below (or the species list, or the TimeTree export) changes,
 # and add a CHANGELOG line: (date, who, what changed, source). Both are written into the report and shown in the app.
-TREE_VERSION = "open-0.2 (2026-09-20)"
+TREE_VERSION = "open-0.3 (2026-09-20)"
 CHANGELOG = [
     ("2026-09-19", "Claude/MH", "First TimeTree 5 build: 2,607 dated species; 49 synonyms; 63 families anchored by hand", "TimeTree 5 export of the 3,279-name list"),
     ("2026-09-19", "Claude", "Red algae anchors revised: Gigartinales families to the Gigartinales crown; Gelidiales, Bonnemaisoniales, Ceramiales, Nemaliales to subclass stems", "Yang et al. 2016 Sci Rep 6:21361"),
@@ -10,6 +10,7 @@ CHANGELOG = [
     ("2026-09-20", "Claude/MH", "Open tree v0.1: Strassert 2021 backbone; Smith & Brown 2018, Nitta 2022, Rabosky 2018, Upham 2019, Varga 2019 grafted", "see backbone.py"),
     ("2026-09-20", "Bruce Taylor", "Eukaryote rooting confirmed as Opimoda/Diphoda (= Strassert Amorphea-rooted analysis); Euglena stays with Diaphoretickes", "Williamson et al. 2025 Nature; Derelle et al. 2015 PNAS"),
     ("2026-09-20", "Claude", "Open tree v0.2: Jetz 2012 birds grafted; class/order skeleton (~60 nodes, mostly approximate) for molluscs, arthropods, algae, ascomycetes, small phyla, herps, sharks; every listed species placed", "backbone.py; PLACEMENTS_OPEN in curation.py"),
+    ("2026-09-20", "Claude/MH", "Open tree v0.3: VertLife subsets grafted for sharks (Stein 2018), amphibians (Jetz & Pyron 2018), squamates (Tonini 2016); their skeleton nodes retired", "backbone.py"),
 ]
 
 # Names as TimeTree returned them -> names in the candidate CSV.

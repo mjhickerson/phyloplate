@@ -34,7 +34,7 @@ Prokaryotes are excluded on purpose (they are on everything). Amounts are ignore
 
 ## About the tree and its ages
 
-**The demo in this repository runs on the open tree, version `open-0.2`**: all 3,279 listed species, assembled entirely from published, redistributable chronograms grafted onto a backbone of deep-node ages, plus a class- and order-level skeleton for the groups that have no species-level open chronogram. Sources:
+**The demo in this repository runs on the open tree, version `open-0.3`**: all 3,279 listed species, assembled entirely from published, redistributable chronograms grafted onto a backbone of deep-node ages, plus a class- and order-level skeleton for the groups that have no species-level open chronogram. Sources:
 
 | Source | What it dates | Species placed |
 |---|---|---|
@@ -45,9 +45,12 @@ Prokaryotes are excluded on purpose (they are on everything). Amounts are ignore
 | Rabosky et al. 2018, *Nature* (Fish Tree of Life) | ray-finned fishes | 533 |
 | Upham et al. 2019, *PLoS Biol* (MamPhy) | mammals | 127 |
 | Jetz et al. 2012, *Nature* (birdtree.org subset) | birds | 70 |
+| Stein et al. 2018, *Nat Ecol Evol* (VertLife subset) | sharks, rays, chimaeras | 14 |
+| Jetz & Pyron 2018, *Nat Ecol Evol* (VertLife subset) | amphibians | 8 |
+| Tonini et al. 2016, *Biol Conserv* (VertLife subset) | squamates | 12 |
 | Varga et al. 2019, *Nat Ecol Evol* | mushrooms (Agaricomycotina) | 75 |
 
-Each source keeps its own internal ages and hangs from the backbone at its crown. Molluscs, crustaceans, insects, seaweeds, ascomycete fungi, reptiles, amphibians, sharks and the small phyla (about 660 species) have no species-level open chronogram; their families sit on a skeleton of class- and order-level nodes in `scripts/backbone.py`, mapped in `PLACEMENTS_OPEN` in `curation/curation.py`. Most skeleton ages are approximate and listed for review in `curation/node_review_open.csv`, with the number of species each node carries. Families on the skeleton join at their node's crown, which slightly overstates PD for those groups. The seam report (`tree/seam_report.txt`) lists every graft, and `tree/assembly_report.txt` every placement.
+Each source keeps its own internal ages and hangs from the backbone at its crown. Molluscs, crustaceans, insects, seaweeds, ascomycete fungi, turtles, crocodilians and the small phyla (about 350 species) have no species-level open chronogram; their families sit on a skeleton of class- and order-level nodes in `scripts/backbone.py`, mapped in `PLACEMENTS_OPEN` in `curation/curation.py`. Most skeleton ages are approximate and listed for review in `curation/node_review_open.csv`, with the number of species each node carries. Families on the skeleton join at their node's crown, which slightly overstates PD for those groups. The seam report (`tree/seam_report.txt`) lists every graft, and `tree/assembly_report.txt` every placement.
 
 The working prototype used during development ran on a tree with divergence times from TimeTree 5 (Kumar et al. 2022). TimeTree's terms of use restrict redistribution of its data and transformations of it, so that tree is **not** included here, and no file derived from it will be committed.
 
@@ -75,7 +78,7 @@ Ingredient parsing in the app uses a language model to turn recipe text into Lat
 - [x] Working prototype: parsing, PD, richness, coverage, meal phylogram, radial coverage, meal log
 - [x] Species list (3,279) and placement tables
 - [x] Assembly pipeline with synonyms, gap-filling, node naming, versioning
-- [x] Open, redistributable dated tree (v0.2: every listed species placed; invertebrate, algal and ascomycete skeleton ages under review)
+- [x] Open, redistributable dated tree (v0.3: every listed species placed; nine species-level sources; invertebrate, algal and ascomycete skeleton ages under review)
 - [ ] Standalone hosting with the tree server-side
 - [ ] Abundance-weighted PD (phylogenetic Hill numbers)
 - [ ] Per-week aggregation and a richness-controlled coverage score

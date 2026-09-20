@@ -1,5 +1,5 @@
-tree version: open-0.2 (2026-09-20)
-tips in output: 3279   root age: 2132 Myr   total branch length: 210961 Myr
+tree version: open-0.3 (2026-09-20)
+tips in output: 3279   root age: 2132 Myr   total branch length: 208448 Myr
 
 == changelog
    2026-09-19  Claude/MH: First TimeTree 5 build: 2,607 dated species; 49 synonyms; 63 families anchored by hand  [TimeTree 5 export of the 3,279-name list]
@@ -8,14 +8,15 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 210961 Myr
    2026-09-20  Claude/MH: Open tree v0.1: Strassert 2021 backbone; Smith & Brown 2018, Nitta 2022, Rabosky 2018, Upham 2019, Varga 2019 grafted  [see backbone.py]
    2026-09-20  Bruce Taylor: Eukaryote rooting confirmed as Opimoda/Diphoda (= Strassert Amorphea-rooted analysis); Euglena stays with Diaphoretickes  [Williamson et al. 2025 Nature; Derelle et al. 2015 PNAS]
    2026-09-20  Claude: Open tree v0.2: Jetz 2012 birds grafted; class/order skeleton (~60 nodes, mostly approximate) for molluscs, arthropods, algae, ascomycetes, small phyla, herps, sharks; every listed species placed  [backbone.py; PLACEMENTS_OPEN in curation.py]
+   2026-09-20  Claude/MH: Open tree v0.3: VertLife subsets grafted for sharks (Stein 2018), amphibians (Jetz & Pyron 2018), squamates (Tonini 2016); their skeleton nodes retired  [backbone.py]
 
-== matched: 2613
+== matched: 2647
 
 == synonym applied (tree label -> candidate): 0
 
 == assumed substitute (tree label -> candidate): 0
 
-== gap-filled at genus: 227
+== gap-filled at genus: 223
    Agaricus subrufescens: child of MRCA
    Pleurotus giganteus: child of MRCA
    Flammulina filiformis: sister to Flammulina velutipes at 5.00 Myr
@@ -39,6 +40,8 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 210961 Myr
    Calamus bajonado: sister to Calamus tenuis at 5.00 Myr
    Coptodon zillii: sister to Coptodon rendalli at 5.00 Myr
    Ammodytes marinus: sister to Ammodytes personatus at 5.00 Myr
+   Pelophylax kl. esculentus: sister to Pelophylax ridibundus at 5.00 Myr
+   Lithobates pipiens: sister to Lithobates catesbeianus at 2.50 Myr
    Cervus canadensis: child of MRCA
    Equus asinus: child of MRCA
    Cinnamomum cassia: child of MRCA
@@ -234,21 +237,16 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 210961 Myr
    Apis dorsata: child of MRCA
    Macrotermes subhyalinus: sister to Macrotermes bellicosus at 5.00 Myr
    Eptatretus stoutii: sister to Eptatretus burgeri at 5.00 Myr
-   Mustelus canis: sister to Mustelus mustelus at 5.00 Myr
-   Pelophylax ridibundus: sister to Pelophylax kl. esculentus at 5.00 Myr
-   Lithobates pipiens: sister to Lithobates catesbeianus at 5.00 Myr
-   Hoplobatrachus tigerinus: sister to Hoplobatrachus rugulosus at 5.00 Myr
    Apalone ferox: sister to Apalone spinifera at 5.00 Myr
    Crocodylus porosus: sister to Crocodylus niloticus at 5.00 Myr
    Crocodylus siamensis: child of MRCA
-   Ctenosaura pectinata: sister to Ctenosaura similis at 5.00 Myr
-   Varanus niloticus: sister to Varanus salvator at 5.00 Myr
 
-== gap-filled at family: 61
+== gap-filled at family: 63
    Hypsizygus tessellatus: child of MRCA
    Lyophyllum shimeji: child of MRCA
    Tricholoma matsutake: child of MRCA
    Cyclocybe aegerita: child of MRCA
+   Beringraja binoculata: child of MRCA
    Stolephorus indicus: child of MRCA
    Harpadon nehereus: sister to Saurida undosquamis at 20.00 Myr
    Pomadasys commersonnii: child of MRCA
@@ -258,6 +256,7 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 210961 Myr
    Peprilus triacanthus: child of MRCA
    Pseudopleuronectes americanus: child of MRCA
    Parachanna obscura: child of MRCA
+   Lithobates catesbeianus: child of MRCA
    Bubalus bubalis: child of MRCA
    Taurotragus oryx: child of MRCA
    Osphranter rufus: child of MRCA
@@ -307,7 +306,7 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 210961 Myr
    Coelopleurum gmelinii: child of MRCA
    Colistium nudipinnis: sister to Rhombosolea plebeia at 20.00 Myr
 
-== gap-filled at order (anchor): 378
+== gap-filled at order (anchor): 346
    Balanites aegyptiaca: child of MRCA at 116 Myr
    Naematelia aurantialba: sister to anchor clade at 100 Myr
    Synodontis schall: child of node at 71 Myr
@@ -641,29 +640,7 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 210961 Myr
    Entosphenus tridentatus: child of MRCA
    Geotria australis: child of MRCA
    Eptatretus burgeri: child of MRCA
-   Squalus acanthias: child of MRCA
-   Mustelus mustelus: child of MRCA
-   Galeorhinus galeus: child of MRCA
-   Scyliorhinus canicula: child of MRCA
-   Prionace glauca: child of MRCA
-   Isurus oxyrinchus: child of MRCA
-   Lamna nasus: child of MRCA
-   Raja clavata: child of MRCA
-   Leucoraja erinacea: child of MRCA
-   Amblyraja radiata: child of MRCA
-   Beringraja binoculata: child of MRCA
-   Maculabatis gerrardi: child of MRCA
-   Callorhinchus milii: child of MRCA
-   Chimaera monstrosa: child of MRCA
    Sicyases sanguineus: child of MRCA
-   Pelophylax kl. esculentus: child of MRCA
-   Lithobates catesbeianus: child of MRCA
-   Hoplobatrachus rugulosus: child of MRCA
-   Fejervarya limnocharis: child of MRCA
-   Limnonectes macrodon: child of MRCA
-   Quasipaa spinosa: child of MRCA
-   Pyxicephalus adspersus: child of MRCA
-   Leptodactylus pentadactylus: child of MRCA
    Chelydra serpentina: child of MRCA
    Pelodiscus sinensis: child of MRCA
    Apalone spinifera: child of MRCA
@@ -673,16 +650,6 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 210961 Myr
    Alligator mississippiensis: child of MRCA
    Crocodylus niloticus: child of MRCA
    Caiman yacare: child of MRCA
-   Iguana iguana: child of MRCA
-   Ctenosaura similis: child of MRCA
-   Python bivittatus: child of MRCA
-   Malayopython reticulatus: child of MRCA
-   Ptyas mucosa: child of MRCA
-   Naja atra: child of MRCA
-   Bungarus multicinctus: child of MRCA
-   Crotalus atrox: child of MRCA
-   Varanus salvator: child of MRCA
-   Salvator merianae: child of MRCA
    Curculigo latifolia: child of MRCA
    Cynomorium coccineum: child of MRCA
    Poraqueiba sericea: child of MRCA

@@ -247,6 +247,7 @@ def main(nwk_path, csv_path, outdir):
         return f"sister to {clean_label(sib.label)} at {split:.2f} Myr"
 
     placed_rows = []; leftovers = []
+    source_tips = set(id(t) for t in matched.values())   # species dated by a source tree, before any gap-filling
     for r in unmatched:
         g, f = genus_of(r["species"]), r["family"]
         gm, fm = genus_index.get(g, []), family_index.get(f, [])
@@ -318,7 +319,7 @@ def main(nwk_path, csv_path, outdir):
             node = mrca(gm) if len(gm) >= 2 else gm[0]
             how = attach_polytomy(node, r) if len(gm) >= 2 else attach_sister(node, r, 5.0)
             level = "genus"
-        elif skel is not None:      # a family on a skeleton node: every genus of it joins at that node, not beside the first arrival
+        elif skel is not None and not any(id(t) in source_tips for t in fm):   # family on a skeleton node, no source-dated relative
             fams, age = skel
             node, missing = anchor_node(fams)
             how = attach_on_stem(node, r, age) if age else attach_polytomy(node, r)
