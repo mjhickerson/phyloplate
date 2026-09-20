@@ -336,6 +336,9 @@ def main(nwk_path, csv_path, outdir):
     for path in EXTRA_ALIAS_FILES:
         for r in csv.DictReader(open(path, encoding="utf-8")):
             key = norm_species(r.get("species", "")); al = r.get("aliases", "")
+            # the other table's plain common name(s) become aliases too ("basil" for a species now called "sweet basil")
+            names = [re.sub(r"\(.*?\)", "", p).strip() for p in r.get("common_name", "").split("/")]
+            al = ";".join([a for a in names if a] + ([al] if al else []))
             if key and al: extra_aliases[key] = al
     def name_mrca(groups, label_of, need_monophyly=True):
         for key, tips_ in groups.items():
