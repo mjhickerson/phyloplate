@@ -2,7 +2,7 @@
 
 # Bump TREE_VERSION whenever anything below (or the species list, or the TimeTree export) changes,
 # and add a CHANGELOG line: (date, who, what changed, source). Both are written into the report and shown in the app.
-TREE_VERSION = "open-0.4.1 (2026-09-20)"
+TREE_VERSION = "open-0.5 (2026-09-20)"
 CHANGELOG = [
     ("2026-09-19", "Claude/MH", "First TimeTree 5 build: 2,607 dated species; 49 synonyms; 63 families anchored by hand", "TimeTree 5 export of the 3,279-name list"),
     ("2026-09-19", "Claude", "Red algae anchors revised: Gigartinales families to the Gigartinales crown; Gelidiales, Bonnemaisoniales, Ceramiales, Nemaliales to subclass stems", "Yang et al. 2016 Sci Rep 6:21361"),
@@ -12,6 +12,7 @@ CHANGELOG = [
     ("2026-09-20", "Claude", "Open tree v0.2: Jetz 2012 birds grafted; class/order skeleton (~60 nodes, mostly approximate) for molluscs, arthropods, algae, ascomycetes, small phyla, herps, sharks; every listed species placed", "backbone.py; PLACEMENTS_OPEN in curation.py"),
     ("2026-09-20", "Claude/MH", "Open tree v0.3: VertLife subsets grafted for sharks (Stein 2018), amphibians (Jetz & Pyron 2018), squamates (Tonini 2016); their skeleton nodes retired", "backbone.py"),
     ("2026-09-20", "Claude/MH", "Open tree v0.4: decapod skeleton nodes set from Wolfe et al. 2019 chronograms (UGAM model throughout; CIR values recorded); Palinuridae and crayfish nodes added; Malacostraca/Eucarida raised to fit", "Wolfe et al. 2019 Proc R Soc B, Dryad doi:10.5061/dryad.k7505mn"),
+    ("2026-09-20", "Claude", "Open tree v0.5: bivalve skeleton dated from Li et al. 2025 (Bivalvia 485, Pteriomorphia 446, Ostreida/Mytilida 421, core Imparidentia 362, Myida+Venerida 301, Adapedonta+Cardiida 300); gastropod topology cited to Uribe et al. 2022, ages still approximate", "Li et al. 2025 Syst Biol 74:16; Uribe et al. 2022 Syst Biol"),
 ]
 
 # Names as TimeTree returned them -> names in the candidate CSV.
@@ -231,11 +232,13 @@ PLACEMENTS_OPEN = {
     "Eunicidae": _O("Annelida"), "Sipunculidae": _O("Annelida"), "Urechidae": _O("Annelida"), "Lingulidae": _O("Lophotrochozoa"),
     # molluscs
     "Chitonidae": _O("Mollusca"),
-    "Arcidae": _O("Pteriomorphia"), "Glycymerididae": _O("Pteriomorphia"), "Mytilidae": _O("Pteriomorphia"),
-    "Ostreidae": _O("Pteriomorphia"), "Pectinidae": _O("Pteriomorphia"), "Pinnidae": _O("Pteriomorphia"), "Margaritidae": _O("Pteriomorphia"),
-    "Veneridae": _O("Imparidentia"), "Mactridae": _O("Imparidentia"), "Cardiidae": _O("Imparidentia"), "Donacidae": _O("Imparidentia"),
-    "Cyrenidae": _O("Imparidentia"), "Arcticidae": _O("Imparidentia"), "Hiatellidae": _O("Imparidentia"), "Solenidae": _O("Imparidentia"),
-    "Pharidae": _O("Imparidentia"), "Myidae": _O("Imparidentia"), "Pholadidae": _O("Imparidentia"), "Teredinidae": _O("Imparidentia"),
+    "Pectinidae": _O("Pteriomorphia"),
+    "Arcidae": _O("Ostreida + Arcida + Mytilida"), "Glycymerididae": _O("Ostreida + Arcida + Mytilida"), "Mytilidae": _O("Ostreida + Arcida + Mytilida"),
+    "Ostreidae": _O("Ostreida + Arcida + Mytilida"), "Pinnidae": _O("Ostreida + Arcida + Mytilida"), "Margaritidae": _O("Ostreida + Arcida + Mytilida"),
+    "Veneridae": _O("Myida + Venerida"), "Mactridae": _O("Myida + Venerida"), "Cyrenidae": _O("Myida + Venerida"), "Arcticidae": _O("Myida + Venerida"),
+    "Myidae": _O("Myida + Venerida"), "Pholadidae": _O("Myida + Venerida"), "Teredinidae": _O("Myida + Venerida"),
+    "Cardiidae": _O("Adapedonta + Cardiida"), "Donacidae": _O("Adapedonta + Cardiida"),
+    "Solenidae": _O("Adapedonta + Cardiida"), "Pharidae": _O("Adapedonta + Cardiida"), "Hiatellidae": _O("Adapedonta + Cardiida"),
     "Patellidae": _O("Gastropoda"), "Nacellidae": _O("Gastropoda"), "Neritidae": _O("Orthogastropoda"),
     "Haliotidae": _O("Vetigastropoda"), "Fissurellidae": _O("Vetigastropoda"), "Trochidae": _O("Vetigastropoda"),
     "Tegulidae": _O("Vetigastropoda"), "Turbinidae": _O("Vetigastropoda"),

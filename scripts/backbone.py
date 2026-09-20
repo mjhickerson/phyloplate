@@ -3,6 +3,7 @@ STR21 = "Strassert et al. 2021 Nat Commun 12:1879 (MCMCTree AC, Amorphea root, u
 IRI17 = "Irisarri et al. 2017 Nat Ecol Evol 1:1370 (genome-averaged timetree of jawed vertebrates)"
 YANG16 = "Yang et al. 2016 Sci Rep 6:21361 (florideophyte red algae timetree)"
 APPROX = "APPROXIMATE, not yet cited; replace"
+LI25 = "Li et al. 2025 Syst Biol 74:16 (UCE bivalve timetree, MCMCTree, 18 calibrations from Crouch et al. 2021);"
 WOLFE19 = "Wolfe et al. 2019 Proc R Soc B 286:20190079, PhyloBayes UGAM chronogram;"
 # Subtrees (S) keep their own internal ages and hang from the enclosing node at their crown age.
 # Rule: a source's crown wins over a backbone node for the same split; backbone ages apply only above it.
@@ -134,13 +135,20 @@ TREE = N("Eukaryotes", 2132, STR21,
                 N("Annelida", 520, APPROX),
                 N("Mollusca", 534, STR21,
                   N("Conchifera", 520, APPROX,
-                    N("Bivalvia", 480, APPROX,
-                      N("Pteriomorphia", 450, APPROX),
-                      N("Heterodonta", 400, APPROX,
-                        N("Imparidentia", 300, APPROX),
+                    N("Bivalvia", 485, LI25 + " crown Bivalvia ~485",
+                      N("Pteriomorphia", 446, LI25 + " Pectinida vs other pteriomorphians 446 (410-474)",
+                        N("Ostreida + Arcida + Mytilida", 421, LI25 + " Ostreida vs Mytilida 421 (384-458)"),
+                      ),
+                      N("Heterodonta", 470, LI25 + " deep heterodont nodes 467-525",
+                        N("Imparidentia", 400, APPROX + " (between Euheterodonta 467 and the 362 node)",
+                          N("Core Imparidentia", 362, LI25 + " (Myida+Venerida) vs (Galeommatida+Adapedonta+Cardiida) 362 (310-414)",
+                            N("Myida + Venerida", 301, LI25 + " 301 (249-358)"),
+                            N("Adapedonta + Cardiida", 300, LI25 + " ~300 (250-348)"),
+                          ),
+                        ),
                       ),
                     ),
-                    N("Gastropoda", 450, APPROX,
+                    N("Gastropoda", 450, APPROX + " (topology after Uribe et al. 2022 Syst Biol; Cunha & Giribet 2019 differ at the root)",
                       N("Orthogastropoda", 420, APPROX,
                         N("Vetigastropoda", 350, APPROX),
                         N("Apogastropoda", 400, APPROX,

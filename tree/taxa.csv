@@ -2930,17 +2930,23 @@ paua,paua,Haliotis iris,Haliotidae,animal,
 south-african-abalone,South African abalone (perlemoen),Haliotis midae,Haliotidae,animal,perlemoen
 red-abalone,red abalone,Haliotis rufescens,Haliotidae,animal,
 japanese-abalone,Japanese abalone (ezo awabi),Haliotis discus,Haliotidae,animal,ezo awabi
+coquina-clam,coquina clam,Donax variabilis,Donacidae,animal,
+wedge-clam,wedge clam (tellina),Donax trunculus,Donacidae,animal,tellina
+small-giant-clam,small giant clam,Tridacna maxima,Cardiidae,animal,
+giant-clam,giant clam,Tridacna gigas,Cardiidae,animal,
+common-cockle,common cockle,Cerastoderma edule,Cardiidae,animal,cockle
+pacific-razor-clam,Pacific razor clam,Siliqua patula,Pharidae,animal,
+grooved-razor,grooved razor,Solen marginatus,Solenidae,animal,
+razor-clam,razor clam (Europe),Ensis magnus,Pharidae,animal,Europe
+atlantic-jackknife-clam,Atlantic jackknife clam,Ensis leei,Pharidae,animal,
+geoduck,geoduck,Panopea generosa,Hiatellidae,animal,geoduck
 tamilok,tamilok (shipworm),Bactronophorus thoracites,Teredinidae,animal,shipworm
 giant-shipworm,giant shipworm,Kuphus polythalamius,Teredinidae,animal,
 common-piddock,common piddock,Pholas dactylus,Pholadidae,animal,
 fat-gaper,fat gaper (horse clam),Tresus capax,Mactridae,animal,horse clam
 ocean-quahog,ocean quahog,Arctica islandica,Arcticidae,animal,
-coquina-clam,coquina clam,Donax variabilis,Donacidae,animal,
-wedge-clam,wedge clam (tellina),Donax trunculus,Donacidae,animal,tellina
 shijimi,shijimi,Corbicula japonica,Cyrenidae,animal,
 asian-clam,Asian clam,Corbicula fluminea,Cyrenidae,animal,
-small-giant-clam,small giant clam,Tridacna maxima,Cardiidae,animal,
-giant-clam,giant clam,Tridacna gigas,Cardiidae,animal,
 rayed-artemis,rayed artemis,Dosinia exoleta,Veneridae,animal,
 striped-venus,striped venus (vongola),Chamelea gallina,Veneridae,animal,vongola
 smooth-venus,smooth venus,Callista chione,Veneridae,animal,
@@ -2952,21 +2958,10 @@ hamaguri,hamaguri,Meretrix lusoria,Veneridae,animal,
 pullet-carpet-shell,pullet carpet shell,Venerupis corrugata,Veneridae,animal,
 grooved-carpet-shell,grooved carpet shell,Ruditapes decussatus,Veneridae,animal,
 manila-clam,Manila clam,Ruditapes philippinarum,Veneridae,animal,
-common-cockle,common cockle,Cerastoderma edule,Cardiidae,animal,cockle
 arctic-surf-clam,Arctic surf clam (hokkigai),Mactromeris polynyma,Mactridae,animal,hokkigai
 atlantic-surf-clam,Atlantic surf clam,Spisula solidissima,Mactridae,animal,
-pacific-razor-clam,Pacific razor clam,Siliqua patula,Pharidae,animal,
-grooved-razor,grooved razor,Solen marginatus,Solenidae,animal,
-razor-clam,razor clam (Europe),Ensis magnus,Pharidae,animal,Europe
-atlantic-jackknife-clam,Atlantic jackknife clam,Ensis leei,Pharidae,animal,
-geoduck,geoduck,Panopea generosa,Hiatellidae,animal,geoduck
 soft-shell-clam,soft-shell clam,Mya arenaria,Myidae,animal,soft-shell clam;steamers
 hard-clam,hard clam (quahog),Mercenaria mercenaria,Veneridae,animal,quahog;hard clam;clam;clams;littleneck;cherrystone;manila clam
-dog-cockle,dog cockle,Glycymeris glycymeris,Glycymerididae,animal,
-black-lip-pearl-oyster,black-lip pearl oyster,Pinctada margaritifera,Margaritidae,animal,
-pen-shell,pen shell (tairagi),Atrina pectinata,Pinnidae,animal,tairagi
-akagai,akagai,Anadara broughtonii,Arcidae,animal,
-blood-cockle,blood cockle,Tegillarca granosa,Arcidae,animal,
 queen-scallop,queen scallop,Aequipecten opercularis,Pectinidae,animal,
 iceland-scallop,Iceland scallop,Chlamys islandica,Pectinidae,animal,
 yesso-scallop,Yesso scallop (hotate),Mizuhopecten yessoensis,Pectinidae,animal,hotate
@@ -2975,6 +2970,11 @@ bay-scallop,bay scallop,Argopecten irradians,Pectinidae,animal,
 mediterranean-scallop,Mediterranean scallop,Pecten jacobaeus,Pectinidae,animal,
 king-scallop,king scallop,Pecten maximus,Pectinidae,animal,
 sea-scallop,sea scallop,Placopecten magellanicus,Pectinidae,animal,
+dog-cockle,dog cockle,Glycymeris glycymeris,Glycymerididae,animal,
+black-lip-pearl-oyster,black-lip pearl oyster,Pinctada margaritifera,Margaritidae,animal,
+pen-shell,pen shell (tairagi),Atrina pectinata,Pinnidae,animal,tairagi
+akagai,akagai,Anadara broughtonii,Arcidae,animal,
+blood-cockle,blood cockle,Tegillarca granosa,Arcidae,animal,
 horse-mussel,horse mussel,Modiolus modiolus,Mytilidae,animal,
 choro-zapato,choro zapato,Choromytilus chorus,Mytilidae,animal,
 brown-mussel,brown mussel,Perna perna,Mytilidae,animal,
