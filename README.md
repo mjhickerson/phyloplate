@@ -24,20 +24,33 @@ Prokaryotes are excluded on purpose (they are on everything). Amounts are ignore
 | `curation/anchor_review.csv` | One row per hand-placed family with the basis for the placement, a confidence rating, and blank columns for expert review. |
 | `scripts/assemble_tree.py` | Takes any dated Newick plus the species list and produces the app's tree: matches species, applies synonyms, gap-fills missing species next to congeners, at family nodes, or by anchor, names internal nodes, and writes a report. Pure Python, no dependencies. |
 | `scripts/bake.py` | Builds the single-file app from a tree and the HTML template. |
-| `scripts/make_placeholder_tree.py` | Generates the 289-taxon placeholder tree used in the demo build, from hand-set node ages. |
+| `scripts/make_placeholder_tree.py` | Generates the original 289-taxon placeholder tree, from hand-set node ages (kept for the record). |
 | `app/template.html` | The app: ingredient parsing, PD and richness, meal phylogram, radial coverage view, meal log, custom-tree loader. |
-| `app/phyloplate_demo.html` | A working demo built on the placeholder tree. Open it in a browser. |
-| `tree/` | The placeholder tree (`food_tree.newick`, `taxa.csv`) and its version stamp. |
+| `app/phyloplate_demo.html` | A working demo built on the open tree. Live at https://mjhickerson.github.io/phyloplate/app/phyloplate_demo.html |
+| `tree/` | The open tree (`food_tree.newick`, `taxa.csv`), its version stamp, provenance, seam report and assembly report. |
+| `scripts/graft_tree.py`, `scripts/backbone.py` | The graft step: stitches pruned published chronograms onto the cited backbone. Source trees are not included (large; all are public downloads listed in `backbone.py`). |
 
 ![Coverage of the edible tree](docs/images/coverage.png)
 
 ## About the tree and its ages
 
-**The demo tree in this repository uses placeholder ages.** Deep nodes follow published ranges loosely; shallow nodes are educated guesses. It exists so the pipeline and the app can be run and inspected. Do not quote numbers from it.
+**The demo in this repository runs on the open tree, version `open-0.1`**: 2,705 edible species assembled entirely from published, redistributable chronograms, grafted onto a backbone of deep-node ages. Sources:
 
-The working version of Phyloplate runs on a tree with divergence times from TimeTree 5 (Kumar et al. 2022) for 2,607 of the 3,279 species, with the rest placed by the rules in `curation.py`. TimeTree's terms of use restrict redistribution of its data and transformations of it, so that tree is **not** included here, and no file derived from it will be committed. A fully open replacement assembled from published, redistributable chronograms (Smith & Brown 2018 for seed plants, Rabosky et al. 2018 for fishes, Upham et al. 2019 for mammals, Jetz et al. 2012 for birds, Varga et al. 2019 for mushrooms, Yang et al. 2016 for red algae, and others) on an OpenTree backbone is planned; the pipeline is source-agnostic and will regenerate from it unchanged.
+| Source | What it dates | Species placed |
+|---|---|---|
+| Strassert et al. 2021, *Nat Commun* | deep eukaryote nodes (root 2,132 Ma) | backbone |
+| Irisarri et al. 2017, *Nat Ecol Evol* | jawed-vertebrate nodes | backbone |
+| Smith & Brown 2018, *Am J Bot* (ALLMB) | seed plants | 1,796 |
+| Nitta et al. 2022, *Front Plant Sci* (FTOL) | ferns | 10 |
+| Rabosky et al. 2018, *Nature* (Fish Tree of Life) | ray-finned fishes | 533 |
+| Upham et al. 2019, *PLoS Biol* (MamPhy) | mammals | 127 |
+| Varga et al. 2019, *Nat Ecol Evol* | mushrooms (Agaricomycotina) | 75 |
 
-Every hand-placed family is listed in `curation/anchor_review.csv` with its basis and confidence. Corrections from specialists are welcome as pull requests to `curation.py` or as filled-in rows of that sheet. Every change to the tree bumps `TREE_VERSION` and gets a changelog line.
+Each source keeps its own internal ages and hangs from the backbone at its crown. Species not in any source are placed next to a congener or family member, or by a hand-curated anchor (`curation/curation.py`). Birds, reptiles, amphibians, sharks, molluscs, crustaceans, insects and seaweeds (about 575 species) are not yet in this build; their sources and anchors are being added. A few backbone nodes are still marked approximate in `scripts/backbone.py`. The seam report (`tree/seam_report_v1.txt`) lists every graft, and `tree/assembly_report.txt` every placement.
+
+The working prototype used during development ran on a tree with divergence times from TimeTree 5 (Kumar et al. 2022). TimeTree's terms of use restrict redistribution of its data and transformations of it, so that tree is **not** included here, and no file derived from it will be committed.
+
+Corrections from specialists are welcome as pull requests to `curation/curation.py` or `scripts/backbone.py`, or as filled-in rows of `curation/anchor_review.csv`. Every change to the tree bumps its version and gets a changelog line.
 
 ## Running the pipeline
 
@@ -61,14 +74,14 @@ Ingredient parsing in the app uses a language model to turn recipe text into Lat
 - [x] Working prototype: parsing, PD, richness, coverage, meal phylogram, radial coverage, meal log
 - [x] Species list (3,279) and placement tables
 - [x] Assembly pipeline with synonyms, gap-filling, node naming, versioning
-- [ ] Open, redistributable dated tree
+- [x] Open, redistributable dated tree (v0.1: plants, fishes, mammals, mushrooms; invertebrates, seaweeds, birds and reptiles pending)
 - [ ] Standalone hosting with the tree server-side
 - [ ] Abundance-weighted PD (phylogenetic Hill numbers)
 - [ ] Per-week aggregation and a richness-controlled coverage score
 
 ## Citing
 
-Hickerson, M.J. (2026). Phyloplate: phylogenetic diversity of what you eat. Software and data, version 0.1.0. https://github.com/mjhickerson/phyloplate
+Hickerson, M.J. (2026). Phyloplate: phylogenetic diversity of what you eat. Software and data, version 0.1.0. https://github.com/<user>/phyloplate
 
 Code is MIT-licensed; the species list and curation tables are CC BY 4.0 (see `data/LICENSE`).
 
