@@ -3077,6 +3077,10 @@ blue-king-crab,blue king crab,Paralithodes platypus,Lithodidae,animal,
 red-king-crab,red king crab,Paralithodes camtschaticus,Lithodidae,animal,king crab
 red-squat-lobster,red squat lobster,Pleuroncodes monodon,Munididae,animal,
 squat-lobster,squat lobster (langostino),Munida gregaria,Munididae,animal,langostino
+new-zealand-scampi,New Zealand scampi,Metanephrops challengeri,Nephropidae,animal,
+langoustine,langoustine,Nephrops norvegicus,Nephropidae,animal,
+european-lobster,European lobster,Homarus gammarus,Nephropidae,animal,
+american-lobster,American lobster,Homarus americanus,Nephropidae,animal,lobster
 virile-crayfish,virile crayfish,Faxonius virilis,Cambaridae,animal,
 marron,marron,Cherax cainii,Parastacidae,animal,
 yabby,yabby,Cherax destructor,Parastacidae,animal,
@@ -3085,10 +3089,6 @@ white-clawed-crayfish,white-clawed crayfish,Austropotamobius pallipes,Astacidae,
 signal-crayfish,signal crayfish,Pacifastacus leniusculus,Astacidae,animal,
 noble-crayfish,noble crayfish,Astacus astacus,Astacidae,animal,
 red-swamp-crayfish,red swamp crayfish,Procambarus clarkii,Cambaridae,animal,crayfish;crawfish;crawdad
-new-zealand-scampi,New Zealand scampi,Metanephrops challengeri,Nephropidae,animal,
-langoustine,langoustine,Nephrops norvegicus,Nephropidae,animal,
-european-lobster,European lobster,Homarus gammarus,Nephropidae,animal,
-american-lobster,American lobster,Homarus americanus,Nephropidae,animal,lobster
 balmain-bug,Balmain bug,Ibacus peronii,Scyllaridae,animal,
 mediterranean-slipper-lobster,Mediterranean slipper lobster,Scyllarides latus,Scyllaridae,animal,
 moreton-bay-bug,Moreton Bay bug,Thenus orientalis,Scyllaridae,animal,
