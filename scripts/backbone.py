@@ -3,7 +3,7 @@ STR21 = "Strassert et al. 2021 Nat Commun 12:1879 (MCMCTree AC, Amorphea root, u
 IRI17 = "Irisarri et al. 2017 Nat Ecol Evol 1:1370 (genome-averaged timetree of jawed vertebrates)"
 YANG16 = "Yang et al. 2016 Sci Rep 6:21361 (florideophyte red algae timetree)"
 APPROX = "APPROXIMATE, not yet cited; replace"
-WOLFE19 = "Wolfe et al. 2019 Proc R Soc B 286:20190079, PhyloBayes CIR / UGAM chronograms, mean of the two;"
+WOLFE19 = "Wolfe et al. 2019 Proc R Soc B 286:20190079, PhyloBayes UGAM chronogram;"
 # Subtrees (S) keep their own internal ages and hang from the enclosing node at their crown age.
 # Rule: a source's crown wins over a backbone node for the same split; backbone ages apply only above it.
 # Nodes with no source or species under them persist as placeholders so curation.PLACEMENTS_OPEN can anchor families to them.
@@ -70,21 +70,21 @@ TREE = N("Eukaryotes", 2132, STR21,
                         N("Malacostraca", 490, APPROX + " (Wolfe et al. 2019 stomatopod/decapod split 466-480)",
                           N("Eumalacostraca", 480, APPROX,
                            N("Eucarida", 470, APPROX,
-                            N("Decapoda", 460, WOLFE19 + " crown 455 (CIR) / 465 (UGAM)",
-                              N("Dendrobranchiata", 355, WOLFE19 + " 361 / 349"),
-                              N("Pleocyemata", 458, WOLFE19 + " 454 / 461",
-                                N("Caridea", 424, WOLFE19 + " 432 / 415"),
-                                N("Reptantia", 398, WOLFE19 + " 393 / 402",
-                                  N("Achelata", 252, WOLFE19 + " 254 / 250",
-                                    N("Palinuridae", 140, WOLFE19 + " Panulirus vs Palinurus 167 / 110"),
+                            N("Decapoda", 465, WOLFE19 + " 465 (CIR 455)",
+                              N("Dendrobranchiata", 349, WOLFE19 + " 349 (CIR 361)"),
+                              N("Pleocyemata", 461, WOLFE19 + " 461 (CIR 454)",
+                                N("Caridea", 415, WOLFE19 + " 415 (CIR 432)"),
+                                N("Reptantia", 402, WOLFE19 + " 402 (CIR 393)",
+                                  N("Achelata", 250, WOLFE19 + " 250 (CIR 254)",
+                                    N("Palinuridae", 110, WOLFE19 + " Panulirus vs Palinurus 110 (CIR 167)"),
                                   ),
-                                  N("Astacidea", 272, WOLFE19 + " 322 / 223; models disagree, REVIEW",
-                                    N("Crayfish (Astacoidea + Parastacoidea)", 195, WOLFE19 + " Procambarus vs Cherax 241 / 149"),
+                                  N("Astacidea", 223, WOLFE19 + " 223 (CIR 322; models disagree)",
+                                    N("Crayfish (Astacoidea + Parastacoidea)", 149, WOLFE19 + " Procambarus vs Cherax 149 (CIR 241)"),
                                   ),
-                                  N("Meiura", 326, WOLFE19 + " 329 / 322",
-                                    N("Anomura", 202, WOLFE19 + " 206 / 197"),
-                                    N("Brachyura", 172, WOLFE19 + " 162 / 183",
-                                      N("Eubrachyura", 110, WOLFE19 + " 118 / 102"),
+                                  N("Meiura", 322, WOLFE19 + " 322 (CIR 329)",
+                                    N("Anomura", 197, WOLFE19 + " 197 (CIR 206)"),
+                                    N("Brachyura", 183, WOLFE19 + " 183 (CIR 162)",
+                                      N("Eubrachyura", 102, WOLFE19 + " 102 (CIR 118)"),
                                     ),
                                   ),
                                 ),
