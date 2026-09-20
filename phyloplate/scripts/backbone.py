@@ -1,0 +1,96 @@
+# Backbone for the open Phyloplate tree. Ages in Ma, with the source for each node.
+STR21 = "Strassert et al. 2021 Nat Commun 12:1879 (MCMCTree AC, Amorphea root, uniform calibrations; mean posterior)"
+IRI17 = "Irisarri et al. 2017 Nat Ecol Evol 1:1370 (genome-averaged timetree of jawed vertebrates)"
+APPROX = "APPROXIMATE, not yet cited; replace"
+# Subtrees (S) keep their own internal ages and hang from the enclosing node at their crown age.
+# Rule: a source's crown wins over a backbone node for the same split; backbone ages apply only above it.
+OPEN = "/home/claude/open/"
+
+SB18_SYN = {"Achnatherum hymenoides": "Eriocoma hymenoides", "Amomum tsao-ko": "Lanxangia tsaoko",
+            "Chaenomeles sinensis": "Pseudocydonia sinensis", "Erythranthe guttata": "Mimulus guttatus",
+            "Cheilocostus speciosus": "Hellenia speciosa"}
+RAB18_SYN = {"Liza haematocheila": "Planiliza haematocheila", "Chelon haematocheilus": "Planiliza haematocheila",
+             "Sciaena gilberti": "Cilus gilberti", "Channa obscura": "Parachanna obscura"}
+UPH19_SYN = {"Bubalus arnee": "Bubalus bubalis", "Tragelaphus oryx": "Taurotragus oryx", "Equus africanus": "Equus asinus",
+             "Macropus rufus": "Osphranter rufus", "Macropus rufogriseus": "Notamacropus rufogriseus"}
+VAR19_SYN = {"Polyporus squamosus": "Cerioporus squamosus"}
+import csv as _csv
+for _r in _csv.DictReader(open(OPEN + "Species_name_match.csv", encoding="utf-8"), delimiter="\t"):
+    _a, _f = _r["Alignment_names"].replace("_", " "), _r["Species_names_final"].replace("_", " ")
+    if _a != _f: VAR19_SYN.setdefault(_a, _f)
+
+TREE = N("Eukaryotes", 2132, STR21,
+    N("Amorphea", 1938, STR21,
+        N("Opisthokonta", 1359, STR21,
+            N("Fungi", 806, STR21,
+                N("Dikarya", 646, STR21,
+                    N("Ascomycota", 493, STR21),
+                    N("Basidiomycota", 452, STR21,
+                        S(OPEN + "varga2019.tree", "Varga et al. 2019 Nat Ecol Evol 3:668, FastDate chronogram 216 (5,284 Agaricomycotina)", VAR19_SYN),
+                    ),
+                ),
+            ),
+            N("Animals", 688, STR21,
+                N("Cnidaria + Bilateria", 651, STR21,
+                    N("Bilateria", 616, STR21,
+                        N("Protostomes", 592, STR21,
+                            N("Lophotrochozoa", 564, STR21,
+                                N("Mollusca", 534, STR21),
+                            ),
+                        ),
+                        N("Deuterostomes", 599, STR21,
+                            N("Chordates", 560, STR21,
+                                N("Vertebrates", 535, APPROX + " (cyclostome/gnathostome split)",
+                                    N("Jawed vertebrates", 458, IRI17,
+                                        N("Bony vertebrates", 449, IRI17,
+                                            S(OPEN + "actinopt_12k_treePL_tre", "Rabosky et al. 2018 Nature 559:392, Fish Tree of Life actinopt_12k_treePL", RAB18_SYN),
+                                            N("Lobe-finned fishes + tetrapods", 412, IRI17,
+                                                T("Protopterus annectens"),
+                                                N("Tetrapods", 350, IRI17 + " (early Carboniferous; mean approx.)",
+                                                    N("Amniotes", 325, STR21,
+                                                        S(OPEN + "mamphy_mcc.nwk", "Upham et al. 2019 PLoS Biol 17:e3000494, MamPhy completed 5,911sp NDexp MCC", UPH19_SYN),
+                                                        N("Sauropsids", 280, APPROX + " (lepidosaur/archosaur split)",
+                                                            N("Archosaurs + turtles", 260, APPROX,
+                                                                N("Archosaurs", 250, APPROX + " (crocodilians vs birds)"),
+                                                            ),
+                                                        ),
+                                                    ),
+                                                ),
+                                            ),
+                                        ),
+                                    ),
+                                ),
+                            ),
+                        ),
+                    ),
+                ),
+            ),
+        ),
+    ),
+    N("Diaphoretickes + Discoba", 2114, STR21,
+        N("Discoba", 1674, STR21, T("Euglena gracilis")),
+        N("Diaphoretickes", 2028, STR21,
+            N("SAR", 1741, STR21,
+                N("Stramenopiles", 1044, STR21),
+            ),
+            N("Archaeplastida", 1925, STR21,
+                N("Rhodophyta", 1614, STR21,
+                    N("Bangiophyceae + Florideophyceae", 1415, STR21),
+                ),
+                N("Viridiplantae", 1112, STR21,
+                    N("Chlorophyta", 972, STR21,
+                        N("Core Chlorophyta (UTC)", 600, STR21 + " (node 206, Coccomyxa vs Volvox = 583; rounded)"),
+                    ),
+                    N("Streptophyta", 790, STR21,
+                        N("Land plants", 534, STR21,
+                            N("Euphyllophytes", 480, STR21 + " (474; raised to 480 to sit above FTOL's fern crown of 475)",
+                                S(OPEN + "ftol_dated.nwk", "Nitta et al. 2022 Front Plant Sci, FTOL ML dated tree (ftolr)", {}),
+                                S(OPEN + "v0.1/ALLMB.tre", "Smith & Brown 2018 Am J Bot 105:302, ALLMB (seed plants, Magallon backbone)", SB18_SYN),
+                            ),
+                        ),
+                    ),
+                ),
+            ),
+        ),
+    ),
+)
