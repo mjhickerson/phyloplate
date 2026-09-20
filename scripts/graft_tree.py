@@ -20,8 +20,9 @@ threading.stack_size(512 * 1024 * 1024)
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from assemble_tree import Node, parse_newick, write_newick, set_heights, norm_species
 
+CAND_GROUP = {}
 def N(name, age, source, *children): return {"kind": "N", "name": name, "age": float(age), "source": source, "children": list(children)}
-def S(path, label, synonyms=None): return {"kind": "S", "path": path, "label": label, "synonyms": synonyms or {}}
+def S(path, label, synonyms=None, groups=None): return {"kind": "S", "path": path, "label": label, "synonyms": synonyms or {}, "groups": groups}
 def T(species): return {"kind": "T", "species": species}
 
 def prune_to(root, keep_norm):
@@ -41,6 +42,8 @@ def prune_to(root, keep_norm):
     return r
 
 def graft_source(spec, cand_norm, report):
+    if spec.get("groups"):
+        cand_norm = {k for k, g in CAND_GROUP.items() if any(g.startswith(p) for p in spec["groups"])}
     txt = open(spec["path"], encoding="utf-8").read()
     root = parse_newick(txt)
     # relabel by synonyms (source name -> candidate name), underscores -> spaces
@@ -87,7 +90,8 @@ def build(spec, cand_norm, report, parent_age=None):
                 report.append(f"  SEAM CONFLICT: '{getattr(c, 'label', '?') or '(subtree)'}' crown {c.height:.1f} >= node {spec['name']} {spec['age']:.0f}; stem clamped to 1 Myr")
                 stem = 1.0
             c.bl = stem; node.add(c)
-        if not node.children: return None
+        if not node.children:
+            ph = Node("__placeholder__" + spec["name"]); ph.height = 0.0; ph.bl = spec["age"]; node.add(ph)
         return node
     if spec["kind"] == "S":
         sub = graft_source(spec, cand_norm, report)
@@ -105,8 +109,11 @@ def main():
     rep_path = sys.argv[4] if len(sys.argv) > 4 else None
     ns = {"N": N, "S": S, "T": T}
     exec(open(bb_path, encoding="utf-8").read(), ns)
-    cand = [r["species"] for r in csv.DictReader(open(csv_path, encoding="utf-8"))]
+    rows = list(csv.DictReader(open(csv_path, encoding="utf-8")))
+    cand = [r["species"] for r in rows]
     cand_norm = {norm_species(s) for s in cand}
+    global CAND_GROUP
+    CAND_GROUP = {norm_species(r["species"]): r["group"] for r in rows}
     report = []
     root = build(ns["TREE"], cand_norm, report)
     # heights: backbone nodes carry explicit ages, subtrees carry their own; recompute branch lengths from heights
@@ -116,7 +123,7 @@ def main():
             if c.bl < 0: c.bl = 1.0
             fix(c)
     fix(root)
-    tips = root.tips()
+    tips = [t for t in root.tips() if not t.label.startswith("__placeholder__")]
     with open(out_path, "w", encoding="utf-8") as f: f.write(write_newick(root) + "\n")
     placed = {norm_species(t.label) for t in tips}
     missing = [s for s in cand if norm_species(s) not in placed]

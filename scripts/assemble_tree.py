@@ -27,9 +27,10 @@ from collections import defaultdict
 try:
     import curation
     SYNONYMS, PLACEMENTS, CLADE_NAMES = curation.SYNONYMS, curation.PLACEMENTS, curation.CLADE_NAMES
+    PLACEMENTS_OPEN = getattr(curation, "PLACEMENTS_OPEN", {})
     TREE_VERSION, CHANGELOG = getattr(curation, "TREE_VERSION", "unversioned"), getattr(curation, "CHANGELOG", [])
 except ImportError:
-    SYNONYMS, PLACEMENTS, CLADE_NAMES, TREE_VERSION, CHANGELOG = {}, {}, {}, "unversioned", []
+    SYNONYMS, PLACEMENTS, CLADE_NAMES, TREE_VERSION, CHANGELOG, PLACEMENTS_OPEN = {}, {}, {}, "unversioned", [], {}
 
 # ---------------- Newick ----------------
 class Node:
@@ -212,7 +213,7 @@ def main(nwk_path, csv_path, outdir):
     matched_genera = {genus_of(sp) for sp in matched}
     still_unmatched = []
     for t in root.tips():
-        if id(t) in claimed: continue
+        if id(t) in claimed or t.label.startswith("__placeholder__"): continue
         g = genus_of(t.label)
         cands = unmatched_by_genus.get(g, [])
         if len(cands) == 1 and g not in matched_genera:
@@ -269,9 +270,23 @@ def main(nwk_path, csv_path, outdir):
             leftovers.append(r)
 
     # 2b. order-level anchors for families with no member in the tree; deepest ages first so nesting works
+    node_by_label = {}
+    for n in _all_nodes(root):
+        if not n.is_tip() and n.label: node_by_label.setdefault(n.label, n)
     def anchor_node(fams):
-        tips_ = [t for fa in fams for t in family_index.get(fa, [])]
-        missing = [fa for fa in fams if not family_index.get(fa)]
+        """anchors are family names (MRCA of their tips) or '@Node label' (a named backbone node); the first
+        resolvable option wins, so a list can hold a family for one build and a backbone node for another."""
+        missing = []
+        for fa in fams:
+            if fa.startswith("@"):
+                n = node_by_label.get(fa[1:])
+                if n is not None: return n, missing
+                missing.append(fa)
+            elif family_index.get(fa):
+                pass
+            else:
+                missing.append(fa)
+        tips_ = [t for fa in fams if not fa.startswith("@") for t in family_index.get(fa, [])]
         return (mrca(tips_) if len(tips_) >= 2 else (tips_[0] if tips_ else None)), missing
     def attach_on_stem(node, r, age):
         """insert the new tip on the branch above `node` at `age` (or at node's parent if age is older)."""
@@ -286,17 +301,34 @@ def main(nwk_path, csv_path, outdir):
         node.bl = age - node.height; inner.add(node)
         n = Node(r["species"], age); inner.add(n)
         return f"sister to anchor clade at {age:.0f} Myr"
-    order_key = lambda r: -(PLACEMENTS.get(r["family"], ([], None))[1] or 0)
+    def placement_for(f):
+        """the open-tree table wins when its anchor resolves in this tree; otherwise the general table"""
+        for table in (PLACEMENTS_OPEN, PLACEMENTS):
+            if f in table:
+                node, missing = anchor_node(table[f][0])
+                if node is not None: return table[f]
+        return None
+    order_key = lambda r: -((placement_for(r["family"]) or ([], None))[1] or 0)
     for r in sorted(leftovers, key=order_key):
         f = r["family"]
         # a congener or family member may have been placed by an earlier anchor: reuse the genus/family rule
         gm, fm = genus_index.get(genus_of(r["species"]), []), family_index.get(f, [])
-        if gm or fm:
-            node = mrca(gm) if len(gm) >= 2 else (gm[0] if gm else (mrca(fm) if len(fm) >= 2 else fm[0]))
-            how = attach_polytomy(node, r) if (len(gm) >= 2 or (not gm and len(fm) >= 2)) else attach_sister(node, r, 5.0 if gm else 20.0)
-            level = "genus" if gm else "family"
-        elif f in PLACEMENTS:
-            fams, age = PLACEMENTS[f]
+        skel = placement_for(f) if f in PLACEMENTS_OPEN and PLACEMENTS_OPEN[f][0][0].startswith("@") else None
+        if gm:
+            node = mrca(gm) if len(gm) >= 2 else gm[0]
+            how = attach_polytomy(node, r) if len(gm) >= 2 else attach_sister(node, r, 5.0)
+            level = "genus"
+        elif skel is not None:      # a family on a skeleton node: every genus of it joins at that node, not beside the first arrival
+            fams, age = skel
+            node, missing = anchor_node(fams)
+            how = attach_on_stem(node, r, age) if age else attach_polytomy(node, r)
+            level = "order (anchor)"
+        elif fm:
+            node = mrca(fm) if len(fm) >= 2 else fm[0]
+            how = attach_polytomy(node, r) if len(fm) >= 2 else attach_sister(node, r, 20.0)
+            level = "family"
+        elif placement_for(f) is not None:
+            fams, age = placement_for(f)
             node, missing = anchor_node(fams)
             if node is None:
                 report["not placed"].append(f'{r["species"]} ({f}): anchors absent {fams}'); continue
@@ -311,7 +343,7 @@ def main(nwk_path, csv_path, outdir):
         genus_index[genus_of(r["species"])].append(new_tip); family_index[f].append(new_tip)
         set_heights(root)
 
-    # rebuild tip index after edits, then prune tree to candidate tips only
+    # rebuild tip index after edits, then prune tree to candidate tips only (placeholder tips fall out here)
     set_heights(root)
     keep = {norm_species(r["species"]) for r in rows}
     def prune(n):

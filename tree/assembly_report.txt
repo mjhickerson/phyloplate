@@ -1,18 +1,21 @@
-tree version: 2026-09-19.2
-tips in output: 2705   root age: 2132 Myr   total branch length: 95273 Myr
+tree version: open-0.2 (2026-09-20)
+tips in output: 3279   root age: 2132 Myr   total branch length: 210961 Myr
 
 == changelog
    2026-09-19  Claude/MH: First TimeTree 5 build: 2,607 dated species; 49 synonyms; 63 families anchored by hand  [TimeTree 5 export of the 3,279-name list]
    2026-09-19  Claude: Red algae anchors revised: Gigartinales families to the Gigartinales crown; Gelidiales, Bonnemaisoniales, Ceramiales, Nemaliales to subclass stems  [Yang et al. 2016 Sci Rep 6:21361]
    2026-09-19  Claude: Suillaceae to 130 Ma; Naematelia to 100 Ma; jellyfish to 650 Ma; Mucoromycota kept at 900 Ma  [Varga et al. 2019 Nat Ecol Evol 3:668; Park et al. 2012 Mol Phylogenet Evol; fungal timetree Nat Ecol Evol 2025]
+   2026-09-20  Claude/MH: Open tree v0.1: Strassert 2021 backbone; Smith & Brown 2018, Nitta 2022, Rabosky 2018, Upham 2019, Varga 2019 grafted  [see backbone.py]
+   2026-09-20  Bruce Taylor: Eukaryote rooting confirmed as Opimoda/Diphoda (= Strassert Amorphea-rooted analysis); Euglena stays with Diaphoretickes  [Williamson et al. 2025 Nature; Derelle et al. 2015 PNAS]
+   2026-09-20  Claude: Open tree v0.2: Jetz 2012 birds grafted; class/order skeleton (~60 nodes, mostly approximate) for molluscs, arthropods, algae, ascomycetes, small phyla, herps, sharks; every listed species placed  [backbone.py; PLACEMENTS_OPEN in curation.py]
 
-== matched: 2543
+== matched: 2613
 
 == synonym applied (tree label -> candidate): 0
 
 == assumed substitute (tree label -> candidate): 0
 
-== gap-filled at genus: 94
+== gap-filled at genus: 227
    Agaricus subrufescens: child of MRCA
    Pleurotus giganteus: child of MRCA
    Flammulina filiformis: sister to Flammulina velutipes at 5.00 Myr
@@ -106,7 +109,140 @@ tips in output: 2705   root age: 2132 Myr   total branch length: 95273 Myr
    Viburnum trilobum: child of MRCA
    Ligusticum striatum: child of MRCA
    Cryptotaenia japonica: sister to Cryptotaenia canadensis at 3.98 Myr
+   Saccharina latissima: sister to Saccharina japonica at 5.00 Myr
+   Laminaria hyperborea: sister to Laminaria digitata at 5.00 Myr
+   Laminaria ochroleuca: child of MRCA
+   Alaria marginata: sister to Alaria esculenta at 5.00 Myr
+   Ecklonia radiata: sister to Ecklonia cava at 5.00 Myr
+   Sargassum horneri: sister to Sargassum fusiforme at 5.00 Myr
+   Sargassum muticum: child of MRCA
+   Fucus serratus: sister to Fucus vesiculosus at 5.00 Myr
+   Fucus spiralis: child of MRCA
+   Pyropia tenera: sister to Pyropia yezoensis at 5.00 Myr
+   Pyropia haitanensis: child of MRCA
+   Porphyra purpurea: sister to Porphyra umbilicalis at 5.00 Myr
+   Porphyra dioica: child of MRCA
+   Palmaria mollis: sister to Palmaria palmata at 5.00 Myr
+   Gracilaria edulis: sister to Gracilaria gracilis at 5.00 Myr
+   Gracilaria verrucosa: child of MRCA
+   Gelidium corneum: sister to Gelidium amansii at 5.00 Myr
+   Asparagopsis armata: sister to Asparagopsis taxiformis at 5.00 Myr
+   Ulva prolifera: sister to Ulva lactuca at 5.00 Myr
+   Ulva pertusa: child of MRCA
+   Ulva intestinalis: child of MRCA
+   Ulva rigida: child of MRCA
+   Ulva linza: child of MRCA
+   Monostroma latissimum: sister to Monostroma nitidum at 5.00 Myr
+   Caulerpa racemosa: sister to Caulerpa lentillifera at 5.00 Myr
+   Codium tomentosum: sister to Codium fragile at 5.00 Myr
+   Saccharomyces pastorianus: sister to Saccharomyces cerevisiae at 5.00 Myr
+   Saccharomyces bayanus: child of MRCA
+   Kluyveromyces marxianus: sister to Kluyveromyces lactis at 5.00 Myr
+   Aspergillus sojae: sister to Aspergillus oryzae at 5.00 Myr
+   Aspergillus luchuensis: child of MRCA
+   Penicillium camemberti: sister to Penicillium roqueforti at 5.00 Myr
+   Penicillium nalgiovense: child of MRCA
+   Neurospora intermedia: sister to Neurospora sitophila at 5.00 Myr
    Rhizopus oryzae: sister to Rhizopus oligosporus at 5.00 Myr
+   Tuber magnatum: sister to Tuber melanosporum at 5.00 Myr
+   Tuber aestivum: child of MRCA
+   Tuber borchii: child of MRCA
+   Tuber indicum: child of MRCA
+   Tuber oregonense: child of MRCA
+   Morchella elata: sister to Morchella esculenta at 5.00 Myr
+   Morchella americana: child of MRCA
+   Morchella importuna: child of MRCA
+   Rhopilema hispidum: sister to Rhopilema esculentum at 5.00 Myr
+   Strongylocentrotus droebachiensis: sister to Strongylocentrotus purpuratus at 5.00 Myr
+   Mesocentrotus nudus: sister to Mesocentrotus franciscanus at 5.00 Myr
+   Apostichopus californicus: sister to Apostichopus japonicus at 5.00 Myr
+   Halocynthia aurantium: sister to Halocynthia roretzi at 5.00 Myr
+   Magallana angulata: sister to Magallana gigas at 5.00 Myr
+   Ostrea lurida: sister to Ostrea edulis at 5.00 Myr
+   Mytilus galloprovincialis: sister to Mytilus edulis at 5.00 Myr
+   Mytilus chilensis: child of MRCA
+   Perna viridis: sister to Perna canaliculus at 5.00 Myr
+   Perna perna: child of MRCA
+   Pecten jacobaeus: sister to Pecten maximus at 5.00 Myr
+   Argopecten purpuratus: sister to Argopecten irradians at 5.00 Myr
+   Ensis magnus: sister to Ensis leei at 5.00 Myr
+   Ruditapes decussatus: sister to Ruditapes philippinarum at 5.00 Myr
+   Meretrix lyrata: sister to Meretrix lusoria at 5.00 Myr
+   Tridacna maxima: sister to Tridacna gigas at 5.00 Myr
+   Corbicula japonica: sister to Corbicula fluminea at 5.00 Myr
+   Donax variabilis: sister to Donax trunculus at 5.00 Myr
+   Haliotis rufescens: sister to Haliotis discus at 5.00 Myr
+   Haliotis midae: child of MRCA
+   Haliotis iris: child of MRCA
+   Haliotis tuberculata: child of MRCA
+   Haliotis laevigata: child of MRCA
+   Haliotis rubra: child of MRCA
+   Haliotis diversicolor: child of MRCA
+   Helix lucorum: sister to Helix pomatia at 5.00 Myr
+   Babylonia japonica: sister to Babylonia areolata at 5.00 Myr
+   Turbo marmoratus: sister to Turbo cornutus at 5.00 Myr
+   Octopus sinensis: sister to Octopus vulgaris at 5.00 Myr
+   Octopus maya: child of MRCA
+   Octopus cyanea: child of MRCA
+   Eledone moschata: sister to Eledone cirrhosa at 5.00 Myr
+   Octopus minor: child of MRCA
+   Doryteuthis opalescens: sister to Doryteuthis pealeii at 5.00 Myr
+   Loligo forbesii: sister to Loligo vulgaris at 5.00 Myr
+   Loligo reynaudii: child of MRCA
+   Uroteuthis duvaucelii: sister to Uroteuthis edulis at 5.00 Myr
+   Sepioteuthis sepioidea: sister to Sepioteuthis lessoniana at 5.00 Myr
+   Todarodes sagittatus: sister to Todarodes pacificus at 5.00 Myr
+   Illex illecebrosus: sister to Illex argentinus at 5.00 Myr
+   Sepia esculenta: sister to Sepia officinalis at 5.00 Myr
+   Sepia pharaonis: child of MRCA
+   Sepia lycidas: child of MRCA
+   Penaeus vannamei: sister to Penaeus monodon at 5.00 Myr
+   Penaeus indicus: child of MRCA
+   Penaeus japonicus: child of MRCA
+   Penaeus chinensis: child of MRCA
+   Penaeus semisulcatus: child of MRCA
+   Penaeus merguiensis: child of MRCA
+   Penaeus setiferus: child of MRCA
+   Penaeus aztecus: child of MRCA
+   Penaeus duorarum: child of MRCA
+   Pandalus platyceros: sister to Pandalus borealis at 5.00 Myr
+   Pandalus jordani: child of MRCA
+   Macrobrachium nipponense: sister to Macrobrachium rosenbergii at 5.00 Myr
+   Acetes indicus: sister to Acetes japonicus at 5.00 Myr
+   Euphausia pacifica: sister to Euphausia superba at 5.00 Myr
+   Homarus gammarus: sister to Homarus americanus at 5.00 Myr
+   Panulirus cygnus: sister to Panulirus argus at 5.00 Myr
+   Panulirus interruptus: child of MRCA
+   Panulirus ornatus: child of MRCA
+   Panulirus homarus: child of MRCA
+   Jasus lalandii: sister to Jasus edwardsii at 5.00 Myr
+   Cherax destructor: sister to Cherax quadricarinatus at 5.00 Myr
+   Cherax cainii: child of MRCA
+   Portunus pelagicus: sister to Portunus trituberculatus at 5.00 Myr
+   Scylla paramamosain: sister to Scylla serrata at 5.00 Myr
+   Charybdis japonica: sister to Charybdis feriata at 5.00 Myr
+   Chionoecetes bairdi: sister to Chionoecetes opilio at 5.00 Myr
+   Chionoecetes japonicus: child of MRCA
+   Paralithodes platypus: sister to Paralithodes camtschaticus at 5.00 Myr
+   Lithodes aequispinus: sister to Lithodes santolla at 5.00 Myr
+   Maja brachydactyla: sister to Maja squinado at 5.00 Myr
+   Eriocheir japonica: sister to Eriocheir sinensis at 5.00 Myr
+   Pollicipes polymerus: sister to Pollicipes pollicipes at 5.00 Myr
+   Rhynchophorus phoenicis: sister to Rhynchophorus ferrugineus at 5.00 Myr
+   Rhynchophorus palmarum: child of MRCA
+   Apis cerana: sister to Apis mellifera at 5.00 Myr
+   Apis dorsata: child of MRCA
+   Macrotermes subhyalinus: sister to Macrotermes bellicosus at 5.00 Myr
+   Eptatretus stoutii: sister to Eptatretus burgeri at 5.00 Myr
+   Mustelus canis: sister to Mustelus mustelus at 5.00 Myr
+   Pelophylax ridibundus: sister to Pelophylax kl. esculentus at 5.00 Myr
+   Lithobates pipiens: sister to Lithobates catesbeianus at 5.00 Myr
+   Hoplobatrachus tigerinus: sister to Hoplobatrachus rugulosus at 5.00 Myr
+   Apalone ferox: sister to Apalone spinifera at 5.00 Myr
+   Crocodylus porosus: sister to Crocodylus niloticus at 5.00 Myr
+   Crocodylus siamensis: child of MRCA
+   Ctenosaura pectinata: sister to Ctenosaura similis at 5.00 Myr
+   Varanus niloticus: sister to Varanus salvator at 5.00 Myr
 
 == gap-filled at family: 61
    Hypsizygus tessellatus: child of MRCA
@@ -169,598 +305,391 @@ tips in output: 2705   root age: 2132 Myr   total branch length: 95273 Myr
    Elwendia persica: child of MRCA
    Meum athamanticum: child of MRCA
    Coelopleurum gmelinii: child of MRCA
-   Mucor racemosus: sister to Actinomucor elegans at 20.00 Myr
+   Colistium nudipinnis: sister to Rhombosolea plebeia at 20.00 Myr
 
-== gap-filled at order (anchor): 5
-   Rhizopus oligosporus: child of node at 132 Myr
-   Actinomucor elegans: child of node at 132 Myr
+== gap-filled at order (anchor): 378
+   Balanites aegyptiaca: child of MRCA at 116 Myr
    Naematelia aurantialba: sister to anchor clade at 100 Myr
+   Synodontis schall: child of node at 71 Myr
+   Uranoscopus japonicus: sister to anchor clade at 80 Myr
+   Cynoglossus semilaevis: sister to anchor clade at 60 Myr
+   Rhombosolea plebeia: sister to anchor clade at 60 Myr
+   Helostoma temminckii: child of MRCA at 69 Myr
+   Caesio cuning: sister to anchor clade at 60 Myr
+   Pholisma sonorae: child of MRCA at 61 Myr
+   Saccharina japonica: child of MRCA
+   Laminaria digitata: child of MRCA
+   Undaria pinnatifida: child of MRCA
+   Alaria esculenta: child of MRCA
+   Ecklonia cava: child of MRCA
+   Eisenia bicyclis: child of MRCA
+   Macrocystis pyrifera: child of MRCA
+   Nereocystis luetkeana: child of MRCA
+   Postelsia palmaeformis: child of MRCA
+   Lessonia nigrescens: child of MRCA
+   Durvillaea antarctica: child of MRCA
+   Sargassum fusiforme: child of MRCA
+   Ascophyllum nodosum: child of MRCA
+   Fucus vesiculosus: child of MRCA
+   Himanthalia elongata: child of MRCA
+   Cladosiphon okamuranus: child of MRCA
+   Nemacystus decipiens: child of MRCA
+   Petalonia binghamiae: child of MRCA
+   Analipus japonicus: child of MRCA
+   Chorda filum: child of MRCA
+   Pyropia yezoensis: child of MRCA
+   Porphyra umbilicalis: child of MRCA
+   Bangia fuscopurpurea: child of MRCA
+   Palmaria palmata: child of MRCA
+   Devaleraea mollis: child of MRCA
+   Chondrus crispus: child of MRCA
+   Mastocarpus stellatus: child of MRCA
+   Gigartina skottsbergii: child of MRCA
+   Chondracanthus chamissoi: child of MRCA
+   Gracilaria gracilis: child of MRCA
+   Gracilariopsis lemaneiformis: child of MRCA
+   Gelidium amansii: child of MRCA
+   Pterocladiella capillacea: child of MRCA
+   Kappaphycus alvarezii: child of MRCA
+   Eucheuma denticulatum: child of MRCA
+   Asparagopsis taxiformis: child of MRCA
+   Callophyllis variegata: child of MRCA
+   Meristotheca papulosa: child of MRCA
+   Grateloupia turuturu: child of MRCA
+   Hypnea musciformis: child of MRCA
+   Gloiopeltis furcata: child of MRCA
+   Osmundea pinnatifida: child of MRCA
+   Vertebrata lanosa: child of MRCA
+   Catenella nipae: child of MRCA
+   Nemalion helminthoides: child of MRCA
+   Acanthophora spicifera: child of MRCA
+   Sarcodia ceylanica: child of MRCA
+   Solieria robusta: child of MRCA
+   Halymenia durvillei: child of MRCA
+   Betaphycus gelatinus: child of MRCA
+   Dumontia contorta: child of MRCA
+   Ahnfeltia plicata: child of MRCA
+   Ulva lactuca: child of MRCA
+   Monostroma nitidum: child of MRCA
+   Caulerpa lentillifera: child of MRCA
+   Codium fragile: child of MRCA
+   Chlorella vulgaris: child of MRCA
+   Auxenochlorella pyrenoidosa: child of MRCA
+   Haematococcus lacustris: child of MRCA
+   Dunaliella salina: child of MRCA
+   Prasiola japonica: child of MRCA
+   Saccharomyces cerevisiae: child of MRCA
+   Brettanomyces bruxellensis: child of MRCA
+   Kluyveromyces lactis: child of MRCA
+   Debaryomyces hansenii: child of MRCA
+   Geotrichum candidum: child of MRCA
+   Torulaspora delbrueckii: child of MRCA
+   Aspergillus oryzae: child of MRCA
+   Penicillium roqueforti: child of MRCA
+   Fusarium venenatum: child of MRCA
+   Monascus purpureus: child of MRCA
+   Neurospora sitophila: child of MRCA
+   Rhizopus oligosporus: child of MRCA
+   Actinomucor elegans: child of MRCA
+   Mucor racemosus: child of MRCA
+   Tuber melanosporum: child of MRCA
+   Morchella esculenta: child of MRCA
+   Gyromitra esculenta: child of MRCA
+   Sarcoscypha coccinea: child of MRCA
+   Aleuria aurantia: child of MRCA
+   Cordyceps militaris: child of MRCA
+   Ophiocordyceps sinensis: child of MRCA
+   Hypomyces lactifluorum: child of MRCA
+   Cyttaria espinosae: child of MRCA
+   Phallus indusiatus: child of MRCA
+   Ustilago maydis: child of MRCA
+   Rhopilema esculentum: child of MRCA
+   Stomolophus meleagris: child of MRCA
+   Nemopilema nomurai: child of MRCA
+   Anemonia viridis: child of MRCA
+   Strongylocentrotus purpuratus: child of MRCA
+   Mesocentrotus franciscanus: child of MRCA
+   Heliocidaris crassispina: child of MRCA
+   Paracentrotus lividus: child of MRCA
+   Loxechinus albus: child of MRCA
+   Tripneustes gratilla: child of MRCA
+   Echinus esculentus: child of MRCA
+   Apostichopus japonicus: child of MRCA
+   Holothuria scabra: child of MRCA
+   Stichopus horrens: child of MRCA
+   Thelenota ananas: child of MRCA
+   Cucumaria frondosa: child of MRCA
+   Isostichopus fuscus: child of MRCA
+   Halocynthia roretzi: child of MRCA
+   Pyura chilensis: child of MRCA
+   Microcosmus sabatieri: child of MRCA
+   Styela clava: child of MRCA
+   Branchiostoma belcheri: child of MRCA
+   Sipunculus nudus: child of MRCA
+   Urechis unicinctus: child of MRCA
+   Palola viridis: child of MRCA
+   Lingula anatina: child of MRCA
+   Crassostrea virginica: child of MRCA
+   Magallana gigas: child of MRCA
+   Ostrea edulis: child of MRCA
+   Saccostrea glomerata: child of MRCA
+   Mytilus edulis: child of MRCA
+   Perna canaliculus: child of MRCA
+   Choromytilus chorus: child of MRCA
+   Modiolus modiolus: child of MRCA
+   Placopecten magellanicus: child of MRCA
+   Pecten maximus: child of MRCA
+   Argopecten irradians: child of MRCA
+   Mizuhopecten yessoensis: child of MRCA
+   Chlamys islandica: child of MRCA
+   Aequipecten opercularis: child of MRCA
+   Mercenaria mercenaria: child of MRCA
+   Mya arenaria: child of MRCA
+   Panopea generosa: child of MRCA
+   Ensis leei: child of MRCA
+   Solen marginatus: child of MRCA
+   Siliqua patula: child of MRCA
+   Spisula solidissima: child of MRCA
+   Mactromeris polynyma: child of MRCA
+   Cerastoderma edule: child of MRCA
+   Ruditapes philippinarum: child of MRCA
+   Venerupis corrugata: child of MRCA
+   Meretrix lusoria: child of MRCA
+   Paphia undulata: child of MRCA
+   Saxidomus gigantea: child of MRCA
+   Leukoma staminea: child of MRCA
+   Callista chione: child of MRCA
+   Chamelea gallina: child of MRCA
+   Dosinia exoleta: child of MRCA
+   Tridacna gigas: child of MRCA
+   Tegillarca granosa: child of MRCA
+   Anadara broughtonii: child of MRCA
+   Atrina pectinata: child of MRCA
+   Pinctada margaritifera: child of MRCA
+   Corbicula fluminea: child of MRCA
+   Donax trunculus: child of MRCA
+   Glycymeris glycymeris: child of MRCA
+   Arctica islandica: child of MRCA
+   Tresus capax: child of MRCA
+   Pholas dactylus: child of MRCA
+   Kuphus polythalamius: child of MRCA
+   Bactronophorus thoracites: child of MRCA
+   Haliotis discus: child of MRCA
+   Helix pomatia: child of MRCA
+   Cornu aspersum: child of MRCA
+   Otala lactea: child of MRCA
+   Lissachatina fulica: child of MRCA
+   Archachatina marginata: child of MRCA
+   Littorina littorea: child of MRCA
+   Tympanotonus fuscatus: child of MRCA
+   Telescopium telescopium: child of MRCA
+   Buccinum undatum: child of MRCA
+   Busycon carica: child of MRCA
+   Busycotypus canaliculatus: child of MRCA
+   Babylonia areolata: child of MRCA
+   Aliger gigas: child of MRCA
+   Turbo cornutus: child of MRCA
+   Lunella coronata: child of MRCA
+   Tectus niloticus: child of MRCA
+   Phorcus turbinatus: child of MRCA
+   Rapana venosa: child of MRCA
+   Hexaplex trunculus: child of MRCA
+   Bolinus brandaris: child of MRCA
+   Concholepas concholepas: child of MRCA
+   Nucella lapillus: child of MRCA
+   Fissurella latimarginata: child of MRCA
+   Patella vulgata: child of MRCA
+   Cellana grata: child of MRCA
+   Nerita albicilla: child of MRCA
+   Pila globosa: child of MRCA
+   Pomacea canaliculata: child of MRCA
+   Cipangopaludina chinensis: child of MRCA
+   Viviparus viviparus: child of MRCA
+   Semisulcospira libertina: child of MRCA
+   Melanoides tuberculata: child of MRCA
+   Dolabella auricularia: child of MRCA
+   Chiton magnificus: child of MRCA
+   Acanthopleura granulata: child of MRCA
+   Octopus vulgaris: child of MRCA
+   Enteroctopus dofleini: child of MRCA
+   Eledone cirrhosa: child of MRCA
+   Amphioctopus fangsiao: child of MRCA
+   Doryteuthis pealeii: child of MRCA
+   Loligo vulgaris: child of MRCA
+   Uroteuthis edulis: child of MRCA
+   Sepioteuthis lessoniana: child of MRCA
+   Todarodes pacificus: child of MRCA
+   Illex argentinus: child of MRCA
+   Dosidicus gigas: child of MRCA
+   Ommastrephes bartramii: child of MRCA
+   Nototodarus sloanii: child of MRCA
+   Watasenia scintillans: child of MRCA
+   Sepia officinalis: child of MRCA
+   Sepiella japonica: child of MRCA
+   Sepiola atlantica: child of MRCA
+   Euprymna berryi: child of MRCA
+   Penaeus monodon: child of MRCA
+   Metapenaeus monoceros: child of MRCA
+   Xiphopenaeus kroyeri: child of MRCA
+   Pandalus borealis: child of MRCA
+   Heterocarpus reedi: child of MRCA
+   Crangon crangon: child of MRCA
+   Sclerocrangon boreas: child of MRCA
+   Palaemon serratus: child of MRCA
+   Macrobrachium rosenbergii: child of MRCA
+   Aristaeomorpha foliacea: child of MRCA
+   Aristeus antennatus: child of MRCA
+   Pleoticus muelleri: child of MRCA
+   Plesionika edwardsii: child of MRCA
+   Acetes japonicus: child of MRCA
+   Euphausia superba: child of MRCA
+   Neomysis intermedia: child of MRCA
+   Homarus americanus: child of MRCA
+   Nephrops norvegicus: child of MRCA
+   Metanephrops challengeri: child of MRCA
+   Panulirus argus: child of MRCA
+   Palinurus elephas: child of MRCA
+   Jasus edwardsii: child of MRCA
+   Sagmariasus verreauxi: child of MRCA
+   Thenus orientalis: child of MRCA
+   Scyllarides latus: child of MRCA
+   Ibacus peronii: child of MRCA
+   Munida gregaria: child of MRCA
+   Pleuroncodes monodon: child of MRCA
+   Procambarus clarkii: child of MRCA
+   Astacus astacus: child of MRCA
+   Pacifastacus leniusculus: child of MRCA
+   Austropotamobius pallipes: child of MRCA
+   Cherax quadricarinatus: child of MRCA
+   Faxonius virilis: child of MRCA
+   Cancer pagurus: child of MRCA
+   Metacarcinus magister: child of MRCA
+   Callinectes sapidus: child of MRCA
+   Portunus trituberculatus: child of MRCA
+   Scylla serrata: child of MRCA
+   Charybdis feriata: child of MRCA
+   Necora puber: child of MRCA
+   Carcinus maenas: child of MRCA
+   Chionoecetes opilio: child of MRCA
+   Paralithodes camtschaticus: child of MRCA
+   Lithodes santolla: child of MRCA
+   Maja squinado: child of MRCA
+   Eriocheir sinensis: child of MRCA
+   Menippe mercenaria: child of MRCA
+   Ranina ranina: child of MRCA
+   Cardisoma guanhumi: child of MRCA
+   Ucides cordatus: child of MRCA
+   Erimacrus isenbeckii: child of MRCA
+   Pseudocarcinus gigas: child of MRCA
+   Chaceon quinquedens: child of MRCA
+   Ovalipes catharus: child of MRCA
+   Oratosquilla oratoria: child of MRCA
+   Squilla mantis: child of MRCA
+   Harpiosquilla raphidea: child of MRCA
+   Pollicipes pollicipes: child of MRCA
+   Austromegabalanus psittacus: child of MRCA
+   Lepas anatifera: child of MRCA
+   Tachypleus gigas: child of MRCA
+   Carcinoscorpius rotundicauda: child of MRCA
+   Acheta domesticus: child of MRCA
+   Gryllus bimaculatus: child of MRCA
+   Gryllodes sigillatus: child of MRCA
+   Brachytrupes membranaceus: child of MRCA
+   Locusta migratoria: child of MRCA
+   Schistocerca gregaria: child of MRCA
+   Sphenarium purpurascens: child of MRCA
+   Ruspolia differens: child of MRCA
+   Tenebrio molitor: child of MRCA
+   Zophobas morio: child of MRCA
+   Alphitobius diaperinus: child of MRCA
+   Bombyx mori: child of MRCA
+   Antheraea pernyi: child of MRCA
+   Samia ricini: child of MRCA
+   Gonimbrasia belina: child of MRCA
+   Cirina forda: child of MRCA
+   Rhynchophorus ferrugineus: child of MRCA
+   Oryctes rhinoceros: child of MRCA
+   Hermetia illucens: child of MRCA
+   Chaoborus edulis: child of MRCA
+   Apis mellifera: child of MRCA
+   Melipona beecheii: child of MRCA
+   Tetragonula carbonaria: child of MRCA
+   Vespa mandarinia: child of MRCA
+   Vespula flaviceps: child of MRCA
+   Polybia occidentalis: child of MRCA
+   Atta laevigata: child of MRCA
+   Oecophylla smaragdina: child of MRCA
+   Liometopum apiculatum: child of MRCA
+   Macrotermes bellicosus: child of MRCA
+   Lethocerus indicus: child of MRCA
+   Corisella texcocana: child of MRCA
+   Encosternum delegorguei: child of MRCA
+   Euschistus taxcoensis: child of MRCA
+   Cryptotympana atrata: child of MRCA
+   Magicicada septendecim: child of MRCA
+   Cybister tripunctatus: child of MRCA
+   Endoxyla leucomochla: child of MRCA
+   Aegiale hesperiaris: child of MRCA
+   Comadia redtenbacheri: child of MRCA
+   Holotrichia parallela: child of MRCA
+   Cyriopagopus albostriatus: child of MRCA
+   Heterometrus longimanus: child of MRCA
+   Scolopendra subspinipes: child of MRCA
+   Petromyzon marinus: child of MRCA
+   Lampetra fluviatilis: child of MRCA
+   Lethenteron camtschaticum: child of MRCA
+   Entosphenus tridentatus: child of MRCA
+   Geotria australis: child of MRCA
+   Eptatretus burgeri: child of MRCA
+   Squalus acanthias: child of MRCA
+   Mustelus mustelus: child of MRCA
+   Galeorhinus galeus: child of MRCA
+   Scyliorhinus canicula: child of MRCA
+   Prionace glauca: child of MRCA
+   Isurus oxyrinchus: child of MRCA
+   Lamna nasus: child of MRCA
+   Raja clavata: child of MRCA
+   Leucoraja erinacea: child of MRCA
+   Amblyraja radiata: child of MRCA
+   Beringraja binoculata: child of MRCA
+   Maculabatis gerrardi: child of MRCA
+   Callorhinchus milii: child of MRCA
+   Chimaera monstrosa: child of MRCA
    Sicyases sanguineus: child of MRCA
+   Pelophylax kl. esculentus: child of MRCA
+   Lithobates catesbeianus: child of MRCA
+   Hoplobatrachus rugulosus: child of MRCA
+   Fejervarya limnocharis: child of MRCA
+   Limnonectes macrodon: child of MRCA
+   Quasipaa spinosa: child of MRCA
+   Pyxicephalus adspersus: child of MRCA
+   Leptodactylus pentadactylus: child of MRCA
+   Chelydra serpentina: child of MRCA
+   Pelodiscus sinensis: child of MRCA
+   Apalone spinifera: child of MRCA
+   Amyda cartilaginea: child of MRCA
+   Trachemys scripta: child of MRCA
+   Malaclemys terrapin: child of MRCA
+   Alligator mississippiensis: child of MRCA
+   Crocodylus niloticus: child of MRCA
+   Caiman yacare: child of MRCA
+   Iguana iguana: child of MRCA
+   Ctenosaura similis: child of MRCA
+   Python bivittatus: child of MRCA
+   Malayopython reticulatus: child of MRCA
+   Ptyas mucosa: child of MRCA
+   Naja atra: child of MRCA
+   Bungarus multicinctus: child of MRCA
+   Crotalus atrox: child of MRCA
+   Varanus salvator: child of MRCA
+   Salvator merianae: child of MRCA
+   Curculigo latifolia: child of MRCA
+   Cynomorium coccineum: child of MRCA
    Poraqueiba sericea: child of MRCA
 
-== anchor families missing (placement still made): 2
-   Rhizopodaceae: ['Saccharomycetaceae']
-   Mucoraceae: ['Saccharomycetaceae']
+== anchor families missing (placement still made): 0
 
-== not placed: 576
-   Rhopilema esculentum (Rhizostomatidae): anchors absent ['Actiniidae']
-   Rhopilema hispidum (Rhizostomatidae): anchors absent ['Actiniidae']
-   Stomolophus meleagris (Stomolophidae): anchors absent ['Actiniidae']
-   Nemopilema nomurai (Rhizostomatidae): anchors absent ['Actiniidae']
-   Nemalion helminthoides (Liagoraceae): anchors absent ['Palmariaceae']
-   Cyriopagopus albostriatus (Theraphosidae): anchors absent ['Scorpionidae']
-   Neomysis intermedia (Mysidae): anchors absent ['Penaeidae', 'Euphausiidae']
-   Gelidium amansii (Gelidiaceae): anchors absent ['Gigartinaceae', 'Halymeniaceae']
-   Gelidium corneum (Gelidiaceae): anchors absent ['Gigartinaceae', 'Halymeniaceae']
-   Pterocladiella capillacea (Pterocladiaceae): anchors absent ['Gigartinaceae', 'Halymeniaceae']
-   Asparagopsis taxiformis (Bonnemaisoniaceae): anchors absent ['Gigartinaceae', 'Halymeniaceae']
-   Asparagopsis armata (Bonnemaisoniaceae): anchors absent ['Gigartinaceae', 'Halymeniaceae']
-   Osmundea pinnatifida (Rhodomelaceae): anchors absent ['Gigartinaceae', 'Halymeniaceae']
-   Vertebrata lanosa (Rhodomelaceae): anchors absent ['Gigartinaceae', 'Halymeniaceae']
-   Acanthophora spicifera (Rhodomelaceae): anchors absent ['Gigartinaceae', 'Halymeniaceae']
-   Dolabella auricularia (Aplysiidae): anchors absent ['Helicidae']
-   Lethocerus indicus (Belostomatidae): anchors absent ['Cicadidae']
-   Corisella texcocana (Corixidae): anchors absent ['Cicadidae']
-   Encosternum delegorguei (Tessaratomidae): anchors absent ['Cicadidae']
-   Euschistus taxcoensis (Pentatomidae): anchors absent ['Cicadidae']
-   Chaoborus edulis (Chaoboridae): anchors absent ['Stratiomyidae']
-   Endoxyla leucomochla (Cossidae): anchors absent ['Bombycidae', 'Saturniidae']
-   Comadia redtenbacheri (Cossidae): anchors absent ['Bombycidae', 'Saturniidae']
-   Isurus oxyrinchus (Lamnidae): anchors absent ['Scyliorhinidae']
-   Lamna nasus (Lamnidae): anchors absent ['Scyliorhinidae']
-   Mustelus mustelus (Triakidae): anchors absent ['Scyliorhinidae']
-   Mustelus canis (Triakidae): anchors absent ['Scyliorhinidae']
-   Galeorhinus galeus (Triakidae): anchors absent ['Scyliorhinidae']
-   Prionace glauca (Carcharhinidae): anchors absent ['Scyliorhinidae']
-   Aegiale hesperiaris (Hesperiidae): anchors absent ['Bombycidae', 'Saturniidae']
-   Lissachatina fulica (Achatinidae): anchors absent ['Helicidae']
-   Archachatina marginata (Achatinidae): anchors absent ['Helicidae']
-   Saccharina japonica (Laminariaceae)
-   Saccharina latissima (Laminariaceae)
-   Laminaria digitata (Laminariaceae)
-   Laminaria hyperborea (Laminariaceae)
-   Laminaria ochroleuca (Laminariaceae)
-   Undaria pinnatifida (Alariaceae)
-   Alaria esculenta (Alariaceae)
-   Alaria marginata (Alariaceae)
-   Ecklonia cava (Lessoniaceae)
-   Ecklonia radiata (Lessoniaceae)
-   Eisenia bicyclis (Lessoniaceae)
-   Macrocystis pyrifera (Laminariaceae)
-   Nereocystis luetkeana (Laminariaceae)
-   Postelsia palmaeformis (Laminariaceae)
-   Lessonia nigrescens (Lessoniaceae)
-   Durvillaea antarctica (Durvillaeaceae)
-   Sargassum fusiforme (Sargassaceae)
-   Sargassum horneri (Sargassaceae)
-   Sargassum muticum (Sargassaceae)
-   Ascophyllum nodosum (Fucaceae)
-   Fucus vesiculosus (Fucaceae)
-   Fucus serratus (Fucaceae)
-   Fucus spiralis (Fucaceae)
-   Himanthalia elongata (Himanthaliaceae)
-   Cladosiphon okamuranus (Chordariaceae): anchors absent ['Laminariaceae', 'Fucaceae']
-   Nemacystus decipiens (Chordariaceae): anchors absent ['Laminariaceae', 'Fucaceae']
-   Petalonia binghamiae (Scytosiphonaceae): anchors absent ['Laminariaceae', 'Fucaceae']
-   Analipus japonicus (Ralfsiaceae)
-   Chorda filum (Chordaceae)
-   Pyropia yezoensis (Bangiaceae)
-   Pyropia tenera (Bangiaceae)
-   Pyropia haitanensis (Bangiaceae)
-   Porphyra umbilicalis (Bangiaceae)
-   Porphyra purpurea (Bangiaceae)
-   Porphyra dioica (Bangiaceae)
-   Bangia fuscopurpurea (Bangiaceae)
-   Palmaria palmata (Palmariaceae)
-   Palmaria mollis (Palmariaceae)
-   Devaleraea mollis (Palmariaceae)
-   Chondrus crispus (Gigartinaceae)
-   Mastocarpus stellatus (Phyllophoraceae): anchors absent ['Gigartinaceae', 'Cystocloniaceae']
-   Gigartina skottsbergii (Gigartinaceae)
-   Chondracanthus chamissoi (Gigartinaceae)
-   Gracilaria gracilis (Gracilariaceae)
-   Gracilaria edulis (Gracilariaceae)
-   Gracilaria verrucosa (Gracilariaceae)
-   Gracilariopsis lemaneiformis (Gracilariaceae)
-   Kappaphycus alvarezii (Solieriaceae): anchors absent ['Gigartinaceae', 'Cystocloniaceae']
-   Eucheuma denticulatum (Solieriaceae): anchors absent ['Gigartinaceae', 'Cystocloniaceae']
-   Callophyllis variegata (Kallymeniaceae): anchors absent ['Gigartinaceae', 'Cystocloniaceae']
-   Meristotheca papulosa (Solieriaceae): anchors absent ['Gigartinaceae', 'Cystocloniaceae']
-   Grateloupia turuturu (Halymeniaceae)
-   Hypnea musciformis (Cystocloniaceae)
-   Gloiopeltis furcata (Endocladiaceae)
-   Catenella nipae (Caulacanthaceae): anchors absent ['Gigartinaceae', 'Cystocloniaceae']
-   Sarcodia ceylanica (Sarcodiaceae)
-   Solieria robusta (Solieriaceae): anchors absent ['Gigartinaceae', 'Cystocloniaceae']
-   Halymenia durvillei (Halymeniaceae)
-   Betaphycus gelatinus (Solieriaceae): anchors absent ['Gigartinaceae', 'Cystocloniaceae']
-   Dumontia contorta (Dumontiaceae): anchors absent ['Gigartinaceae', 'Cystocloniaceae']
-   Ahnfeltia plicata (Ahnfeltiaceae)
-   Ulva lactuca (Ulvaceae)
-   Ulva prolifera (Ulvaceae)
-   Ulva pertusa (Ulvaceae)
-   Ulva intestinalis (Ulvaceae)
-   Ulva rigida (Ulvaceae)
-   Ulva linza (Ulvaceae)
-   Monostroma nitidum (Monostromataceae): anchors absent ['Ulvaceae', 'Caulerpaceae']
-   Monostroma latissimum (Monostromataceae): anchors absent ['Ulvaceae', 'Caulerpaceae']
-   Caulerpa lentillifera (Caulerpaceae)
-   Caulerpa racemosa (Caulerpaceae)
-   Codium fragile (Codiaceae)
-   Codium tomentosum (Codiaceae)
-   Chlorella vulgaris (Chlorellaceae)
-   Auxenochlorella pyrenoidosa (Chlorellaceae)
-   Haematococcus lacustris (Haematococcaceae)
-   Dunaliella salina (Dunaliellaceae)
-   Prasiola japonica (Prasiolaceae): anchors absent ['Ulvaceae', 'Chlorellaceae']
-   Saccharomyces cerevisiae (Saccharomycetaceae)
-   Saccharomyces pastorianus (Saccharomycetaceae)
-   Saccharomyces bayanus (Saccharomycetaceae)
-   Brettanomyces bruxellensis (Pichiaceae)
-   Kluyveromyces lactis (Saccharomycetaceae)
-   Kluyveromyces marxianus (Saccharomycetaceae)
-   Debaryomyces hansenii (Debaryomycetaceae)
-   Geotrichum candidum (Dipodascaceae)
-   Torulaspora delbrueckii (Saccharomycetaceae)
-   Aspergillus oryzae (Aspergillaceae)
-   Aspergillus sojae (Aspergillaceae)
-   Aspergillus luchuensis (Aspergillaceae)
-   Penicillium roqueforti (Aspergillaceae)
-   Penicillium camemberti (Aspergillaceae)
-   Penicillium nalgiovense (Aspergillaceae)
-   Fusarium venenatum (Nectriaceae)
-   Monascus purpureus (Monascaceae)
-   Neurospora sitophila (Sordariaceae)
-   Neurospora intermedia (Sordariaceae)
-   Tuber melanosporum (Tuberaceae)
-   Tuber magnatum (Tuberaceae)
-   Tuber aestivum (Tuberaceae)
-   Tuber borchii (Tuberaceae)
-   Tuber indicum (Tuberaceae)
-   Tuber oregonense (Tuberaceae)
-   Morchella esculenta (Morchellaceae): anchors absent ['Tuberaceae', 'Pyronemataceae']
-   Morchella elata (Morchellaceae): anchors absent ['Tuberaceae', 'Pyronemataceae']
-   Morchella americana (Morchellaceae): anchors absent ['Tuberaceae', 'Pyronemataceae']
-   Morchella importuna (Morchellaceae): anchors absent ['Tuberaceae', 'Pyronemataceae']
-   Gyromitra esculenta (Discinaceae)
-   Sarcoscypha coccinea (Sarcoscyphaceae)
-   Aleuria aurantia (Pyronemataceae)
-   Cordyceps militaris (Cordycipitaceae)
-   Ophiocordyceps sinensis (Ophiocordycipitaceae)
-   Hypomyces lactifluorum (Hypocreaceae)
-   Cyttaria espinosae (Cyttariaceae)
-   Phallus indusiatus (Phallaceae)
-   Ustilago maydis (Ustilaginaceae)
-   Anemonia viridis (Actiniidae)
-   Strongylocentrotus purpuratus (Strongylocentrotidae)
-   Strongylocentrotus droebachiensis (Strongylocentrotidae)
-   Mesocentrotus franciscanus (Strongylocentrotidae)
-   Mesocentrotus nudus (Strongylocentrotidae)
-   Heliocidaris crassispina (Echinometridae)
-   Paracentrotus lividus (Parechinidae)
-   Loxechinus albus (Parechinidae)
-   Tripneustes gratilla (Toxopneustidae)
-   Echinus esculentus (Echinidae): anchors absent ['Parechinidae', 'Strongylocentrotidae']
-   Apostichopus japonicus (Stichopodidae)
-   Apostichopus californicus (Stichopodidae)
-   Holothuria scabra (Holothuriidae)
-   Stichopus horrens (Stichopodidae)
-   Thelenota ananas (Stichopodidae)
-   Cucumaria frondosa (Cucumariidae)
-   Isostichopus fuscus (Stichopodidae)
-   Halocynthia roretzi (Pyuridae)
-   Halocynthia aurantium (Pyuridae)
-   Pyura chilensis (Pyuridae)
-   Microcosmus sabatieri (Pyuridae)
-   Styela clava (Styelidae)
-   Branchiostoma belcheri (Branchiostomatidae)
-   Sipunculus nudus (Sipunculidae)
-   Urechis unicinctus (Urechidae)
-   Palola viridis (Eunicidae): anchors absent ['Urechidae', 'Sipunculidae']
-   Lingula anatina (Lingulidae)
-   Crassostrea virginica (Ostreidae)
-   Magallana gigas (Ostreidae)
-   Magallana angulata (Ostreidae)
-   Ostrea edulis (Ostreidae)
-   Ostrea lurida (Ostreidae)
-   Saccostrea glomerata (Ostreidae)
-   Mytilus edulis (Mytilidae)
-   Mytilus galloprovincialis (Mytilidae)
-   Mytilus chilensis (Mytilidae)
-   Perna canaliculus (Mytilidae)
-   Perna viridis (Mytilidae)
-   Perna perna (Mytilidae)
-   Choromytilus chorus (Mytilidae)
-   Modiolus modiolus (Mytilidae)
-   Placopecten magellanicus (Pectinidae)
-   Pecten maximus (Pectinidae)
-   Pecten jacobaeus (Pectinidae)
-   Argopecten irradians (Pectinidae)
-   Argopecten purpuratus (Pectinidae)
-   Mizuhopecten yessoensis (Pectinidae)
-   Chlamys islandica (Pectinidae)
-   Aequipecten opercularis (Pectinidae)
-   Mercenaria mercenaria (Veneridae)
-   Mya arenaria (Myidae)
-   Panopea generosa (Hiatellidae)
-   Ensis leei (Pharidae): anchors absent ['Solenidae', 'Hiatellidae']
-   Ensis magnus (Pharidae): anchors absent ['Solenidae', 'Hiatellidae']
-   Solen marginatus (Solenidae)
-   Siliqua patula (Pharidae): anchors absent ['Solenidae', 'Hiatellidae']
-   Spisula solidissima (Mactridae)
-   Mactromeris polynyma (Mactridae)
-   Cerastoderma edule (Cardiidae)
-   Ruditapes philippinarum (Veneridae)
-   Ruditapes decussatus (Veneridae)
-   Venerupis corrugata (Veneridae)
-   Meretrix lusoria (Veneridae)
-   Meretrix lyrata (Veneridae)
-   Paphia undulata (Veneridae)
-   Saxidomus gigantea (Veneridae)
-   Leukoma staminea (Veneridae)
-   Callista chione (Veneridae)
-   Chamelea gallina (Veneridae)
-   Dosinia exoleta (Veneridae)
-   Tridacna gigas (Cardiidae)
-   Tridacna maxima (Cardiidae)
-   Tegillarca granosa (Arcidae)
-   Anadara broughtonii (Arcidae)
-   Atrina pectinata (Pinnidae): anchors absent ['Ostreidae', 'Pectinidae']
-   Pinctada margaritifera (Margaritidae)
-   Corbicula fluminea (Cyrenidae)
-   Corbicula japonica (Cyrenidae)
-   Donax trunculus (Donacidae)
-   Donax variabilis (Donacidae)
-   Glycymeris glycymeris (Glycymerididae)
-   Arctica islandica (Arcticidae)
-   Tresus capax (Mactridae)
-   Pholas dactylus (Pholadidae): anchors absent ['Myidae', 'Hiatellidae']
-   Kuphus polythalamius (Teredinidae): anchors absent ['Myidae', 'Hiatellidae']
-   Bactronophorus thoracites (Teredinidae): anchors absent ['Myidae', 'Hiatellidae']
-   Haliotis discus (Haliotidae)
-   Haliotis rufescens (Haliotidae)
-   Haliotis midae (Haliotidae)
-   Haliotis iris (Haliotidae)
-   Haliotis tuberculata (Haliotidae)
-   Haliotis laevigata (Haliotidae)
-   Haliotis rubra (Haliotidae)
-   Haliotis diversicolor (Haliotidae)
-   Helix pomatia (Helicidae)
-   Cornu aspersum (Helicidae)
-   Helix lucorum (Helicidae)
-   Otala lactea (Helicidae)
-   Littorina littorea (Littorinidae)
-   Tympanotonus fuscatus (Potamididae): anchors absent ['Littorinidae', 'Buccinidae']
-   Telescopium telescopium (Potamididae): anchors absent ['Littorinidae', 'Buccinidae']
-   Buccinum undatum (Buccinidae)
-   Busycon carica (Busyconidae): anchors absent ['Buccinidae', 'Muricidae']
-   Busycotypus canaliculatus (Busyconidae): anchors absent ['Buccinidae', 'Muricidae']
-   Babylonia areolata (Babyloniidae)
-   Babylonia japonica (Babyloniidae)
-   Aliger gigas (Strombidae)
-   Turbo cornutus (Turbinidae)
-   Turbo marmoratus (Turbinidae)
-   Lunella coronata (Turbinidae)
-   Tectus niloticus (Tegulidae): anchors absent ['Turbinidae', 'Trochidae']
-   Phorcus turbinatus (Trochidae)
-   Rapana venosa (Muricidae)
-   Hexaplex trunculus (Muricidae)
-   Bolinus brandaris (Muricidae)
-   Concholepas concholepas (Muricidae)
-   Nucella lapillus (Muricidae)
-   Fissurella latimarginata (Fissurellidae)
-   Patella vulgata (Patellidae)
-   Cellana grata (Nacellidae)
-   Nerita albicilla (Neritidae)
-   Pila globosa (Ampullariidae)
-   Pomacea canaliculata (Ampullariidae)
-   Cipangopaludina chinensis (Viviparidae): anchors absent ['Ampullariidae', 'Littorinidae']
-   Viviparus viviparus (Viviparidae): anchors absent ['Ampullariidae', 'Littorinidae']
-   Semisulcospira libertina (Semisulcospiridae)
-   Melanoides tuberculata (Thiaridae)
-   Chiton magnificus (Chitonidae)
-   Acanthopleura granulata (Chitonidae)
-   Octopus vulgaris (Octopodidae)
-   Octopus sinensis (Octopodidae)
-   Enteroctopus dofleini (Enteroctopodidae)
-   Octopus maya (Octopodidae)
-   Octopus cyanea (Octopodidae)
-   Eledone cirrhosa (Eledonidae): anchors absent ['Octopodidae', 'Enteroctopodidae']
-   Eledone moschata (Eledonidae): anchors absent ['Octopodidae', 'Enteroctopodidae']
-   Amphioctopus fangsiao (Octopodidae)
-   Octopus minor (Octopodidae)
-   Doryteuthis pealeii (Loliginidae)
-   Doryteuthis opalescens (Loliginidae)
-   Loligo vulgaris (Loliginidae)
-   Loligo forbesii (Loliginidae)
-   Loligo reynaudii (Loliginidae)
-   Uroteuthis edulis (Loliginidae)
-   Uroteuthis duvaucelii (Loliginidae)
-   Sepioteuthis lessoniana (Loliginidae)
-   Sepioteuthis sepioidea (Loliginidae)
-   Todarodes pacificus (Ommastrephidae)
-   Todarodes sagittatus (Ommastrephidae)
-   Illex argentinus (Ommastrephidae)
-   Illex illecebrosus (Ommastrephidae)
-   Dosidicus gigas (Ommastrephidae)
-   Ommastrephes bartramii (Ommastrephidae)
-   Nototodarus sloanii (Ommastrephidae)
-   Watasenia scintillans (Enoploteuthidae): anchors absent ['Loliginidae', 'Ommastrephidae']
-   Sepia officinalis (Sepiidae)
-   Sepia esculenta (Sepiidae)
-   Sepia pharaonis (Sepiidae)
-   Sepia lycidas (Sepiidae)
-   Sepiella japonica (Sepiidae)
-   Sepiola atlantica (Sepiolidae)
-   Euprymna berryi (Sepiolidae)
-   Penaeus monodon (Penaeidae)
-   Penaeus vannamei (Penaeidae)
-   Penaeus indicus (Penaeidae)
-   Penaeus japonicus (Penaeidae)
-   Penaeus chinensis (Penaeidae)
-   Penaeus semisulcatus (Penaeidae)
-   Penaeus merguiensis (Penaeidae)
-   Penaeus setiferus (Penaeidae)
-   Penaeus aztecus (Penaeidae)
-   Penaeus duorarum (Penaeidae)
-   Metapenaeus monoceros (Penaeidae)
-   Xiphopenaeus kroyeri (Penaeidae)
-   Pandalus borealis (Pandalidae): anchors absent ['Palaemonidae', 'Crangonidae']
-   Pandalus platyceros (Pandalidae): anchors absent ['Palaemonidae', 'Crangonidae']
-   Pandalus jordani (Pandalidae): anchors absent ['Palaemonidae', 'Crangonidae']
-   Heterocarpus reedi (Pandalidae): anchors absent ['Palaemonidae', 'Crangonidae']
-   Crangon crangon (Crangonidae)
-   Sclerocrangon boreas (Crangonidae)
-   Palaemon serratus (Palaemonidae)
-   Macrobrachium rosenbergii (Palaemonidae)
-   Macrobrachium nipponense (Palaemonidae)
-   Aristaeomorpha foliacea (Aristeidae)
-   Aristeus antennatus (Aristeidae)
-   Pleoticus muelleri (Solenoceridae): anchors absent ['Penaeidae', 'Aristeidae']
-   Plesionika edwardsii (Pandalidae): anchors absent ['Palaemonidae', 'Crangonidae']
-   Acetes japonicus (Sergestidae): anchors absent ['Penaeidae', 'Aristeidae']
-   Acetes indicus (Sergestidae): anchors absent ['Penaeidae', 'Aristeidae']
-   Euphausia superba (Euphausiidae)
-   Euphausia pacifica (Euphausiidae)
-   Homarus americanus (Nephropidae)
-   Homarus gammarus (Nephropidae)
-   Nephrops norvegicus (Nephropidae)
-   Metanephrops challengeri (Nephropidae)
-   Panulirus argus (Palinuridae)
-   Panulirus cygnus (Palinuridae)
-   Panulirus interruptus (Palinuridae)
-   Panulirus ornatus (Palinuridae)
-   Panulirus homarus (Palinuridae)
-   Palinurus elephas (Palinuridae)
-   Jasus edwardsii (Palinuridae)
-   Jasus lalandii (Palinuridae)
-   Sagmariasus verreauxi (Palinuridae)
-   Thenus orientalis (Scyllaridae)
-   Scyllarides latus (Scyllaridae)
-   Ibacus peronii (Scyllaridae)
-   Munida gregaria (Munididae): anchors absent ['Lithodidae', 'Portunidae']
-   Pleuroncodes monodon (Munididae): anchors absent ['Lithodidae', 'Portunidae']
-   Procambarus clarkii (Cambaridae)
-   Astacus astacus (Astacidae)
-   Pacifastacus leniusculus (Astacidae)
-   Austropotamobius pallipes (Astacidae)
-   Cherax quadricarinatus (Parastacidae)
-   Cherax destructor (Parastacidae)
-   Cherax cainii (Parastacidae)
-   Faxonius virilis (Cambaridae)
-   Cancer pagurus (Cancridae)
-   Metacarcinus magister (Cancridae)
-   Callinectes sapidus (Portunidae)
-   Portunus trituberculatus (Portunidae)
-   Portunus pelagicus (Portunidae)
-   Scylla serrata (Portunidae)
-   Scylla paramamosain (Portunidae)
-   Charybdis feriata (Portunidae)
-   Charybdis japonica (Portunidae)
-   Necora puber (Polybiidae)
-   Carcinus maenas (Carcinidae): anchors absent ['Portunidae', 'Cancridae']
-   Chionoecetes opilio (Oregoniidae)
-   Chionoecetes bairdi (Oregoniidae)
-   Chionoecetes japonicus (Oregoniidae)
-   Paralithodes camtschaticus (Lithodidae)
-   Paralithodes platypus (Lithodidae)
-   Lithodes santolla (Lithodidae)
-   Lithodes aequispinus (Lithodidae)
-   Maja squinado (Majidae)
-   Maja brachydactyla (Majidae)
-   Eriocheir sinensis (Varunidae)
-   Eriocheir japonica (Varunidae)
-   Menippe mercenaria (Menippidae)
-   Ranina ranina (Raninidae)
-   Cardisoma guanhumi (Gecarcinidae)
-   Ucides cordatus (Ucididae): anchors absent ['Gecarcinidae', 'Portunidae']
-   Erimacrus isenbeckii (Cheiragonidae): anchors absent ['Cancridae', 'Portunidae']
-   Pseudocarcinus gigas (Menippidae)
-   Chaceon quinquedens (Geryonidae)
-   Ovalipes catharus (Ovalipidae)
-   Oratosquilla oratoria (Squillidae)
-   Squilla mantis (Squillidae)
-   Harpiosquilla raphidea (Squillidae)
-   Pollicipes pollicipes (Pollicipedidae)
-   Pollicipes polymerus (Pollicipedidae)
-   Austromegabalanus psittacus (Balanidae)
-   Lepas anatifera (Lepadidae)
-   Tachypleus gigas (Limulidae)
-   Carcinoscorpius rotundicauda (Limulidae)
-   Acheta domesticus (Gryllidae)
-   Gryllus bimaculatus (Gryllidae)
-   Gryllodes sigillatus (Gryllidae)
-   Brachytrupes membranaceus (Gryllidae)
-   Locusta migratoria (Acrididae)
-   Schistocerca gregaria (Acrididae)
-   Sphenarium purpurascens (Pyrgomorphidae)
-   Ruspolia differens (Tettigoniidae)
-   Tenebrio molitor (Tenebrionidae)
-   Zophobas morio (Tenebrionidae)
-   Alphitobius diaperinus (Tenebrionidae)
-   Bombyx mori (Bombycidae)
-   Antheraea pernyi (Saturniidae)
-   Samia ricini (Saturniidae)
-   Gonimbrasia belina (Saturniidae)
-   Cirina forda (Saturniidae)
-   Rhynchophorus ferrugineus (Curculionidae)
-   Rhynchophorus phoenicis (Curculionidae)
-   Rhynchophorus palmarum (Curculionidae)
-   Oryctes rhinoceros (Scarabaeidae)
-   Hermetia illucens (Stratiomyidae)
-   Apis mellifera (Apidae)
-   Apis cerana (Apidae)
-   Apis dorsata (Apidae)
-   Melipona beecheii (Apidae)
-   Tetragonula carbonaria (Apidae)
-   Vespa mandarinia (Vespidae): anchors absent ['Apidae', 'Formicidae']
-   Vespula flaviceps (Vespidae): anchors absent ['Apidae', 'Formicidae']
-   Polybia occidentalis (Vespidae): anchors absent ['Apidae', 'Formicidae']
-   Atta laevigata (Formicidae)
-   Oecophylla smaragdina (Formicidae)
-   Liometopum apiculatum (Formicidae)
-   Macrotermes bellicosus (Termitidae)
-   Macrotermes subhyalinus (Termitidae)
-   Cryptotympana atrata (Cicadidae)
-   Magicicada septendecim (Cicadidae)
-   Cybister tripunctatus (Dytiscidae)
-   Holotrichia parallela (Scarabaeidae)
-   Heterometrus longimanus (Scorpionidae)
-   Scolopendra subspinipes (Scolopendridae)
-   Petromyzon marinus (Petromyzontidae)
-   Lampetra fluviatilis (Petromyzontidae)
-   Lethenteron camtschaticum (Petromyzontidae)
-   Entosphenus tridentatus (Petromyzontidae)
-   Geotria australis (Geotriidae)
-   Eptatretus burgeri (Myxinidae)
-   Eptatretus stoutii (Myxinidae)
-   Squalus acanthias (Squalidae)
-   Scyliorhinus canicula (Scyliorhinidae)
-   Raja clavata (Rajidae)
-   Leucoraja erinacea (Rajidae)
-   Amblyraja radiata (Rajidae)
-   Beringraja binoculata (Rajidae)
-   Maculabatis gerrardi (Dasyatidae)
-   Callorhinchus milii (Callorhinchidae)
-   Chimaera monstrosa (Chimaeridae)
-   Synodontis schall (Mochokidae)
-   Cynoglossus semilaevis (Cynoglossidae)
-   Rhombosolea plebeia (Rhombosoleidae)
-   Colistium nudipinnis (Rhombosoleidae)
-   Helostoma temminckii (Helostomatidae)
-   Uranoscopus japonicus (Uranoscopidae)
-   Caesio cuning (Caesionidae)
-   Pelophylax kl. esculentus (Ranidae)
-   Pelophylax ridibundus (Ranidae)
-   Lithobates catesbeianus (Ranidae)
-   Lithobates pipiens (Ranidae)
-   Hoplobatrachus rugulosus (Dicroglossidae)
-   Hoplobatrachus tigerinus (Dicroglossidae)
-   Fejervarya limnocharis (Dicroglossidae)
-   Limnonectes macrodon (Dicroglossidae)
-   Quasipaa spinosa (Dicroglossidae)
-   Pyxicephalus adspersus (Pyxicephalidae)
-   Leptodactylus pentadactylus (Leptodactylidae)
-   Chelydra serpentina (Chelydridae)
-   Pelodiscus sinensis (Trionychidae)
-   Apalone spinifera (Trionychidae)
-   Apalone ferox (Trionychidae)
-   Amyda cartilaginea (Trionychidae)
-   Trachemys scripta (Emydidae)
-   Malaclemys terrapin (Emydidae)
-   Alligator mississippiensis (Alligatoridae)
-   Crocodylus niloticus (Crocodylidae)
-   Crocodylus porosus (Crocodylidae)
-   Crocodylus siamensis (Crocodylidae)
-   Caiman yacare (Alligatoridae)
-   Iguana iguana (Iguanidae)
-   Ctenosaura similis (Iguanidae)
-   Ctenosaura pectinata (Iguanidae)
-   Python bivittatus (Pythonidae)
-   Malayopython reticulatus (Pythonidae)
-   Ptyas mucosa (Colubridae)
-   Naja atra (Elapidae)
-   Bungarus multicinctus (Elapidae)
-   Crotalus atrox (Viperidae)
-   Varanus salvator (Varanidae)
-   Varanus niloticus (Varanidae)
-   Salvator merianae (Teiidae)
-   Gallus gallus (Phasianidae)
-   Meleagris gallopavo (Phasianidae)
-   Coturnix japonica (Phasianidae)
-   Coturnix coturnix (Phasianidae)
-   Numida meleagris (Numididae)
-   Phasianus colchicus (Phasianidae)
-   Perdix perdix (Phasianidae)
-   Alectoris rufa (Phasianidae)
-   Alectoris chukar (Phasianidae)
-   Francolinus pondicerianus (Phasianidae)
-   Pternistis capensis (Phasianidae)
-   Colinus virginianus (Odontophoridae)
-   Callipepla californica (Odontophoridae)
-   Bonasa umbellus (Phasianidae)
-   Lagopus lagopus (Phasianidae)
-   Lagopus muta (Phasianidae)
-   Tetrao urogallus (Phasianidae)
-   Lyrurus tetrix (Phasianidae)
-   Tetrastes bonasia (Phasianidae)
-   Tympanuchus cupido (Phasianidae)
-   Dendragapus obscurus (Phasianidae)
-   Pavo cristatus (Phasianidae)
-   Anas platyrhynchos (Anatidae)
-   Cairina moschata (Anatidae)
-   Anser anser (Anatidae)
-   Anser cygnoides (Anatidae)
-   Anser albifrons (Anatidae)
-   Branta canadensis (Anatidae)
-   Anas acuta (Anatidae)
-   Anas crecca (Anatidae)
-   Mareca penelope (Anatidae)
-   Mareca strepera (Anatidae)
-   Spatula clypeata (Anatidae)
-   Aythya valisineria (Anatidae)
-   Aix sponsa (Anatidae)
-   Somateria mollissima (Anatidae)
-   Plectropterus gambensis (Anatidae)
-   Dendrocygna viduata (Anatidae)
-   Columba livia (Columbidae)
-   Columba palumbus (Columbidae)
-   Streptopelia decaocto (Columbidae)
-   Zenaida macroura (Columbidae)
-   Zenaida asiatica (Columbidae)
-   Struthio camelus (Struthionidae)
-   Dromaius novaehollandiae (Dromaiidae)
-   Rhea americana (Rheidae)
-   Tinamus major (Tinamidae)
-   Nothura maculosa (Tinamidae)
-   Rhynchotus rufescens (Tinamidae)
-   Eudromia elegans (Tinamidae)
-   Scolopax rusticola (Scolopacidae)
-   Scolopax minor (Scolopacidae)
-   Gallinago gallinago (Scolopacidae)
-   Fulica atra (Rallidae)
-   Gallinula chloropus (Rallidae)
-   Uria lomvia (Alcidae)
-   Uria aalge (Alcidae)
-   Fratercula arctica (Alcidae)
-   Fulmarus glacialis (Procellariidae)
-   Ardenna grisea (Procellariidae)
-   Ardenna tenuirostris (Procellariidae)
-   Chroicocephalus ridibundus (Laridae)
-   Crax fasciolata (Cracidae)
-   Penelope obscura (Cracidae)
-   Ortalis vetula (Cracidae)
-   Alectura lathami (Megapodiidae)
-   Megapodius freycinet (Megapodiidae)
-   Passer montanus (Passeridae)
-   Emberiza hortulana (Emberizidae)
-   Aerodramus fuciphagus (Apodidae)
-   Curculigo latifolia (Hypoxidaceae)
-   Cynomorium coccineum (Cynomoriaceae)
-   Balanites aegyptiaca (Zygophyllaceae)
-   Pholisma sonorae (Lennoaceae)
+== not placed: 0
 
-== tree tips not in candidate list (dropped): 2
-   Ginkgo biloba
-   Acorus calamus
+== tree tips not in candidate list (dropped): 0
 

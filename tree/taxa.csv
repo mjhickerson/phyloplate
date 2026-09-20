@@ -118,6 +118,7 @@ glacier-lily,glacier lily,Erythronium grandiflorum,Liliaceae,plant,
 katakuri,katakuri,Erythronium japonicum,Liliaceae,plant,
 sego-lily,sego lily,Calochortus nuttallii,Liliaceae,plant,
 salsilla,salsilla,Bomarea edulis,Alstroemeriaceae,plant,
+lumbah,lumbah (curculin),Curculigo latifolia,Hypoxidaceae,plant,curculin
 tie-pi-shi-hu,tie pi shi hu,Dendrobium officinale,Orchidaceae,plant,
 tahitian-vanilla,Tahitian vanilla,Vanilla tahitensis,Orchidaceae,plant,
 pompona-vanilla,pompona vanilla,Vanilla pompona,Orchidaceae,plant,
@@ -1108,6 +1109,7 @@ american-pennyroyal,American pennyroyal,Hedeoma pulegioides,Lamiaceae,plant,
 coyote-mint,coyote mint,Monardella odoratissima,Lamiaceae,plant,
 wild-basil,wild basil,Clinopodium vulgare,Lamiaceae,plant,
 lesser-calamint,lesser calamint,Clinopodium nepeta,Lamiaceae,plant,
+sand-food,sand food,Pholisma sonorae,Lennoaceae,plant,
 ciricote,ciricote,Cordia dodecandra,Boraginaceae,plant,
 anacahuita,anacahuita,Cordia boissieri,Boraginaceae,plant,
 indian-cherry,Indian cherry (lasoda),Cordia dichotoma,Boraginaceae,plant,lasoda
@@ -1127,6 +1129,7 @@ common-bugloss,common bugloss,Anchusa officinalis,Boraginaceae,plant,
 patersons-curse,Paterson's curse (seed oil),Echium plantagineum,Boraginaceae,plant,
 oysterleaf,oysterleaf,Mertensia maritima,Boraginaceae,plant,
 du-zhong,du zhong (tea),Eucommia ulmoides,Eucommiaceae,plant,
+maltese-fungus,Maltese fungus,Cynomorium coccineum,Cynomoriaceae,plant,
 jostaberry,jostaberry,Ribes × nidigrolaria,Grossulariaceae,plant,
 golden-currant,golden currant,Ribes aureum,Grossulariaceae,plant,
 gooseberry,gooseberry,Ribes uva-crispa,Grossulariaceae,plant,
@@ -1465,6 +1468,7 @@ turnip,turnip / bok choy / napa,Brassica rapa,Brassicaceae,plant,bok choy;napa;t
 london-rocket,London rocket,Sisymbrium irio,Brassicaceae,plant,
 hedge-mustard,hedge mustard,Sisymbrium officinale,Brassicaceae,plant,
 princes-plume,prince's plume (greens),Stanleya pinnata,Brassicaceae,plant,
+desert-date,desert date,Balanites aegyptiaca,Zygophyllaceae,plant,
 soapbark,soapbark (foaming agent),Quillaja saponaria,Quillajaceae,plant,
 pagoda-tree,"pagoda tree (buds, huai hua)",Styphnolobium japonicum,Fabaceae,plant,huai hua
 sohphlang,sohphlang,Flemingia vestita,Fabaceae,plant,
@@ -1908,8 +1912,6 @@ cassava,cassava,Manihot esculenta,Euphorbiaceae,plant,cassava;tapioca;yuca;manio
 african-walnut,African walnut (conophor),Tetracarpidium conophorum,Euphorbiaceae,plant,conophor
 sacha-inchi,sacha inchi,Plukenetia volubilis,Euphorbiaceae,plant,
 uxi,uxi,Endopleura uchi,Humiriaceae,plant,
-ginkgo-nut-2,ginkgo nut,Ginkgo biloba,Ginkgoaceae,plant,ginkgo nut
-sweet-flag-2,sweet flag,Acorus calamus,Acoraceae,plant,
 field-horsetail,field horsetail (tsukushi),Equisetum arvense,Equisetaceae,plant,tsukushi
 giant-fern,giant fern (starch),Angiopteris evecta,Marattiaceae,plant,
 cinnamon-fern,cinnamon fern,Osmundastrum cinnamomeum,Osmundaceae,plant,
@@ -1920,7 +1922,189 @@ ostrich-fern,ostrich fern (fiddlehead),Matteuccia struthiopteris,Onocleaceae,pla
 midin,midin,Stenochlaena palustris,Blechnaceae,plant,
 bracken,bracken (warabi),Pteridium aquilinum,Dennstaedtiaceae,plant,warabi
 water-sprite,water sprite,Ceratopteris thalictroides,Pteridaceae,plant,
+dunaliella,dunaliella,Dunaliella salina,Dunaliellaceae,green,
+haematococcus,haematococcus (astaxanthin),Haematococcus lacustris,Haematococcaceae,green,astaxanthin
+kawanori,kawanori,Prasiola japonica,Prasiolaceae,green,
+chlorella,chlorella (pyrenoidosa),Auxenochlorella pyrenoidosa,Chlorellaceae,green,pyrenoidosa
+chlorella-2,chlorella,Chlorella vulgaris,Chlorellaceae,green,chlorella
+velvet-horn,velvet horn,Codium tomentosum,Codiaceae,green,
+miru-fingers,miru / dead man's fingers,Codium fragile,Codiaceae,green,dead man's fingers
+lato,lato,Caulerpa racemosa,Caulerpaceae,green,
+sea-grapes,sea grapes / umibudo,Caulerpa lentillifera,Caulerpaceae,green,umibudo;sea grapes
+monostroma,monostroma,Monostroma latissimum,Monostromataceae,green,
+hitoegusa,hitoegusa,Monostroma nitidum,Monostromataceae,green,
+linza,linza,Ulva linza,Ulvaceae,green,
+rigid-sea-lettuce,rigid sea lettuce,Ulva rigida,Ulvaceae,green,
+gutweed,gutweed,Ulva intestinalis,Ulvaceae,green,
+aosa,aosa,Ulva pertusa,Ulvaceae,green,
+aonori,aonori,Ulva prolifera,Ulvaceae,green,
+sea-lettuce,sea lettuce,Ulva lactuca,Ulvaceae,green,sea lettuce;aonori;aosa;ulva;ao-nori
+landladys-wig,landlady's wig,Ahnfeltia plicata,Ahnfeltiaceae,red,
+harpoon-weed,harpoon weed,Asparagopsis armata,Bonnemaisoniaceae,red,
+limu-kohu,limu kohu,Asparagopsis taxiformis,Bonnemaisoniaceae,red,
+hirakusa,hirakusa,Pterocladiella capillacea,Pterocladiaceae,red,
+agar-weed,agar weed,Gelidium corneum,Gelidiaceae,red,
+tengusa,tengusa (agar),Gelidium amansii,Gelidiaceae,red,agar
+halymenia,halymenia,Halymenia durvillei,Halymeniaceae,red,
+sarcodia,sarcodia,Sarcodia ceylanica,Sarcodiaceae,red,
+funori,funori,Gloiopeltis furcata,Endocladiaceae,red,
+devils-tongue-weed,devil's tongue weed,Grateloupia turuturu,Halymeniaceae,red,
+longxucai,longxucai,Gracilariopsis lemaneiformis,Gracilariaceae,red,
+gracilaria,gracilaria,Gracilaria verrucosa,Gracilariaceae,red,
+ceylon-moss,ceylon moss,Gracilaria edulis,Gracilariaceae,red,
+ogo,ogo,Gracilaria gracilis,Gracilariaceae,red,
+dumonts-tubular-weed,dumont's tubular weed,Dumontia contorta,Dumontiaceae,red,
+gelatinous-betaphycus,gelatinous betaphycus,Betaphycus gelatinus,Solieriaceae,red,
+solieria,solieria,Solieria robusta,Solieriaceae,red,
+catenella,catenella,Catenella nipae,Caulacanthaceae,red,
+hooked-red-weed,hooked red weed,Hypnea musciformis,Cystocloniaceae,red,
+tosakanori,tosakanori,Meristotheca papulosa,Solieriaceae,red,
+carola,carola,Callophyllis variegata,Kallymeniaceae,red,
+spinosum,spinosum,Eucheuma denticulatum,Solieriaceae,red,
+cottonii,cottonii (carrageenan),Kappaphycus alvarezii,Solieriaceae,red,carrageenan
+chicorea-de-mar,chicorea de mar,Chondracanthus chamissoi,Gigartinaceae,red,
+luga-negra,luga negra,Gigartina skottsbergii,Gigartinaceae,red,
+false-irish-moss,false Irish moss,Mastocarpus stellatus,Phyllophoraceae,red,
+irish-moss,Irish moss,Chondrus crispus,Gigartinaceae,red,Irish moss;carrageenan
+limu-lipeepee,limu lipeepee,Acanthophora spicifera,Rhodomelaceae,red,
+truffle-seaweed,truffle seaweed,Vertebrata lanosa,Rhodomelaceae,red,
+pepper-dulse,pepper dulse,Osmundea pinnatifida,Rhodomelaceae,red,
+sea-noodle,sea noodle / umisomen,Nemalion helminthoides,Liagoraceae,red,umisomen
+red-ribbon,red ribbon,Devaleraea mollis,Palmariaceae,red,
+pacific-dulse,Pacific dulse,Palmaria mollis,Palmariaceae,red,
+dulse,dulse,Palmaria palmata,Palmariaceae,red,dulse
+bangia,bangia,Bangia fuscopurpurea,Bangiaceae,red,
+laver,laver (Atlantic),Porphyra dioica,Bangiaceae,red,
+purple-laver,purple laver,Porphyra purpurea,Bangiaceae,red,
+laver-2,laver,Porphyra umbilicalis,Bangiaceae,red,laver;laverbread
+tan-zicai,tan zicai,Pyropia haitanensis,Bangiaceae,red,
+asakusa-nori,asakusa nori,Pyropia tenera,Bangiaceae,red,
+nori,nori,Pyropia yezoensis,Bangiaceae,red,nori;seaweed;sushi seaweed;gim;kim
+sea-lace,sea lace,Chorda filum,Chordaceae,brown,
+matsumo,matsumo,Analipus japonicus,Ralfsiaceae,brown,
+seiyo-habanori,seiyo-habanori,Petalonia binghamiae,Scytosiphonaceae,brown,
+ito-mozuku,ito-mozuku,Nemacystus decipiens,Chordariaceae,brown,
+mozuku,mozuku,Cladosiphon okamuranus,Chordariaceae,brown,
+sea-spaghetti,sea spaghetti,Himanthalia elongata,Himanthaliaceae,brown,
+spiral-wrack,spiral wrack,Fucus spiralis,Fucaceae,brown,
+serrated-wrack,serrated wrack,Fucus serratus,Fucaceae,brown,
+bladderwrack,bladderwrack,Fucus vesiculosus,Fucaceae,brown,bladderwrack
+rockweed-wrack,rockweed / knotted wrack,Ascophyllum nodosum,Fucaceae,brown,knotted wrack;rockweed
+wireweed,wireweed,Sargassum muticum,Sargassaceae,brown,
+akamoku,akamoku,Sargassum horneri,Sargassaceae,brown,
+hijiki,hijiki,Sargassum fusiforme,Sargassaceae,brown,hijiki
+cochayuyo,cochayuyo,Durvillaea antarctica,Durvillaeaceae,brown,
+huiro-negro,huiro negro,Lessonia nigrescens,Lessoniaceae,brown,
+sea-palm,sea palm,Postelsia palmaeformis,Laminariaceae,brown,
+bull-kelp,bull kelp,Nereocystis luetkeana,Laminariaceae,brown,
+giant-kelp,giant kelp,Macrocystis pyrifera,Laminariaceae,brown,
+arame,arame,Eisenia bicyclis,Lessoniaceae,brown,
+common-kelp,common kelp (Australia),Ecklonia radiata,Lessoniaceae,brown,Australia
+kajime,kajime,Ecklonia cava,Lessoniaceae,brown,
+ribbon-kelp,ribbon kelp,Alaria marginata,Alariaceae,brown,
+winged-kelp,winged kelp / dabberlocks,Alaria esculenta,Alariaceae,brown,dabberlocks;winged kelp
+wakame,wakame,Undaria pinnatifida,Alariaceae,brown,wakame
+golden-kelp,golden kelp,Laminaria ochroleuca,Laminariaceae,brown,
+tangle-kelp,tangle kelp,Laminaria hyperborea,Laminariaceae,brown,
+oarweed,oarweed,Laminaria digitata,Laminariaceae,brown,
+sugar-kelp,sugar kelp,Saccharina latissima,Laminariaceae,brown,
+kombu,kombu,Saccharina japonica,Laminariaceae,brown,kombu;kelp;dashi;kelp noodles;laminaria
 euglena,euglena (midorimushi),Euglena gracilis,Euglenaceae,other,midorimushi
+amphioxus,amphioxus (lancelet),Branchiostoma belcheri,Branchiostomatidae,animal,lancelet
+eurasian-collared-dove,Eurasian collared dove,Streptopelia decaocto,Columbidae,animal,
+rock-pigeon,rock pigeon / squab,Columba livia,Columbidae,animal,squab;pigeon
+wood-pigeon,wood pigeon,Columba palumbus,Columbidae,animal,
+white-winged-dove,white-winged dove,Zenaida asiatica,Columbidae,animal,
+mourning-dove,mourning dove,Zenaida macroura,Columbidae,animal,
+edible-nest-swiftlet,edible-nest swiftlet (bird's nest),Aerodramus fuciphagus,Apodidae,animal,bird's nest
+ortolan-bunting,ortolan bunting (historical),Emberiza hortulana,Emberizidae,animal,
+eurasian-tree-sparrow,Eurasian tree sparrow,Passer montanus,Passeridae,animal,
+common-moorhen,common moorhen,Gallinula chloropus,Rallidae,animal,
+eurasian-coot,Eurasian coot,Fulica atra,Rallidae,animal,
+atlantic-puffin,Atlantic puffin,Fratercula arctica,Alcidae,animal,
+thick-billed-murre,thick-billed murre,Uria lomvia,Alcidae,animal,
+common-guillemot,common guillemot,Uria aalge,Alcidae,animal,
+black-headed-gull,black-headed gull (eggs),Chroicocephalus ridibundus,Laridae,animal,
+common-snipe,common snipe,Gallinago gallinago,Scolopacidae,animal,
+american-woodcock,American woodcock,Scolopax minor,Scolopacidae,animal,
+eurasian-woodcock,Eurasian woodcock,Scolopax rusticola,Scolopacidae,animal,
+northern-fulmar,northern fulmar,Fulmarus glacialis,Procellariidae,animal,
+short-tailed-shearwater,short-tailed shearwater (yolla),Ardenna tenuirostris,Procellariidae,animal,yolla
+sooty-shearwater,sooty shearwater (muttonbird),Ardenna grisea,Procellariidae,animal,muttonbird
+white-faced-whistling-duck,white-faced whistling duck,Dendrocygna viduata,Anatidae,animal,
+canada-goose,Canada goose,Branta canadensis,Anatidae,animal,
+greater-white-fronted-goose,greater white-fronted goose,Anser albifrons,Anatidae,animal,
+swan-goose,swan goose (Chinese goose),Anser cygnoides,Anatidae,animal,Chinese goose
+greylag-goose,greylag / domestic goose,Anser anser,Anatidae,animal,domestic goose;goose
+northern-shoveler,northern shoveler,Spatula clypeata,Anatidae,animal,
+eurasian-wigeon,Eurasian wigeon,Mareca penelope,Anatidae,animal,
+gadwall,gadwall,Mareca strepera,Anatidae,animal,
+eurasian-teal,Eurasian teal,Anas crecca,Anatidae,animal,
+northern-pintail,northern pintail,Anas acuta,Anatidae,animal,
+mallard-duck,mallard / domestic duck,Anas platyrhynchos,Anatidae,animal,domestic duck;duck;duck egg;foie gras
+canvasback,canvasback,Aythya valisineria,Anatidae,animal,
+common-eider,common eider,Somateria mollissima,Anatidae,animal,
+wood-duck,wood duck,Aix sponsa,Anatidae,animal,
+muscovy-duck,Muscovy duck,Cairina moschata,Anatidae,animal,
+spur-winged-goose,spur-winged goose,Plectropterus gambensis,Anatidae,animal,
+helmeted-guineafowl,helmeted guineafowl,Numida meleagris,Numididae,animal,guinea fowl
+chicken,chicken,Gallus gallus,Phasianidae,animal,chicken;egg;eggs;hen;poultry
+grey-francolin,grey francolin,Francolinus pondicerianus,Phasianidae,animal,
+indian-peafowl,Indian peafowl (farmed),Pavo cristatus,Phasianidae,animal,
+grey-partridge,grey partridge,Perdix perdix,Phasianidae,animal,
+common-pheasant,common pheasant,Phasianus colchicus,Phasianidae,animal,pheasant
+turkey,turkey,Meleagris gallopavo,Phasianidae,animal,turkey
+hazel-grouse,hazel grouse,Tetrastes bonasia,Phasianidae,animal,
+ruffed-grouse,ruffed grouse,Bonasa umbellus,Phasianidae,animal,
+willow-ptarmigan,willow ptarmigan / red grouse,Lagopus lagopus,Phasianidae,animal,red grouse
+rock-ptarmigan,rock ptarmigan,Lagopus muta,Phasianidae,animal,
+western-capercaillie,western capercaillie,Tetrao urogallus,Phasianidae,animal,
+black-grouse,black grouse,Lyrurus tetrix,Phasianidae,animal,
+dusky-grouse,dusky grouse,Dendragapus obscurus,Phasianidae,animal,
+greater-prairie-chicken,greater prairie chicken,Tympanuchus cupido,Phasianidae,animal,
+japanese-quail,Japanese quail,Coturnix japonica,Phasianidae,animal,
+common-quail,common quail,Coturnix coturnix,Phasianidae,animal,quail;quail egg
+cape-spurfowl,Cape spurfowl,Pternistis capensis,Phasianidae,animal,
+red-legged-partridge,red-legged partridge,Alectoris rufa,Phasianidae,animal,
+chukar,chukar,Alectoris chukar,Phasianidae,animal,
+northern-bobwhite,northern bobwhite,Colinus virginianus,Odontophoridae,animal,
+california-quail,California quail,Callipepla californica,Odontophoridae,animal,
+dusky-legged-guan,dusky-legged guan,Penelope obscura,Cracidae,animal,
+bare-faced-curassow,bare-faced curassow,Crax fasciolata,Cracidae,animal,
+plain-chachalaca,plain chachalaca,Ortalis vetula,Cracidae,animal,
+dusky-megapode,dusky megapode (eggs),Megapodius freycinet,Megapodiidae,animal,
+australian-brushturkey,Australian brushturkey (eggs),Alectura lathami,Megapodiidae,animal,
+greater-rhea,greater rhea,Rhea americana,Rheidae,animal,
+emu,emu,Dromaius novaehollandiae,Dromaiidae,animal,
+ostrich,ostrich,Struthio camelus,Struthionidae,animal,ostrich;emu
+great-tinamou,great tinamou,Tinamus major,Tinamidae,animal,
+elegant-crested-tinamou,elegant crested tinamou,Eudromia elegans,Tinamidae,animal,
+spotted-nothura,spotted nothura,Nothura maculosa,Tinamidae,animal,
+red-winged-tinamou,red-winged tinamou,Rhynchotus rufescens,Tinamidae,animal,
+yacare-caiman,yacare caiman,Caiman yacare,Alligatoridae,animal,
+siamese-crocodile,Siamese crocodile (farmed),Crocodylus siamensis,Crocodylidae,animal,
+saltwater-crocodile,saltwater crocodile,Crocodylus porosus,Crocodylidae,animal,
+nile-crocodile,Nile crocodile,Crocodylus niloticus,Crocodylidae,animal,
+american-alligator,American alligator,Alligator mississippiensis,Alligatoridae,animal,alligator;crocodile
+diamondback-terrapin,diamondback terrapin,Malaclemys terrapin,Emydidae,animal,
+pond-slider,pond slider,Trachemys scripta,Emydidae,animal,
+asiatic-softshell,Asiatic softshell,Amyda cartilaginea,Trionychidae,animal,
+florida-softshell,Florida softshell,Apalone ferox,Trionychidae,animal,
+spiny-softshell,spiny softshell,Apalone spinifera,Trionychidae,animal,
+chinese-softshell-turtle,Chinese softshell turtle,Pelodiscus sinensis,Trionychidae,animal,
+snapping-turtle,snapping turtle,Chelydra serpentina,Chelydridae,animal,snapping turtle;turtle
+black-and-white-tegu,black-and-white tegu,Salvator merianae,Teiidae,animal,
+nile-monitor,Nile monitor,Varanus niloticus,Varanidae,animal,
+asian-water-monitor,Asian water monitor,Varanus salvator,Varanidae,animal,
+western-diamondback-rattlesnake,western diamondback rattlesnake,Crotalus atrox,Viperidae,animal,
+many-banded-krait,many-banded krait (snake soup),Bungarus multicinctus,Elapidae,animal,snake soup
+chinese-cobra,Chinese cobra (snake soup),Naja atra,Elapidae,animal,snake soup
+oriental-ratsnake,oriental ratsnake,Ptyas mucosa,Colubridae,animal,
+reticulated-python,reticulated python,Malayopython reticulatus,Pythonidae,animal,
+burmese-python,Burmese python,Python bivittatus,Pythonidae,animal,
+mexican-spiny-tailed-iguana,Mexican spiny-tailed iguana,Ctenosaura pectinata,Iguanidae,animal,
+black-spiny-tailed-iguana,black spiny-tailed iguana (garrobo),Ctenosaura similis,Iguanidae,animal,garrobo
+green-iguana,green iguana,Iguana iguana,Iguanidae,animal,
 red-necked-wallaby,red-necked wallaby,Notamacropus rufogriseus,Macropodidae,animal,
 red-kangaroo,red kangaroo,Osphranter rufus,Macropodidae,animal,
 swamp-wallaby,swamp wallaby,Wallabia bicolor,Macropodidae,animal,
@@ -2054,6 +2238,17 @@ donkey,donkey,Equus asinus,Equidae,animal,
 horse,horse,Equus caballus,Equidae,animal,horse
 plains-zebra,plains zebra,Equus quagga,Equidae,animal,
 short-beaked-echidna,short-beaked echidna,Tachyglossus aculeatus,Tachyglossidae,animal,
+smoky-jungle-frog,smoky jungle frog,Leptodactylus pentadactylus,Leptodactylidae,animal,
+african-bullfrog,African bullfrog,Pyxicephalus adspersus,Pyxicephalidae,animal,
+giant-spiny-frog,giant spiny frog,Quasipaa spinosa,Dicroglossidae,animal,
+stone-creek-frog,stone creek frog,Limnonectes macrodon,Dicroglossidae,animal,
+rice-field-frog,rice-field frog,Fejervarya limnocharis,Dicroglossidae,animal,
+indian-bullfrog,Indian bullfrog,Hoplobatrachus tigerinus,Dicroglossidae,animal,
+chinese-edible-frog,Chinese edible frog,Hoplobatrachus rugulosus,Dicroglossidae,animal,
+northern-leopard-frog,northern leopard frog,Lithobates pipiens,Ranidae,animal,
+american-bullfrog,American bullfrog,Lithobates catesbeianus,Ranidae,animal,
+marsh-frog,marsh frog,Pelophylax ridibundus,Ranidae,animal,
+edible-frog,edible frog,Pelophylax kl. esculentus,Ranidae,animal,
 west-african-lungfish,West African lungfish,Protopterus annectens,Protopteridae,animal,
 bichir,bichir,Polypterus senegalus,Polypteridae,animal,
 paddlefish,paddlefish,Polyodon spathula,Polyodontidae,animal,
@@ -2123,6 +2318,7 @@ walking-catfish,walking catfish,Clarias batrachus,Clariidae,animal,
 broadhead-catfish,broadhead catfish,Clarias macrocephalus,Clariidae,animal,
 vundu,vundu,Heterobranchus longifilis,Clariidae,animal,
 african-sharptooth-catfish,African sharptooth catfish,Clarias gariepinus,Clariidae,animal,
+nile-squeaker,Nile squeaker,Synodontis schall,Mochokidae,animal,
 wels-catfish,wels catfish,Silurus glanis,Siluridae,animal,
 amur-catfish,Amur catfish,Silurus asotus,Siluridae,animal,
 wallago,wallago,Wallago attu,Siluridae,animal,
@@ -2332,6 +2528,7 @@ white-sea-bream,white sea bream,Diplodus sargus,Sparidae,animal,
 tripletail,tripletail,Lobotes surinamensis,Lobotidae,animal,
 common-ponyfish,common ponyfish,Leiognathus equulus,Leiognathidae,animal,
 cape-bonnetmouth,Cape bonnetmouth (redbait),Emmelichthys nitidus,Emmelichthyidae,animal,redbait
+redbelly-yellowtail-fusilier,redbelly yellowtail fusilier,Caesio cuning,Caesionidae,animal,
 green-jobfish,green jobfish (uku),Aprion virescens,Lutjanidae,animal,uku
 ruby-snapper,ruby snapper (ehu),Etelis carbunculus,Lutjanidae,animal,ehu
 deepwater-longtail-red-snapper,deepwater longtail red snapper (onaga),Etelis coruscans,Lutjanidae,animal,onaga
@@ -2382,6 +2579,7 @@ black-crappie,black crappie,Pomoxis nigromaculatus,Centrarchidae,animal,
 largemouth-bass,largemouth bass,Micropterus salmoides,Centrarchidae,animal,
 smallmouth-bass,smallmouth bass,Micropterus dolomieu,Centrarchidae,animal,
 bluegill,bluegill,Lepomis macrochirus,Centrarchidae,animal,
+japanese-stargazer,Japanese stargazer,Uranoscopus japonicus,Uranoscopidae,animal,
 greater-weever,greater weever,Trachinus draco,Trachinidae,animal,
 european-perch,European perch,Perca fluviatilis,Percidae,animal,
 yellow-perch,yellow perch,Perca flavescens,Percidae,animal,
@@ -2501,6 +2699,7 @@ northern-snakehead,northern snakehead,Channa argus,Channidae,animal,
 blotched-snakehead,blotched snakehead,Channa maculata,Channidae,animal,
 striped-snakehead,striped snakehead,Channa striata,Channidae,animal,
 climbing-perch,climbing perch,Anabas testudineus,Anabantidae,animal,
+kissing-gourami,kissing gourami,Helostoma temminckii,Helostomatidae,animal,
 giant-gourami,giant gourami,Osphronemus goramy,Osphronemidae,animal,
 snakeskin-gourami,snakeskin gourami,Trichopodus pectoralis,Osphronemidae,animal,
 six-finger-threadfin,six-finger threadfin (moi),Polydactylus sexfilis,Polynemidae,animal,moi
@@ -2544,9 +2743,13 @@ great-barracuda,great barracuda,Sphyraena barracuda,Sphyraenidae,animal,
 pickhandle-barracuda,pickhandle barracuda,Sphyraena jello,Sphyraenidae,animal,
 european-barracuda,European barracuda,Sphyraena sphyraena,Sphyraenidae,animal,
 indian-spiny-turbot,Indian spiny turbot,Psettodes erumei,Psettodidae,animal,
-brill,brill,Scophthalmus rhombus,Scophthalmidae,animal,
-turbot,turbot,Scophthalmus maximus,Scophthalmidae,animal,
-megrim,megrim,Lepidorhombus whiffiagonis,Scophthalmidae,animal,
+tongue-sole,tongue sole,Cynoglossus semilaevis,Cynoglossidae,animal,
+wedge-sole,wedge sole,Dicologlossa cuneata,Soleidae,animal,
+sand-sole,sand sole,Pegusa lascaris,Soleidae,animal,
+common-sole,common sole (Dover sole),Solea solea,Soleidae,animal,Dover sole;sole
+senegalese-sole,Senegalese sole,Solea senegalensis,Soleidae,animal,
+new-zealand-turbot,New Zealand turbot,Colistium nudipinnis,Rhombosoleidae,animal,
+sand-flounder,sand flounder (NZ),Rhombosolea plebeia,Rhombosoleidae,animal,
 winter-flounder,winter flounder,Pseudopleuronectes americanus,Pleuronectidae,animal,
 arrowtooth-flounder,arrowtooth flounder,Atheresthes stomias,Pleuronectidae,animal,
 largetooth-flounder,largetooth flounder,Pseudorhombus arsius,Paralichthyidae,animal,
@@ -2573,10 +2776,9 @@ european-plaice,European plaice,Pleuronectes platessa,Pleuronectidae,animal,
 stone-flounder,stone flounder,Kareius bicoloratus,Pleuronectidae,animal,
 starry-flounder,starry flounder,Platichthys stellatus,Pleuronectidae,animal,
 european-flounder,European flounder,Platichthys flesus,Pleuronectidae,animal,
-wedge-sole,wedge sole,Dicologlossa cuneata,Soleidae,animal,
-sand-sole,sand sole,Pegusa lascaris,Soleidae,animal,
-common-sole,common sole (Dover sole),Solea solea,Soleidae,animal,Dover sole;sole
-senegalese-sole,Senegalese sole,Solea senegalensis,Soleidae,animal,
+brill,brill,Scophthalmus rhombus,Scophthalmidae,animal,
+turbot,turbot,Scophthalmus maximus,Scophthalmidae,animal,
+megrim,megrim,Lepidorhombus whiffiagonis,Scophthalmidae,animal,
 flathead-grey-mullet,flathead grey mullet (bottarga),Mugil cephalus,Mugilidae,animal,bottarga
 white-mullet,white mullet,Mugil curema,Mugilidae,animal,
 thicklip-grey-mullet,thicklip grey mullet,Chelon labrosus,Mugilidae,animal,
@@ -2605,6 +2807,345 @@ garfish,garfish,Belone belone,Belonidae,animal,
 ballyhoo,ballyhoo,Hemiramphus brasiliensis,Hemiramphidae,animal,
 yellowwing-flyingfish,yellowwing flyingfish (tobiko),Cypselurus poecilopterus,Exocoetidae,animal,tobiko
 japanese-flying-fish,Japanese flying fish (tobiuo),Cheilopogon agoo,Exocoetidae,animal,tobiuo
+rabbitfish,rabbitfish (chimaera),Chimaera monstrosa,Chimaeridae,animal,chimaera
+elephant-fish,elephant fish,Callorhinchus milii,Callorhinchidae,animal,
+whitespotted-whipray,whitespotted whipray,Maculabatis gerrardi,Dasyatidae,animal,
+big-skate,big skate,Beringraja binoculata,Rajidae,animal,
+thorny-skate,thorny skate,Amblyraja radiata,Rajidae,animal,
+little-skate,little skate,Leucoraja erinacea,Rajidae,animal,
+thornback-ray,thornback ray,Raja clavata,Rajidae,animal,
+spiny-dogfish,spiny dogfish,Squalus acanthias,Squalidae,animal,dogfish;shark;rock salmon
+porbeagle,porbeagle,Lamna nasus,Lamnidae,animal,
+shortfin-mako,shortfin mako,Isurus oxyrinchus,Lamnidae,animal,
+blue-shark,blue shark,Prionace glauca,Carcharhinidae,animal,
+small-spotted-catshark,small-spotted catshark,Scyliorhinus canicula,Scyliorhinidae,animal,
+tope-shark,tope / school shark,Galeorhinus galeus,Triakidae,animal,school shark
+dusky-smoothhound,dusky smoothhound,Mustelus canis,Triakidae,animal,
+smoothhound,smoothhound,Mustelus mustelus,Triakidae,animal,
+pacific-hagfish,Pacific hagfish,Eptatretus stoutii,Myxinidae,animal,
+inshore-hagfish,inshore hagfish (kkomjangeo),Eptatretus burgeri,Myxinidae,animal,kkomjangeo
+pouched-lamprey,pouched lamprey,Geotria australis,Geotriidae,animal,
+pacific-lamprey,Pacific lamprey,Entosphenus tridentatus,Petromyzontidae,animal,
+arctic-lamprey,Arctic lamprey,Lethenteron camtschaticum,Petromyzontidae,animal,
+river-lamprey,river lamprey,Lampetra fluviatilis,Petromyzontidae,animal,
+sea-lamprey,sea lamprey,Petromyzon marinus,Petromyzontidae,animal,lamprey
+mideodeok,mideodeok,Styela clava,Styelidae,animal,
+violet,violet (sea fig),Microcosmus sabatieri,Pyuridae,animal,sea fig
+piure,piure,Pyura chilensis,Pyuridae,animal,
+sea-peach,sea peach,Halocynthia aurantium,Pyuridae,animal,
+sea-pineapple,sea pineapple,Halocynthia roretzi,Pyuridae,animal,sea pineapple;sea squirt;meongge
+brown-sea-cucumber,brown sea cucumber,Isostichopus fuscus,Stichopodidae,animal,
+orange-footed-sea-cucumber,orange-footed sea cucumber,Cucumaria frondosa,Cucumariidae,animal,
+prickly-redfish,prickly redfish,Thelenota ananas,Stichopodidae,animal,
+dragonfish-sea-cucumber,dragonfish sea cucumber,Stichopus horrens,Stichopodidae,animal,
+sandfish,sandfish,Holothuria scabra,Holothuriidae,animal,
+california-sea-cucumber,California sea cucumber,Apostichopus californicus,Stichopodidae,animal,
+japanese-sea-cucumber,Japanese sea cucumber,Apostichopus japonicus,Stichopodidae,animal,sea cucumber
+edible-sea-urchin,edible sea urchin,Echinus esculentus,Echinidae,animal,
+collector-urchin,collector urchin,Tripneustes gratilla,Toxopneustidae,animal,
+chilean-sea-urchin,Chilean sea urchin,Loxechinus albus,Parechinidae,animal,
+purple-urchin,purple urchin (Mediterranean),Paracentrotus lividus,Parechinidae,animal,
+murasaki-uni,murasaki uni,Heliocidaris crassispina,Echinometridae,animal,
+northern-sea-urchin,northern sea urchin (kita-murasaki),Mesocentrotus nudus,Strongylocentrotidae,animal,kita-murasaki
+red-sea-urchin,red sea urchin,Mesocentrotus franciscanus,Strongylocentrotidae,animal,
+green-sea-urchin,green sea urchin,Strongylocentrotus droebachiensis,Strongylocentrotidae,animal,
+purple-sea-urchin,purple sea urchin,Strongylocentrotus purpuratus,Strongylocentrotidae,animal,
+lamp-shell,lamp shell (brachiopod),Lingula anatina,Lingulidae,animal,brachiopod
+fuzzy-chiton,fuzzy chiton,Acanthopleura granulata,Chitonidae,animal,
+chilean-chiton,Chilean chiton,Chiton magnificus,Chitonidae,animal,
+double-ear-bobtail-squid,double-ear bobtail squid,Euprymna berryi,Sepiolidae,animal,
+little-cuttle,little cuttle,Sepiola atlantica,Sepiolidae,animal,
+japanese-spineless-cuttlefish,Japanese spineless cuttlefish,Sepiella japonica,Sepiidae,animal,
+kisslip-cuttlefish,kisslip cuttlefish,Sepia lycidas,Sepiidae,animal,
+pharaoh-cuttlefish,pharaoh cuttlefish,Sepia pharaonis,Sepiidae,animal,
+golden-cuttlefish,golden cuttlefish,Sepia esculenta,Sepiidae,animal,
+common-cuttlefish,common cuttlefish,Sepia officinalis,Sepiidae,animal,cuttlefish
+firefly-squid,firefly squid (hotaru-ika),Watasenia scintillans,Enoploteuthidae,animal,hotaru-ika
+new-zealand-arrow-squid,New Zealand arrow squid,Nototodarus sloanii,Ommastrephidae,animal,
+neon-flying-squid,neon flying squid,Ommastrephes bartramii,Ommastrephidae,animal,
+humboldt-squid,Humboldt squid,Dosidicus gigas,Ommastrephidae,animal,
+northern-shortfin-squid,northern shortfin squid,Illex illecebrosus,Ommastrephidae,animal,
+argentine-shortfin-squid,Argentine shortfin squid,Illex argentinus,Ommastrephidae,animal,
+european-flying-squid,European flying squid,Todarodes sagittatus,Ommastrephidae,animal,
+japanese-flying-squid,Japanese flying squid (surume-ika),Todarodes pacificus,Ommastrephidae,animal,surume-ika
+caribbean-reef-squid,Caribbean reef squid,Sepioteuthis sepioidea,Loliginidae,animal,
+bigfin-reef-squid,bigfin reef squid,Sepioteuthis lessoniana,Loliginidae,animal,
+indian-squid,Indian squid,Uroteuthis duvaucelii,Loliginidae,animal,
+swordtip-squid,swordtip squid,Uroteuthis edulis,Loliginidae,animal,
+chokka-squid,chokka squid,Loligo reynaudii,Loliginidae,animal,
+veined-squid,veined squid,Loligo forbesii,Loliginidae,animal,
+european-squid,European squid,Loligo vulgaris,Loliginidae,animal,
+california-market-squid,California market squid,Doryteuthis opalescens,Loliginidae,animal,
+longfin-inshore-squid,longfin inshore squid,Doryteuthis pealeii,Loliginidae,animal,
+iidako,iidako,Amphioctopus fangsiao,Octopodidae,animal,
+musky-octopus,musky octopus,Eledone moschata,Eledonidae,animal,
+curled-octopus,curled octopus,Eledone cirrhosa,Eledonidae,animal,
+giant-pacific-octopus,giant Pacific octopus,Enteroctopus dofleini,Enteroctopodidae,animal,
+long-arm-octopus,long-arm octopus (nakji),Octopus minor,Octopodidae,animal,nakji
+day-octopus,day octopus (he'e),Octopus cyanea,Octopodidae,animal,he'e
+mexican-four-eyed-octopus,Mexican four-eyed octopus,Octopus maya,Octopodidae,animal,
+east-asian-common-octopus,East Asian common octopus,Octopus sinensis,Octopodidae,animal,
+common-octopus,common octopus,Octopus vulgaris,Octopodidae,animal,octopus;pulpo;tako
+japanese-limpet,Japanese limpet,Cellana grata,Nacellidae,animal,
+common-limpet,common limpet,Patella vulgata,Patellidae,animal,
+nerite,nerite,Nerita albicilla,Neritidae,animal,
+wedge-sea-hare,wedge sea hare,Dolabella auricularia,Aplysiidae,animal,
+giant-west-african-snail,giant West African snail,Archachatina marginata,Achatinidae,animal,
+giant-african-snail,giant African snail,Lissachatina fulica,Achatinidae,animal,
+milk-snail,milk snail,Otala lactea,Helicidae,animal,
+turkish-snail,Turkish snail,Helix lucorum,Helicidae,animal,
+roman-snail,Roman snail (escargot),Helix pomatia,Helicidae,animal,escargot;land snail;snail;snails
+garden-snail,garden snail (petit-gris),Cornu aspersum,Helicidae,animal,petit-gris
+red-rimmed-melania,red-rimmed melania,Melanoides tuberculata,Thiaridae,animal,
+kawanina,kawanina,Semisulcospira libertina,Semisulcospiridae,animal,
+river-snail,river snail,Viviparus viviparus,Viviparidae,animal,
+chinese-mystery-snail,Chinese mystery snail,Cipangopaludina chinensis,Viviparidae,animal,
+golden-apple-snail,golden apple snail,Pomacea canaliculata,Ampullariidae,animal,
+apple-snail,apple snail,Pila globosa,Ampullariidae,animal,
+queen-conch,queen conch,Aliger gigas,Strombidae,animal,queen conch
+horn-snail,horn snail (mud creeper),Telescopium telescopium,Potamididae,animal,mud creeper
+mangrove-periwinkle,mangrove periwinkle (West Africa),Tympanotonus fuscatus,Potamididae,animal,West Africa
+periwinkle,periwinkle,Littorina littorea,Littorinidae,animal,periwinkle;winkle;winkles
+dog-whelk,dog whelk,Nucella lapillus,Muricidae,animal,
+loco,loco,Concholepas concholepas,Muricidae,animal,
+purple-dye-murex,purple dye murex,Bolinus brandaris,Muricidae,animal,
+banded-dye-murex,banded dye-murex,Hexaplex trunculus,Muricidae,animal,
+veined-rapa-whelk,veined rapa whelk,Rapana venosa,Muricidae,animal,
+japanese-babylon,Japanese babylon (bai),Babylonia japonica,Babyloniidae,animal,bai
+spotted-babylon,spotted babylon,Babylonia areolata,Babyloniidae,animal,
+channeled-whelk,channeled whelk,Busycotypus canaliculatus,Busyconidae,animal,
+knobbed-whelk,knobbed whelk,Busycon carica,Busyconidae,animal,
+common-whelk,common whelk,Buccinum undatum,Buccinidae,animal,whelk
+lapa-negra,lapa negra (keyhole limpet),Fissurella latimarginata,Fissurellidae,animal,keyhole limpet
+turbinate-monodont,turbinate monodont,Phorcus turbinatus,Trochidae,animal,
+trochus,trochus (top shell),Tectus niloticus,Tegulidae,animal,top shell
+coronate-moon-turban,coronate moon turban,Lunella coronata,Turbinidae,animal,
+green-turban,green turban,Turbo marmoratus,Turbinidae,animal,
+sazae,sazae (horned turban),Turbo cornutus,Turbinidae,animal,horned turban
+small-abalone,small abalone,Haliotis diversicolor,Haliotidae,animal,
+blacklip-abalone,blacklip abalone,Haliotis rubra,Haliotidae,animal,
+greenlip-abalone,greenlip abalone,Haliotis laevigata,Haliotidae,animal,
+ormer,ormer,Haliotis tuberculata,Haliotidae,animal,
+paua,paua,Haliotis iris,Haliotidae,animal,
+south-african-abalone,South African abalone (perlemoen),Haliotis midae,Haliotidae,animal,perlemoen
+red-abalone,red abalone,Haliotis rufescens,Haliotidae,animal,
+japanese-abalone,Japanese abalone (ezo awabi),Haliotis discus,Haliotidae,animal,ezo awabi
+tamilok,tamilok (shipworm),Bactronophorus thoracites,Teredinidae,animal,shipworm
+giant-shipworm,giant shipworm,Kuphus polythalamius,Teredinidae,animal,
+common-piddock,common piddock,Pholas dactylus,Pholadidae,animal,
+fat-gaper,fat gaper (horse clam),Tresus capax,Mactridae,animal,horse clam
+ocean-quahog,ocean quahog,Arctica islandica,Arcticidae,animal,
+coquina-clam,coquina clam,Donax variabilis,Donacidae,animal,
+wedge-clam,wedge clam (tellina),Donax trunculus,Donacidae,animal,tellina
+shijimi,shijimi,Corbicula japonica,Cyrenidae,animal,
+asian-clam,Asian clam,Corbicula fluminea,Cyrenidae,animal,
+small-giant-clam,small giant clam,Tridacna maxima,Cardiidae,animal,
+giant-clam,giant clam,Tridacna gigas,Cardiidae,animal,
+rayed-artemis,rayed artemis,Dosinia exoleta,Veneridae,animal,
+striped-venus,striped venus (vongola),Chamelea gallina,Veneridae,animal,vongola
+smooth-venus,smooth venus,Callista chione,Veneridae,animal,
+pacific-littleneck,Pacific littleneck,Leukoma staminea,Veneridae,animal,
+butter-clam,butter clam,Saxidomus gigantea,Veneridae,animal,
+undulating-venus,undulating venus (lala),Paphia undulata,Veneridae,animal,lala
+lyrate-hard-clam,lyrate hard clam,Meretrix lyrata,Veneridae,animal,
+hamaguri,hamaguri,Meretrix lusoria,Veneridae,animal,
+pullet-carpet-shell,pullet carpet shell,Venerupis corrugata,Veneridae,animal,
+grooved-carpet-shell,grooved carpet shell,Ruditapes decussatus,Veneridae,animal,
+manila-clam,Manila clam,Ruditapes philippinarum,Veneridae,animal,
+common-cockle,common cockle,Cerastoderma edule,Cardiidae,animal,cockle
+arctic-surf-clam,Arctic surf clam (hokkigai),Mactromeris polynyma,Mactridae,animal,hokkigai
+atlantic-surf-clam,Atlantic surf clam,Spisula solidissima,Mactridae,animal,
+pacific-razor-clam,Pacific razor clam,Siliqua patula,Pharidae,animal,
+grooved-razor,grooved razor,Solen marginatus,Solenidae,animal,
+razor-clam,razor clam (Europe),Ensis magnus,Pharidae,animal,Europe
+atlantic-jackknife-clam,Atlantic jackknife clam,Ensis leei,Pharidae,animal,
+geoduck,geoduck,Panopea generosa,Hiatellidae,animal,geoduck
+soft-shell-clam,soft-shell clam,Mya arenaria,Myidae,animal,soft-shell clam;steamers
+hard-clam,hard clam (quahog),Mercenaria mercenaria,Veneridae,animal,quahog;hard clam;clam;clams;littleneck;cherrystone;manila clam
+dog-cockle,dog cockle,Glycymeris glycymeris,Glycymerididae,animal,
+black-lip-pearl-oyster,black-lip pearl oyster,Pinctada margaritifera,Margaritidae,animal,
+pen-shell,pen shell (tairagi),Atrina pectinata,Pinnidae,animal,tairagi
+akagai,akagai,Anadara broughtonii,Arcidae,animal,
+blood-cockle,blood cockle,Tegillarca granosa,Arcidae,animal,
+queen-scallop,queen scallop,Aequipecten opercularis,Pectinidae,animal,
+iceland-scallop,Iceland scallop,Chlamys islandica,Pectinidae,animal,
+yesso-scallop,Yesso scallop (hotate),Mizuhopecten yessoensis,Pectinidae,animal,hotate
+peruvian-scallop,Peruvian scallop,Argopecten purpuratus,Pectinidae,animal,
+bay-scallop,bay scallop,Argopecten irradians,Pectinidae,animal,
+mediterranean-scallop,Mediterranean scallop,Pecten jacobaeus,Pectinidae,animal,
+king-scallop,king scallop,Pecten maximus,Pectinidae,animal,
+sea-scallop,sea scallop,Placopecten magellanicus,Pectinidae,animal,
+horse-mussel,horse mussel,Modiolus modiolus,Mytilidae,animal,
+choro-zapato,choro zapato,Choromytilus chorus,Mytilidae,animal,
+brown-mussel,brown mussel,Perna perna,Mytilidae,animal,
+asian-green-mussel,Asian green mussel,Perna viridis,Mytilidae,animal,
+green-lipped-mussel,green-lipped mussel,Perna canaliculus,Mytilidae,animal,
+chilean-mussel,Chilean mussel,Mytilus chilensis,Mytilidae,animal,
+mediterranean-mussel,Mediterranean mussel,Mytilus galloprovincialis,Mytilidae,animal,
+blue-mussel,blue mussel,Mytilus edulis,Mytilidae,animal,mussel;mussels
+sydney-rock-oyster,Sydney rock oyster,Saccostrea glomerata,Ostreidae,animal,
+olympia-oyster,Olympia oyster,Ostrea lurida,Ostreidae,animal,
+european-flat-oyster,European flat oyster,Ostrea edulis,Ostreidae,animal,
+portuguese-oyster,Portuguese oyster,Magallana angulata,Ostreidae,animal,
+pacific-oyster,Pacific oyster,Magallana gigas,Ostreidae,animal,
+eastern-oyster,eastern oyster,Crassostrea virginica,Ostreidae,animal,
+palolo-worm,palolo worm,Palola viridis,Eunicidae,animal,
+fat-innkeeper-worm,fat innkeeper worm (gaebul),Urechis unicinctus,Urechidae,animal,gaebul
+peanut-worm,peanut worm,Sipunculus nudus,Sipunculidae,animal,
+giant-centipede,giant centipede (skewered),Scolopendra subspinipes,Scolopendridae,animal,skewered
+red-maguey-worm,red maguey worm (chinicuil),Comadia redtenbacheri,Cossidae,animal,chinicuil
+witchetty-grub,witchetty grub,Endoxyla leucomochla,Cossidae,animal,
+maguey-worm,maguey worm (white),Aegiale hesperiaris,Hesperiidae,animal,
+shea-caterpillar,shea caterpillar (kanni),Cirina forda,Saturniidae,animal,kanni
+mopane-worm,mopane worm,Gonimbrasia belina,Saturniidae,animal,
+eri-silkworm,eri silkworm,Samia ricini,Saturniidae,animal,
+tussah-silkmoth-pupa,tussah silkmoth pupa,Antheraea pernyi,Saturniidae,animal,
+silkworm-pupa,silkworm pupa,Bombyx mori,Bombycidae,animal,silkworm pupa;beondegi
+lake-fly,lake fly (kungu),Chaoborus edulis,Chaoboridae,animal,kungu
+black-soldier-fly-larva,black soldier fly larva,Hermetia illucens,Stratiomyidae,animal,
+chafer-grub,chafer grub (Chinese),Holotrichia parallela,Scarabaeidae,animal,
+diving-beetle,diving beetle (long ga),Cybister tripunctatus,Dytiscidae,animal,long ga
+rhinoceros-beetle-larva,rhinoceros beetle larva,Oryctes rhinoceros,Scarabaeidae,animal,
+south-american-palm-weevil,South American palm weevil (chontacuro),Rhynchophorus palmarum,Curculionidae,animal,chontacuro
+african-palm-weevil-larva,African palm weevil larva,Rhynchophorus phoenicis,Curculionidae,animal,
+red-palm-weevil-larva,red palm weevil larva,Rhynchophorus ferrugineus,Curculionidae,animal,
+lesser-mealworm,lesser mealworm (buffalo worm),Alphitobius diaperinus,Tenebrionidae,animal,buffalo worm
+superworm,superworm,Zophobas morio,Tenebrionidae,animal,
+mealworm,mealworm,Tenebrio molitor,Tenebrionidae,animal,mealworm
+wasp-brood,wasp brood (Mexico),Polybia occidentalis,Vespidae,animal,Mexico
+yellowjacket-larvae,yellowjacket larvae,Vespula flaviceps,Vespidae,animal,
+giant-hornet-larvae,giant hornet larvae (hachinoko),Vespa mandarinia,Vespidae,animal,hachinoko
+escamoles,escamoles,Liometopum apiculatum,Formicidae,animal,
+weaver-ant-eggs,weaver ant eggs,Oecophylla smaragdina,Formicidae,animal,
+hormigas-culonas,hormigas culonas (leafcutter ant),Atta laevigata,Formicidae,animal,leafcutter ant
+sugarbag-bee,sugarbag bee (honey),Tetragonula carbonaria,Apidae,animal,
+maya-stingless-bee,Maya stingless bee (honey),Melipona beecheii,Apidae,animal,
+giant-honey-bee,giant honey bee (honey),Apis dorsata,Apidae,animal,
+asian-honey-bee,Asian honey bee (honey),Apis cerana,Apidae,animal,
+honey-bee,honey bee (honey),Apis mellifera,Apidae,animal,honey bee;honey;royal jelly;bee pollen
+periodical-cicada,periodical cicada,Magicicada septendecim,Cicadidae,animal,
+black-cicada,black cicada,Cryptotympana atrata,Cicadidae,animal,
+jumil,jumil,Euschistus taxcoensis,Pentatomidae,animal,
+edible-stink-bug,edible stink bug,Encosternum delegorguei,Tessaratomidae,animal,
+ahuautle,ahuautle (water boatman eggs),Corisella texcocana,Corixidae,animal,water boatman eggs
+giant-water-bug,giant water bug (maeng da),Lethocerus indicus,Belostomatidae,animal,maeng da
+termite,termite (subhyalinus),Macrotermes subhyalinus,Termitidae,animal,subhyalinus
+termite-2,termite (alate),Macrotermes bellicosus,Termitidae,animal,
+nsenene,nsenene (bush cricket),Ruspolia differens,Tettigoniidae,animal,bush cricket
+chapulin,chapulín,Sphenarium purpurascens,Pyrgomorphidae,animal,
+desert-locust,desert locust,Schistocerca gregaria,Acrididae,animal,
+migratory-locust,migratory locust,Locusta migratoria,Acrididae,animal,
+giant-cricket,giant cricket,Brachytrupes membranaceus,Gryllidae,animal,
+banded-cricket,banded cricket,Gryllodes sigillatus,Gryllidae,animal,
+two-spotted-cricket,two-spotted cricket,Gryllus bimaculatus,Gryllidae,animal,
+house-cricket,house cricket,Acheta domesticus,Gryllidae,animal,cricket;crickets;cricket flour
+giant-mantis-shrimp,giant mantis shrimp,Harpiosquilla raphidea,Squillidae,animal,
+spottail-mantis-shrimp,spottail mantis shrimp,Squilla mantis,Squillidae,animal,
+japanese-mantis-shrimp,Japanese mantis shrimp (shako),Oratosquilla oratoria,Squillidae,animal,shako
+japanese-mysid,Japanese mysid (ami),Neomysis intermedia,Mysidae,animal,ami
+pacific-krill,Pacific krill (isada),Euphausia pacifica,Euphausiidae,animal,isada
+antarctic-krill,Antarctic krill,Euphausia superba,Euphausiidae,animal,krill
+spanner-crab,spanner crab,Ranina ranina,Raninidae,animal,
+paddle-crab,paddle crab,Ovalipes catharus,Ovalipidae,animal,
+red-deep-sea-crab,red deep-sea crab,Chaceon quinquedens,Geryonidae,animal,
+tasmanian-giant-crab,Tasmanian giant crab,Pseudocarcinus gigas,Menippidae,animal,
+horsehair-crab,horsehair crab (kegani),Erimacrus isenbeckii,Cheiragonidae,animal,kegani
+mangrove-crab,mangrove crab (caranguejo-uçá),Ucides cordatus,Ucididae,animal,caranguejo-uçá
+blue-land-crab,blue land crab,Cardisoma guanhumi,Gecarcinidae,animal,
+florida-stone-crab,Florida stone crab,Menippe mercenaria,Menippidae,animal,
+japanese-mitten-crab,Japanese mitten crab,Eriocheir japonica,Varunidae,animal,
+chinese-mitten-crab,Chinese mitten crab,Eriocheir sinensis,Varunidae,animal,
+atlantic-spider-crab,Atlantic spider crab,Maja brachydactyla,Majidae,animal,
+mediterranean-spider-crab,Mediterranean spider crab,Maja squinado,Majidae,animal,
+red-snow-crab,red snow crab (beni-zuwai),Chionoecetes japonicus,Oregoniidae,animal,beni-zuwai
+tanner-crab,tanner crab,Chionoecetes bairdi,Oregoniidae,animal,
+snow-crab,snow crab,Chionoecetes opilio,Oregoniidae,animal,
+european-shore-crab,European shore crab,Carcinus maenas,Carcinidae,animal,
+velvet-crab,velvet crab,Necora puber,Polybiidae,animal,
+asian-paddle-crab,Asian paddle crab,Charybdis japonica,Portunidae,animal,
+crucifix-crab,crucifix crab,Charybdis feriata,Portunidae,animal,
+green-mud-crab,green mud crab,Scylla paramamosain,Portunidae,animal,
+mud-crab,mud crab,Scylla serrata,Portunidae,animal,
+blue-swimmer-crab,blue swimmer crab,Portunus pelagicus,Portunidae,animal,
+gazami-crab,gazami crab,Portunus trituberculatus,Portunidae,animal,
+blue-crab,blue crab,Callinectes sapidus,Portunidae,animal,blue crab;crab;crabs;crab meat
+dungeness-crab,Dungeness crab,Metacarcinus magister,Cancridae,animal,Dungeness crab
+brown-crab,brown crab,Cancer pagurus,Cancridae,animal,
+golden-king-crab,golden king crab,Lithodes aequispinus,Lithodidae,animal,
+southern-king-crab,southern king crab (centolla),Lithodes santolla,Lithodidae,animal,centolla
+blue-king-crab,blue king crab,Paralithodes platypus,Lithodidae,animal,
+red-king-crab,red king crab,Paralithodes camtschaticus,Lithodidae,animal,king crab
+red-squat-lobster,red squat lobster,Pleuroncodes monodon,Munididae,animal,
+squat-lobster,squat lobster (langostino),Munida gregaria,Munididae,animal,langostino
+virile-crayfish,virile crayfish,Faxonius virilis,Cambaridae,animal,
+marron,marron,Cherax cainii,Parastacidae,animal,
+yabby,yabby,Cherax destructor,Parastacidae,animal,
+redclaw,redclaw,Cherax quadricarinatus,Parastacidae,animal,
+white-clawed-crayfish,white-clawed crayfish,Austropotamobius pallipes,Astacidae,animal,
+signal-crayfish,signal crayfish,Pacifastacus leniusculus,Astacidae,animal,
+noble-crayfish,noble crayfish,Astacus astacus,Astacidae,animal,
+red-swamp-crayfish,red swamp crayfish,Procambarus clarkii,Cambaridae,animal,crayfish;crawfish;crawdad
+new-zealand-scampi,New Zealand scampi,Metanephrops challengeri,Nephropidae,animal,
+langoustine,langoustine,Nephrops norvegicus,Nephropidae,animal,
+european-lobster,European lobster,Homarus gammarus,Nephropidae,animal,
+american-lobster,American lobster,Homarus americanus,Nephropidae,animal,lobster
+balmain-bug,Balmain bug,Ibacus peronii,Scyllaridae,animal,
+mediterranean-slipper-lobster,Mediterranean slipper lobster,Scyllarides latus,Scyllaridae,animal,
+moreton-bay-bug,Moreton Bay bug,Thenus orientalis,Scyllaridae,animal,
+eastern-rock-lobster,eastern rock lobster,Sagmariasus verreauxi,Palinuridae,animal,
+west-coast-rock-lobster,West Coast rock lobster,Jasus lalandii,Palinuridae,animal,
+southern-rock-lobster,southern rock lobster,Jasus edwardsii,Palinuridae,animal,
+european-spiny-lobster,European spiny lobster,Palinurus elephas,Palinuridae,animal,
+scalloped-spiny-lobster,scalloped spiny lobster,Panulirus homarus,Palinuridae,animal,
+ornate-spiny-lobster,ornate spiny lobster,Panulirus ornatus,Palinuridae,animal,
+california-spiny-lobster,California spiny lobster,Panulirus interruptus,Palinuridae,animal,
+western-rock-lobster,western rock lobster,Panulirus cygnus,Palinuridae,animal,
+caribbean-spiny-lobster,Caribbean spiny lobster,Panulirus argus,Palinuridae,animal,
+striped-soldier-shrimp,striped soldier shrimp,Plesionika edwardsii,Pandalidae,animal,
+oriental-river-prawn,oriental river prawn,Macrobrachium nipponense,Palaemonidae,animal,
+giant-river-prawn,giant river prawn,Macrobrachium rosenbergii,Palaemonidae,animal,freshwater prawn
+common-prawn,common prawn,Palaemon serratus,Palaemonidae,animal,
+sculptured-shrimp,sculptured shrimp,Sclerocrangon boreas,Crangonidae,animal,
+brown-shrimp,brown shrimp (North Sea),Crangon crangon,Crangonidae,animal,North Sea
+chilean-nylon-shrimp,Chilean nylon shrimp,Heterocarpus reedi,Pandalidae,animal,
+ocean-pink-shrimp,ocean pink shrimp,Pandalus jordani,Pandalidae,animal,
+spot-prawn,spot prawn,Pandalus platyceros,Pandalidae,animal,
+northern-shrimp,northern shrimp,Pandalus borealis,Pandalidae,animal,
+jawla-paste-shrimp,jawla paste shrimp,Acetes indicus,Sergestidae,animal,
+akiami-paste-shrimp,akiami paste shrimp,Acetes japonicus,Sergestidae,animal,
+argentine-red-shrimp,Argentine red shrimp,Pleoticus muelleri,Solenoceridae,animal,
+blue-and-red-shrimp,blue and red shrimp (gamba roja),Aristeus antennatus,Aristeidae,animal,gamba roja
+giant-red-shrimp,giant red shrimp,Aristaeomorpha foliacea,Aristeidae,animal,
+atlantic-seabob,Atlantic seabob,Xiphopenaeus kroyeri,Penaeidae,animal,
+speckled-shrimp,speckled shrimp,Metapenaeus monoceros,Penaeidae,animal,
+pink-shrimp,pink shrimp (Gulf),Penaeus duorarum,Penaeidae,animal,Gulf
+brown-shrimp-2,brown shrimp (Gulf),Penaeus aztecus,Penaeidae,animal,Gulf
+atlantic-white-shrimp,Atlantic white shrimp,Penaeus setiferus,Penaeidae,animal,
+banana-prawn,banana prawn,Penaeus merguiensis,Penaeidae,animal,
+green-tiger-prawn,green tiger prawn,Penaeus semisulcatus,Penaeidae,animal,
+chinese-white-shrimp,Chinese white shrimp,Penaeus chinensis,Penaeidae,animal,
+kuruma-prawn,kuruma prawn,Penaeus japonicus,Penaeidae,animal,
+indian-white-prawn,Indian white prawn,Penaeus indicus,Penaeidae,animal,
+whiteleg-shrimp,whiteleg shrimp,Penaeus vannamei,Penaeidae,animal,
+giant-tiger-prawn,giant tiger prawn,Penaeus monodon,Penaeidae,animal,
+pelagic-goose-barnacle,pelagic goose barnacle,Lepas anatifera,Lepadidae,animal,
+picoroco,picoroco,Austromegabalanus psittacus,Balanidae,animal,
+pacific-goose-barnacle,Pacific goose barnacle,Pollicipes polymerus,Pollicipedidae,animal,
+goose-barnacle,goose barnacle (percebes),Pollicipes pollicipes,Pollicipedidae,animal,percebes
+mangrove-horseshoe-crab,mangrove horseshoe crab (eggs),Carcinoscorpius rotundicauda,Limulidae,animal,
+horseshoe-crab,horseshoe crab (eggs),Tachypleus gigas,Limulidae,animal,
+asian-forest-scorpion,Asian forest scorpion,Heterometrus longimanus,Scorpionidae,animal,
+edible-tarantula,edible tarantula (a-ping),Cyriopagopus albostriatus,Theraphosidae,animal,a-ping
+snakelocks-anemone,snakelocks anemone (ortiguillas),Anemonia viridis,Actiniidae,animal,ortiguillas
+nomuras-jellyfish,Nomura's jellyfish,Nemopilema nomurai,Rhizostomatidae,animal,
+cannonball-jellyfish,cannonball jellyfish,Stomolophus meleagris,Stomolophidae,animal,
+sand-jellyfish,sand jellyfish,Rhopilema hispidum,Rhizostomatidae,animal,
+edible-jellyfish,edible jellyfish,Rhopilema esculentum,Rhizostomatidae,animal,edible jellyfish
+mucor,mucor (cheese),Mucor racemosus,Mucoraceae,fungus,cheese
+sufu-mould,sufu mould,Actinomucor elegans,Mucoraceae,fungus,
+tempeh-mould,tempeh / ragi mould,Rhizopus oryzae,Rhizopodaceae,fungus,ragi mould
+tempeh-mould-2,tempeh mould,Rhizopus oligosporus,Rhizopodaceae,fungus,tempeh mold;tempeh
+huitlacoche,huitlacoche,Ustilago maydis,Ustilaginaceae,fungus,huitlacoche;corn smut
 golden-ear,golden ear,Naematelia aurantialba,Naemateliaceae,fungus,
 snow-fungus,snow fungus,Tremella fuciformis,Tremellaceae,fungus,snow fungus;white fungus
 pacific-golden-chanterelle,Pacific golden chanterelle,Cantharellus formosus,Cantharellaceae,fungus,
@@ -2619,6 +3160,7 @@ jelly-ear,jelly ear (cornea),Auricularia cornea,Auriculariaceae,fungus,cornea
 black-wood-ear,black wood ear,Auricularia heimuer,Auriculariaceae,fungus,
 wood-ear,wood ear,Auricularia auricula-judae,Auriculariaceae,fungus,wood ear;black fungus;cloud ear
 cloud-ear,cloud ear,Auricularia polytricha,Auriculariaceae,fungus,
+bamboo-fungus,bamboo fungus,Phallus indusiatus,Phallaceae,fungus,
 pigs-ear,pig's ear,Gomphus clavatus,Gomphaceae,fungus,
 cauliflower-coral,cauliflower coral,Ramaria botrytis,Gomphaceae,fungus,
 chaga,chaga,Inonotus obliquus,Hymenochaetaceae,fungus,
@@ -2670,10 +3212,6 @@ straw-mushroom,straw mushroom,Volvariella volvacea,Pluteaceae,fungus,
 american-caesar,American Caesar,Amanita jacksonii,Amanitaceae,fungus,
 caesars-mushroom,Caesar's mushroom,Amanita caesarea,Amanitaceae,fungus,
 blusher,blusher,Amanita rubescens,Amanitaceae,fungus,
-mucor,mucor (cheese),Mucor racemosus,Mucoraceae,fungus,cheese
-sufu-mould,sufu mould,Actinomucor elegans,Mucoraceae,fungus,
-tempeh-mould,tempeh / ragi mould,Rhizopus oryzae,Rhizopodaceae,fungus,ragi mould
-tempeh-mould-2,tempeh mould,Rhizopus oligosporus,Rhizopodaceae,fungus,tempeh mold;tempeh
 pioppino,pioppino,Cyclocybe aegerita,Strophariaceae,fungus,
 nameko,nameko,Pholiota nameko,Strophariaceae,fungus,
 chestnut-mushroom,chestnut mushroom (adiposa),Pholiota adiposa,Strophariaceae,fungus,adiposa
@@ -2704,3 +3242,39 @@ dark-honey-fungus,dark honey fungus,Armillaria ostoyae,Physalacriaceae,fungus,
 butter-cap,butter cap,Rhodocollybia butyracea,Omphalotaceae,fungus,
 shiitake,shiitake,Lentinula edodes,Omphalotaceae,fungus,shiitake
 fairy-ring-champignon,fairy ring champignon,Marasmius oreades,Marasmiaceae,fungus,
+diguene,digüeñe,Cyttaria espinosae,Cyttariaceae,fungus,
+oncom-mould,oncom mould (intermedia),Neurospora intermedia,Sordariaceae,fungus,intermedia
+oncom-mould-2,oncom mould,Neurospora sitophila,Sordariaceae,fungus,
+lobster-mushroom,lobster mushroom,Hypomyces lactifluorum,Hypocreaceae,fungus,
+caterpillar-fungus,caterpillar fungus,Ophiocordyceps sinensis,Ophiocordycipitaceae,fungus,
+cordyceps,cordyceps,Cordyceps militaris,Cordycipitaceae,fungus,
+mycoprotein,mycoprotein (Quorn),Fusarium venenatum,Nectriaceae,fungus,Quorn;mycoprotein;quorn
+red-yeast-rice,red yeast rice,Monascus purpureus,Monascaceae,fungus,
+salami-mould,salami mould,Penicillium nalgiovense,Aspergillaceae,fungus,
+camembert-mould,camembert mould,Penicillium camemberti,Aspergillaceae,fungus,camembert mold;brie;camembert
+blue-cheese-mould,blue cheese mould,Penicillium roqueforti,Aspergillaceae,fungus,blue cheese mold;blue cheese;roquefort;gorgonzola;stilton
+awamori-koji,awamori koji,Aspergillus luchuensis,Aspergillaceae,fungus,
+soy-sauce-koji,soy sauce koji,Aspergillus sojae,Aspergillaceae,fungus,
+koji,koji,Aspergillus oryzae,Aspergillaceae,fungus,koji mold;koji;miso;soy sauce;sake;mirin
+orange-peel-fungus,orange peel fungus,Aleuria aurantia,Pyronemataceae,fungus,
+scarlet-elf-cup,scarlet elf cup,Sarcoscypha coccinea,Sarcoscyphaceae,fungus,
+false-morel,false morel (processed),Gyromitra esculenta,Discinaceae,fungus,
+landscape-morel,landscape morel,Morchella importuna,Morchellaceae,fungus,
+american-yellow-morel,American yellow morel,Morchella americana,Morchellaceae,fungus,
+black-morel,black morel,Morchella elata,Morchellaceae,fungus,
+morel,morel,Morchella esculenta,Morchellaceae,fungus,morel;morels
+oregon-white-truffle,Oregon white truffle,Tuber oregonense,Tuberaceae,fungus,
+chinese-truffle,Chinese truffle,Tuber indicum,Tuberaceae,fungus,
+bianchetto-truffle,bianchetto truffle,Tuber borchii,Tuberaceae,fungus,
+summer-truffle,summer truffle,Tuber aestivum,Tuberaceae,fungus,
+white-truffle,white truffle,Tuber magnatum,Tuberaceae,fungus,white truffle
+black-truffle,black truffle,Tuber melanosporum,Tuberaceae,fungus,black truffle;truffle
+torulaspora,torulaspora (wine),Torulaspora delbrueckii,Saccharomycetaceae,fungus,wine
+cheese-mould,cheese mould (geotrichum),Geotrichum candidum,Dipodascaceae,fungus,geotrichum
+cheese-rind-yeast,cheese-rind yeast,Debaryomyces hansenii,Debaryomycetaceae,fungus,
+kefir-yeast,kefir yeast (marxianus),Kluyveromyces marxianus,Saccharomycetaceae,fungus,
+kefir-yeast-2,kefir yeast,Kluyveromyces lactis,Saccharomycetaceae,fungus,
+brett,brett,Brettanomyces bruxellensis,Pichiaceae,fungus,
+wine-yeast,wine yeast,Saccharomyces bayanus,Saccharomycetaceae,fungus,
+lager-yeast,lager yeast,Saccharomyces pastorianus,Saccharomycetaceae,fungus,
+bakers-yeast,baker's / brewer's yeast,Saccharomyces cerevisiae,Saccharomycetaceae,fungus,brewer's yeast;baker's;yeast;bread;beer;wine;sourdough;leavened

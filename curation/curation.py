@@ -2,11 +2,14 @@
 
 # Bump TREE_VERSION whenever anything below (or the species list, or the TimeTree export) changes,
 # and add a CHANGELOG line: (date, who, what changed, source). Both are written into the report and shown in the app.
-TREE_VERSION = "2026-09-19.2"
+TREE_VERSION = "open-0.2 (2026-09-20)"
 CHANGELOG = [
     ("2026-09-19", "Claude/MH", "First TimeTree 5 build: 2,607 dated species; 49 synonyms; 63 families anchored by hand", "TimeTree 5 export of the 3,279-name list"),
     ("2026-09-19", "Claude", "Red algae anchors revised: Gigartinales families to the Gigartinales crown; Gelidiales, Bonnemaisoniales, Ceramiales, Nemaliales to subclass stems", "Yang et al. 2016 Sci Rep 6:21361"),
     ("2026-09-19", "Claude", "Suillaceae to 130 Ma; Naematelia to 100 Ma; jellyfish to 650 Ma; Mucoromycota kept at 900 Ma", "Varga et al. 2019 Nat Ecol Evol 3:668; Park et al. 2012 Mol Phylogenet Evol; fungal timetree Nat Ecol Evol 2025"),
+    ("2026-09-20", "Claude/MH", "Open tree v0.1: Strassert 2021 backbone; Smith & Brown 2018, Nitta 2022, Rabosky 2018, Upham 2019, Varga 2019 grafted", "see backbone.py"),
+    ("2026-09-20", "Bruce Taylor", "Eukaryote rooting confirmed as Opimoda/Diphoda (= Strassert Amorphea-rooted analysis); Euglena stays with Diaphoretickes", "Williamson et al. 2025 Nature; Derelle et al. 2015 PNAS"),
+    ("2026-09-20", "Claude", "Open tree v0.2: Jetz 2012 birds grafted; class/order skeleton (~60 nodes, mostly approximate) for molluscs, arthropods, algae, ascomycetes, small phyla, herps, sharks; every listed species placed", "backbone.py; PLACEMENTS_OPEN in curation.py"),
 ]
 
 # Names as TimeTree returned them -> names in the candidate CSV.
@@ -201,4 +204,101 @@ CLADE_NAMES = {
     "Agaricales (gilled mushrooms)": ["Agaricaceae", "Omphalotaceae"],
     "Cnidarians": ["Actiniidae", "Rhizostomatidae"],
     "Echinoderms": ["Strongylocentrotidae", "Stichopodidae"],
+}
+
+# Placements for the open tree: family -> (["@backbone node" or family anchors], age or None).
+# None = attach at the node's crown (family joins at the node's age). Used ahead of PLACEMENTS when the anchor resolves.
+_O = lambda node, age=None: (["@" + node], age)
+PLACEMENTS_OPEN = {
+    # fungi
+    "Rhizopodaceae": _O("Mucoromycota + Dikarya"), "Mucoraceae": _O("Mucoromycota + Dikarya"),
+    "Saccharomycetaceae": _O("Saccharomycotina"), "Pichiaceae": _O("Saccharomycotina"),
+    "Debaryomycetaceae": _O("Saccharomycotina"), "Dipodascaceae": _O("Saccharomycotina"),
+    "Tuberaceae": _O("Pezizales"), "Morchellaceae": _O("Pezizales"), "Discinaceae": _O("Pezizales"),
+    "Pyronemataceae": _O("Pezizales"), "Sarcoscyphaceae": _O("Pezizales"),
+    "Aspergillaceae": _O("Eurotiomycetes"), "Monascaceae": _O("Eurotiomycetes"),
+    "Nectriaceae": _O("Hypocreales"), "Hypocreaceae": _O("Hypocreales"), "Cordycipitaceae": _O("Hypocreales"),
+    "Ophiocordycipitaceae": _O("Hypocreales"), "Sordariaceae": _O("Sordariomycetes"), "Cyttariaceae": _O("Leotiomyceta"),
+    "Ustilaginaceae": _O("Basidiomycota"), "Phallaceae": (["Gomphaceae", "Agaricaceae"], None),
+    # cnidarians, echinoderms, tunicates, worms, brachiopod, lancelet
+    "Actiniidae": _O("Cnidaria"), "Rhizostomatidae": _O("Cnidaria"), "Stomolophidae": _O("Cnidaria"),
+    "Strongylocentrotidae": _O("Echinoidea"), "Echinometridae": _O("Echinoidea"), "Parechinidae": _O("Echinoidea"),
+    "Toxopneustidae": _O("Echinoidea"), "Echinidae": _O("Echinoidea"),
+    "Stichopodidae": _O("Holothuroidea"), "Holothuriidae": _O("Holothuroidea"), "Cucumariidae": _O("Holothuroidea"),
+    "Pyuridae": _O("Tunicata"), "Styelidae": _O("Tunicata"), "Branchiostomatidae": _O("Chordates"),
+    "Eunicidae": _O("Annelida"), "Sipunculidae": _O("Annelida"), "Urechidae": _O("Annelida"), "Lingulidae": _O("Lophotrochozoa"),
+    # molluscs
+    "Chitonidae": _O("Mollusca"),
+    "Arcidae": _O("Pteriomorphia"), "Glycymerididae": _O("Pteriomorphia"), "Mytilidae": _O("Pteriomorphia"),
+    "Ostreidae": _O("Pteriomorphia"), "Pectinidae": _O("Pteriomorphia"), "Pinnidae": _O("Pteriomorphia"), "Margaritidae": _O("Pteriomorphia"),
+    "Veneridae": _O("Imparidentia"), "Mactridae": _O("Imparidentia"), "Cardiidae": _O("Imparidentia"), "Donacidae": _O("Imparidentia"),
+    "Cyrenidae": _O("Imparidentia"), "Arcticidae": _O("Imparidentia"), "Hiatellidae": _O("Imparidentia"), "Solenidae": _O("Imparidentia"),
+    "Pharidae": _O("Imparidentia"), "Myidae": _O("Imparidentia"), "Pholadidae": _O("Imparidentia"), "Teredinidae": _O("Imparidentia"),
+    "Patellidae": _O("Gastropoda"), "Nacellidae": _O("Gastropoda"), "Neritidae": _O("Orthogastropoda"),
+    "Haliotidae": _O("Vetigastropoda"), "Fissurellidae": _O("Vetigastropoda"), "Trochidae": _O("Vetigastropoda"),
+    "Tegulidae": _O("Vetigastropoda"), "Turbinidae": _O("Vetigastropoda"),
+    "Ampullariidae": _O("Caenogastropoda"), "Viviparidae": _O("Caenogastropoda"), "Littorinidae": _O("Caenogastropoda"),
+    "Strombidae": _O("Caenogastropoda"), "Potamididae": _O("Caenogastropoda"), "Thiaridae": _O("Caenogastropoda"),
+    "Semisulcospiridae": _O("Caenogastropoda"),
+    "Buccinidae": _O("Neogastropoda"), "Busyconidae": _O("Neogastropoda"), "Babyloniidae": _O("Neogastropoda"), "Muricidae": _O("Neogastropoda"),
+    "Aplysiidae": _O("Heterobranchia"), "Helicidae": _O("Stylommatophora"), "Achatinidae": _O("Stylommatophora"),
+    "Octopodidae": _O("Octopoda"), "Enteroctopodidae": _O("Octopoda"), "Eledonidae": _O("Octopoda"),
+    "Sepiidae": _O("Decapodiformes"), "Sepiolidae": _O("Decapodiformes"), "Loliginidae": _O("Decapodiformes"),
+    "Ommastrephidae": _O("Decapodiformes"), "Enoploteuthidae": _O("Decapodiformes"),
+    # crustaceans, chelicerates, myriapods
+    "Limulidae": _O("Chelicerata"), "Theraphosidae": _O("Arachnida"), "Scorpionidae": _O("Arachnida"), "Scolopendridae": _O("Mandibulata"),
+    "Balanidae": _O("Cirripedia"), "Pollicipedidae": _O("Cirripedia"), "Lepadidae": _O("Cirripedia"),
+    "Squillidae": _O("Malacostraca"), "Mysidae": _O("Eumalacostraca"), "Euphausiidae": _O("Eucarida"),
+    "Penaeidae": _O("Dendrobranchiata"), "Aristeidae": _O("Dendrobranchiata"), "Solenoceridae": _O("Dendrobranchiata"), "Sergestidae": _O("Dendrobranchiata"),
+    "Palaemonidae": _O("Caridea"), "Pandalidae": _O("Caridea"), "Crangonidae": _O("Caridea"),
+    "Palinuridae": _O("Achelata"), "Scyllaridae": _O("Achelata"),
+    "Nephropidae": _O("Astacidea"), "Astacidae": _O("Astacidea"), "Cambaridae": _O("Astacidea"), "Parastacidae": _O("Astacidea"),
+    "Lithodidae": _O("Anomura"), "Munididae": _O("Anomura"), "Raninidae": _O("Brachyura"),
+    "Portunidae": _O("Eubrachyura"), "Cancridae": _O("Eubrachyura"), "Carcinidae": _O("Eubrachyura"), "Polybiidae": _O("Eubrachyura"),
+    "Ovalipidae": _O("Eubrachyura"), "Cheiragonidae": _O("Eubrachyura"), "Majidae": _O("Eubrachyura"), "Menippidae": _O("Eubrachyura"),
+    "Geryonidae": _O("Eubrachyura"), "Oregoniidae": _O("Eubrachyura"), "Varunidae": _O("Eubrachyura"), "Gecarcinidae": _O("Eubrachyura"),
+    "Ucididae": _O("Eubrachyura"),
+    # insects
+    "Gryllidae": _O("Orthoptera"), "Tettigoniidae": _O("Orthoptera"), "Acrididae": _O("Orthoptera"), "Pyrgomorphidae": _O("Orthoptera"),
+    "Termitidae": _O("Polyneoptera"), "Cicadidae": _O("Hemiptera"),
+    "Belostomatidae": _O("Heteroptera"), "Corixidae": _O("Heteroptera"), "Pentatomidae": _O("Heteroptera"), "Tessaratomidae": _O("Heteroptera"),
+    "Vespidae": _O("Aculeata"), "Apidae": _O("Apoidea + Formicoidea"), "Formicidae": _O("Apoidea + Formicoidea"),
+    "Tenebrionidae": _O("Coleoptera"), "Curculionidae": _O("Coleoptera"), "Scarabaeidae": _O("Coleoptera"), "Dytiscidae": _O("Coleoptera"),
+    "Stratiomyidae": _O("Diptera"), "Chaoboridae": _O("Diptera"),
+    "Cossidae": _O("Lepidoptera"), "Hesperiidae": _O("Obtectomera"), "Bombycidae": _O("Bombycoidea"), "Saturniidae": _O("Bombycoidea"),
+    # jawless and cartilaginous fishes, herps
+    "Petromyzontidae": _O("Cyclostomata"), "Geotriidae": _O("Cyclostomata"), "Myxinidae": _O("Cyclostomata"),
+    "Callorhinchidae": _O("Chondrichthyes"), "Chimaeridae": _O("Chondrichthyes"),
+    "Squalidae": _O("Selachii"), "Lamnidae": _O("Galeomorphii"),
+    "Scyliorhinidae": _O("Carcharhiniformes"), "Triakidae": _O("Carcharhiniformes"), "Carcharhinidae": _O("Carcharhiniformes"),
+    "Rajidae": _O("Batoidea"), "Dasyatidae": _O("Batoidea"),
+    "Ranidae": _O("Anura"), "Dicroglossidae": _O("Anura"), "Pyxicephalidae": _O("Anura"), "Leptodactylidae": _O("Anura"),
+    "Iguanidae": _O("Squamata"), "Pythonidae": _O("Squamata"), "Colubridae": _O("Squamata"), "Elapidae": _O("Squamata"),
+    "Viperidae": _O("Squamata"), "Varanidae": _O("Squamata"), "Teiidae": _O("Squamata"),
+    "Chelydridae": _O("Testudines"), "Emydidae": _O("Testudines"), "Trionychidae": _O("Testudines"),
+    "Alligatoridae": _O("Crocodylia"), "Crocodylidae": _O("Crocodylia"),
+    # fishes missing from Rabosky under my names: hang on their nearest family in his tree
+    "Caesionidae": (["Lutjanidae"], 60), "Cynoglossidae": (["Soleidae"], 60), "Helostomatidae": (["Osphronemidae"], 60),
+    "Rhombosoleidae": (["Pleuronectidae"], 60), "Uranoscopidae": (["Trachinidae"], 80), "Mochokidae": (["Claroteidae", "Bagridae"], 80),
+    # plants missing from ALLMB
+    "Cynomoriaceae": (["Grossulariaceae", "Crassulaceae"], None), "Zygophyllaceae": (["Fabaceae", "Rosaceae", "Euphorbiaceae"], 105),
+    "Lennoaceae": (["Boraginaceae"], 60), "Hypoxidaceae": (["Asparagaceae", "Orchidaceae"], None),
+    # brown algae
+    "Ralfsiaceae": _O("Phaeophyceae"), "Chordaceae": _O("Phaeophyceae"),
+    "Chordariaceae": _O("Ectocarpales + BACR"), "Scytosiphonaceae": _O("Ectocarpales + BACR"),
+    "Laminariaceae": _O("Laminariales"), "Alariaceae": _O("Laminariales"), "Lessoniaceae": _O("Laminariales"),
+    "Fucaceae": _O("Fucales"), "Sargassaceae": _O("Fucales"), "Himanthaliaceae": _O("Fucales"), "Durvillaeaceae": _O("Fucales"),
+    # red algae
+    "Bangiaceae": _O("Bangiales"), "Palmariaceae": _O("Nemaliophycidae"), "Liagoraceae": _O("Nemaliophycidae"),
+    "Ahnfeltiaceae": _O("Ahnfeltiophycidae + Rhodymeniophycidae"),
+    "Gelidiaceae": _O("Rhodymeniophycidae"), "Pterocladiaceae": _O("Rhodymeniophycidae"), "Bonnemaisoniaceae": _O("Rhodymeniophycidae"),
+    "Rhodomelaceae": _O("Ceramiales"),
+    "Gracilariaceae": _O("Gigartinales + Gracilariales + Halymeniales"), "Halymeniaceae": _O("Gigartinales + Gracilariales + Halymeniales"),
+    "Endocladiaceae": _O("Gigartinales + Gracilariales + Halymeniales"), "Sarcodiaceae": _O("Gigartinales + Gracilariales + Halymeniales"),
+    "Gigartinaceae": _O("Gigartinales"), "Cystocloniaceae": _O("Gigartinales"), "Phyllophoraceae": _O("Gigartinales"),
+    "Solieriaceae": _O("Gigartinales"), "Kallymeniaceae": _O("Gigartinales"), "Dumontiaceae": _O("Gigartinales"), "Caulacanthaceae": _O("Gigartinales"),
+    # green algae
+    "Ulvaceae": _O("Ulvales"), "Monostromataceae": _O("Ulvales"), "Caulerpaceae": _O("Bryopsidales"), "Codiaceae": _O("Bryopsidales"),
+    "Chlorellaceae": _O("Trebouxiophyceae"), "Prasiolaceae": _O("Trebouxiophyceae"),
+    "Haematococcaceae": _O("Chlorophyceae"), "Dunaliellaceae": _O("Chlorophyceae"),
 }
