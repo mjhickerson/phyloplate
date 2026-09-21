@@ -8,6 +8,7 @@ PETERS17 = "Peters et al. 2017 Curr Biol 27:1013 (Hymenoptera timetree);"
 KAWA19 = "Kawahara et al. 2019 PNAS 116:22657 (Lepidoptera timetree);"
 CHOI24 = "Choi et al. 2024 Curr Biol 34:740 (plastome brown algal timetree, uncorrelated clock, 8 fossil calibrations; Table 3);"
 SHEN20 = "Shen et al. 2020 Sci Adv 6:eabd0079 (1,107-genome Ascomycota timetree, RelTime, six calibrations);"
+TANNER17 = "Tanner et al. 2017 Proc R Soc B 284:20162818 (180-gene cephalopod timetree, CIR clock, 12 calibrations; Suppl. Table 2 and Fig. S4);"
 ZHANG22 = "Frontiers Ecol Evol 2022, 10.3389/fevo.2022.973485 (mitogenomic gastropod timetree, ML dating);"
 LI25 = "Li et al. 2025 Syst Biol 74:16 (UCE bivalve timetree, MCMCTree, 18 calibrations from Crouch et al. 2021);"
 WOLFE19 = "Wolfe et al. 2019 Proc R Soc B 286:20190079, PhyloBayes UGAM chronogram;"
@@ -147,9 +148,9 @@ TREE = N("Eukaryotes", 2132, STR21,
                     ),
                     N("Gastropoda", 532, ZHANG22 + " Patellogastropoda split 532 (505-548); topology after Uribe et al. 2022 Syst Biol, Cunha & Giribet 2019 differ at the root",
                       N("Orthogastropoda", 493, ZHANG22 + " Vetigastropoda vs Caenogastropoda+relatives 493 (460-521)",
-                        N("Vetigastropoda", 350, APPROX),
-                        N("Apogastropoda", 400, APPROX,
-                          N("Caenogastropoda", 300, APPROX,
+                        N("Vetigastropoda", 370, TANNER17 + " Fig. S4 95% CI 311-432, midpoint"),
+                        N("Apogastropoda", 394, TANNER17 + " Fig. S4 95% CI 351-437, midpoint (Caenogastropoda vs Heterobranchia)",
+                          N("Caenogastropoda", 225, TANNER17 + " Fig. S4 95% CI 140-310, midpoint (Ampullariidae vs rest)",
                             N("Neogastropoda", 150, APPROX),
                           ),
                           N("Heterobranchia", 300, APPROX,
@@ -158,9 +159,14 @@ TREE = N("Eukaryotes", 2132, STR21,
                         ),
                       ),
                     ),
-                    N("Coleoidea", 270, APPROX + " (Tanner et al. 2017: crown coleoids latest Palaeozoic; exact table value pending)",
-                      N("Octopoda", 170, APPROX + " (Tanner et al. 2017: incirrate octopuses diversified in the Jurassic)"),
-                      N("Decapodiformes", 180, APPROX + " (Tanner et al. 2017: decabrachians diversified in the Jurassic)"),
+                    N("Coleoidea", 289, TANNER17 + " crown Coleoidea 289",
+                      N("Octobrachia", 239, TANNER17 + " crown Octobrachia 239 (vampire squid vs octopods)",
+                        N("Incirrata", 98, TANNER17 + " crown Incirrata 98"),
+                      ),
+                      N("Decabrachia", 173, TANNER17 + " crown Decabrachia 173",
+                        N("Myopsida", 100, TANNER17 + " Myopsida 100"),
+                        N("Oegopsida", 104, TANNER17 + " Oegopsida 104"),
+                      ),
                     ),
                   ),
                 ),
