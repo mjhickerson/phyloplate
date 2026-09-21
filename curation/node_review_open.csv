@@ -1,13 +1,5 @@
 node,age_Ma,basis,source_expr,families_anchored_here,n_species,reviewer_suggested_age,reviewer_notes
 Mucoromycota + Dikarya,700,"approximate, uncited","APPROX + "" (Mucoromycota stem; fungal timetree 2025 gives 701-1114 for the LCA)""","Rhizopodaceae, Mucoraceae",4,,
-Saccharomycotina + Pezizomycotina,450,"approximate, uncited",APPROX,,0,,
-Saccharomycotina,350,"approximate, uncited",APPROX),"Saccharomycetaceae, Pichiaceae, Debaryomycetaceae, Dipodascaceae",9,,
-Pezizomycotina,400,"approximate, uncited",APPROX,,0,,
-Pezizales,300,"approximate, uncited","APPROX + "" (literature 248-441)"")","Tuberaceae, Morchellaceae, Discinaceae, Pyronemataceae, Sarcoscyphaceae",13,,
-Leotiomyceta,320,"approximate, uncited",APPROX,Cyttariaceae,1,,
-Eurotiomycetes,150,"approximate, uncited",APPROX),"Aspergillaceae, Monascaceae",7,,
-Sordariomycetes,250,"approximate, uncited",APPROX,Sordariaceae,2,,
-Hypocreales,150,"approximate, uncited",APPROX),"Nectriaceae, Hypocreaceae, Cordycipitaceae, Ophiocordycipitaceae",4,,
 Basidiomycota,452,cited: see backbone.py,STR21,Ustilaginaceae,1,,
 Cnidaria,620,"approximate, uncited","APPROX + "" (Anthozoa vs Medusozoa; Park et al. 2012 give 741","Actiniidae, Rhizostomatidae, Stomolophidae",5,,
 Ecdysozoa,585,"approximate, uncited",APPROX,,0,,

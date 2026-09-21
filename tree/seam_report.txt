@@ -1,25 +1,27 @@
-stitched tree: 2647 candidate species placed of 3279; root 2132 Ma
+stitched tree: 2667 candidate species placed of 3279; root 2132 Ma
 
+[Shen et al. 2020 Sci Adv 6:eabd0079, 1,107-genome Ascomycota timetree (RelTime, 815 genes; exact times)] 1107 tips in source; 34 candidate species kept; crown 518.4 Ma
+  hung from node at 646 Ma; stem 127.6 Myr
 [Varga et al. 2019 Nat Ecol Evol 3:668, FastDate chronogram 216 (5,284 Agaricomycotina)] 7 duplicate tips for the same species dropped (infraspecific labels)
-[Varga et al. 2019 Nat Ecol Evol 3:668, FastDate chronogram 216 (5,284 Agaricomycotina)] 5284 tips in source; 75 candidate species kept; crown 442.6 Ma
+[Varga et al. 2019 Nat Ecol Evol 3:668, FastDate chronogram 216 (5,284 Agaricomycotina)] 5284 tips in source; 128 candidate species kept; crown 442.6 Ma
   hung from node at 452 Ma; stem 9.4 Myr
 [Stein et al. 2018 Nat Ecol Evol 2:288, VertLife shark tree subset (Chond_10Cal), tree 1 of 100] 14 tips in source; 14 candidate species kept; crown 377.1 Ma
   hung from node at 458 Ma; stem 80.9 Myr
 [Rabosky et al. 2018 Nature 559:392, Fish Tree of Life actinopt_12k_treePL] 9 duplicate tips for the same species dropped (infraspecific labels)
-[Rabosky et al. 2018 Nature 559:392, Fish Tree of Life actinopt_12k_treePL] 11638 tips in source; 533 candidate species kept; crown 368.0 Ma
+[Rabosky et al. 2018 Nature 559:392, Fish Tree of Life actinopt_12k_treePL] 11638 tips in source; 805 candidate species kept; crown 368.0 Ma
   hung from node at 449 Ma; stem 81.0 Myr
 [Jetz & Pyron 2018 Nat Ecol Evol 2:850, VertLife amphibian tree subset, tree 1 of 100] 8 tips in source; 8 candidate species kept; crown 184.4 Ma
   hung from node at 350 Ma; stem 165.6 Myr
-[Upham et al. 2019 PLoS Biol 17:e3000494, MamPhy completed 5,911sp NDexp MCC] 5912 tips in source; 127 candidate species kept; crown 180.8 Ma
+[Upham et al. 2019 PLoS Biol 17:e3000494, MamPhy completed 5,911sp NDexp MCC] 5912 tips in source; 185 candidate species kept; crown 180.8 Ma
   hung from node at 325 Ma; stem 144.2 Myr
 [Tonini et al. 2016 Biol Conserv 204:23, VertLife squamate tree subset, tree 1 of 100] 12 tips in source; 12 candidate species kept; crown 161.9 Ma
   hung from node at 280 Ma; stem 118.1 Myr
 [Jetz et al. 2012 Nature 491:444, birdtree.org Ericson Stage 2 subset, tree 1 of 100] 70 tips in source; 70 candidate species kept; crown 118.2 Ma
   hung from node at 250 Ma; stem 131.8 Myr
-[Nitta et al. 2022 Front Plant Sci, FTOL ML dated tree (ftolr)] 6234 tips in source; 10 candidate species kept; crown 424.0 Ma
-  hung from node at 480 Ma; stem 56.0 Myr
+[Nitta et al. 2022 Front Plant Sci, FTOL ML dated tree (ftolr)] 6234 tips in source; 22 candidate species kept; crown 437.7 Ma
+  hung from node at 480 Ma; stem 42.3 Myr
 [Smith & Brown 2018 Am J Bot 105:302, ALLMB (seed plants, Magallon backbone)] 478 duplicate tips for the same species dropped (infraspecific labels)
-[Smith & Brown 2018 Am J Bot 105:302, ALLMB (seed plants, Magallon backbone)] 356305 tips in source; 1796 candidate species kept; crown 325.1 Ma
+[Smith & Brown 2018 Am J Bot 105:302, ALLMB (seed plants, Magallon backbone)] 356305 tips in source; 2706 candidate species kept; crown 325.1 Ma
   hung from node at 480 Ma; stem 154.9 Myr
 
-== not yet in any source (632); assemble_tree.py will gap-fill those with a congener or family member present, and list the rest
+== not yet in any source (612); assemble_tree.py will gap-fill those with a congener or family member present, and list the rest

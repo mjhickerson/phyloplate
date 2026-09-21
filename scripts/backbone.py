@@ -7,6 +7,7 @@ MISOF14 = "Misof et al. 2014 Science 346:763 (1KITE insect timetree);"
 PETERS17 = "Peters et al. 2017 Curr Biol 27:1013 (Hymenoptera timetree);"
 KAWA19 = "Kawahara et al. 2019 PNAS 116:22657 (Lepidoptera timetree);"
 CHOI24 = "Choi et al. 2024 Curr Biol 34:740 (plastome brown algal timetree, uncorrelated clock, 8 fossil calibrations; Table 3);"
+SHEN20 = "Shen et al. 2020 Sci Adv 6:eabd0079 (1,107-genome Ascomycota timetree, RelTime, six calibrations);"
 LI25 = "Li et al. 2025 Syst Biol 74:16 (UCE bivalve timetree, MCMCTree, 18 calibrations from Crouch et al. 2021);"
 WOLFE19 = "Wolfe et al. 2019 Proc R Soc B 286:20190079, PhyloBayes UGAM chronogram;"
 # Subtrees (S) keep their own internal ages and hang from the enclosing node at their crown age.
@@ -38,20 +39,7 @@ TREE = N("Eukaryotes", 2132, STR21,
       N("Fungi", 806, STR21,
         N("Mucoromycota + Dikarya", 700, APPROX + " (Mucoromycota stem; fungal timetree 2025 gives 701-1114 for the LCA)",
           N("Dikarya", 646, STR21,
-            N("Ascomycota", 493, STR21,
-              N("Saccharomycotina + Pezizomycotina", 450, APPROX,
-                N("Saccharomycotina", 350, APPROX),
-                N("Pezizomycotina", 400, APPROX,
-                  N("Pezizales", 300, APPROX + " (literature 248-441)"),
-                  N("Leotiomyceta", 320, APPROX,
-                    N("Eurotiomycetes", 150, APPROX),
-                    N("Sordariomycetes", 250, APPROX,
-                      N("Hypocreales", 150, APPROX),
-                    ),
-                  ),
-                ),
-              ),
-            ),
+            S(OPEN + "shen2020_asco.nwk", "Shen et al. 2020 Sci Adv 6:eabd0079, 1,107-genome Ascomycota timetree (RelTime, 815 genes; exact times)", {"Galactomyces candidus": "Geotrichum candidum"}, groups=["Fungi"]),
             N("Basidiomycota", 452, STR21,
               S(OPEN + "varga2019.tree", "Varga et al. 2019 Nat Ecol Evol 3:668, FastDate chronogram 216 (5,284 Agaricomycotina)", VAR19_SYN),
             ),

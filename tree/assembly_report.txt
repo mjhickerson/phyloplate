@@ -1,5 +1,5 @@
-tree version: open-0.7 (2026-09-20)
-tips in output: 3279   root age: 2132 Myr   total branch length: 208797 Myr
+tree version: open-0.9 (2026-09-21)
+tips in output: 3279   root age: 2132 Myr   total branch length: 202686 Myr
 
 == changelog
    2026-09-19  Claude/MH: First TimeTree 5 build: 2,607 dated species; 49 synonyms; 63 families anchored by hand  [TimeTree 5 export of the 3,279-name list]
@@ -12,19 +12,34 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 208797 Myr
    2026-09-20  Claude/MH: Open tree v0.4: decapod skeleton nodes set from Wolfe et al. 2019 chronograms (UGAM model throughout; CIR values recorded); Palinuridae and crayfish nodes added; Malacostraca/Eucarida raised to fit  [Wolfe et al. 2019 Proc R Soc B, Dryad doi:10.5061/dryad.k7505mn]
    2026-09-20  Claude: Open tree v0.5: bivalve skeleton dated from Li et al. 2025 (Bivalvia 485, Pteriomorphia 446, Ostreida/Mytilida 421, core Imparidentia 362, Myida+Venerida 301, Adapedonta+Cardiida 300); gastropod topology cited to Uribe et al. 2022, ages still approximate  [Li et al. 2025 Syst Biol 74:16; Uribe et al. 2022 Syst Biol]
    2026-09-20  John Wares: Keyword matcher: 'tuna' matched prickly pear (Spanish name) and 'cheese' matched Mucor; ALIAS_ADD/ALIAS_REMOVE tables added; 'tuna' now maps to yellowfin tuna  [user report]
+   2026-09-21  Claude/MH: Open tree v0.9: Shen et al. 2020 1,107-genome Ascomycota timetree grafted (20 species direct, 11 by congener); ascomycete skeleton retired  [Shen et al. 2020 Sci Adv; Figshare doi:10.6084/m9.figshare.12196149]
+   2026-09-21  Claude: Open tree v0.8: ascomycete skeleton dated from Shen et al. 2020 (Ascomycota 563, Saccharomycotina 438, Pezizomycotina 408, Pezizomycetes 248)  [Shen et al. 2020 Sci Adv]
    2026-09-20  Claude: Open tree v0.7: brown algal skeleton dated from Choi et al. 2024 (Phaeophyceae 371, BACR 167, Fucales 66, Laminariales 83, Ectocarpales 54); red algal skeleton restructured to use Yang et al. 2016's 661 Ma Nemaliophycidae split; green seaweed topology per Del Cortona 2020 / Hou 2022 (Bryopsidales with Chlorophyceae), UTC crown raised to 800 and flagged against Strassert's 583  [Choi et al. 2024 Curr Biol; Yang et al. 2016 Sci Rep; Del Cortona et al. 2020 PNAS; Hou et al. 2022 Nat Commun]
    2026-09-20  Claude: Open tree v0.6: insect nodes cited: Hexapoda 479, Pterygota 406 (new node), Holometabola 345 (Misof 2014); Hymenoptera 281 (Peters 2017); Lepidoptera 300 (Kawahara 2019); Ditrysia node (210, approx) added so Cossidae no longer sits at the Lepidoptera crown  [Misof et al. 2014 Science; Peters et al. 2017 Curr Biol; Kawahara et al. 2019 PNAS]
 
-== matched: 2647
+== matched: 2667
 
 == synonym applied (tree label -> candidate): 0
 
 == assumed substitute (tree label -> candidate): 0
 
-== gap-filled at genus: 223
+== gap-filled at genus: 279
+   Saccharomyces pastorianus: sister to Saccharomyces cerevisiae at 2.53 Myr
+   Saccharomyces bayanus: child of MRCA
+   Neurospora sitophila: sister to helper Neurospora crassa at 5.00 Myr
+   Neurospora intermedia: child of MRCA
+   Tuber aestivum: child of MRCA
+   Tuber indicum: child of MRCA
+   Tuber oregonense: child of MRCA
+   Morchella esculenta: sister to helper Morchella septimelata at 5.00 Myr
+   Morchella elata: child of MRCA
+   Morchella americana: child of MRCA
+   Morchella importuna: child of MRCA
    Agaricus subrufescens: child of MRCA
    Pleurotus giganteus: child of MRCA
    Flammulina filiformis: sister to Flammulina velutipes at 5.00 Myr
+   Hypsizygus tessellatus: sister to helper Hypsizygus tessulatus at 5.00 Myr
+   Lyophyllum shimeji: sister to helper Lyophyllum sp at 5.00 Myr
    Auricularia auricula-judae: sister to Auricularia polytricha at 5.00 Myr
    Auricularia heimuer: child of MRCA
    Auricularia cornea: child of MRCA
@@ -32,21 +47,45 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 208797 Myr
    Cantharellus formosus: child of MRCA
    Lactarius deterrimus: sister to Lactarius deliciosus at 5.00 Myr
    Lactarius indigo: child of MRCA
-   Tricholoma murrillianum: sister to Tricholoma matsutake at 5.00 Myr
+   Tricholoma matsutake: sister to helper Tricholoma subaureum at 5.00 Myr
+   Tricholoma murrillianum: child of MRCA
    Pholiota nameko: sister to Pholiota adiposa at 5.00 Myr
+   Cyclocybe aegerita: sister to helper Cyclocybe erebioides at 5.00 Myr
    Termitomyces robustus: sister to Termitomyces titanicus at 5.00 Myr
+   Phallus indusiatus: sister to helper Phallus hadriani at 5.00 Myr
    Ganoderma lingzhi: sister to Ganoderma lucidum at 5.00 Myr
    Lentinus polychrous: sister to Lentinus squarrosulus at 5.00 Myr
+   Magallana gigas: sister to helper Magallana porifolia at 5.00 Myr
+   Magallana angulata: child of MRCA
+   Ostrea lurida: sister to Ostrea edulis at 2.50 Myr
+   Paphia undulata: sister to helper Paphia woodsii at 3.39 Myr
+   Callista chione: sister to helper Callista trichotoma at 5.00 Myr
+   Donax trunculus: sister to helper Donax canniformis at 5.00 Myr
+   Donax variabilis: child of MRCA
+   Ruspolia differens: sister to helper Ruspolia decurrens at 5.00 Myr
+   Oryctes rhinoceros: sister to helper Oryctes nevadensis at 4.18 Myr
    Labeo catla: sister to Labeo rohita at 5.00 Myr
+   Synodontis schall: sister to helper Synodontis centralis at 5.00 Myr
    Coregonus artedi: child of MRCA
    Gadus chalcogrammus: child of MRCA
-   Etelis carbunculus: sister to Etelis coruscans at 5.00 Myr
+   Harpadon nehereus: sister to helper Harpadon microchir at 5.00 Myr
+   Etelis carbunculus: sister to Etelis coruscans at 0.54 Myr
+   Pomadasys commersonnii: sister to helper Pomadasys perotaei at 5.00 Myr
    Pagrus major: sister to Pagrus pagrus at 5.00 Myr
-   Calamus bajonado: sister to Calamus tenuis at 5.00 Myr
+   Calamus bajonado: sister to Calamus tenuis at 4.08 Myr
+   Umbrina cirrosa: sister to helper Umbrina canosai at 5.00 Myr
+   Polydactylus sexfilis: sister to helper Polydactylus approximans at 5.00 Myr
    Coptodon zillii: sister to Coptodon rendalli at 5.00 Myr
+   Peprilus triacanthus: sister to helper Peprilus burti at 5.00 Myr
+   Pseudopleuronectes americanus: sister to helper Pseudopleuronectes herzensteini at 5.00 Myr
+   Cynoglossus semilaevis: sister to helper Cynoglossus senegalensis at 5.00 Myr
+   Helostoma temminckii: sister to helper Helostoma temminkii at 5.00 Myr
+   Uranoscopus japonicus: sister to helper Uranoscopus archionema at 5.00 Myr
    Ammodytes marinus: sister to Ammodytes personatus at 5.00 Myr
+   Caesio cuning: sister to helper Caesio lunaris at 5.00 Myr
    Pelophylax kl. esculentus: sister to Pelophylax ridibundus at 5.00 Myr
    Lithobates pipiens: sister to Lithobates catesbeianus at 2.50 Myr
+   Bubalus bubalis: sister to helper Bubalus arnee at 2.44 Myr
    Cervus canadensis: child of MRCA
    Equus asinus: child of MRCA
    Cinnamomum cassia: child of MRCA
@@ -54,24 +93,37 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 208797 Myr
    Dioscorea rotundata: child of MRCA
    Dioscorea cayenensis: child of MRCA
    Smilax ornata: child of MRCA
-   Yucca gigantea: sister to Yucca baccata at 5.00 Myr
+   Yucca gigantea: sister to Yucca baccata at 1.09 Myr
+   Ornithogalum pyrenaicum: sister to helper Ornithogalum prasinantherum at 5.00 Myr
+   Dendrobium officinale: sister to helper Dendrobium ×xanthocentrum at 5.00 Myr
+   Curculigo latifolia: sister to helper Curculigo villosa at 5.00 Myr
+   Brahea edulis: sister to helper Brahea dulcis at 5.00 Myr
    Musa × paradisiaca: child of MRCA
    Curcuma zanthorrhiza: child of MRCA
+   Goeppertia allouia: sister to helper Goeppertia regalis at 5.00 Myr
    Triticum turanicum: child of MRCA
+   × Triticosecale: sister to helper Triticosecale semisecale at 2.88 Myr
+   Thinopyrum intermedium: sister to helper Thinopyrum hybr at 2.88 Myr
+   Balanites aegyptiaca: sister to helper Balanites triflora at 5.00 Myr
    Elaeocarpus serratus: sister to Elaeocarpus bancroftii at 5.00 Myr
    Davidsonia jerseyana: sister to Davidsonia pruriens at 5.00 Myr
    Garcinia humilis: child of MRCA
    Inga feuilleei: child of MRCA
+   Flemingia vestita: sister to helper Flemingia semialata at 5.00 Myr
+   Styphnolobium japonicum: sister to helper Styphnolobium caudatum at 5.00 Myr
    Pyrus bretschneideri: child of MRCA
    Crataegus mexicana: child of MRCA
    Rubus strigosus: child of MRCA
    Rosa damascena: child of MRCA
    Rosa centifolia: child of MRCA
    Rosa rubiginosa: child of MRCA
+   Sanguisorba minor: sister to helper Sanguisorba takahashihideoi at 5.00 Myr
+   Prinsepia utilis: sister to helper Prinsepia sinensis at 5.00 Myr
    Artocarpus lacucha: child of MRCA
    Celtis integrifolia: child of MRCA
    Elaeagnus latifolia: child of MRCA
    Cucumis metuliferus: child of MRCA
+   Hodgsonia macrocarpa: sister to helper Hodgsonia heteroclita at 5.00 Myr
    Juglans ailantifolia: child of MRCA
    Myrica rubra: child of MRCA
    Syzygium polyanthum: child of MRCA
@@ -82,17 +134,25 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 208797 Myr
    Mangifera caesia: child of MRCA
    Acer nigrum: child of MRCA
    Hibiscus tiliaceus: child of MRCA
+   Scaphium affine: sister to helper Scaphium scaphigerum at 5.00 Myr
+   Quararibea cordata: sister to helper Quararibea wittii at 5.00 Myr
    Diplotaxis muralis: child of MRCA
    Cleome viscosa: sister to Cleome gynandra at 5.00 Myr
-   Vasconcellea × heilbornii: sister to Vasconcellea monoica at 5.00 Myr
+   Vasconcellea × heilbornii: sister to Vasconcellea monoica at 3.27 Myr
    Vasconcellea pubescens: child of MRCA
    Amaranthus cruentus: child of MRCA
    Rumex hymenosepalus: child of MRCA
-   Selenicereus costaricensis: sister to Selenicereus undatus at 5.00 Myr
+   Selenicereus undatus: sister to helper Selenicereus validus at 3.40 Myr
+   Selenicereus costaricensis: child of MRCA
    Selenicereus megalanthus: child of MRCA
    Diospyros blancoi: child of MRCA
    Saba senegalensis: sister to Saba comorensis at 1.39 Myr
-   Caralluma edulis: sister to Caralluma fimbriata at 5.00 Myr
+   Caralluma fimbriata: sister to helper Caralluma wilhelmii at 1.01 Myr
+   Caralluma edulis: child of MRCA
+   Gongronema latifolium: sister to helper Gongronema wrayi at 4.09 Myr
+   Leptadenia hastata: sister to helper Leptadenia lanceolata at 5.00 Myr
+   Poraqueiba sericea: sister to helper Poraqueiba guianensis at 5.00 Myr
+   Pholisma sonorae: sister to helper Pholisma arenarium at 5.00 Myr
    Solanum ajanhuiri: child of MRCA
    Solanum juzepczukii: child of MRCA
    Solanum curtilobum: child of MRCA
@@ -101,22 +161,39 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 208797 Myr
    Mentha × piperita: child of MRCA
    Mentha × villosa: child of MRCA
    Thymus citriodorus: child of MRCA
+   Micromeria fruticosa: sister to helper Micromeria wildpretii at 5.00 Myr
+   Coleus amboinicus: sister to helper Coleus xanthanthus at 5.00 Myr
    Plectranthus edulis: sister to Plectranthus esculentus at 5.00 Myr
-   Coleus rotundifolius: sister to Coleus amboinicus at 5.00 Myr
+   Coleus rotundifolius: child of MRCA
    Coleus barbatus: child of MRCA
-   Lallemantia royleana: sister to Lallemantia iberica at 5.00 Myr
+   Lallemantia iberica: sister to helper Lallemantia canescens at 4.53 Myr
+   Lallemantia royleana: child of MRCA
+   Clerodendrum glandulosum: sister to helper Clerodendrum ×speciosum at 5.00 Myr
    Lippia graveolens: child of MRCA
+   Phyla scaberrima: sister to helper Phyla linearis at 3.01 Myr
+   Justicia insularis: sister to helper Justicia zarucchii at 5.00 Myr
+   Hygrophila auriculata: sister to helper Hygrophila velata at 5.00 Myr
    Ilex kudingcha: child of MRCA
+   Podospermum laciniatum: sister to helper Podospermum tenorii at 4.46 Myr
    Cirsium dipsacolepis: child of MRCA
    Tagetes tenuifolia: child of MRCA
-   Chrysanthemum morifolium: sister to Chrysanthemum indicum at 1.17 Myr
+   Chrysanthemum morifolium: sister to Chrysanthemum indicum at 0.30 Myr
+   Melanthera biflora: sister to helper Melanthera remyi at 0.40 Myr
+   Acmella oleracea: sister to helper Acmella marajoensis at 3.29 Myr
+   Enydra fluctuans: sister to helper Enydra sessilis at 5.00 Myr
    Gynura divaricata: child of MRCA
-   Vernonia calvoana: sister to Vernonia amygdalina at 5.00 Myr
+   Doellingeria scabra: sister to helper Doellingeria infirma at 2.30 Myr
+   Vernonia amygdalina: sister to helper Vernonia virens at 5.00 Myr
+   Vernonia calvoana: child of MRCA
    Vernonia hymenolepis: child of MRCA
-   Launaea taraxacifolia: sister to Launaea cornuta at 3.58 Myr
+   Carphephorus odoratissimus: sister to helper Carphephorus tomentosus at 2.45 Myr
+   Launaea taraxacifolia: sister to Launaea cornuta at 1.58 Myr
+   Baccharis trimera: sister to helper Baccharis ×wilsoniana at 2.37 Myr
+   Hemistepta lyrata: sister to helper Hemistepta pulchra at 5.00 Myr
    Viburnum trilobum: child of MRCA
    Ligusticum striatum: child of MRCA
-   Cryptotaenia japonica: sister to Cryptotaenia canadensis at 3.98 Myr
+   Cryptotaenia japonica: sister to Cryptotaenia canadensis at 2.58 Myr
+   Coelopleurum gmelinii: sister to helper Coelopleurum filicinum at 2.11 Myr
    Saccharina latissima: sister to Saccharina japonica at 5.00 Myr
    Laminaria hyperborea: sister to Laminaria digitata at 5.00 Myr
    Laminaria ochroleuca: child of MRCA
@@ -143,30 +220,12 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 208797 Myr
    Monostroma latissimum: sister to Monostroma nitidum at 5.00 Myr
    Caulerpa racemosa: sister to Caulerpa lentillifera at 5.00 Myr
    Codium tomentosum: sister to Codium fragile at 5.00 Myr
-   Saccharomyces pastorianus: sister to Saccharomyces cerevisiae at 5.00 Myr
-   Saccharomyces bayanus: child of MRCA
-   Kluyveromyces marxianus: sister to Kluyveromyces lactis at 5.00 Myr
-   Aspergillus sojae: sister to Aspergillus oryzae at 5.00 Myr
-   Aspergillus luchuensis: child of MRCA
-   Penicillium camemberti: sister to Penicillium roqueforti at 5.00 Myr
-   Penicillium nalgiovense: child of MRCA
-   Neurospora intermedia: sister to Neurospora sitophila at 5.00 Myr
    Rhizopus oryzae: sister to Rhizopus oligosporus at 5.00 Myr
-   Tuber magnatum: sister to Tuber melanosporum at 5.00 Myr
-   Tuber aestivum: child of MRCA
-   Tuber borchii: child of MRCA
-   Tuber indicum: child of MRCA
-   Tuber oregonense: child of MRCA
-   Morchella elata: sister to Morchella esculenta at 5.00 Myr
-   Morchella americana: child of MRCA
-   Morchella importuna: child of MRCA
    Rhopilema hispidum: sister to Rhopilema esculentum at 5.00 Myr
    Strongylocentrotus droebachiensis: sister to Strongylocentrotus purpuratus at 5.00 Myr
    Mesocentrotus nudus: sister to Mesocentrotus franciscanus at 5.00 Myr
    Apostichopus californicus: sister to Apostichopus japonicus at 5.00 Myr
    Halocynthia aurantium: sister to Halocynthia roretzi at 5.00 Myr
-   Magallana angulata: sister to Magallana gigas at 5.00 Myr
-   Ostrea lurida: sister to Ostrea edulis at 5.00 Myr
    Mytilus galloprovincialis: sister to Mytilus edulis at 5.00 Myr
    Mytilus chilensis: child of MRCA
    Perna viridis: sister to Perna canaliculus at 5.00 Myr
@@ -178,7 +237,6 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 208797 Myr
    Meretrix lyrata: sister to Meretrix lusoria at 5.00 Myr
    Tridacna maxima: sister to Tridacna gigas at 5.00 Myr
    Corbicula japonica: sister to Corbicula fluminea at 5.00 Myr
-   Donax variabilis: sister to Donax trunculus at 5.00 Myr
    Haliotis rufescens: sister to Haliotis discus at 5.00 Myr
    Haliotis midae: child of MRCA
    Haliotis iris: child of MRCA
@@ -246,81 +304,36 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 208797 Myr
    Crocodylus porosus: sister to Crocodylus niloticus at 5.00 Myr
    Crocodylus siamensis: child of MRCA
 
-== gap-filled at family: 63
-   Hypsizygus tessellatus: child of MRCA
-   Lyophyllum shimeji: child of MRCA
-   Tricholoma matsutake: child of MRCA
-   Cyclocybe aegerita: child of MRCA
+== gap-filled at family: 25
+   Ostrea edulis: child of MRCA
+   Saccostrea glomerata: child of MRCA
+   Saxidomus gigantea: sister to Paphia undulata at 1.70 Myr
+   Leukoma staminea: child of MRCA
+   Chamelea gallina: child of MRCA
+   Dosinia exoleta: child of MRCA
+   Holotrichia parallela: sister to Oryctes rhinoceros at 2.09 Myr
    Beringraja binoculata: child of MRCA
    Stolephorus indicus: child of MRCA
-   Harpadon nehereus: sister to Saurida undosquamis at 20.00 Myr
-   Pomadasys commersonnii: child of MRCA
-   Umbrina cirrosa: child of MRCA
    Cilus gilberti: child of MRCA
-   Polydactylus sexfilis: sister to Eleutheronema tetradactylum at 20.00 Myr
-   Peprilus triacanthus: child of MRCA
-   Pseudopleuronectes americanus: child of MRCA
    Parachanna obscura: child of MRCA
    Lithobates catesbeianus: child of MRCA
-   Bubalus bubalis: child of MRCA
    Taurotragus oryx: child of MRCA
    Osphranter rufus: child of MRCA
    Notamacropus rufogriseus: child of MRCA
-   Warburgia ugandensis: sister to Canella winterana at 20.00 Myr
-   Ornithogalum pyrenaicum: child of MRCA
-   Dendrobium officinale: child of MRCA
-   Brahea edulis: child of MRCA
-   Goeppertia allouia: child of MRCA
-   × Triticosecale: child of MRCA
-   Thinopyrum intermedium: child of MRCA
+   Warburgia ugandensis: sister to Canella winterana at 9.43 Myr
    Eriocoma hymenoides: child of MRCA
-   Flemingia vestita: child of MRCA
-   Styphnolobium japonicum: child of MRCA
-   Sanguisorba minor: child of MRCA
    Hesperomeles obtusifolia: child of MRCA
-   Prinsepia utilis: child of MRCA
    Cucumeropsis mannii: child of MRCA
    Praecitrullus fistulosus: child of MRCA
-   Hodgsonia macrocarpa: child of MRCA
-   Scaphium affine: child of MRCA
-   Quararibea cordata: child of MRCA
-   Dobera glabra: sister to Salvadora persica at 20.00 Myr
-   Selenicereus undatus: child of MRCA
-   Caralluma fimbriata: child of MRCA
-   Gongronema latifolium: child of MRCA
-   Leptadenia hastata: child of MRCA
-   Micromeria fruticosa: child of MRCA
-   Coleus amboinicus: child of MRCA
-   Lallemantia iberica: child of MRCA
-   Clerodendrum glandulosum: child of MRCA
-   Phyla scaberrima: child of MRCA
-   Justicia insularis: child of MRCA
-   Hygrophila auriculata: child of MRCA
-   Podospermum laciniatum: child of MRCA
-   Melanthera biflora: child of MRCA
-   Acmella oleracea: child of MRCA
-   Enydra fluctuans: child of MRCA
-   Doellingeria scabra: child of MRCA
-   Vernonia amygdalina: child of MRCA
-   Carphephorus odoratissimus: child of MRCA
+   Dobera glabra: sister to Salvadora persica at 6.96 Myr
    Mycelis muralis: child of MRCA
-   Baccharis trimera: child of MRCA
-   Hemistepta lyrata: child of MRCA
    Elwendia persica: child of MRCA
    Meum athamanticum: child of MRCA
-   Coelopleurum gmelinii: child of MRCA
    Colistium nudipinnis: sister to Rhombosolea plebeia at 20.00 Myr
 
-== gap-filled at order (anchor): 346
-   Balanites aegyptiaca: child of MRCA at 116 Myr
-   Naematelia aurantialba: sister to anchor clade at 100 Myr
-   Synodontis schall: child of node at 71 Myr
-   Uranoscopus japonicus: sister to anchor clade at 80 Myr
-   Cynoglossus semilaevis: sister to anchor clade at 60 Myr
+== gap-filled at order (anchor): 308
+   Naematelia aurantialba: child of node at 53 Myr
    Rhombosolea plebeia: sister to anchor clade at 60 Myr
-   Helostoma temminckii: child of MRCA at 69 Myr
-   Caesio cuning: sister to anchor clade at 60 Myr
-   Pholisma sonorae: child of MRCA at 61 Myr
    Saccharina japonica: child of MRCA
    Laminaria digitata: child of MRCA
    Undaria pinnatifida: child of MRCA
@@ -382,30 +395,14 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 208797 Myr
    Haematococcus lacustris: child of MRCA
    Dunaliella salina: child of MRCA
    Prasiola japonica: child of MRCA
-   Saccharomyces cerevisiae: child of MRCA
-   Brettanomyces bruxellensis: child of MRCA
-   Kluyveromyces lactis: child of MRCA
-   Debaryomyces hansenii: child of MRCA
-   Geotrichum candidum: child of MRCA
-   Torulaspora delbrueckii: child of MRCA
-   Aspergillus oryzae: child of MRCA
-   Penicillium roqueforti: child of MRCA
-   Fusarium venenatum: child of MRCA
-   Monascus purpureus: child of MRCA
-   Neurospora sitophila: child of MRCA
    Rhizopus oligosporus: child of MRCA
    Actinomucor elegans: child of MRCA
    Mucor racemosus: child of MRCA
-   Tuber melanosporum: child of MRCA
-   Morchella esculenta: child of MRCA
    Gyromitra esculenta: child of MRCA
    Sarcoscypha coccinea: child of MRCA
    Aleuria aurantia: child of MRCA
-   Cordyceps militaris: child of MRCA
-   Ophiocordyceps sinensis: child of MRCA
    Hypomyces lactifluorum: child of MRCA
    Cyttaria espinosae: child of MRCA
-   Phallus indusiatus: child of MRCA
    Ustilago maydis: child of MRCA
    Rhopilema esculentum: child of MRCA
    Stomolophus meleagris: child of MRCA
@@ -434,9 +431,6 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 208797 Myr
    Palola viridis: child of MRCA
    Lingula anatina: child of MRCA
    Crassostrea virginica: child of MRCA
-   Magallana gigas: child of MRCA
-   Ostrea edulis: child of MRCA
-   Saccostrea glomerata: child of MRCA
    Mytilus edulis: child of MRCA
    Perna canaliculus: child of MRCA
    Choromytilus chorus: child of MRCA
@@ -459,19 +453,12 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 208797 Myr
    Ruditapes philippinarum: child of MRCA
    Venerupis corrugata: child of MRCA
    Meretrix lusoria: child of MRCA
-   Paphia undulata: child of MRCA
-   Saxidomus gigantea: child of MRCA
-   Leukoma staminea: child of MRCA
-   Callista chione: child of MRCA
-   Chamelea gallina: child of MRCA
-   Dosinia exoleta: child of MRCA
    Tridacna gigas: child of MRCA
    Tegillarca granosa: child of MRCA
    Anadara broughtonii: child of MRCA
    Atrina pectinata: child of MRCA
    Pinctada margaritifera: child of MRCA
    Corbicula fluminea: child of MRCA
-   Donax trunculus: child of MRCA
    Glycymeris glycymeris: child of MRCA
    Arctica islandica: child of MRCA
    Tresus capax: child of MRCA
@@ -602,7 +589,6 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 208797 Myr
    Locusta migratoria: child of MRCA
    Schistocerca gregaria: child of MRCA
    Sphenarium purpurascens: child of MRCA
-   Ruspolia differens: child of MRCA
    Tenebrio molitor: child of MRCA
    Zophobas morio: child of MRCA
    Alphitobius diaperinus: child of MRCA
@@ -612,7 +598,6 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 208797 Myr
    Gonimbrasia belina: child of MRCA
    Cirina forda: child of MRCA
    Rhynchophorus ferrugineus: child of MRCA
-   Oryctes rhinoceros: child of MRCA
    Hermetia illucens: child of MRCA
    Chaoborus edulis: child of MRCA
    Apis mellifera: child of MRCA
@@ -635,7 +620,6 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 208797 Myr
    Endoxyla leucomochla: child of MRCA
    Aegiale hesperiaris: child of MRCA
    Comadia redtenbacheri: child of MRCA
-   Holotrichia parallela: child of MRCA
    Cyriopagopus albostriatus: child of MRCA
    Heterometrus longimanus: child of MRCA
    Scolopendra subspinipes: child of MRCA
@@ -655,9 +639,7 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 208797 Myr
    Alligator mississippiensis: child of MRCA
    Crocodylus niloticus: child of MRCA
    Caiman yacare: child of MRCA
-   Curculigo latifolia: child of MRCA
    Cynomorium coccineum: child of MRCA
-   Poraqueiba sericea: child of MRCA
 
 == anchor families missing (placement still made): 0
 

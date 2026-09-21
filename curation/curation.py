@@ -2,7 +2,7 @@
 
 # Bump TREE_VERSION whenever anything below (or the species list, or the TimeTree export) changes,
 # and add a CHANGELOG line: (date, who, what changed, source). Both are written into the report and shown in the app.
-TREE_VERSION = "open-0.7 (2026-09-20)"
+TREE_VERSION = "open-0.9 (2026-09-21)"
 CHANGELOG = [
     ("2026-09-19", "Claude/MH", "First TimeTree 5 build: 2,607 dated species; 49 synonyms; 63 families anchored by hand", "TimeTree 5 export of the 3,279-name list"),
     ("2026-09-19", "Claude", "Red algae anchors revised: Gigartinales families to the Gigartinales crown; Gelidiales, Bonnemaisoniales, Ceramiales, Nemaliales to subclass stems", "Yang et al. 2016 Sci Rep 6:21361"),
@@ -14,6 +14,8 @@ CHANGELOG = [
     ("2026-09-20", "Claude/MH", "Open tree v0.4: decapod skeleton nodes set from Wolfe et al. 2019 chronograms (UGAM model throughout; CIR values recorded); Palinuridae and crayfish nodes added; Malacostraca/Eucarida raised to fit", "Wolfe et al. 2019 Proc R Soc B, Dryad doi:10.5061/dryad.k7505mn"),
     ("2026-09-20", "Claude", "Open tree v0.5: bivalve skeleton dated from Li et al. 2025 (Bivalvia 485, Pteriomorphia 446, Ostreida/Mytilida 421, core Imparidentia 362, Myida+Venerida 301, Adapedonta+Cardiida 300); gastropod topology cited to Uribe et al. 2022, ages still approximate", "Li et al. 2025 Syst Biol 74:16; Uribe et al. 2022 Syst Biol"),
     ("2026-09-20", "John Wares", "Keyword matcher: 'tuna' matched prickly pear (Spanish name) and 'cheese' matched Mucor; ALIAS_ADD/ALIAS_REMOVE tables added; 'tuna' now maps to yellowfin tuna", "user report"),
+    ("2026-09-21", "Claude/MH", "Open tree v0.9: Shen et al. 2020 1,107-genome Ascomycota timetree grafted (20 species direct, 11 by congener); ascomycete skeleton retired", "Shen et al. 2020 Sci Adv; Figshare doi:10.6084/m9.figshare.12196149"),
+    ("2026-09-21", "Claude", "Open tree v0.8: ascomycete skeleton dated from Shen et al. 2020 (Ascomycota 563, Saccharomycotina 438, Pezizomycotina 408, Pezizomycetes 248)", "Shen et al. 2020 Sci Adv"),
     ("2026-09-20", "Claude", "Open tree v0.7: brown algal skeleton dated from Choi et al. 2024 (Phaeophyceae 371, BACR 167, Fucales 66, Laminariales 83, Ectocarpales 54); red algal skeleton restructured to use Yang et al. 2016's 661 Ma Nemaliophycidae split; green seaweed topology per Del Cortona 2020 / Hou 2022 (Bryopsidales with Chlorophyceae), UTC crown raised to 800 and flagged against Strassert's 583", "Choi et al. 2024 Curr Biol; Yang et al. 2016 Sci Rep; Del Cortona et al. 2020 PNAS; Hou et al. 2022 Nat Commun"),
     ("2026-09-20", "Claude", "Open tree v0.6: insect nodes cited: Hexapoda 479, Pterygota 406 (new node), Holometabola 345 (Misof 2014); Hymenoptera 281 (Peters 2017); Lepidoptera 300 (Kawahara 2019); Ditrysia node (210, approx) added so Cossidae no longer sits at the Lepidoptera crown", "Misof et al. 2014 Science; Peters et al. 2017 Curr Biol; Kawahara et al. 2019 PNAS"),
 ]
@@ -218,13 +220,11 @@ _O = lambda node, age=None: (["@" + node], age)
 PLACEMENTS_OPEN = {
     # fungi
     "Rhizopodaceae": _O("Mucoromycota + Dikarya"), "Mucoraceae": _O("Mucoromycota + Dikarya"),
-    "Saccharomycetaceae": _O("Saccharomycotina"), "Pichiaceae": _O("Saccharomycotina"),
-    "Debaryomycetaceae": _O("Saccharomycotina"), "Dipodascaceae": _O("Saccharomycotina"),
-    "Tuberaceae": _O("Pezizales"), "Morchellaceae": _O("Pezizales"), "Discinaceae": _O("Pezizales"),
-    "Pyronemataceae": _O("Pezizales"), "Sarcoscyphaceae": _O("Pezizales"),
-    "Aspergillaceae": _O("Eurotiomycetes"), "Monascaceae": _O("Eurotiomycetes"),
-    "Nectriaceae": _O("Hypocreales"), "Hypocreaceae": _O("Hypocreales"), "Cordycipitaceae": _O("Hypocreales"),
-    "Ophiocordycipitaceae": _O("Hypocreales"), "Sordariaceae": _O("Sordariomycetes"), "Cyttariaceae": _O("Leotiomyceta"),
+    # ascomycetes now come from the Shen et al. 2020 timetree; families it lacks anchor to families it has
+    "Discinaceae": (["Morchellaceae", "Tuberaceae"], None), "Pyronemataceae": (["Morchellaceae", "Tuberaceae"], None),
+    "Sarcoscyphaceae": (["Morchellaceae", "Tuberaceae"], None),
+    "Hypocreaceae": (["Nectriaceae", "Cordycipitaceae"], None),
+    "Cyttariaceae": (["Sordariaceae", "Aspergillaceae"], None),
     "Ustilaginaceae": _O("Basidiomycota"), "Phallaceae": (["Gomphaceae", "Agaricaceae"], None),
     # cnidarians, echinoderms, tunicates, worms, brachiopod, lancelet
     "Actiniidae": _O("Cnidaria"), "Rhizostomatidae": _O("Cnidaria"), "Stomolophidae": _O("Cnidaria"),

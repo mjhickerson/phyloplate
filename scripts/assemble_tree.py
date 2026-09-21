@@ -220,8 +220,11 @@ def main(nwk_path, csv_path, outdir):
     for r in unmatched: unmatched_by_genus[genus_of(r["species"])].append(r)
     matched_genera = {genus_of(sp) for sp in matched}
     still_unmatched = []
+    helper_tips = defaultdict(list)   # non-food congeners kept by graft_tree as anchors for genus placement
     for t in root.tips():
         if id(t) in claimed or t.label.startswith("__placeholder__"): continue
+        if t.label.startswith("__helper__"):
+            helper_tips[genus_of(t.label[len("__helper__"):])].append(t); continue
         g = genus_of(t.label)
         cands = unmatched_by_genus.get(g, [])
         if len(cands) == 1 and g not in matched_genera:
@@ -239,6 +242,8 @@ def main(nwk_path, csv_path, outdir):
     fam_of = {r["species"]: r["family"] for r in rows}
     for sp, t in matched.items():
         genus_index[genus_of(sp)].append(t); family_index[fam_of[sp]].append(t)
+    for g, ts in helper_tips.items():
+        if not genus_index.get(g): genus_index[g].extend(ts)
 
     def attach_polytomy(parent, r):
         n = Node(r["species"], parent.height)

@@ -34,7 +34,7 @@ Prokaryotes are excluded on purpose (they are on everything). Amounts are ignore
 
 ## About the tree and its ages
 
-**The demo in this repository runs on the open tree, version `open-0.7`**: all 3,279 listed species, assembled entirely from published, redistributable chronograms grafted onto a backbone of deep-node ages, plus a class- and order-level skeleton for the groups that have no species-level open chronogram. Sources:
+**The demo in this repository runs on the open tree, version `open-0.9`**: all 3,279 listed species, assembled entirely from published, redistributable chronograms grafted onto a backbone of deep-node ages, plus a class- and order-level skeleton for the groups that have no species-level open chronogram. Sources:
 
 | Source | What it dates | Species placed |
 |---|---|---|
@@ -49,8 +49,9 @@ Prokaryotes are excluded on purpose (they are on everything). Amounts are ignore
 | Jetz & Pyron 2018, *Nat Ecol Evol* (VertLife subset) | amphibians | 8 |
 | Tonini et al. 2016, *Biol Conserv* (VertLife subset) | squamates | 12 |
 | Varga et al. 2019, *Nat Ecol Evol* | mushrooms (Agaricomycotina) | 75 |
+| Shen et al. 2020, *Sci Adv* | ascomycete fungi (yeasts, moulds, truffles, morels) | 20 |
 
-Each source keeps its own internal ages and hangs from the backbone at its crown. Molluscs, crustaceans, insects, seaweeds, ascomycete fungi, turtles, crocodilians and the small phyla (about 350 species) have no species-level open chronogram; their families sit on a skeleton of class- and order-level nodes in `scripts/backbone.py`, mapped in `PLACEMENTS_OPEN` in `curation/curation.py`. Most skeleton ages are approximate and listed for review in `curation/node_review_open.csv`, with the number of species each node carries. Families on the skeleton join at their node's crown, which slightly overstates PD for those groups. The seam report (`tree/seam_report.txt`) lists every graft, and `tree/assembly_report.txt` every placement.
+Each source keeps its own internal ages and hangs from the backbone at its crown. When a source is pruned to our species, one non-food relative per needed genus is kept so that a species the source lacks can be hung beside a real congener. Molluscs, crustaceans, insects, seaweeds, turtles, crocodilians and the small phyla (about 310 species) have no species-level open chronogram; their families sit on a skeleton of class- and order-level nodes in `scripts/backbone.py`, mapped in `PLACEMENTS_OPEN` in `curation/curation.py`. Most skeleton ages are approximate and listed for review in `curation/node_review_open.csv`, with the number of species each node carries. Families on the skeleton join at their node's crown, which slightly overstates PD for those groups. The seam report (`tree/seam_report.txt`) lists every graft, and `tree/assembly_report.txt` every placement.
 
 The working prototype used during development ran on a tree with divergence times from TimeTree 5 (Kumar et al. 2022). TimeTree's terms of use restrict redistribution of its data and transformations of it, so that tree is **not** included here, and no file derived from it will be committed.
 
