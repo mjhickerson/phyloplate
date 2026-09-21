@@ -2,7 +2,7 @@
 
 # Bump TREE_VERSION whenever anything below (or the species list, or the TimeTree export) changes,
 # and add a CHANGELOG line: (date, who, what changed, source). Both are written into the report and shown in the app.
-TREE_VERSION = "open-0.6.1 (2026-09-20)"
+TREE_VERSION = "open-0.7 (2026-09-20)"
 CHANGELOG = [
     ("2026-09-19", "Claude/MH", "First TimeTree 5 build: 2,607 dated species; 49 synonyms; 63 families anchored by hand", "TimeTree 5 export of the 3,279-name list"),
     ("2026-09-19", "Claude", "Red algae anchors revised: Gigartinales families to the Gigartinales crown; Gelidiales, Bonnemaisoniales, Ceramiales, Nemaliales to subclass stems", "Yang et al. 2016 Sci Rep 6:21361"),
@@ -14,6 +14,7 @@ CHANGELOG = [
     ("2026-09-20", "Claude/MH", "Open tree v0.4: decapod skeleton nodes set from Wolfe et al. 2019 chronograms (UGAM model throughout; CIR values recorded); Palinuridae and crayfish nodes added; Malacostraca/Eucarida raised to fit", "Wolfe et al. 2019 Proc R Soc B, Dryad doi:10.5061/dryad.k7505mn"),
     ("2026-09-20", "Claude", "Open tree v0.5: bivalve skeleton dated from Li et al. 2025 (Bivalvia 485, Pteriomorphia 446, Ostreida/Mytilida 421, core Imparidentia 362, Myida+Venerida 301, Adapedonta+Cardiida 300); gastropod topology cited to Uribe et al. 2022, ages still approximate", "Li et al. 2025 Syst Biol 74:16; Uribe et al. 2022 Syst Biol"),
     ("2026-09-20", "John Wares", "Keyword matcher: 'tuna' matched prickly pear (Spanish name) and 'cheese' matched Mucor; ALIAS_ADD/ALIAS_REMOVE tables added; 'tuna' now maps to yellowfin tuna", "user report"),
+    ("2026-09-20", "Claude", "Open tree v0.7: brown algal skeleton dated from Choi et al. 2024 (Phaeophyceae 371, BACR 167, Fucales 66, Laminariales 83, Ectocarpales 54); red algal skeleton restructured to use Yang et al. 2016's 661 Ma Nemaliophycidae split; green seaweed topology per Del Cortona 2020 / Hou 2022 (Bryopsidales with Chlorophyceae), UTC crown raised to 800 and flagged against Strassert's 583", "Choi et al. 2024 Curr Biol; Yang et al. 2016 Sci Rep; Del Cortona et al. 2020 PNAS; Hou et al. 2022 Nat Commun"),
     ("2026-09-20", "Claude", "Open tree v0.6: insect nodes cited: Hexapoda 479, Pterygota 406 (new node), Holometabola 345 (Misof 2014); Hymenoptera 281 (Peters 2017); Lepidoptera 300 (Kawahara 2019); Ditrysia node (210, approx) added so Cossidae no longer sits at the Lepidoptera crown", "Misof et al. 2014 Science; Peters et al. 2017 Curr Biol; Kawahara et al. 2019 PNAS"),
 ]
 
@@ -291,8 +292,8 @@ PLACEMENTS_OPEN = {
     "Cynomoriaceae": (["Grossulariaceae", "Crassulaceae"], None), "Zygophyllaceae": (["Fabaceae", "Rosaceae", "Euphorbiaceae"], 105),
     "Lennoaceae": (["Boraginaceae"], 60), "Hypoxidaceae": (["Asparagaceae", "Orchidaceae"], None),
     # brown algae
-    "Ralfsiaceae": _O("Phaeophyceae"), "Chordaceae": _O("Phaeophyceae"),
-    "Chordariaceae": _O("Ectocarpales + BACR"), "Scytosiphonaceae": _O("Ectocarpales + BACR"),
+    "Ralfsiaceae": _O("BACR II-V"), "Chordaceae": _O("Laminariales"),
+    "Chordariaceae": _O("Ectocarpales"), "Scytosiphonaceae": _O("Ectocarpales"),
     "Laminariaceae": _O("Laminariales"), "Alariaceae": _O("Laminariales"), "Lessoniaceae": _O("Laminariales"),
     "Fucaceae": _O("Fucales"), "Sargassaceae": _O("Fucales"), "Himanthaliaceae": _O("Fucales"), "Durvillaeaceae": _O("Fucales"),
     # red algae

@@ -1922,11 +1922,11 @@ ostrich-fern,ostrich fern (fiddlehead),Matteuccia struthiopteris,Onocleaceae,pla
 midin,midin,Stenochlaena palustris,Blechnaceae,plant,
 bracken,bracken (warabi),Pteridium aquilinum,Dennstaedtiaceae,plant,warabi
 water-sprite,water sprite,Ceratopteris thalictroides,Pteridaceae,plant,
-dunaliella,dunaliella,Dunaliella salina,Dunaliellaceae,green,
-haematococcus,haematococcus (astaxanthin),Haematococcus lacustris,Haematococcaceae,green,astaxanthin
 kawanori,kawanori,Prasiola japonica,Prasiolaceae,green,
 chlorella,chlorella (pyrenoidosa),Auxenochlorella pyrenoidosa,Chlorellaceae,green,pyrenoidosa
 chlorella-2,chlorella,Chlorella vulgaris,Chlorellaceae,green,chlorella
+dunaliella,dunaliella,Dunaliella salina,Dunaliellaceae,green,
+haematococcus,haematococcus (astaxanthin),Haematococcus lacustris,Haematococcaceae,green,astaxanthin
 velvet-horn,velvet horn,Codium tomentosum,Codiaceae,green,
 miru-fingers,miru / dead man's fingers,Codium fragile,Codiaceae,green,dead man's fingers
 lato,lato,Caulerpa racemosa,Caulerpaceae,green,
@@ -1980,20 +1980,8 @@ laver-2,laver,Porphyra umbilicalis,Bangiaceae,red,laver;laverbread
 tan-zicai,tan zicai,Pyropia haitanensis,Bangiaceae,red,
 asakusa-nori,asakusa nori,Pyropia tenera,Bangiaceae,red,
 nori,nori,Pyropia yezoensis,Bangiaceae,red,nori;seaweed;sushi seaweed;gim;kim
-sea-lace,sea lace,Chorda filum,Chordaceae,brown,
 matsumo,matsumo,Analipus japonicus,Ralfsiaceae,brown,
-seiyo-habanori,seiyo-habanori,Petalonia binghamiae,Scytosiphonaceae,brown,
-ito-mozuku,ito-mozuku,Nemacystus decipiens,Chordariaceae,brown,
-mozuku,mozuku,Cladosiphon okamuranus,Chordariaceae,brown,
-sea-spaghetti,sea spaghetti,Himanthalia elongata,Himanthaliaceae,brown,
-spiral-wrack,spiral wrack,Fucus spiralis,Fucaceae,brown,
-serrated-wrack,serrated wrack,Fucus serratus,Fucaceae,brown,
-bladderwrack,bladderwrack,Fucus vesiculosus,Fucaceae,brown,bladderwrack
-rockweed-wrack,rockweed / knotted wrack,Ascophyllum nodosum,Fucaceae,brown,knotted wrack;rockweed
-wireweed,wireweed,Sargassum muticum,Sargassaceae,brown,
-akamoku,akamoku,Sargassum horneri,Sargassaceae,brown,
-hijiki,hijiki,Sargassum fusiforme,Sargassaceae,brown,hijiki
-cochayuyo,cochayuyo,Durvillaea antarctica,Durvillaeaceae,brown,
+sea-lace,sea lace,Chorda filum,Chordaceae,brown,
 huiro-negro,huiro negro,Lessonia nigrescens,Lessoniaceae,brown,
 sea-palm,sea palm,Postelsia palmaeformis,Laminariaceae,brown,
 bull-kelp,bull kelp,Nereocystis luetkeana,Laminariaceae,brown,
@@ -2009,6 +1997,18 @@ tangle-kelp,tangle kelp,Laminaria hyperborea,Laminariaceae,brown,
 oarweed,oarweed,Laminaria digitata,Laminariaceae,brown,
 sugar-kelp,sugar kelp,Saccharina latissima,Laminariaceae,brown,
 kombu,kombu,Saccharina japonica,Laminariaceae,brown,kombu;kelp;dashi;kelp noodles;laminaria
+seiyo-habanori,seiyo-habanori,Petalonia binghamiae,Scytosiphonaceae,brown,
+ito-mozuku,ito-mozuku,Nemacystus decipiens,Chordariaceae,brown,
+mozuku,mozuku,Cladosiphon okamuranus,Chordariaceae,brown,
+sea-spaghetti,sea spaghetti,Himanthalia elongata,Himanthaliaceae,brown,
+spiral-wrack,spiral wrack,Fucus spiralis,Fucaceae,brown,
+serrated-wrack,serrated wrack,Fucus serratus,Fucaceae,brown,
+bladderwrack,bladderwrack,Fucus vesiculosus,Fucaceae,brown,bladderwrack
+rockweed-wrack,rockweed / knotted wrack,Ascophyllum nodosum,Fucaceae,brown,knotted wrack;rockweed
+wireweed,wireweed,Sargassum muticum,Sargassaceae,brown,
+akamoku,akamoku,Sargassum horneri,Sargassaceae,brown,
+hijiki,hijiki,Sargassum fusiforme,Sargassaceae,brown,hijiki
+cochayuyo,cochayuyo,Durvillaea antarctica,Durvillaeaceae,brown,
 euglena,euglena (midorimushi),Euglena gracilis,Euglenaceae,other,midorimushi
 amphioxus,amphioxus (lancelet),Branchiostoma belcheri,Branchiostomatidae,animal,lancelet
 eurasian-collared-dove,Eurasian collared dove,Streptopelia decaocto,Columbidae,animal,
