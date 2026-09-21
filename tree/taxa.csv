@@ -2865,7 +2865,7 @@ murasaki-uni,murasaki uni,Heliocidaris crassispina,Echinometridae,animal,
 northern-sea-urchin,northern sea urchin (kita-murasaki),Mesocentrotus nudus,Strongylocentrotidae,animal,kita-murasaki
 red-sea-urchin,red sea urchin,Mesocentrotus franciscanus,Strongylocentrotidae,animal,
 green-sea-urchin,green sea urchin,Strongylocentrotus droebachiensis,Strongylocentrotidae,animal,
-purple-sea-urchin,purple sea urchin,Strongylocentrotus purpuratus,Strongylocentrotidae,animal,
+purple-sea-urchin,purple sea urchin,Strongylocentrotus purpuratus,Strongylocentrotidae,animal,sea urchin;uni;sea urchin roe
 lamp-shell,lamp shell (brachiopod),Lingula anatina,Lingulidae,animal,brachiopod
 fuzzy-chiton,fuzzy chiton,Acanthopleura granulata,Chitonidae,animal,
 chilean-chiton,Chilean chiton,Chiton magnificus,Chitonidae,animal,
@@ -2892,7 +2892,7 @@ chokka-squid,chokka squid,Loligo reynaudii,Loliginidae,animal,
 veined-squid,veined squid,Loligo forbesii,Loliginidae,animal,
 european-squid,European squid,Loligo vulgaris,Loliginidae,animal,
 california-market-squid,California market squid,Doryteuthis opalescens,Loliginidae,animal,
-longfin-inshore-squid,longfin inshore squid,Doryteuthis pealeii,Loliginidae,animal,
+longfin-inshore-squid,longfin inshore squid,Doryteuthis pealeii,Loliginidae,animal,squid;calamari
 iidako,iidako,Amphioctopus fangsiao,Octopodidae,animal,
 musky-octopus,musky octopus,Eledone moschata,Eledonidae,animal,
 curled-octopus,curled octopus,Eledone cirrhosa,Eledonidae,animal,
@@ -2991,7 +2991,7 @@ green-lipped-mussel,green-lipped mussel,Perna canaliculus,Mytilidae,animal,
 chilean-mussel,Chilean mussel,Mytilus chilensis,Mytilidae,animal,
 mediterranean-mussel,Mediterranean mussel,Mytilus galloprovincialis,Mytilidae,animal,
 blue-mussel,blue mussel,Mytilus edulis,Mytilidae,animal,mussel;mussels
-eastern-oyster,eastern oyster,Crassostrea virginica,Ostreidae,animal,
+eastern-oyster,eastern oyster,Crassostrea virginica,Ostreidae,animal,oysters;oyster
 palolo-worm,palolo worm,Palola viridis,Eunicidae,animal,
 fat-innkeeper-worm,fat innkeeper worm (gaebul),Urechis unicinctus,Urechidae,animal,gaebul
 peanut-worm,peanut worm,Sipunculus nudus,Sipunculidae,animal,
@@ -3126,7 +3126,7 @@ green-tiger-prawn,green tiger prawn,Penaeus semisulcatus,Penaeidae,animal,
 chinese-white-shrimp,Chinese white shrimp,Penaeus chinensis,Penaeidae,animal,
 kuruma-prawn,kuruma prawn,Penaeus japonicus,Penaeidae,animal,
 indian-white-prawn,Indian white prawn,Penaeus indicus,Penaeidae,animal,
-whiteleg-shrimp,whiteleg shrimp,Penaeus vannamei,Penaeidae,animal,
+whiteleg-shrimp,whiteleg shrimp,Penaeus vannamei,Penaeidae,animal,shrimp;prawns;prawn;shrimps
 giant-tiger-prawn,giant tiger prawn,Penaeus monodon,Penaeidae,animal,
 pelagic-goose-barnacle,pelagic goose barnacle,Lepas anatifera,Lepadidae,animal,
 picoroco,picoroco,Austromegabalanus psittacus,Balanidae,animal,

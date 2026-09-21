@@ -2,7 +2,7 @@
 
 # Bump TREE_VERSION whenever anything below (or the species list, or the TimeTree export) changes,
 # and add a CHANGELOG line: (date, who, what changed, source). Both are written into the report and shown in the app.
-TREE_VERSION = "open-0.9 (2026-09-21)"
+TREE_VERSION = "open-0.9.1 (2026-09-21)"
 CHANGELOG = [
     ("2026-09-19", "Claude/MH", "First TimeTree 5 build: 2,607 dated species; 49 synonyms; 63 families anchored by hand", "TimeTree 5 export of the 3,279-name list"),
     ("2026-09-19", "Claude", "Red algae anchors revised: Gigartinales families to the Gigartinales crown; Gelidiales, Bonnemaisoniales, Ceramiales, Nemaliales to subclass stems", "Yang et al. 2016 Sci Rep 6:21361"),
@@ -317,6 +317,16 @@ ALIAS_ADD = {
     "Thunnus albacares": ["tuna", "canned tuna", "tuna steak", "ahi"],
     "Thunnus thynnus": ["bluefin"],
     "Katsuwonus pelamis": ["bonito flakes", "katsuobushi"],
+    "Penaeus vannamei": ["shrimp", "prawns", "prawn", "shrimps"],
+    "Strongylocentrotus purpuratus": ["sea urchin", "uni", "sea urchin roe"],
+    "Scomber scombrus": ["mackerel"],
+    "Gadus morhua": ["cod"],
+    "Salmo salar": ["salmon"],
+    "Crassostrea virginica": ["oysters", "oyster"],
+    "Mytilus edulis": ["mussels", "mussel"],
+    "Homarus americanus": ["lobster"],
+    "Octopus vulgaris": ["octopus"],
+    "Doryteuthis pealeii": ["squid", "calamari"],
 }
 ALIAS_REMOVE = {
     "Opuntia ficus-indica": ["tuna"],            # Spanish for the fruit; collides with the fish
