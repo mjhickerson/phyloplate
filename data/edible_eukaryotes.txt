@@ -113,7 +113,7 @@ Neurospora intermedia|oncom mould (intermedia)|Sordariaceae
 Rhizopus oligosporus|tempeh mould|Rhizopodaceae
 Rhizopus oryzae|tempeh / ragi mould|Rhizopodaceae
 Actinomucor elegans|sufu mould|Mucoraceae
-Mucor racemosus|mucor (cheese)|Mucoraceae
+Mucor racemosus|mucor|Mucoraceae
 ## Fungi: mushrooms and truffles | fungus
 Tuber melanosporum|black truffle|Tuberaceae
 Tuber magnatum|white truffle|Tuberaceae
@@ -2609,7 +2609,7 @@ Basella alba|Malabar spinach|Basellaceae
 Ullucus tuberosus|ulluco|Basellaceae
 Anredera cordifolia|Madeira vine|Basellaceae
 Portulacaria afra|spekboom|Didiereaceae
-Opuntia ficus-indica|prickly pear (nopal, tuna)|Cactaceae
+Opuntia ficus-indica|prickly pear (nopal)|Cactaceae
 Opuntia engelmannii|Engelmann's prickly pear|Cactaceae
 Opuntia humifusa|eastern prickly pear|Cactaceae
 Opuntia phaeacantha|tulip prickly pear|Cactaceae

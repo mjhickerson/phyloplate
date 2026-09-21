@@ -109,7 +109,7 @@ Neurospora intermedia,oncom mould (intermedia),Neurospora,Sordariaceae,fungus,Fu
 Rhizopus oligosporus,tempeh mould,Rhizopus,Rhizopodaceae,fungus,Fungi: yeasts and moulds
 Rhizopus oryzae,tempeh / ragi mould,Rhizopus,Rhizopodaceae,fungus,Fungi: yeasts and moulds
 Actinomucor elegans,sufu mould,Actinomucor,Mucoraceae,fungus,Fungi: yeasts and moulds
-Mucor racemosus,mucor (cheese),Mucor,Mucoraceae,fungus,Fungi: yeasts and moulds
+Mucor racemosus,mucor,Mucor,Mucoraceae,fungus,Fungi: yeasts and moulds
 Tuber melanosporum,black truffle,Tuber,Tuberaceae,fungus,Fungi: mushrooms and truffles
 Tuber magnatum,white truffle,Tuber,Tuberaceae,fungus,Fungi: mushrooms and truffles
 Tuber aestivum,summer truffle,Tuber,Tuberaceae,fungus,Fungi: mushrooms and truffles
@@ -2576,7 +2576,7 @@ Basella alba,Malabar spinach,Basella,Basellaceae,plant,"Eudicots: amaranths, bee
 Ullucus tuberosus,ulluco,Ullucus,Basellaceae,plant,"Eudicots: amaranths, beets, quinoa, buckwheat, rhubarb, sorrel, purslane, cacti, ice plants, pokeweed"
 Anredera cordifolia,Madeira vine,Anredera,Basellaceae,plant,"Eudicots: amaranths, beets, quinoa, buckwheat, rhubarb, sorrel, purslane, cacti, ice plants, pokeweed"
 Portulacaria afra,spekboom,Portulacaria,Didiereaceae,plant,"Eudicots: amaranths, beets, quinoa, buckwheat, rhubarb, sorrel, purslane, cacti, ice plants, pokeweed"
-Opuntia ficus-indica,"prickly pear (nopal, tuna)",Opuntia,Cactaceae,plant,"Eudicots: amaranths, beets, quinoa, buckwheat, rhubarb, sorrel, purslane, cacti, ice plants, pokeweed"
+Opuntia ficus-indica,prickly pear (nopal),Opuntia,Cactaceae,plant,"Eudicots: amaranths, beets, quinoa, buckwheat, rhubarb, sorrel, purslane, cacti, ice plants, pokeweed"
 Opuntia engelmannii,Engelmann's prickly pear,Opuntia,Cactaceae,plant,"Eudicots: amaranths, beets, quinoa, buckwheat, rhubarb, sorrel, purslane, cacti, ice plants, pokeweed"
 Opuntia humifusa,eastern prickly pear,Opuntia,Cactaceae,plant,"Eudicots: amaranths, beets, quinoa, buckwheat, rhubarb, sorrel, purslane, cacti, ice plants, pokeweed"
 Opuntia phaeacantha,tulip prickly pear,Opuntia,Cactaceae,plant,"Eudicots: amaranths, beets, quinoa, buckwheat, rhubarb, sorrel, purslane, cacti, ice plants, pokeweed"

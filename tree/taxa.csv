@@ -452,7 +452,7 @@ cochineal-nopal,cochineal nopal,Opuntia cochenillifera,Cactaceae,plant,
 nopal-tapon,nopal tapón,Opuntia robusta,Cactaceae,plant,
 tulip-prickly-pear,tulip prickly pear,Opuntia phaeacantha,Cactaceae,plant,
 eastern-prickly-pear,eastern prickly pear,Opuntia humifusa,Cactaceae,plant,
-prickly-pear,"prickly pear (nopal, tuna)",Opuntia ficus-indica,Cactaceae,plant,nopal;tuna;prickly pear;nopales;cactus
+prickly-pear,prickly pear (nopal),Opuntia ficus-indica,Cactaceae,plant,nopal;prickly pear;nopales;cactus
 engelmanns-prickly-pear,Engelmann's prickly pear,Opuntia engelmannii,Cactaceae,plant,
 buckhorn-cholla,buckhorn cholla (buds),Cylindropuntia acanthocarpa,Cactaceae,plant,
 purslane,purslane,Portulaca oleracea,Portulacaceae,plant,
@@ -2656,16 +2656,16 @@ pacific-bonito,Pacific bonito,Sarda chiliensis,Scombridae,animal,
 striped-bonito,striped bonito,Sarda orientalis,Scombridae,animal,
 little-tunny,little tunny,Euthynnus alletteratus,Scombridae,animal,
 kawakawa,kawakawa,Euthynnus affinis,Scombridae,animal,
-skipjack,skipjack (katsuo),Katsuwonus pelamis,Scombridae,animal,katsuo
+skipjack,skipjack (katsuo),Katsuwonus pelamis,Scombridae,animal,katsuo;bonito flakes;katsuobushi
 bullet-tuna,bullet tuna,Auxis rochei,Scombridae,animal,
 frigate-tuna,frigate tuna,Auxis thazard,Scombridae,animal,
 blackfin-tuna,blackfin tuna,Thunnus atlanticus,Scombridae,animal,
 longtail-tuna,longtail tuna,Thunnus tonggol,Scombridae,animal,
 bigeye-tuna,bigeye tuna,Thunnus obesus,Scombridae,animal,
-yellowfin-tuna,yellowfin tuna,Thunnus albacares,Scombridae,animal,
+yellowfin-tuna,yellowfin tuna,Thunnus albacares,Scombridae,animal,tuna;canned tuna;tuna steak;ahi
 albacore,albacore,Thunnus alalunga,Scombridae,animal,
 southern-bluefin-tuna,southern bluefin tuna,Thunnus maccoyii,Scombridae,animal,
-atlantic-bluefin-tuna,Atlantic bluefin tuna,Thunnus thynnus,Scombridae,animal,
+atlantic-bluefin-tuna,Atlantic bluefin tuna,Thunnus thynnus,Scombridae,animal,bluefin
 pacific-bluefin-tuna,Pacific bluefin tuna,Thunnus orientalis,Scombridae,animal,
 indian-mackerel,Indian mackerel,Rastrelliger kanagurta,Scombridae,animal,
 short-mackerel,short mackerel,Rastrelliger brachysoma,Scombridae,animal,
@@ -3141,7 +3141,7 @@ nomuras-jellyfish,Nomura's jellyfish,Nemopilema nomurai,Rhizostomatidae,animal,
 cannonball-jellyfish,cannonball jellyfish,Stomolophus meleagris,Stomolophidae,animal,
 sand-jellyfish,sand jellyfish,Rhopilema hispidum,Rhizostomatidae,animal,
 edible-jellyfish,edible jellyfish,Rhopilema esculentum,Rhizostomatidae,animal,edible jellyfish
-mucor,mucor (cheese),Mucor racemosus,Mucoraceae,fungus,cheese
+mucor,mucor,Mucor racemosus,Mucoraceae,fungus,
 sufu-mould,sufu mould,Actinomucor elegans,Mucoraceae,fungus,
 tempeh-mould,tempeh / ragi mould,Rhizopus oryzae,Rhizopodaceae,fungus,ragi mould
 tempeh-mould-2,tempeh mould,Rhizopus oligosporus,Rhizopodaceae,fungus,tempeh mold;tempeh

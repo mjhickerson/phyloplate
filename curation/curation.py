@@ -2,7 +2,7 @@
 
 # Bump TREE_VERSION whenever anything below (or the species list, or the TimeTree export) changes,
 # and add a CHANGELOG line: (date, who, what changed, source). Both are written into the report and shown in the app.
-TREE_VERSION = "open-0.5 (2026-09-20)"
+TREE_VERSION = "open-0.6.1 (2026-09-20)"
 CHANGELOG = [
     ("2026-09-19", "Claude/MH", "First TimeTree 5 build: 2,607 dated species; 49 synonyms; 63 families anchored by hand", "TimeTree 5 export of the 3,279-name list"),
     ("2026-09-19", "Claude", "Red algae anchors revised: Gigartinales families to the Gigartinales crown; Gelidiales, Bonnemaisoniales, Ceramiales, Nemaliales to subclass stems", "Yang et al. 2016 Sci Rep 6:21361"),
@@ -13,6 +13,8 @@ CHANGELOG = [
     ("2026-09-20", "Claude/MH", "Open tree v0.3: VertLife subsets grafted for sharks (Stein 2018), amphibians (Jetz & Pyron 2018), squamates (Tonini 2016); their skeleton nodes retired", "backbone.py"),
     ("2026-09-20", "Claude/MH", "Open tree v0.4: decapod skeleton nodes set from Wolfe et al. 2019 chronograms (UGAM model throughout; CIR values recorded); Palinuridae and crayfish nodes added; Malacostraca/Eucarida raised to fit", "Wolfe et al. 2019 Proc R Soc B, Dryad doi:10.5061/dryad.k7505mn"),
     ("2026-09-20", "Claude", "Open tree v0.5: bivalve skeleton dated from Li et al. 2025 (Bivalvia 485, Pteriomorphia 446, Ostreida/Mytilida 421, core Imparidentia 362, Myida+Venerida 301, Adapedonta+Cardiida 300); gastropod topology cited to Uribe et al. 2022, ages still approximate", "Li et al. 2025 Syst Biol 74:16; Uribe et al. 2022 Syst Biol"),
+    ("2026-09-20", "John Wares", "Keyword matcher: 'tuna' matched prickly pear (Spanish name) and 'cheese' matched Mucor; ALIAS_ADD/ALIAS_REMOVE tables added; 'tuna' now maps to yellowfin tuna", "user report"),
+    ("2026-09-20", "Claude", "Open tree v0.6: insect nodes cited: Hexapoda 479, Pterygota 406 (new node), Holometabola 345 (Misof 2014); Hymenoptera 281 (Peters 2017); Lepidoptera 300 (Kawahara 2019); Ditrysia node (210, approx) added so Cossidae no longer sits at the Lepidoptera crown", "Misof et al. 2014 Science; Peters et al. 2017 Curr Biol; Kawahara et al. 2019 PNAS"),
 ]
 
 # Names as TimeTree returned them -> names in the candidate CSV.
@@ -270,7 +272,7 @@ PLACEMENTS_OPEN = {
     "Vespidae": _O("Aculeata"), "Apidae": _O("Apoidea + Formicoidea"), "Formicidae": _O("Apoidea + Formicoidea"),
     "Tenebrionidae": _O("Coleoptera"), "Curculionidae": _O("Coleoptera"), "Scarabaeidae": _O("Coleoptera"), "Dytiscidae": _O("Coleoptera"),
     "Stratiomyidae": _O("Diptera"), "Chaoboridae": _O("Diptera"),
-    "Cossidae": _O("Lepidoptera"), "Hesperiidae": _O("Obtectomera"), "Bombycidae": _O("Bombycoidea"), "Saturniidae": _O("Bombycoidea"),
+    "Cossidae": _O("Ditrysia"), "Hesperiidae": _O("Obtectomera"), "Bombycidae": _O("Bombycoidea"), "Saturniidae": _O("Bombycoidea"),
     # jawless and cartilaginous fishes, herps
     "Petromyzontidae": _O("Cyclostomata"), "Geotriidae": _O("Cyclostomata"), "Myxinidae": _O("Cyclostomata"),
     "Callorhinchidae": _O("Chondrichthyes"), "Chimaeridae": _O("Chondrichthyes"),
@@ -306,4 +308,16 @@ PLACEMENTS_OPEN = {
     "Ulvaceae": _O("Ulvales"), "Monostromataceae": _O("Ulvales"), "Caulerpaceae": _O("Bryopsidales"), "Codiaceae": _O("Bryopsidales"),
     "Chlorellaceae": _O("Trebouxiophyceae"), "Prasiolaceae": _O("Trebouxiophyceae"),
     "Haematococcaceae": _O("Chlorophyceae"), "Dunaliellaceae": _O("Chlorophyceae"),
+}
+
+
+# Alias corrections for the keyword matcher (species -> words). Applied after all other alias sources.
+ALIAS_ADD = {
+    "Thunnus albacares": ["tuna", "canned tuna", "tuna steak", "ahi"],
+    "Thunnus thynnus": ["bluefin"],
+    "Katsuwonus pelamis": ["bonito flakes", "katsuobushi"],
+}
+ALIAS_REMOVE = {
+    "Opuntia ficus-indica": ["tuna"],            # Spanish for the fruit; collides with the fish
+    "Mucor racemosus": ["cheese"], "Mucor circinelloides": ["cheese"], "Mucor mucedo": ["cheese"],
 }

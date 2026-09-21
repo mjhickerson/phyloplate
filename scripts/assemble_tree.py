@@ -28,9 +28,10 @@ try:
     import curation
     SYNONYMS, PLACEMENTS, CLADE_NAMES = curation.SYNONYMS, curation.PLACEMENTS, curation.CLADE_NAMES
     PLACEMENTS_OPEN = getattr(curation, "PLACEMENTS_OPEN", {})
+    ALIAS_ADD, ALIAS_REMOVE = getattr(curation, "ALIAS_ADD", {}), getattr(curation, "ALIAS_REMOVE", {})
     TREE_VERSION, CHANGELOG = getattr(curation, "TREE_VERSION", "unversioned"), getattr(curation, "CHANGELOG", [])
 except ImportError:
-    SYNONYMS, PLACEMENTS, CLADE_NAMES, TREE_VERSION, CHANGELOG, PLACEMENTS_OPEN = {}, {}, {}, "unversioned", [], {}
+    SYNONYMS, PLACEMENTS, CLADE_NAMES, TREE_VERSION, CHANGELOG, PLACEMENTS_OPEN, ALIAS_ADD, ALIAS_REMOVE = {}, {}, {}, "unversioned", [], {}, {}, {}
 
 # ---------------- Newick ----------------
 class Node:
@@ -156,6 +157,13 @@ northern southern eastern western sweet sour bitter edible true false farmed cul
 def _is_part(piece):
     words = [w for w in re.split(r"[^a-z]+", piece.lower()) if w]
     return bool(words) and all(w in PART_WORDS for w in words)
+def final_aliases(r, extra_aliases):
+    """all alias sources merged, then curation.ALIAS_ADD / ALIAS_REMOVE applied (matched case-insensitively)"""
+    merged = [a for a in (aliases_for(r["common_name"], r["species"]) + ";" + extra_aliases.get(norm_species(r["species"]), "")).split(";") if a]
+    merged += ALIAS_ADD.get(r["species"], [])
+    drop = {x.lower() for x in ALIAS_REMOVE.get(r["species"], [])}
+    return ";".join(dict.fromkeys(a for a in merged if a.lower() not in drop))
+
 def aliases_for(common, species):
     parts = [p.strip() for p in common.split("/")]
     extra = re.findall(r"\((.*?)\)", common)
@@ -398,7 +406,7 @@ def main(nwk_path, csv_path, outdir):
         out_rows.append({
             "id": slug, "common_name": r["common_name"], "species": r["species"],
             "lineage": r["family"], "clade": r["clade"] if r["clade"] in {"animal","fungus","plant","green","red","brown","other"} else "plant",
-            "aliases": ";".join(dict.fromkeys([a for a in (aliases_for(r["common_name"], r["species"]) + ";" + extra_aliases.get(norm_species(r["species"]), "")).split(";") if a])),
+            "aliases": final_aliases(r, extra_aliases),
         })
     # name internal nodes that TimeTree labelled (keep), leave others blank
     with open(os.path.join(outdir, "food_tree.newick"), "w", encoding="utf-8") as f:
