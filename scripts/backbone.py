@@ -8,6 +8,7 @@ PETERS17 = "Peters et al. 2017 Curr Biol 27:1013 (Hymenoptera timetree);"
 KAWA19 = "Kawahara et al. 2019 PNAS 116:22657 (Lepidoptera timetree);"
 CHOI24 = "Choi et al. 2024 Curr Biol 34:740 (plastome brown algal timetree, uncorrelated clock, 8 fossil calibrations; Table 3);"
 SHEN20 = "Shen et al. 2020 Sci Adv 6:eabd0079 (1,107-genome Ascomycota timetree, RelTime, six calibrations);"
+ZHANG22 = "Frontiers Ecol Evol 2022, 10.3389/fevo.2022.973485 (mitogenomic gastropod timetree, ML dating);"
 LI25 = "Li et al. 2025 Syst Biol 74:16 (UCE bivalve timetree, MCMCTree, 18 calibrations from Crouch et al. 2021);"
 WOLFE19 = "Wolfe et al. 2019 Proc R Soc B 286:20190079, PhyloBayes UGAM chronogram;"
 # Subtrees (S) keep their own internal ages and hang from the enclosing node at their crown age.
@@ -129,8 +130,8 @@ TREE = N("Eukaryotes", 2132, STR21,
               ),
               N("Lophotrochozoa", 564, STR21,
                 N("Annelida", 520, APPROX),
-                N("Mollusca", 534, STR21,
-                  N("Conchifera", 520, APPROX,
+                N("Mollusca", 545, APPROX + " (Polyplacophora split; must sit above Conchifera)",
+                  N("Conchifera", 534, STR21 + " (Lottia vs Octopus = conchiferan crown)",
                     N("Bivalvia", 485, LI25 + " crown Bivalvia ~485",
                       N("Pteriomorphia", 446, LI25 + " Pectinida vs other pteriomorphians 446 (410-474)",
                         N("Ostreida + Arcida + Mytilida", 421, LI25 + " Ostreida vs Mytilida 421 (384-458)"),
@@ -144,8 +145,8 @@ TREE = N("Eukaryotes", 2132, STR21,
                         ),
                       ),
                     ),
-                    N("Gastropoda", 450, APPROX + " (topology after Uribe et al. 2022 Syst Biol; Cunha & Giribet 2019 differ at the root)",
-                      N("Orthogastropoda", 420, APPROX,
+                    N("Gastropoda", 532, ZHANG22 + " Patellogastropoda split 532 (505-548); topology after Uribe et al. 2022 Syst Biol, Cunha & Giribet 2019 differ at the root",
+                      N("Orthogastropoda", 493, ZHANG22 + " Vetigastropoda vs Caenogastropoda+relatives 493 (460-521)",
                         N("Vetigastropoda", 350, APPROX),
                         N("Apogastropoda", 400, APPROX,
                           N("Caenogastropoda", 300, APPROX,
@@ -157,9 +158,9 @@ TREE = N("Eukaryotes", 2132, STR21,
                         ),
                       ),
                     ),
-                    N("Coleoidea", 260, APPROX + " (cf. Tanner et al. 2017)",
-                      N("Octopoda", 150, APPROX),
-                      N("Decapodiformes", 180, APPROX),
+                    N("Coleoidea", 270, APPROX + " (Tanner et al. 2017: crown coleoids latest Palaeozoic; exact table value pending)",
+                      N("Octopoda", 170, APPROX + " (Tanner et al. 2017: incirrate octopuses diversified in the Jurassic)"),
+                      N("Decapodiformes", 180, APPROX + " (Tanner et al. 2017: decabrachians diversified in the Jurassic)"),
                     ),
                   ),
                 ),
