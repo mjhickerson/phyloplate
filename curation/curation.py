@@ -2,7 +2,7 @@
 
 # Bump TREE_VERSION whenever anything below (or the species list, or the TimeTree export) changes,
 # and add a CHANGELOG line: (date, who, what changed, source). Both are written into the report and shown in the app.
-TREE_VERSION = "open-0.12 (2026-09-21)"
+TREE_VERSION = "open-0.13 (2026-09-22)"
 CHANGELOG = [
     ("2026-09-19", "Claude/MH", "First TimeTree 5 build: 2,607 dated species; 49 synonyms; 63 families anchored by hand", "TimeTree 5 export of the 3,279-name list"),
     ("2026-09-19", "Claude", "Red algae anchors revised: Gigartinales families to the Gigartinales crown; Gelidiales, Bonnemaisoniales, Ceramiales, Nemaliales to subclass stems", "Yang et al. 2016 Sci Rep 6:21361"),
@@ -14,6 +14,7 @@ CHANGELOG = [
     ("2026-09-20", "Claude/MH", "Open tree v0.4: decapod skeleton nodes set from Wolfe et al. 2019 chronograms (UGAM model throughout; CIR values recorded); Palinuridae and crayfish nodes added; Malacostraca/Eucarida raised to fit", "Wolfe et al. 2019 Proc R Soc B, Dryad doi:10.5061/dryad.k7505mn"),
     ("2026-09-20", "Claude", "Open tree v0.5: bivalve skeleton dated from Li et al. 2025 (Bivalvia 485, Pteriomorphia 446, Ostreida/Mytilida 421, core Imparidentia 362, Myida+Venerida 301, Adapedonta+Cardiida 300); gastropod topology cited to Uribe et al. 2022, ages still approximate", "Li et al. 2025 Syst Biol 74:16; Uribe et al. 2022 Syst Biol"),
     ("2026-09-20", "John Wares", "Keyword matcher: 'tuna' matched prickly pear (Spanish name) and 'cheese' matched Mucor; ALIAS_ADD/ALIAS_REMOVE tables added; 'tuna' now maps to yellowfin tuna", "user report"),
+    ("2026-09-22", "Tim James", "Mucoromycota split confirmed at ~700 Ma; Discinaceae moved to sister of Morchellaceae; Pyronemataceae and Sarcoscyphaceae on the stem above truffles+morels at ~250. His ballparks for splits now taken from source trees, recorded for the record: Cantharellales 225-263 (Varga 372), morels vs truffles 200 (Shen 173), Suillus vs Boletus 150 (Varga 115), Naematelia vs Tremella 125 (Varga 53)", "T. James pers. comm."),
     ("2026-09-21", "TimeTree team / Claude", "TimeTree granted use of the pruned tree in the app (email, 2026-09-21). Skeleton audited against TimeTree 5: 25 of 30 comparable nodes within ~25%; five adopted from TimeTree with attribution (Cirripedia 193, Neogastropoda 239, Echinoidea 113, Ulvales 609, Trebouxiophyceae 827)", "Kumar et al. 2022 Mol Biol Evol"),
     ("2026-09-21", "Claude/MH", "Open tree v0.11: cephalopod nodes from Tanner et al. 2017 Suppl. Table 2 (Coleoidea 289, Octobrachia 239, Incirrata 98, Decabrachia 173, Myopsida 100, Oegopsida 104); gastropod subclass nodes from Tanner Fig. S4 CI midpoints (Vetigastropoda 370, Apogastropoda 394, Caenogastropoda 225)", "Tanner et al. 2017 Proc R Soc B"),
     ("2026-09-21", "Claude", "Open tree v0.10: deepest two gastropod nodes cited to a 2022 mitogenomic timetree (532, 493); cephalopod nodes annotated with Tanner et al. 2017 qualitative ages pending the table", "Frontiers Ecol Evol 2022 10.3389/fevo.2022.973485; Tanner et al. 2017 Proc R Soc B"),
@@ -224,8 +225,8 @@ PLACEMENTS_OPEN = {
     # fungi
     "Rhizopodaceae": _O("Mucoromycota + Dikarya"), "Mucoraceae": _O("Mucoromycota + Dikarya"),
     # ascomycetes now come from the Shen et al. 2020 timetree; families it lacks anchor to families it has
-    "Discinaceae": (["Morchellaceae", "Tuberaceae"], None), "Pyronemataceae": (["Morchellaceae", "Tuberaceae"], None),
-    "Sarcoscyphaceae": (["Morchellaceae", "Tuberaceae"], None),
+    "Discinaceae": (["Morchellaceae"], 120),          # sister to the morels (T. James, pers. comm.); age approximate
+    "Pyronemataceae": (["Morchellaceae", "Tuberaceae"], 250), "Sarcoscyphaceae": (["Morchellaceae", "Tuberaceae"], 250),   # stem above truffles+morels, ~250 (T. James)
     "Hypocreaceae": (["Nectriaceae", "Cordycipitaceae"], None),
     "Cyttariaceae": (["Sordariaceae", "Aspergillaceae"], None),
     "Ustilaginaceae": _O("Basidiomycota"), "Phallaceae": (["Gomphaceae", "Agaricaceae"], None),

@@ -1,5 +1,5 @@
 node,age_Ma,basis,source_expr,families_anchored_here,n_species,reviewer_suggested_age,reviewer_notes
-Mucoromycota + Dikarya,700,"approximate, uncited","APPROX + "" (Mucoromycota stem; fungal timetree 2025 gives 701-1114 for the LCA)""","Rhizopodaceae, Mucoraceae",4,,
+Mucoromycota + Dikarya,700,cited: see backbone.py,"""T. James (U Michigan)","Rhizopodaceae, Mucoraceae",4,,
 Basidiomycota,452,cited: see backbone.py,STR21,Ustilaginaceae,1,,
 Cnidaria,620,"approximate, uncited","APPROX + "" (Anthozoa vs Medusozoa; Park et al. 2012 give 741","Actiniidae, Rhizostomatidae, Stomolophidae",5,,
 Ecdysozoa,585,"approximate, uncited",APPROX,,0,,
