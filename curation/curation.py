@@ -2,7 +2,7 @@
 
 # Bump TREE_VERSION whenever anything below (or the species list, or the TimeTree export) changes,
 # and add a CHANGELOG line: (date, who, what changed, source). Both are written into the report and shown in the app.
-TREE_VERSION = "open-0.14 (2026-09-23)"
+TREE_VERSION = "open-0.15 (2026-09-23)"
 CHANGELOG = [
     ("2026-09-19", "Claude/MH", "First TimeTree 5 build: 2,607 dated species; 49 synonyms; 63 families anchored by hand", "TimeTree 5 export of the 3,279-name list"),
     ("2026-09-19", "Claude", "Red algae anchors revised: Gigartinales families to the Gigartinales crown; Gelidiales, Bonnemaisoniales, Ceramiales, Nemaliales to subclass stems", "Yang et al. 2016 Sci Rep 6:21361"),
@@ -14,6 +14,7 @@ CHANGELOG = [
     ("2026-09-20", "Claude/MH", "Open tree v0.4: decapod skeleton nodes set from Wolfe et al. 2019 chronograms (UGAM model throughout; CIR values recorded); Palinuridae and crayfish nodes added; Malacostraca/Eucarida raised to fit", "Wolfe et al. 2019 Proc R Soc B, Dryad doi:10.5061/dryad.k7505mn"),
     ("2026-09-20", "Claude", "Open tree v0.5: bivalve skeleton dated from Li et al. 2025 (Bivalvia 485, Pteriomorphia 446, Ostreida/Mytilida 421, core Imparidentia 362, Myida+Venerida 301, Adapedonta+Cardiida 300); gastropod topology cited to Uribe et al. 2022, ages still approximate", "Li et al. 2025 Syst Biol 74:16; Uribe et al. 2022 Syst Biol"),
     ("2026-09-20", "John Wares", "Keyword matcher: 'tuna' matched prickly pear (Spanish name) and 'cheese' matched Mucor; ALIAS_ADD/ALIAS_REMOVE tables added; 'tuna' now maps to yellowfin tuna", "user report"),
+    ("2026-09-23", "Christine Maggs", "Gracilariaceae node added at ~300 Ma and Gracilaria crown set to ~230 Ma from the Kim et al. 2026 preprint (Ahnfeltia genomes) she pointed to; GENUS_CROWN table introduced so old genera are not collapsed to 5 Myr", "Kim et al. 2026 preprint, researchgate 405471651"),
     ("2026-09-23", "Claude", "Open tree v0.14: red algal crowns from Yang et al. 2016 text (Nemaliophycidae 331, Rhodymeniophycidae 412); finer order splits remain approximate, unresolved in that study", "Yang et al. 2016 Sci Rep"),
     ("2026-09-22", "Tim James", "Mucoromycota split confirmed at ~700 Ma; Discinaceae moved to sister of Morchellaceae; Pyronemataceae and Sarcoscyphaceae on the stem above truffles+morels at ~250. His ballparks for splits now taken from source trees, recorded for the record: Cantharellales 225-263 (Varga 372), morels vs truffles 200 (Shen 173), Suillus vs Boletus 150 (Varga 115), Naematelia vs Tremella 125 (Varga 53)", "T. James pers. comm."),
     ("2026-09-21", "TimeTree team / Claude", "TimeTree granted use of the pruned tree in the app (email, 2026-09-21). Skeleton audited against TimeTree 5: 25 of 30 comparable nodes within ~25%; five adopted from TimeTree with attribution (Cirripedia 193, Neogastropoda 239, Echinoidea 113, Ulvales 609, Trebouxiophyceae 827)", "Kumar et al. 2022 Mol Biol Evol"),
@@ -306,7 +307,7 @@ PLACEMENTS_OPEN = {
     "Ahnfeltiaceae": _O("Ahnfeltiophycidae + Rhodymeniophycidae"),
     "Gelidiaceae": _O("Rhodymeniophycidae"), "Pterocladiaceae": _O("Rhodymeniophycidae"), "Bonnemaisoniaceae": _O("Rhodymeniophycidae"),
     "Rhodomelaceae": _O("Ceramiales"),
-    "Gracilariaceae": _O("Gigartinales + Gracilariales + Halymeniales"), "Halymeniaceae": _O("Gigartinales + Gracilariales + Halymeniales"),
+    "Gracilariaceae": _O("Gracilariaceae"), "Halymeniaceae": _O("Gigartinales + Gracilariales + Halymeniales"),
     "Endocladiaceae": _O("Gigartinales + Gracilariales + Halymeniales"), "Sarcodiaceae": _O("Gigartinales + Gracilariales + Halymeniales"),
     "Gigartinaceae": _O("Gigartinales"), "Cystocloniaceae": _O("Gigartinales"), "Phyllophoraceae": _O("Gigartinales"),
     "Solieriaceae": _O("Gigartinales"), "Kallymeniaceae": _O("Gigartinales"), "Dumontiaceae": _O("Gigartinales"), "Caulacanthaceae": _O("Gigartinales"),
@@ -336,4 +337,10 @@ ALIAS_ADD = {
 ALIAS_REMOVE = {
     "Opuntia ficus-indica": ["tuna"],            # Spanish for the fruit; collides with the fish
     "Mucor racemosus": ["cheese"], "Mucor circinelloides": ["cheese"], "Mucor mucedo": ["cheese"],
+}
+
+
+# Crown ages for genera whose species split far deeper than the default 5 Myr congener rule (Ma).
+GENUS_CROWN = {
+    "Gracilaria": 230,   # early Mesozoic; Kim et al. 2026 preprint via C. Maggs
 }

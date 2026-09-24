@@ -34,7 +34,7 @@ Prokaryotes are excluded on purpose (they are on everything). Amounts are ignore
 
 ## About the tree and its ages
 
-**The demo in this repository runs on the open tree, version `open-0.14`**: all 3,279 listed species, assembled entirely from published, redistributable chronograms grafted onto a backbone of deep-node ages, plus a class- and order-level skeleton for the groups that have no species-level open chronogram. Sources:
+**The demo in this repository runs on the open tree, version `open-0.15`**: all 3,279 listed species, assembled entirely from published, redistributable chronograms grafted onto a backbone of deep-node ages, plus a class- and order-level skeleton for the groups that have no species-level open chronogram. Sources:
 
 | Source | What it dates | Species placed |
 |---|---|---|

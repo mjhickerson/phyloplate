@@ -1,6 +1,7 @@
 # Backbone for the open Phyloplate tree. Ages in Ma, with the source for each node.
 STR21 = "Strassert et al. 2021 Nat Commun 12:1879 (MCMCTree AC, Amorphea root, uniform calibrations; mean posterior)"
 IRI17 = "Irisarri et al. 2017 Nat Ecol Evol 1:1370 (genome-averaged timetree of jawed vertebrates)"
+KIM26 = "Kim et al. 2026 preprint (Ahnfeltia genomes; MCMCtree nuclear BUSCO timetree of red algae, Fig. 2E);"
 YANG16 = "Yang et al. 2016 Sci Rep 6:21361 (florideophyte red algae timetree)"
 APPROX = "APPROXIMATE, not yet cited; replace"
 MISOF14 = "Misof et al. 2014 Science 346:763 (1KITE insect timetree);"
@@ -254,6 +255,7 @@ TREE = N("Eukaryotes", 2132, STR21,
                   N("Rhodymeniophycidae", 412, YANG16 + " crown Rhodymeniophycidae 412 (359-477); interordinal relationships unresolved in that study",
                     N("Ceramiales", 335, YANG16),
                     N("Gigartinales + Gracilariales + Halymeniales", 390, APPROX + " (must sit below Rhodymeniophycidae 412; Yang 2016 leaves these orders unresolved)",
+                      N("Gracilariaceae", 300, KIM26 + " Gracilaria vs Gracilariopsis, late Palaeozoic (C. Maggs, pers. comm. 2026-09-23)"),
                       N("Gigartinales", 250, APPROX),
                     ),
                   ),

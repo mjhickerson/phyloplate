@@ -29,9 +29,10 @@ try:
     SYNONYMS, PLACEMENTS, CLADE_NAMES = curation.SYNONYMS, curation.PLACEMENTS, curation.CLADE_NAMES
     PLACEMENTS_OPEN = getattr(curation, "PLACEMENTS_OPEN", {})
     ALIAS_ADD, ALIAS_REMOVE = getattr(curation, "ALIAS_ADD", {}), getattr(curation, "ALIAS_REMOVE", {})
+    GENUS_CROWN = getattr(curation, "GENUS_CROWN", {})
     TREE_VERSION, CHANGELOG = getattr(curation, "TREE_VERSION", "unversioned"), getattr(curation, "CHANGELOG", [])
 except ImportError:
-    SYNONYMS, PLACEMENTS, CLADE_NAMES, TREE_VERSION, CHANGELOG, PLACEMENTS_OPEN, ALIAS_ADD, ALIAS_REMOVE = {}, {}, {}, "unversioned", [], {}, {}, {}
+    SYNONYMS, PLACEMENTS, CLADE_NAMES, TREE_VERSION, CHANGELOG, PLACEMENTS_OPEN, ALIAS_ADD, ALIAS_REMOVE, GENUS_CROWN = {}, {}, {}, "unversioned", [], {}, {}, {}, {}
 
 # ---------------- Newick ----------------
 class Node:
@@ -330,7 +331,10 @@ def main(nwk_path, csv_path, outdir):
         skel = placement_for(f) if f in PLACEMENTS_OPEN and PLACEMENTS_OPEN[f][0][0].startswith("@") else None
         if gm:
             node = mrca(gm) if len(gm) >= 2 else gm[0]
-            how = attach_polytomy(node, r) if len(gm) >= 2 else attach_sister(node, r, 5.0)
+            gc = GENUS_CROWN.get(genus_of(r["species"]).capitalize())
+            if len(gm) >= 2 and gc: how = attach_on_stem(node, r, gc) if gc > node.height else attach_polytomy(node, r)
+            elif len(gm) >= 2: how = attach_polytomy(node, r)
+            else: how = attach_sister(node, r, gc if gc else 5.0)
             level = "genus"
         elif skel is not None and not any(id(t) in source_tips for t in fm):   # family on a skeleton node, no source-dated relative
             fams, age = skel
