@@ -34,7 +34,7 @@ Prokaryotes are excluded on purpose (they are on everything). Amounts are ignore
 
 ## About the tree and its ages
 
-**The demo in this repository runs on the open tree, version `open-0.15`**: all 3,279 listed species, assembled entirely from published, redistributable chronograms grafted onto a backbone of deep-node ages, plus a class- and order-level skeleton for the groups that have no species-level open chronogram. Sources:
+**The demo in this repository runs on the open tree, version `open-0.15.1`**: all 3,279 listed species, assembled entirely from published, redistributable chronograms grafted onto a backbone of deep-node ages, plus a class- and order-level skeleton for the groups that have no species-level open chronogram. Sources:
 
 | Source | What it dates | Species placed |
 |---|---|---|
@@ -54,6 +54,10 @@ Prokaryotes are excluded on purpose (they are on everything). Amounts are ignore
 Each source keeps its own internal ages and hangs from the backbone at its crown. When a source is pruned to our species, one non-food relative per needed genus is kept so that a species the source lacks can be hung beside a real congener. Molluscs, crustaceans, insects, seaweeds, turtles, crocodilians and the small phyla (about 310 species) have no species-level open chronogram; their families sit on a skeleton of class- and order-level nodes in `scripts/backbone.py`, mapped in `PLACEMENTS_OPEN` in `curation/curation.py`. Most skeleton ages are approximate and listed for review in `curation/node_review_open.csv`, with the number of species each node carries. Families on the skeleton join at their node's crown, which slightly overstates PD for those groups. The seam report (`tree/seam_report.txt`) lists every graft, and `tree/assembly_report.txt` every placement.
 
 The working prototype used during development ran on a tree with divergence times from TimeTree 5 (Kumar et al. 2022). The TimeTree team has agreed (September 2026) to that tree being used inside the app, with citation; their terms still restrict redistribution, so the TimeTree-dated tree is **not** in this repository and will only ever run server-side. Five skeleton node ages in `scripts/backbone.py` cite TimeTree 5 medians individually, with attribution.
+
+Two mycologists have reviewed the mushroom source: one finds Varga et al. 2019 runs old, the other that it runs young for deep nodes, so it is kept as published and Varga et al. 2019 is bracketed by expert opinion on both sides (see the changelog in `curation/curation.py`). Bacteria are not scored: the tree is eukaryotes only, so fermentation cultures count for the plant or animal they are grown on.
+
+Two notes on the numbers. Bacteria are deliberately outside the tree: it is eukaryotes only, so the cultures in natto, yogurt, kimchi and cheese count for the plant or animal they are grown on. And the mushroom chronogram (Varga et al. 2019) is kept as published: one mycologist who reviewed it thinks it runs old, another that it runs young for the deep nodes, and their own estimates bracket it, which is as good as a divergence date gets.
 
 Corrections from specialists are welcome as pull requests to `curation/curation.py` or `scripts/backbone.py`, or as filled-in rows of `curation/anchor_review.csv`. Every change to the tree bumps its version and gets a changelog line.
 

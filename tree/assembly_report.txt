@@ -1,4 +1,4 @@
-tree version: open-0.15 (2026-09-23)
+tree version: open-0.15.1 (2026-09-24)
 tips in output: 3279   root age: 2132 Myr   total branch length: 202878 Myr
 
 == changelog
@@ -12,6 +12,9 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 202878 Myr
    2026-09-20  Claude/MH: Open tree v0.4: decapod skeleton nodes set from Wolfe et al. 2019 chronograms (UGAM model throughout; CIR values recorded); Palinuridae and crayfish nodes added; Malacostraca/Eucarida raised to fit  [Wolfe et al. 2019 Proc R Soc B, Dryad doi:10.5061/dryad.k7505mn]
    2026-09-20  Claude: Open tree v0.5: bivalve skeleton dated from Li et al. 2025 (Bivalvia 485, Pteriomorphia 446, Ostreida/Mytilida 421, core Imparidentia 362, Myida+Venerida 301, Adapedonta+Cardiida 300); gastropod topology cited to Uribe et al. 2022, ages still approximate  [Li et al. 2025 Syst Biol 74:16; Uribe et al. 2022 Syst Biol]
    2026-09-20  John Wares: Keyword matcher: 'tuna' matched prickly pear (Spanish name) and 'cheese' matched Mucor; ALIAS_ADD/ALIAS_REMOVE tables added; 'tuna' now maps to yellowfin tuna  [user report]
+   2026-09-24  Rachel Swenie: Varga et al. 2019 kept as the mushroom source: she finds it runs young for deep nodes (her Cantharellales estimate 314 vs Varga 372, cf. Sanchez-Garcia et al. 2020 PNAS), Tim James finds it runs old; the two bracket it  [R. Swenie pers. comm.]
+   2026-09-24  Rachel Swenie: Cantharellales divergence estimated at 314 Ma in her own work (Varga 372, Tim James 225-263); Varga may run young for deep nodes, so with Tim's view that it runs old the chronogram is bracketed and kept as is; Sanchez-Garcia et al. 2020 PNAS noted as fossil-calibrated cross-check  [R. Swenie pers. comm.; Sanchez-Garcia et al. 2020 PNAS]
+   2026-09-24  Tim James: Varga et al. 2019 judged to run old but with wide variation; keep as is. Natto raised: bacteria are deliberately outside the tree; page and README now say so  [T. James pers. comm.]
    2026-09-23  Christine Maggs: Gracilariaceae node added at ~300 Ma and Gracilaria crown set to ~230 Ma from the Kim et al. 2026 preprint (Ahnfeltia genomes) she pointed to; GENUS_CROWN table introduced so old genera are not collapsed to 5 Myr  [Kim et al. 2026 preprint, researchgate 405471651]
    2026-09-23  Claude: Open tree v0.14: red algal crowns from Yang et al. 2016 text (Nemaliophycidae 331, Rhodymeniophycidae 412); finer order splits remain approximate, unresolved in that study  [Yang et al. 2016 Sci Rep]
    2026-09-22  Tim James: Mucoromycota split confirmed at ~700 Ma; Discinaceae moved to sister of Morchellaceae; Pyronemataceae and Sarcoscyphaceae on the stem above truffles+morels at ~250. His ballparks for splits now taken from source trees, recorded for the record: Cantharellales 225-263 (Varga 372), morels vs truffles 200 (Shen 173), Suillus vs Boletus 150 (Varga 115), Naematelia vs Tremella 125 (Varga 53)  [T. James pers. comm.]
