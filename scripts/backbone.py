@@ -17,7 +17,8 @@ WOLFE19 = "Wolfe et al. 2019 Proc R Soc B 286:20190079, PhyloBayes UGAM chronogr
 # Subtrees (S) keep their own internal ages and hang from the enclosing node at their crown age.
 # Rule: a source's crown wins over a backbone node for the same split; backbone ages apply only above it.
 # Nodes with no source or species under them persist as placeholders so curation.PLACEMENTS_OPEN can anchor families to them.
-OPEN = "/home/claude/open/"
+import os as _os
+OPEN = _os.environ.get("PHYLOPLATE_SOURCES", "sources/")   # folder holding the downloaded source chronograms (not in the repo)
 import csv as _csv
 
 SB18_SYN = {"Achnatherum hymenoides": "Eriocoma hymenoides", "Amomum tsao-ko": "Lanxangia tsaoko",

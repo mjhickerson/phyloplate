@@ -1,6 +1,6 @@
 """Convert the assembled food_tree.newick + taxa.csv into the nested JSON the page embeds, then build the page."""
-import sys, csv, json
-sys.path.insert(0, '/home/claude/list')
+import sys, os, csv, json
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from assemble_tree import parse_newick, set_heights
 nwk, tcsv, template, out = sys.argv[1:5]
 root = parse_newick(open(nwk).read()); set_heights(root)
