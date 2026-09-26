@@ -23,7 +23,8 @@ Prokaryotes are excluded on purpose (they are on everything). Amounts are ignore
 | `curation/curation.py` | Synonym map for names as TimeTree and other sources return them; the table of hand-placed families (anchor groups and stem ages); higher-clade node names; tree version and changelog. |
 | `curation/anchor_review.csv` | One row per hand-placed family with the basis for the placement, a confidence rating, and blank columns for expert review. |
 | `scripts/assemble_tree.py` | Takes any dated Newick plus the species list and produces the app's tree: matches species, applies synonyms, gap-fills missing species next to congeners, at family nodes, or by anchor, names internal nodes, and writes a report. Pure Python, no dependencies. |
-| `scripts/bake.py` | Builds the single-file app from a tree and the HTML template. |
+| `data/dishes.csv` | The dish lookup table: 520 dishes and about 1,200 names (aliases, spellings) across the major cuisines, each mapped to the organisms it is usually made from. Typing "cheeseburger" or "bánh mì" works because of this file. Versioned in `data/dishes_version.txt`; checked by `scripts/check_dishes.py`. |
+| `scripts/bake.py` | Builds the single-file app from a tree, the dish table and the HTML template. |
 | `scripts/make_placeholder_tree.py` | Generates the original 289-taxon placeholder tree, from hand-set node ages (kept for the record). |
 | `app/template.html` | The app: ingredient parsing, PD and richness, meal phylogram, radial coverage view, meal log, custom-tree loader. |
 | `app/phyloplate_demo.html` | A working demo built on the open tree. Live at https://mjhickerson.github.io/phyloplate/app/phyloplate_demo.html |
@@ -70,19 +71,27 @@ python3 scripts/build_candidates.py data/edible_eukaryotes.txt data/edible_eukar
 # assemble an app tree from any dated Newick (tips = species names)
 python3 scripts/assemble_tree.py dated.nwk data/edible_eukaryotes_candidates.csv out/
 
+# check the dish table against the taxon table
+python3 scripts/check_dishes.py data/dishes.csv out/taxa.csv
+
 # build the app
-python3 scripts/bake.py out/food_tree.newick out/taxa.csv app/template.html phyloplate.html
+python3 scripts/bake.py out/food_tree.newick out/taxa.csv app/template.html phyloplate.html data/dishes.csv
 ```
 
 `assemble_tree.py` imports `curation.py` from the working directory if present. The report it writes (`assembly_report.txt`) lists every species that was matched, renamed, gap-filled, or left out.
 
-Ingredient parsing in the app uses a language model to turn recipe text into Latin binomials, which the page then resolves against its own taxon table; nothing outside the table can be scored. In the demo build the model call is unavailable, and the app falls back to keyword matching against the table's alias column.
+The app resolves what you type in two passes, both inside the page: dish names first, against `data/dishes.csv` (longest name wins, accents and plurals ignored), then whatever text is left against the alias column of the taxon table, so "pad thai with extra shrimp" gives the dish's usual organisms plus the explicit one. Nothing outside the two tables can be scored and nothing leaves the browser. Where the page is embedded in Claude, Claude reads the recipe into Latin binomials first and the page resolves those the same way.
+
+### Adding or fixing a dish
+
+Add a row to `data/dishes.csv` (columns `dish, aliases, cuisine, species, notes`; aliases and species separated by `;`; species as Latin binomials that appear in `tree/taxa.csv`), run `scripts/check_dishes.py`, bump `data/dishes_version.txt`, and rebuild. The page's "suggest a fix" link opens a GitHub issue prefilled with what was typed and what was recognized. A dish row lists what the dish is usually made from, not every possible garnish; users remove chips that do not apply.
 
 ## Status and roadmap
 
 - [x] Working prototype: parsing, PD, richness, coverage, meal phylogram, radial coverage, meal log
 - [x] Species list (3,279) and placement tables
 - [x] Assembly pipeline with synonyms, gap-filling, node naming, versioning
+- [x] Dish lookup table (v0.1: 520 dishes, no server, no model call)
 - [x] Open, redistributable dated tree (v0.4: every listed species placed; nine species-level sources; decapod, bivalve and insect-order and brown-algal skeletons dated from Wolfe et al. 2019, Li et al. 2025, Misof et al. 2014, Peters et al. 2017, Kawahara et al. 2019 and Choi et al. 2024, Tanner et al. 2017; other invertebrate, algal and ascomycete skeleton ages under review)
 - [ ] Standalone hosting with the tree server-side
 - [ ] Abundance-weighted PD (phylogenetic Hill numbers)
