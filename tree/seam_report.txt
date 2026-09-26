@@ -8,7 +8,7 @@ stitched tree: 2667 candidate species placed of 3279; root 2132 Ma
 [Stein et al. 2018 Nat Ecol Evol 2:288, VertLife shark tree subset (Chond_10Cal), tree 1 of 100] 14 tips in source; 14 candidate species kept; crown 377.1 Ma
   hung from node at 458 Ma; stem 80.9 Myr
 [Rabosky et al. 2018 Nature 559:392, Fish Tree of Life actinopt_12k_treePL] 9 duplicate tips for the same species dropped (infraspecific labels)
-[Rabosky et al. 2018 Nature 559:392, Fish Tree of Life actinopt_12k_treePL] 11638 tips in source; 805 candidate species kept; crown 368.0 Ma
+[Rabosky et al. 2018 Nature 559:392, Fish Tree of Life actinopt_12k_treePL] 11638 tips in source; 804 candidate species kept; crown 368.0 Ma
   hung from node at 449 Ma; stem 81.0 Myr
 [Jetz & Pyron 2018 Nat Ecol Evol 2:850, VertLife amphibian tree subset, tree 1 of 100] 8 tips in source; 8 candidate species kept; crown 184.4 Ma
   hung from node at 350 Ma; stem 165.6 Myr
@@ -21,7 +21,7 @@ stitched tree: 2667 candidate species placed of 3279; root 2132 Ma
 [Nitta et al. 2022 Front Plant Sci, FTOL ML dated tree (ftolr)] 6234 tips in source; 22 candidate species kept; crown 437.7 Ma
   hung from node at 480 Ma; stem 42.3 Myr
 [Smith & Brown 2018 Am J Bot 105:302, ALLMB (seed plants, Magallon backbone)] 478 duplicate tips for the same species dropped (infraspecific labels)
-[Smith & Brown 2018 Am J Bot 105:302, ALLMB (seed plants, Magallon backbone)] 356305 tips in source; 2706 candidate species kept; crown 325.1 Ma
+[Smith & Brown 2018 Am J Bot 105:302, ALLMB (seed plants, Magallon backbone)] 356305 tips in source; 2695 candidate species kept; crown 325.1 Ma
   hung from node at 480 Ma; stem 154.9 Myr
 
 == not yet in any source (612); assemble_tree.py will gap-fill those with a congener or family member present, and list the rest

@@ -316,8 +316,8 @@ green-cardamom,green cardamom,Elettaria cardamomum,Zingiberaceae,plant,
 tsaoko,tsaoko (cao guo),Lanxangia tsaoko,Zingiberaceae,plant,cao guo
 black-cardamom,black cardamom,Amomum subulatum,Zingiberaceae,plant,
 achira,achira (Queensland arrowroot),Canna indica,Cannaceae,plant,Queensland arrowroot
-arrowroot,arrowroot,Maranta arundinacea,Marantaceae,plant,
 leren,lerén (Guinea arrowroot),Goeppertia allouia,Marantaceae,plant,Guinea arrowroot
+arrowroot,arrowroot,Maranta arundinacea,Marantaceae,plant,
 katemfe,katemfe (thaumatin),Thaumatococcus daniellii,Marantaceae,plant,thaumatin
 heartshape-false-pickerelweed,heartshape false pickerelweed,Monochoria vaginalis,Pontederiaceae,plant,
 benghal-dayflower,Benghal dayflower,Commelina benghalensis,Commelinaceae,plant,
@@ -2940,12 +2940,6 @@ grooved-razor,grooved razor,Solen marginatus,Solenidae,animal,
 razor-clam,razor clam (Europe),Ensis magnus,Pharidae,animal,Europe
 atlantic-jackknife-clam,Atlantic jackknife clam,Ensis leei,Pharidae,animal,
 geoduck,geoduck,Panopea generosa,Hiatellidae,animal,
-rayed-artemis,rayed artemis,Dosinia exoleta,Veneridae,animal,
-striped-venus,striped venus (vongola),Chamelea gallina,Veneridae,animal,vongola
-smooth-venus,smooth venus,Callista chione,Veneridae,animal,
-pacific-littleneck,Pacific littleneck,Leukoma staminea,Veneridae,animal,
-butter-clam,butter clam,Saxidomus gigantea,Veneridae,animal,
-undulating-venus,undulating venus (lala),Paphia undulata,Veneridae,animal,lala
 tamilok,tamilok (shipworm),Bactronophorus thoracites,Teredinidae,animal,shipworm
 giant-shipworm,giant shipworm,Kuphus polythalamius,Teredinidae,animal,
 common-piddock,common piddock,Pholas dactylus,Pholadidae,animal,
@@ -2953,6 +2947,12 @@ fat-gaper,fat gaper (horse clam),Tresus capax,Mactridae,animal,horse clam
 ocean-quahog,ocean quahog,Arctica islandica,Arcticidae,animal,
 shijimi,shijimi,Corbicula japonica,Cyrenidae,animal,
 asian-clam,Asian clam,Corbicula fluminea,Cyrenidae,animal,
+rayed-artemis,rayed artemis,Dosinia exoleta,Veneridae,animal,
+striped-venus,striped venus (vongola),Chamelea gallina,Veneridae,animal,vongola
+smooth-venus,smooth venus,Callista chione,Veneridae,animal,
+pacific-littleneck,Pacific littleneck,Leukoma staminea,Veneridae,animal,
+butter-clam,butter clam,Saxidomus gigantea,Veneridae,animal,
+undulating-venus,undulating venus (lala),Paphia undulata,Veneridae,animal,lala
 lyrate-hard-clam,lyrate hard clam,Meretrix lyrata,Veneridae,animal,
 hamaguri,hamaguri,Meretrix lusoria,Veneridae,animal,
 pullet-carpet-shell,pullet carpet shell,Venerupis corrugata,Veneridae,animal,
@@ -2970,12 +2970,6 @@ bay-scallop,bay scallop,Argopecten irradians,Pectinidae,animal,
 mediterranean-scallop,Mediterranean scallop,Pecten jacobaeus,Pectinidae,animal,
 king-scallop,king scallop,Pecten maximus,Pectinidae,animal,
 sea-scallop,sea scallop,Placopecten magellanicus,Pectinidae,animal,
-sydney-rock-oyster,Sydney rock oyster,Saccostrea glomerata,Ostreidae,animal,
-olympia-oyster,Olympia oyster,Ostrea lurida,Ostreidae,animal,
-european-flat-oyster,European flat oyster,Ostrea edulis,Ostreidae,animal,
-portuguese-oyster,Portuguese oyster,Magallana angulata,Ostreidae,animal,
-pacific-oyster,Pacific oyster,Magallana gigas,Ostreidae,animal,
-eastern-oyster,eastern oyster,Crassostrea virginica,Ostreidae,animal,oysters;oyster
 dog-cockle,dog cockle,Glycymeris glycymeris,Glycymerididae,animal,
 black-lip-pearl-oyster,black-lip pearl oyster,Pinctada margaritifera,Margaritidae,animal,
 pen-shell,pen shell (tairagi),Atrina pectinata,Pinnidae,animal,tairagi
@@ -2989,6 +2983,12 @@ green-lipped-mussel,green-lipped mussel,Perna canaliculus,Mytilidae,animal,
 chilean-mussel,Chilean mussel,Mytilus chilensis,Mytilidae,animal,
 mediterranean-mussel,Mediterranean mussel,Mytilus galloprovincialis,Mytilidae,animal,
 blue-mussel,blue mussel,Mytilus edulis,Mytilidae,animal,mussels;mussel
+sydney-rock-oyster,Sydney rock oyster,Saccostrea glomerata,Ostreidae,animal,
+olympia-oyster,Olympia oyster,Ostrea lurida,Ostreidae,animal,
+european-flat-oyster,European flat oyster,Ostrea edulis,Ostreidae,animal,
+portuguese-oyster,Portuguese oyster,Magallana angulata,Ostreidae,animal,
+pacific-oyster,Pacific oyster,Magallana gigas,Ostreidae,animal,
+eastern-oyster,eastern oyster,Crassostrea virginica,Ostreidae,animal,oysters;oyster
 palolo-worm,palolo worm,Palola viridis,Eunicidae,animal,
 fat-innkeeper-worm,fat innkeeper worm (gaebul),Urechis unicinctus,Urechidae,animal,gaebul
 peanut-worm,peanut worm,Sipunculus nudus,Sipunculidae,animal,
@@ -3004,8 +3004,8 @@ silkworm-pupa,silkworm pupa,Bombyx mori,Bombycidae,animal,
 lake-fly,lake fly (kungu),Chaoborus edulis,Chaoboridae,animal,kungu
 black-soldier-fly-larva,black soldier fly larva,Hermetia illucens,Stratiomyidae,animal,
 chafer-grub,chafer grub (Chinese),Holotrichia parallela,Scarabaeidae,animal,
-rhinoceros-beetle-larva,rhinoceros beetle larva,Oryctes rhinoceros,Scarabaeidae,animal,
 diving-beetle,diving beetle (long ga),Cybister tripunctatus,Dytiscidae,animal,long ga
+rhinoceros-beetle-larva,rhinoceros beetle larva,Oryctes rhinoceros,Scarabaeidae,animal,
 south-american-palm-weevil,South American palm weevil (chontacuro),Rhynchophorus palmarum,Curculionidae,animal,chontacuro
 african-palm-weevil-larva,African palm weevil larva,Rhynchophorus phoenicis,Curculionidae,animal,
 red-palm-weevil-larva,red palm weevil larva,Rhynchophorus ferrugineus,Curculionidae,animal,

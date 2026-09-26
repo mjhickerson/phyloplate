@@ -1,5 +1,5 @@
-tree version: open-0.15.2 (2026-09-25)
-tips in output: 3279   root age: 2132 Myr   total branch length: 202878 Myr
+tree version: open-0.16.1 (2026-09-26)
+tips in output: 3279   root age: 2132 Myr   total branch length: 206706 Myr
 
 == changelog
    2026-09-19  MH: First TimeTree 5 build: 2,607 dated species; 49 synonyms; 63 families anchored by hand  [TimeTree 5 export of the 3,279-name list]
@@ -15,6 +15,8 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 202878 Myr
    2026-09-24  Rachel Swenie: Varga et al. 2019 kept as the mushroom source: she finds it runs young for deep nodes (her Cantharellales estimate 314 vs Varga 372, cf. Sanchez-Garcia et al. 2020 PNAS), Tim James finds it runs old; the two bracket it  [R. Swenie pers. comm.]
    2026-09-24  Rachel Swenie: Cantharellales divergence estimated at 314 Ma in her own work (Varga 372, Tim James 225-263); Varga may run young for deep nodes, so with Tim's view that it runs old the chronogram is bracketed and kept as is; Sanchez-Garcia et al. 2020 PNAS noted as fossil-calibrated cross-check  [R. Swenie pers. comm.; Sanchez-Garcia et al. 2020 PNAS]
    2026-09-24  Tim James: Varga et al. 2019 judged to run old but with wide variation; keep as is. Natto raised: bacteria are deliberately outside the tree; page and README now say so  [T. James pers. comm.]
+   2026-09-26  MH: Open tree v0.16: 17 animals had been grafted inside the plants because a genus name is shared across kingdoms (Magallana oyster / Magallana plant, Donax clam / Donax herb, Paphia, Callista, Calamus porgy / rattan, Ruspolia, Oryctes): the graft step took a non-food congener from the plant tree and the oysters, venus clams, wedge clams, a porgy, a bush cricket and two scarab grubs followed it. Congener lookup is now clade-aware in graft_tree.py and assemble_tree.py; the 17 re-placed in their own families or order nodes. Meals with Pacific or flat oysters, butter or littleneck clams were over-scored before this  [found when the meal tree root read 'Bivalves']
+   2026-09-26  MH: Open tree v0.16.1: full regraft from the source chronograms with the clade-aware graft step (v0.16 had been patched from the built tree). Identical except the oysters: Magallana, Ostrea and Saccostrea now join Crassostrea as a polytomy at the Ostreida node (421) rather than as 20 Myr sisters, pending an Ostreidae crown age  [regraft; seam_report.txt regenerated]
    2026-09-23  Christine Maggs: Gracilariaceae node added at ~300 Ma and Gracilaria crown set to ~230 Ma from the Kim et al. 2026 preprint (Ahnfeltia genomes) she pointed to; GENUS_CROWN table introduced so old genera are not collapsed to 5 Myr  [Kim et al. 2026 preprint, researchgate 405471651]
    2026-09-23  MH: Open tree v0.14: red algal crowns from Yang et al. 2016 text (Nemaliophycidae 331, Rhodymeniophycidae 412); finer order splits remain approximate, unresolved in that study  [Yang et al. 2016 Sci Rep]
    2026-09-22  Tim James: Mucoromycota split confirmed at ~700 Ma; Discinaceae moved to sister of Morchellaceae; Pyronemataceae and Sarcoscyphaceae on the stem above truffles+morels at ~250. His ballparks for splits now taken from source trees, recorded for the record: Cantharellales 225-263 (Varga 372), morels vs truffles 200 (Shen 173), Suillus vs Boletus 150 (Varga 115), Naematelia vs Tremella 125 (Varga 53)  [T. James pers. comm.]
@@ -32,7 +34,7 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 202878 Myr
 
 == assumed substitute (tree label -> candidate): 0
 
-== gap-filled at genus: 279
+== gap-filled at genus: 272
    Saccharomyces pastorianus: sister to Saccharomyces cerevisiae at 2.53 Myr
    Saccharomyces bayanus: child of MRCA
    Neurospora sitophila: sister to helper Neurospora crassa at 5.00 Myr
@@ -64,15 +66,6 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 202878 Myr
    Phallus indusiatus: sister to helper Phallus hadriani at 5.00 Myr
    Ganoderma lingzhi: sister to Ganoderma lucidum at 5.00 Myr
    Lentinus polychrous: sister to Lentinus squarrosulus at 5.00 Myr
-   Magallana gigas: sister to helper Magallana porifolia at 5.00 Myr
-   Magallana angulata: child of MRCA
-   Ostrea lurida: sister to Ostrea edulis at 2.50 Myr
-   Paphia undulata: sister to helper Paphia woodsii at 3.39 Myr
-   Callista chione: sister to helper Callista trichotoma at 5.00 Myr
-   Donax trunculus: sister to helper Donax canniformis at 5.00 Myr
-   Donax variabilis: child of MRCA
-   Ruspolia differens: sister to helper Ruspolia decurrens at 5.00 Myr
-   Oryctes rhinoceros: sister to helper Oryctes nevadensis at 4.18 Myr
    Labeo catla: sister to Labeo rohita at 5.00 Myr
    Synodontis schall: sister to helper Synodontis centralis at 5.00 Myr
    Coregonus artedi: child of MRCA
@@ -81,7 +74,6 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 202878 Myr
    Etelis carbunculus: sister to Etelis coruscans at 0.54 Myr
    Pomadasys commersonnii: sister to helper Pomadasys perotaei at 5.00 Myr
    Pagrus major: sister to Pagrus pagrus at 5.00 Myr
-   Calamus bajonado: sister to Calamus tenuis at 4.08 Myr
    Umbrina cirrosa: sister to helper Umbrina canosai at 5.00 Myr
    Polydactylus sexfilis: sister to helper Polydactylus approximans at 5.00 Myr
    Coptodon zillii: sister to Coptodon rendalli at 5.00 Myr
@@ -235,6 +227,8 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 202878 Myr
    Mesocentrotus nudus: sister to Mesocentrotus franciscanus at 5.00 Myr
    Apostichopus californicus: sister to Apostichopus japonicus at 5.00 Myr
    Halocynthia aurantium: sister to Halocynthia roretzi at 5.00 Myr
+   Magallana angulata: sister to Magallana gigas at 5.00 Myr
+   Ostrea lurida: sister to Ostrea edulis at 5.00 Myr
    Mytilus galloprovincialis: sister to Mytilus edulis at 5.00 Myr
    Mytilus chilensis: child of MRCA
    Perna viridis: sister to Perna canaliculus at 5.00 Myr
@@ -246,6 +240,7 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 202878 Myr
    Meretrix lyrata: sister to Meretrix lusoria at 5.00 Myr
    Tridacna maxima: sister to Tridacna gigas at 5.00 Myr
    Corbicula japonica: sister to Corbicula fluminea at 5.00 Myr
+   Donax variabilis: sister to Donax trunculus at 5.00 Myr
    Haliotis rufescens: sister to Haliotis discus at 5.00 Myr
    Haliotis midae: child of MRCA
    Haliotis iris: child of MRCA
@@ -313,16 +308,10 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 202878 Myr
    Crocodylus porosus: sister to Crocodylus niloticus at 5.00 Myr
    Crocodylus siamensis: child of MRCA
 
-== gap-filled at family: 25
-   Ostrea edulis: child of MRCA
-   Saccostrea glomerata: child of MRCA
-   Saxidomus gigantea: sister to Paphia undulata at 1.70 Myr
-   Leukoma staminea: child of MRCA
-   Chamelea gallina: child of MRCA
-   Dosinia exoleta: child of MRCA
-   Holotrichia parallela: sister to Oryctes rhinoceros at 2.09 Myr
+== gap-filled at family: 19
    Beringraja binoculata: child of MRCA
    Stolephorus indicus: child of MRCA
+   Calamus bajonado: child of MRCA
    Cilus gilberti: child of MRCA
    Parachanna obscura: child of MRCA
    Lithobates catesbeianus: child of MRCA
@@ -340,7 +329,7 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 202878 Myr
    Meum athamanticum: child of MRCA
    Colistium nudipinnis: sister to Rhombosolea plebeia at 20.00 Myr
 
-== gap-filled at order (anchor): 308
+== gap-filled at order (anchor): 321
    Sarcoscypha coccinea: sister to anchor clade at 250 Myr
    Aleuria aurantia: child of node at 250 Myr
    Gyromitra esculenta: sister to anchor clade at 120 Myr
@@ -440,6 +429,9 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 202878 Myr
    Palola viridis: child of MRCA
    Lingula anatina: child of MRCA
    Crassostrea virginica: child of MRCA
+   Magallana gigas: child of MRCA
+   Ostrea edulis: child of MRCA
+   Saccostrea glomerata: child of MRCA
    Mytilus edulis: child of MRCA
    Perna canaliculus: child of MRCA
    Choromytilus chorus: child of MRCA
@@ -462,12 +454,19 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 202878 Myr
    Ruditapes philippinarum: child of MRCA
    Venerupis corrugata: child of MRCA
    Meretrix lusoria: child of MRCA
+   Paphia undulata: child of MRCA
+   Saxidomus gigantea: child of MRCA
+   Leukoma staminea: child of MRCA
+   Callista chione: child of MRCA
+   Chamelea gallina: child of MRCA
+   Dosinia exoleta: child of MRCA
    Tridacna gigas: child of MRCA
    Tegillarca granosa: child of MRCA
    Anadara broughtonii: child of MRCA
    Atrina pectinata: child of MRCA
    Pinctada margaritifera: child of MRCA
    Corbicula fluminea: child of MRCA
+   Donax trunculus: child of MRCA
    Glycymeris glycymeris: child of MRCA
    Arctica islandica: child of MRCA
    Tresus capax: child of MRCA
@@ -598,6 +597,7 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 202878 Myr
    Locusta migratoria: child of MRCA
    Schistocerca gregaria: child of MRCA
    Sphenarium purpurascens: child of MRCA
+   Ruspolia differens: child of MRCA
    Tenebrio molitor: child of MRCA
    Zophobas morio: child of MRCA
    Alphitobius diaperinus: child of MRCA
@@ -607,6 +607,7 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 202878 Myr
    Gonimbrasia belina: child of MRCA
    Cirina forda: child of MRCA
    Rhynchophorus ferrugineus: child of MRCA
+   Oryctes rhinoceros: child of MRCA
    Hermetia illucens: child of MRCA
    Chaoborus edulis: child of MRCA
    Apis mellifera: child of MRCA
@@ -629,6 +630,7 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 202878 Myr
    Endoxyla leucomochla: child of MRCA
    Aegiale hesperiaris: child of MRCA
    Comadia redtenbacheri: child of MRCA
+   Holotrichia parallela: child of MRCA
    Cyriopagopus albostriatus: child of MRCA
    Heterometrus longimanus: child of MRCA
    Scolopendra subspinipes: child of MRCA
@@ -649,39 +651,6 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 202878 Myr
    Crocodylus niloticus: child of MRCA
    Caiman yacare: child of MRCA
    Cynomorium coccineum: child of MRCA
-
-== anchor families missing (placement still made): 0
-
-== not placed: 0
-
-== tree tips not in candidate list (dropped): 0
-
-
-==================================================================
-v0.16 addendum (2026-09-26): the v0.15.2 tree with 17 misplaced animals removed was re-run through assemble_tree.py; only these placements changed. Report of that run:
-
-== gap-filled at genus: 3
-   Magallana angulata: sister to Magallana gigas at 5.00 Myr
-   Ostrea lurida: sister to Ostrea edulis at 5.00 Myr
-   Donax variabilis: sister to Donax trunculus at 5.00 Myr
-
-== gap-filled at family: 10
-   Magallana gigas: sister to Crassostrea virginica at 20.00 Myr
-   Ostrea edulis: child of MRCA
-   Saccostrea glomerata: child of MRCA
-   Paphia undulata: child of MRCA
-   Saxidomus gigantea: child of MRCA
-   Leukoma staminea: child of MRCA
-   Callista chione: child of MRCA
-   Chamelea gallina: child of MRCA
-   Dosinia exoleta: child of MRCA
-   Calamus bajonado: child of MRCA
-
-== gap-filled at order (anchor): 4
-   Donax trunculus: child of MRCA
-   Ruspolia differens: child of MRCA
-   Oryctes rhinoceros: child of MRCA
-   Holotrichia parallela: child of MRCA
 
 == anchor families missing (placement still made): 0
 
