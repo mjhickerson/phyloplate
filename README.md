@@ -23,6 +23,7 @@ Prokaryotes are excluded on purpose (they are on everything). Amounts are ignore
 | `curation/curation.py` | Synonym map for names as TimeTree and other sources return them; the table of hand-placed families (anchor groups and stem ages); higher-clade node names; tree version and changelog. |
 | `curation/anchor_review.csv` | One row per hand-placed family with the basis for the placement, a confidence rating, and blank columns for expert review. |
 | `scripts/assemble_tree.py` | Takes any dated Newick plus the species list and produces the app's tree: matches species, applies synonyms, gap-fills missing species next to congeners, at family nodes, or by anchor, names internal nodes, and writes a report. Pure Python, no dependencies. |
+| `data/aliases.csv` | Food-word aliases per species (egg, bacon, bread, flour, tofu, ...), 768 rows. `assemble_tree.py` picks it up automatically; without it the app knows only common and Latin names. |
 | `data/dishes.csv` | The dish lookup table: 520 dishes and about 1,200 names (aliases, spellings) across the major cuisines, each mapped to the organisms it is usually made from. Typing "cheeseburger" or "bánh mì" works because of this file. Versioned in `data/dishes_version.txt`; checked by `scripts/check_dishes.py`. |
 | `scripts/bake.py` | Builds the single-file app from a tree, the dish table and the HTML template. |
 | `scripts/make_placeholder_tree.py` | Generates the original 289-taxon placeholder tree, from hand-set node ages (kept for the record). |

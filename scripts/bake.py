@@ -14,6 +14,8 @@ def conv(n):
                 "clade": r['clade'], "aliases": r['aliases'], "age": 0.0}
     return {"name": n.label, "age": round(n.height, 3), "children": [conv(c) for c in n.children]}
 tree = conv(root)
+_n_alias = sum(1 for r in meta.values() if r['aliases'].strip())
+if _n_alias < 500: print(f"WARNING: only {_n_alias} taxa carry aliases; was data/aliases.csv used by assemble_tree.py? Food words like egg, bacon, bread will not match.", file=sys.stderr)
 import os
 vpath = os.path.join(os.path.dirname(nwk), 'tree_version.txt')
 version = open(vpath).read().strip() if os.path.exists(vpath) else 'unversioned'

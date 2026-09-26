@@ -1,0 +1,769 @@
+species,aliases
+Ginkgo biloba,ginkgo nut
+Gnetum gnemon,emping
+Gnetum africanum,okazi leaf
+Zamia integrifolia,Florida arrowroot
+Pinus sibirica,cedar nut
+Pinus koraiensis,pine nut;Korean pine nut
+Pinus pinea,pine nut;pignoli;pinoli
+Juniperus communis,berry;juniper berry;gin
+Araucaria araucana,piñón
+Araucaria angustifolia,pinhão
+Brasenia schreberi,junsai
+Nymphaea nouchali,shapla
+Euryale ferox,makhana
+Schisandra chinensis,omija
+Piper guineense,uziza
+Piper sarmentosum,cha phlu
+Piper nigrum,black pepper;pepper;peppercorn;white pepper
+Peperomia pellucida,pansit-pansitan
+Monodora myristica,ehuru
+Uvaria chamae,bush banana
+Myristica fragrans,mace;nutmeg
+Persea americana,avocado;guacamole
+Laurus nobilis,bay leaf;bay
+Sassafras albidum,filé
+Cinnamomum verum,cinnamon;cassia
+Cinnamomum tamala,Indian bay
+Chamelea gallina,vongola
+Colocasia esculenta,taro;poi;dasheen
+Xanthosoma sagittifolium,yautía
+Cyrtosperma merkusii,pulaka
+Wolffia globosa,khai-nam
+Sagittaria sagittifolia,cigu
+Pandanus tectorius,hala fruit
+Pandanus conoideus,buah merah
+Dioscorea polystachya,nagaimo
+Dioscorea alata,ube
+Lilium brownii,bai he
+Vanilla planifolia,vanilla
+Disa robusta,Disa
+Orchis mascula,salep
+Curculigo latifolia,curculin
+Asparagus officinalis,asparagus
+Agave americana,aguamiel
+Agave angustifolia,mezcal
+Leopoldia comosa,tassel hyacinth
+Allium sativum,garlic
+Allium cepa,shallot;onion;onions;shallots;scallion;scallions;green onion;spring onion
+Allium ampeloprasum,elephant garlic;leek;leeks
+Allium schoenoprasum,chive;chives
+Allium fistulosum,negi
+Dianella caerulea,berries
+Hemerocallis citrina,huang hua cai
+Ananas comosus,pineapple
+Schoenoplectus acutus,rhizome;pollen
+Cyperus esculentus,chufa
+Zizania latifolia,jiaobai
+Oryza sativa,rice;sushi rice;rice vinegar;rice noodles;rice flour;mochi;sake
+Melocanna baccifera,bamboo rice
+Glyceria fluitans,manna
+Thinopyrum intermedium,intermediate wheatgrass
+Triticum turgidum,emmer
+Triticum aestivum,wheat;flour;bread;pasta;noodles;bun;couscous;bulgur;semolina;durum;seitan;soy sauce;tortilla;crackers;breadcrumbs;panko;pastry
+Secale cereale,rye
+Elymus repens,rhizome
+Hordeum vulgare,barley;malt;beer;pearl barley
+Avena sativa,oat;oats;oatmeal;rolled oats
+Anthoxanthum nitens,żubrówka
+Zea mays,maize;corn;cornmeal;polenta;masa;corn syrup;cornstarch;popcorn;grits;tortilla
+Saccharum edule,pitpit
+Saccharum officinarum,sugarcane;sugar;cane sugar;molasses;rum;brown sugar
+Sorghum bicolor,sorghum
+Phragmites australis,manna
+Phoenix dactylifera,date palm;dates
+Phoenix sylvestris,jaggery
+Corypha utan,sago
+Borassus flabellifer,toddy;nungu
+Arenga pinnata,kolang kaling
+Caryota urens,fishtail palm
+Euterpe edulis,palm heart
+Prestoea acuminata,mountain cabbage
+Elaeis guineensis,oil palm;palm oil;palm sugar
+Acrocomia aculeata,coyol
+Bactris gasipaes,pejibaye
+Cocos nucifera,coconut;coconut milk;coconut oil;coconut cream
+Parajubaea cocoides,coco cumbi
+Jubaea chilensis,coquito
+Nypa fruticans,attap
+Raphia hookeri,palm wine
+Mauritia flexuosa,moriche
+Salacca zalacca,snake fruit
+Musa × paradisiaca,banana hybrids
+Musa acuminata,acuminata
+Musa balbisiana,balbisiana
+Boesenbergia rotunda,krachai
+Zingiber officinale,ginger
+Zingiber zerumbet,awapuhi
+Curcuma longa,turmeric
+Aframomum corrorima,korerima
+Elettaria cardamomum,cardamom
+Lanxangia tsaoko,cao guo
+Canna indica,Queensland arrowroot
+Goeppertia allouia,Guinea arrowroot
+Donax trunculus,tellina
+Thaumatococcus daniellii,thaumatin
+Berberis vulgaris,zereshk
+Podophyllum peltatum,ripe fruit
+Nigella sativa,kalonji
+Akebia quinata,chocolate vine
+Papaver somniferum,poppy seed
+Nelumbo nucifera,lotus root
+Macadamia integrifolia,macadamia
+Gunnera tinctoria,Chilean rhubarb
+Ximenia americana,tallow wood
+Rumex vesicarius,hummeidh
+Rheum ribes,rivas
+Rheum rhabarbarum,rhubarb
+Persicaria hydropiper,tade
+Persicaria odorata,rau răm
+Fagopyrum esculentum,buckwheat;soba;kasha
+Gypsophila arrostii,çöven
+Silene vulgaris,sculpit
+Beta vulgaris,chard;sugar beet;beet;beetroot;swiss chard;beet sugar
+Chenopodium quinoa,quinoa
+Chenopodium album,bathua
+Spinacia oleracea,spinach
+Bassia scoparia,tonburi
+Suaeda salsa,sea blite
+Salicornia europaea,glasswort
+Celosia argentea,soko
+Amaranthus caudatus,kiwicha
+Amaranthus tricolor,callaloo
+Amaranthus blitum,vlita
+Ferocactus wislizeni,cactus candy
+Echinocactus platyacanthus,acitrón
+Stenocereus thurberi,pitaya dulce
+Echinopsis chiloensis,guillave
+Pereskia grandifolia,grandifolia
+Opuntia matudae,matudae
+Opuntia ficus-indica,nopal;prickly pear;nopales;cactus
+Talinum fruticosum,waterleaf
+Claytonia virginica,fairy spuds
+Carpobrotus edulis,Hottentot fig
+Phytolacca americana,poke sallet
+Cornus officinalis,shanzhuyu
+Halesia carolina,pickled fruit
+Actinidia deliciosa,kiwi;kiwifruit
+Arbutus menziesii,berries
+Gaultheria mucronata,berries
+Gaultheria hispida,Tasmania
+Gaylussacia baccata,Gaylussacia
+Paphia undulata,lala
+Vaccinium macrocarpon,cranberry;cranberries
+Vaccinium vitis-idaea,lingonberry
+Vaccinium corymbosum,blueberry;blueberries
+Empetrum rubrum,diddle-dee
+Camellia taliensis,Yunnan
+Camellia sinensis,tea;green tea;black tea;matcha;oolong
+Mimusops elengi,bakul
+Englerophytum magalismontanum,stamvrug
+Chrysophyllum albidum,udara
+Barringtonia procera,procera
+Barringtonia edulis,pao
+Gustavia superba,Gustavia
+Bertholletia excelsa,Brazil nut
+Diospyros blancoi,velvet apple
+Diospyros kaki,persimmon
+Embelia ribes,vidanga
+Ardisia compressa,Ardisia
+Ilex latifolia,kuding
+Elwendia persica,shahi jeera
+Centella asiatica,pegaga
+Aralia elata,tara-no-me
+Molopospermum peloponnesiacum,coscoll
+Pimpinella anisum,anise;aniseed
+Oenanthe javanica,seri
+Cuminum cyminum,cumin
+Daucus carota,carrot;carrots
+Ferula foetida,foetida
+Anethum graveolens,dill
+Apium graveolens,celeriac;celery;celery seed
+Foeniculum vulgare,fennel;fennel seed
+Petroselinum crispum,parsley
+Falcaria vulgaris,paghazeh
+Carum carvi,caraway
+Bunium bulbocastanum,earth chestnut
+Coriandrum sativum,coriander;cilantro
+Pastinaca sativa,parsnip
+Tordylium apulum,kafkalithra
+Angelica gigas,chamdanggwi
+Cephalaria syriaca,pelemir
+Valerianella locusta,mâche
+Patrinia scabiosifolia,mattari
+Lonicera caerulea,honeyberry
+Viburnum opulus,kalina
+Sambucus nigra,elderberry;elderflower
+Platycodon grandiflorus,doraji
+Adenophora triphylla,jandae
+Nymphoides peltata,xing cai
+Cynara cardunculus,cardoon;artichoke
+Arctium lappa,gobo
+Gundelia tournefortii,tumble thistle
+Scolymus hispanicus,tagarnina
+Cichorium intybus,radicchio;chicory;belgian endive;witloof
+Cichorium endivia,escarole;endive;frisee
+Microseris lanceolata,yam daisy
+Cicerbita alpina,turt
+Lactuca sativa,lettuce;romaine;iceberg;salad greens;mesclun
+Launaea cornuta,East Africa
+Taraxacum officinale,dandelion
+Petasites japonicus,butterbur
+Crassocephalum crepidioides,fireweed
+Matricaria chamomilla,chamomile
+Glebionis segetum,mantilida
+Glebionis coronaria,shungiku
+Artemisia arborescens,sheeba
+Artemisia princeps,yomogi
+Artemisia annua,qinghao
+Artemisia herba-alba,shih
+Artemisia dracunculus,tarragon;wormwood;absinthe
+Pluchea indica,beluntas
+Acmella oleracea,jambu
+Helianthus annuus,sunflower;sunflower oil;sunflower seeds
+Guizotia abyssinica,nug
+Pectis papposa,limoncillo
+Madia sativa,melosa
+Stevia rebaudiana,stevia
+Carphephorus odoratissimus,deer tongue
+Ipomoea costata,Ipomoea
+Ipomoea batatas,sweet potato;yam (US);camote
+Ipomoea aquatica,kangkong
+Capsicum chinense,habanero;scotch bonnet
+Capsicum frutescens,bird's eye
+Capsicum annuum,bell pepper;chili;jalapeno;paprika;cayenne;chile;chilli;red pepper flakes
+Physalis peruviana,cape gooseberry
+Physalis philadelphica,tomatillo;goldenberry
+Withania coagulans,vegetable rennet
+Solanum curtilobum,curtilobum
+Solanum juzepczukii,juzepczukii
+Solanum quitoense,lulo
+Solanum tuberosum,potato;potatoes;fries;french fries;chips
+Solanum lycopersicum,tomato;tomatoes;ketchup;catsup;tomato paste;marinara;salsa
+Solanum scabrum,managu
+Solanum torvum,pea eggplant
+Solanum aethiopicum,garden egg
+Solanum melongena,eggplant;aubergine
+Solanum centrale,desert raisin
+Lycium andersonii,berries
+Lycium chinense,goji
+Saba senegalensis,madd
+Coffea canephora,robusta coffee
+Coffea arabica,coffee;espresso
+Gardenia erubescens,Sahel
+Micromeria fruticosa,zuta
+Jasminum sambac,jasmine tea
+Jasminum officinale,flavouring
+Osmanthus fragrans,gui hua
+Olea europaea,olive;olive oil;olives
+Limnophila aromatica,ngò om
+Plantago coronopus,erba stella
+Plantago asiatica,oobako
+Sesamum indicum,sesame;tahini;sesame oil;sesame seeds
+Justicia insularis,Africa
+Ruspolia differens,bush cricket
+Cistanche deserticola,rou cong rong
+Vitex doniana,Vitex
+Vitex agnus-castus,monk's pepper
+Stachys affinis,crosnes
+Sideritis scardica,Sideritis
+Perilla frutescens,perilla;shiso
+Elsholtzia ciliata,kinh giới
+Lavandula angustifolia,lavender
+Plectranthus edulis,oromo dinich
+Coleus barbatus,pickled root
+Coleus rotundifolius,Hausa potato
+Coleus amboinicus,Indian borage
+Ocimum gratissimum,clove basil
+Ocimum tenuiflorum,tulsi
+Ocimum basilicum,basil;thai basil;pesto
+Hyptis spicigera,Africa
+Salvia rosmarinus,rosemary
+Salvia officinalis,sage
+Agastache rugosa,bangah
+Lallemantia iberica,balangu
+Origanum majorana,marjoram
+Origanum vulgare,oregano
+Origanum syriacum,za'atar
+Thymus vulgaris,thyme
+Mentha × villosa,mojito mint
+Mentha × piperita,peppermint
+Mentha spicata,mint
+Mentha canadensis,hakka
+Poliomintha longiflora,Lamiaceae
+Cordia dichotoma,lasoda
+Cordia myxa,lasura
+Vitis coignetiae,yamabudo
+Vitis labrusca,Concord
+Vitis vinifera,grape;wine;raisin;raisins;grapes;wine vinegar;balsamic
+Fuchsia magellanica,berries
+Ludwigia adscendens,rau dua
+Punica granatum,pomegranate
+Syzygium polyanthum,daun salam
+Syzygium aromaticum,clove;cloves
+Myrtus communis,berries
+Psidium guajava,guava
+Pimenta dioica,allspice
+Ugni molinae,Chilean guava
+Eugenia luschnathiana,Eugenia
+Eugenia uniflora,pitanga
+Luma apiculata,Chilean myrtle
+Aphloia theiformis,Mauritius
+Zanthoxylum rhetsa,teppal
+Zanthoxylum armatum,Nepal pepper
+Tetradium ruticarpum,wu zhu yu
+Citrus paradisi,grapefruit;pomelo
+Citrus sinensis,orange;oranges;orange juice
+Citrus aurantiifolia,lime;key lime;makrut
+Citrus limon,lemon;lemons
+Citrus reticulata,mandarin;clementine;tangerine;satsuma
+Toona sinensis,xiangchun
+Lansium domesticum,duku
+Melicoccus bijugatus,quenepa
+Pometia pinnata,taun
+Litchi chinensis,lychee
+Aesculus turbinata,tochi
+Acer saccharum,maple;maple syrup
+Acer palmatum,momiji tempura
+Dacryodes edulis,African pear
+Spondias mombin,hog plum
+Spondias pinnata,amra
+Harpephyllum caffrum,Cape
+Choerospondias axillaris,Nepali hog plum
+Pistacia vera,pistachio;pistachios
+Pistacia terebinthus,menengiç
+Rhus coriaria,sumac;za'atar
+Schinus molle,pink peppercorn
+Mangifera indica,mango
+Mangifera foetida,bachang
+Anacardium occidentale,cashew;cashews
+Shorea stenoptera,tengkawang
+Amoreuxia palmatifida,Sonoran root
+Durio zibethinus,durian
+Quararibea cordata,chupa-chupa
+Thespesia garckeana,snot apple
+Abelmoschus esculentus,okra
+Hibiscus sabdariffa,roselle;hibiscus;jamaica
+Bombax ceiba,semal flowers
+Tilia cordata,linden
+Scaphium affine,pang da hai
+Corchorus olitorius,molokhia
+Theobroma bicolor,pataxte
+Theobroma cacao,cacao;chocolate;cocoa
+Muntingia calabura,aratiles
+Moringa oleifera,drumstick
+Carica papaya,papaya
+Salvadora persica,miswak fruit
+Boscia senegalensis,dilo
+Capparis decidua,kair
+Capparis spinosa,caper;capers
+Cleome gynandra,African cabbage
+Armoracia rusticana,horseradish
+Nasturtium officinale,watercress
+Camelina sativa,gold-of-pleasure
+Pugionium cornutum,shacong
+Eutrema japonicum,wasabi
+Schouwia purpurea,alwat
+Sinapis alba,white mustard;yellow mustard;mustard;mustard seed
+Eruca vesicaria,rocket;arugula
+Raphanus sativus,daikon;radish
+Brassica oleracea,kale;broccoli;cauliflower;cabbage;brussels sprouts;collard;kohlrabi;sauerkraut;kimchi;coleslaw
+Brassica napus,rutabaga;canola;rapeseed;canola oil;swede
+Brassica juncea,mustard greens;brown mustard;dijon;gai choy
+Brassica rapa,bok choy;napa;turnip;napa cabbage;pak choi;turnip greens;mizuna;rapini
+Tamarindus indica,tamarind
+Dialium indum,keranji
+Dialium cochinchinense,Indochina
+Gymnocladus dioicus,roasted
+Ceratonia siliqua,carob
+Senna siamea,khi-lek
+Senna obtusifolia,kawal
+Prosopis cineraria,sangri
+Prosopis juliflora,juliflora
+Parkia biglobosa,dawadawa
+Parkia timoriana,yongchak
+Parkia speciosa,stink bean
+Pithecellobium dulce,Manila tamarind
+Vachellia seyal,gum talha
+Acacia victoriae,gundabluey
+Styphnolobium japonicum,huai hua
+Arachis hypogaea,peanut;peanuts;peanut butter;groundnut
+Apios americana,hopniss
+Erythrina edulis,basul
+Vigna lanceolata,maloga bean
+Vigna unguiculata,yardlong bean;cowpea;black-eyed pea;black-eyed peas
+Vigna radiata,mung bean;bean sprouts
+Vigna mungo,black gram
+Phaseolus vulgaris,common bean;black beans;kidney beans;pinto;green beans;navy beans;cannellini
+Glycine max,soybean;soy;tofu;soy sauce;miso;edamame;tempeh;soy milk;natto;tamari
+Sesbania grandiflora,vegetable hummingbird
+Glycyrrhiza glabra,licorice
+Astragalus membranaceus,astragalus
+Cicer arietinum,chickpea;garbanzo;hummus;chana
+Lens culinaris,lentil;lentils;dal
+Pisum sativum,pea;peas;split peas;snap peas
+Vicia faba,fava bean;broad bean
+Trigonella foenum-graecum,fenugreek;methi
+Melilotus officinalis,flavouring
+Medicago sativa,sprouts
+Shepherdia canadensis,Indian ice cream
+Ziziphus nummularia,jhar ber
+Ziziphus mauritiana,Indian jujube
+Ulmus pumila,samaras
+Cannabis sativa,hemp seed
+Humulus lupulus,hops;beer;ipa
+Pourouma cecropiifolia,uvilla
+Artocarpus heterophyllus,jackfruit
+Artocarpus altilis,breadfruit
+Maclura tricuspidata,cudrania
+Brosimum alicastrum,ramón
+Ficus carica,fig;figs
+Ficus pumila,jelly fig
+Prunus ilicifolia,islay
+Prunus laurocerasus,taflan
+Prunus avium,cherry;cherries;sour cherry
+Prunus dulcis,almond;almonds;marzipan;almond milk
+Prunus persica,nectarine;peach
+Prunus armeniaca,apricot
+Prunus domestica,plum;prune;prunes;umeboshi
+Pyrus pyrifolia,nashi
+Pyrus communis,pear
+Crataegus pinnatifida,shanzha
+Cydonia oblonga,quince
+Malus sieversii,Tian Shan
+Malus domestica,apple;cider;apples;applesauce
+Rubus idaeus,raspberry;raspberries
+Rosa rubiginosa,rosa mosqueta
+Rosa damascena,rosewater
+Rosa rugosa,hips
+Rosa canina,hips
+Fragaria × ananassa,strawberry;strawberries
+Corylus avellana,hazelnut;filbert;hazelnuts
+Betula lenta,birch beer
+Myrica rubra,Chinese bayberry
+Myrica esculenta,kaphal
+Myrica gale,gruit
+Juglans ailantifolia,heartnut
+Juglans regia,walnut;walnuts
+Carya illinoinensis,pecan;pecans
+Notholithocarpus densiflorus,acorn
+Quercus mongolica,dotori
+Quercus robur,acorn
+Quercus petraea,acorn
+Quercus ilex,acorn
+Quercus emoryi,bellota
+Quercus rotundifolia,bellota
+Quercus alba,acorn
+Quercus macrocarpa,acorn
+Quercus lobata,acorn
+Quercus agrifolia,acorn
+Quercus kelloggii,acorn
+Quercus dentata,acorn
+Quercus acutissima,acorn
+Quercus variabilis,acorn
+Quercus brantii,acorn bread
+Castanopsis cuspidata,shii
+Fagus grandifolia,beechnut
+Fagus sylvatica,beechnut
+Fagus crenata,beechnut
+Cucumeropsis mannii,mannii
+Momordica charantia,bitter melon;bitter gourd
+Momordica dioica,kakrol
+Siraitia grosvenorii,luo han guo
+Telfairia occidentalis,ugu
+Cyclanthera pedata,achocha
+Trichosanthes dioica,parwal
+Cucurbita ficifolia,chilacayote
+Cucurbita maxima,maxima
+Cucurbita pepo,pumpkin;pepo;zucchini;summer squash;acorn squash;courgette;pepitas
+Lagenaria siceraria,calabash
+Citrullus lanatus,watermelon
+Benincasa hispida,wax gourd
+Coccinia grandis,tindora
+Cucumis metuliferus,horned melon
+Cucumis melo,melon;cantaloupe;honeydew
+Cucumis sativus,cucumber;pickle;pickles;gherkin
+Davidsonia jerseyana,NSW
+Oxalis pes-caprae,sour grass
+Flacourtia jangomas,paniala
+Passiflora tripartita,curuba
+Passiflora edulis,passion fruit
+Garcinia gummi-gutta,kodampuli
+Garcinia xanthochymus,false mangosteen
+Uapaca kirkiana,wild loquat
+Irvingia gabonensis,dika nut
+Linum usitatissimum,linseed
+Manihot esculenta,cassava;tapioca;yuca;manioc
+Tetracarpidium conophorum,conophor
+Equisetum arvense,tsukushi
+Diplazium esculentum,paco
+Matteuccia struthiopteris,fiddlehead;fiddlehead fern;ostrich fern
+Pteridium aquilinum,warabi
+Auxenochlorella pyrenoidosa,pyrenoidosa
+Chlorella vulgaris,chlorella
+Haematococcus lacustris,astaxanthin
+Codium fragile,dead man's fingers
+Caulerpa lentillifera,umibudo;sea grapes
+Ulva lactuca,sea lettuce;aonori;aosa;ulva;ao-nori
+Gelidium amansii,agar
+Kappaphycus alvarezii,carrageenan
+Chondrus crispus,Irish moss;carrageenan
+Nemalion helminthoides,umisomen
+Palmaria palmata,dulse
+Porphyra umbilicalis,laver;laverbread
+Pyropia yezoensis,nori;seaweed;sushi seaweed;gim;kim
+Ecklonia radiata,Australia
+Alaria esculenta,dabberlocks;winged kelp
+Undaria pinnatifida,wakame
+Saccharina japonica,kombu;kelp;dashi;kelp noodles;laminaria
+Fucus vesiculosus,bladderwrack
+Ascophyllum nodosum,knotted wrack;rockweed
+Sargassum fusiforme,hijiki
+Euglena gracilis,midorimushi
+Branchiostoma belcheri,lancelet
+Columba livia,squab;pigeon
+Aerodramus fuciphagus,bird's nest
+Ardenna tenuirostris,yolla
+Ardenna grisea,muttonbird
+Anser cygnoides,Chinese goose
+Anser anser,domestic goose;goose
+Anas platyrhynchos,domestic duck;duck;duck egg;foie gras
+Numida meleagris,guinea fowl
+Gallus gallus,chicken;egg;eggs;hen;poultry
+Phasianus colchicus,pheasant
+Meleagris gallopavo,turkey
+Lagopus lagopus,red grouse
+Coturnix coturnix,quail;quail egg
+Struthio camelus,ostrich;emu
+Alligator mississippiensis,alligator;crocodile
+Chelydra serpentina,snapping turtle;turtle
+Bungarus multicinctus,snake soup
+Naja atra,snake soup
+Ctenosaura similis,garrobo
+Oryctolagus cuniculus,rabbit
+Lepus europaeus,hare
+Myocastor coypus,coypu
+Cavia porcellus,cuy;guinea pig
+Thryonomys swinderianus,grasscutter
+Marmota sibirica,tarbagan
+Canis lupus,familiaris
+Capra hircus,goat;chevre;goat cheese;goat milk
+Ovis aries,sheep;lamb;mutton;feta;pecorino;sheep milk
+Bubalus bubalis,water buffalo;buffalo mozzarella
+Bison bison,bison;buffalo
+Bison bonasus,wisent
+Bos frontalis,mithun
+Bos javanicus,Bali cattle
+Bos taurus,cattle;beef;milk;cheese;butter;cream;yogurt;ghee;steak;veal;whey;parmesan;cheddar;mozzarella;burger;hamburger;cheeseburger;ground beef
+Odocoileus virginianus,deer
+Rangifer tarandus,caribou
+Cervus canadensis,wapiti
+Cervus elaphus,red deer;elk
+Sus scrofa,wild boar;pig;pork;bacon;ham;lard;prosciutto;sausage;pancetta;gelatin
+Camelus dromedarius,camel
+Equus caballus,horse
+Acipenser stellatus,sevruga
+Acipenser gueldenstaedtii,osetra
+Anguilla japonica,unagi
+Conger myriaster,anago
+Muraenesox cinereus,hamo
+Arapaima gigas,pirarucu
+Clupea harengus,herring
+Sardina pilchardus,sardine;sardines;pilchard
+Konosirus punctatus,kohada
+Prochilodus lineatus,curimba
+Pangasianodon hypophthalmus,swai);basa/swai
+Ictalurus punctatus,catfish
+Rhamdia quelen,jundiá
+Chrysichthys nigrodigitatus,West Africa
+Misgurnus anguillicaudatus,dojo
+Cyprinus carpio,carp
+Tor tambroides,empurau
+Stenodus leucichthys,sheefish
+Salvelinus leucomaenis,iwana
+Salmo salar,Atlantic salmon;salmon;lox;gravlax;smoked salmon
+Salmo trutta,sea trout
+Oncorhynchus nerka,Pacific salmon;sockeye;coho;king salmon;chinook
+Oncorhynchus mykiss,steelhead;rainbow trout;trout
+Salangichthys microdon,shirauo
+Galaxias maculatus,whitebait
+Brosme brosme,tusk
+Pollachius virens,coley
+Melanogrammus aeglefinus,haddock
+Gadus chalcogrammus,pollock;surimi;fish sticks
+Gadus morhua,cod;bacalao;salt cod
+Myripristis berndti,menpachi
+Genypterus blacodes,kingklip
+Lophius litulon,ankou
+Stephanolepis cirrhifer,kawahagi
+Thamnaconus modestus,umazurahagi
+Takifugu rubripes,torafugu
+Naso unicornis,kala
+Acanthurus triostegus,manini
+Cilus gilberti,Chile
+Argyrosomus japonicus,kob
+Branchiostegus japonicus,amadai
+Pagrus major,madai
+Acanthopagrus schlegelii,kurodai
+Emmelichthys nitidus,redbait
+Aprion virescens,uku
+Etelis carbunculus,ehu
+Etelis coruscans,onaga
+Pristipomoides filamentosus,opakapaka
+Lutjanus kasmira,ta'ape
+Parapristipoma trilineatum,isaki
+Dicentrarchus labrax,branzino;sea bass;striped bass
+Ammodytes personatus,ikanago
+Lateolabrax japonicus,suzuki
+Doederleinia berycoides,nodoguro
+Oplegnathus fasciatus,ishidai
+Girella punctata,mejina
+Kuhlia sandvicensis,aholehole
+Eleginops maclovinus,róbalo
+Scorpaena scrofa,rascasse
+Sebastes inermis,mebaru
+Sebastes schlegelii,jopi-bolrak
+Pleurogrammus azonus,hokke
+Hexagrammos otakii,ainame
+Arripis trutta,kahawai
+Katsuwonus pelamis,katsuo;bonito flakes;katsuobushi
+Thunnus albacares,tuna;canned tuna;tuna steak;ahi
+Thunnus thynnus,bluefin
+Scomber scombrus,mackerel;saba
+Scomber japonicus,saba
+Scomberomorus niphonius,sawara
+Parupeneus multifasciatus,moano
+Acanthogobius flavimanus,haze
+Sicyopterus lagocephalus,fry: bichique
+Polydactylus sexfilis,moi
+Xiphias gladius,swordfish
+Coryphaena hippurus,mahi-mahi;dorado;dolphinfish
+Seriola rivoliana,kampachi
+Seriola quinqueradiata,hamachi);buri/hamachi
+Selar crumenophthalmus,akule
+Trachurus japonicus,aji
+Paralichthys dentatus,fluke
+Paralichthys olivaceus,hirame
+Verasper variegatus,hoshigarei
+Hippoglossus hippoglossus,halibut;flounder
+Solea solea,Dover sole;sole
+Mugil cephalus,bottarga
+Oreochromis niloticus,tilapia
+Oryzias latipes,historically eaten
+Cololabis saira,sanma
+Cypselurus poecilopterus,tobiko
+Cheilopogon agoo,tobiuo
+Galeorhinus galeus,school shark
+Squalus acanthias,dogfish;shark;rock salmon
+Chimaera monstrosa,chimaera
+Eptatretus burgeri,kkomjangeo
+Petromyzon marinus,lamprey
+Microcosmus sabatieri,sea fig
+Halocynthia roretzi,sea pineapple;sea squirt;meongge
+Apostichopus japonicus,sea cucumber
+Mesocentrotus nudus,kita-murasaki
+Strongylocentrotus purpuratus,sea urchin;uni;sea urchin roe
+Lingula anatina,brachiopod
+Sepia officinalis,cuttlefish
+Watasenia scintillans,hotaru-ika
+Todarodes pacificus,surume-ika
+Doryteuthis pealeii,squid;calamari
+Octopus minor,nakji
+Octopus cyanea,he'e
+Octopus vulgaris,octopus;pulpo;tako
+Helix pomatia,escargot;land snail;snail;snails
+Cornu aspersum,petit-gris
+Aliger gigas,queen conch
+Telescopium telescopium,mud creeper
+Tympanotonus fuscatus,West Africa
+Littorina littorea,periwinkle;winkle;winkles
+Babylonia japonica,bai
+Buccinum undatum,whelk
+Fissurella latimarginata,keyhole limpet
+Tectus niloticus,top shell
+Turbo cornutus,horned turban
+Haliotis midae,perlemoen
+Haliotis discus,ezo awabi
+Cerastoderma edule,cockle
+Ensis magnus,Europe
+Panopea generosa,geoduck
+Bactronophorus thoracites,shipworm
+Tresus capax,horse clam
+Mactromeris polynyma,hokkigai
+Mya arenaria,soft-shell clam;steamers
+Mercenaria mercenaria,quahog;hard clam;clam;clams;littleneck;cherrystone;manila clam
+Mizuhopecten yessoensis,hotate
+Atrina pectinata,tairagi
+Mytilus edulis,mussel;mussels
+Crassostrea virginica,oysters;oyster
+Urechis unicinctus,gaebul
+Scolopendra subspinipes,skewered
+Comadia redtenbacheri,chinicuil
+Cirina forda,kanni
+Bombyx mori,silkworm pupa;beondegi
+Chaoborus edulis,kungu
+Cybister tripunctatus,long ga
+Rhynchophorus palmarum,chontacuro
+Alphitobius diaperinus,buffalo worm
+Tenebrio molitor,mealworm
+Polybia occidentalis,Mexico
+Vespa mandarinia,hachinoko
+Atta laevigata,leafcutter ant
+Apis mellifera,honey bee;honey;royal jelly;bee pollen
+Corisella texcocana,water boatman eggs
+Lethocerus indicus,maeng da
+Macrotermes subhyalinus,subhyalinus
+Acheta domesticus,cricket;crickets;cricket flour
+Oratosquilla oratoria,shako
+Neomysis intermedia,ami
+Euphausia pacifica,isada
+Euphausia superba,krill
+Erimacrus isenbeckii,kegani
+Ucides cordatus,caranguejo-uçá
+Chionoecetes japonicus,beni-zuwai
+Callinectes sapidus,blue crab;crab;crabs;crab meat
+Metacarcinus magister,Dungeness crab
+Lithodes santolla,centolla
+Paralithodes camtschaticus,king crab
+Munida gregaria,langostino
+Homarus americanus,lobster
+Procambarus clarkii,crayfish;crawfish;crawdad
+Macrobrachium rosenbergii,freshwater prawn
+Crangon crangon,North Sea
+Aristeus antennatus,gamba roja
+Penaeus duorarum,Gulf
+Penaeus aztecus,Gulf
+Penaeus vannamei,shrimp;prawns;prawn;shrimps
+Pollicipes pollicipes,percebes
+Cyriopagopus albostriatus,a-ping
+Anemonia viridis,ortiguillas
+Rhopilema esculentum,edible jellyfish
+Rhizopus oryzae,ragi mould
+Rhizopus oligosporus,tempeh mold;tempeh
+Ustilago maydis,huitlacoche;corn smut
+Tremella fuciformis,snow fungus;white fungus
+Cantharellus cibarius,chanterelle
+Auricularia cornea,cornea
+Auricularia auricula-judae,wood ear;black fungus;cloud ear
+Grifola frondosa,maitake;hen of the woods
+Lentinus squarrosulus,tropical
+Hericium erinaceus,lion's mane
+Boletus edulis,porcini;cep;penny bun
+Phlebopus portentosus,Thai
+Pleurotus ostreatus,oyster mushroom;king oyster
+Pholiota adiposa,adiposa
+Agaricus subrufescens,blazei
+Agaricus bisporus,cremini;portobello;button;mushroom;mushrooms;portabella;champignon
+Flammulina velutipes,enoki;enokitake
+Lentinula edodes,shiitake
+Saccharomyces cerevisiae,brewer's yeast;baker's;yeast;bread;beer;wine;sourdough;leavened
+Torulaspora delbrueckii,wine
+Geotrichum candidum,geotrichum
+Morchella esculenta,morel;morels
+Tuber magnatum,white truffle
+Tuber melanosporum,black truffle;truffle
+Neurospora intermedia,intermedia
+Fusarium venenatum,Quorn;mycoprotein;quorn
+Aspergillus oryzae,koji mold;koji;miso;soy sauce;sake;mirin
+Penicillium roqueforti,blue cheese mold;blue cheese;roquefort;gorgonzola;stilton
+Penicillium camemberti,camembert mold;brie;camembert
