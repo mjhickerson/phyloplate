@@ -2,7 +2,7 @@
 
 # Bump TREE_VERSION whenever anything below (or the species list, or the TimeTree export) changes,
 # and add a CHANGELOG line: (date, who, what changed, source). Both are written into the report and shown in the app.
-TREE_VERSION = "open-0.15.2 (2026-09-25)"
+TREE_VERSION = "open-0.16 (2026-09-26)"
 CHANGELOG = [
     ("2026-09-19", "MH", "First TimeTree 5 build: 2,607 dated species; 49 synonyms; 63 families anchored by hand", "TimeTree 5 export of the 3,279-name list"),
     ("2026-09-19", "MH", "Red algae anchors revised: Gigartinales families to the Gigartinales crown; Gelidiales, Bonnemaisoniales, Ceramiales, Nemaliales to subclass stems", "Yang et al. 2016 Sci Rep 6:21361"),
@@ -17,6 +17,7 @@ CHANGELOG = [
     ("2026-09-24", "Rachel Swenie", "Varga et al. 2019 kept as the mushroom source: she finds it runs young for deep nodes (her Cantharellales estimate 314 vs Varga 372, cf. Sanchez-Garcia et al. 2020 PNAS), Tim James finds it runs old; the two bracket it", "R. Swenie pers. comm."),
     ("2026-09-24", "Rachel Swenie", "Cantharellales divergence estimated at 314 Ma in her own work (Varga 372, Tim James 225-263); Varga may run young for deep nodes, so with Tim's view that it runs old the chronogram is bracketed and kept as is; Sanchez-Garcia et al. 2020 PNAS noted as fossil-calibrated cross-check", "R. Swenie pers. comm.; Sanchez-Garcia et al. 2020 PNAS"),
     ("2026-09-24", "Tim James", "Varga et al. 2019 judged to run old but with wide variation; keep as is. Natto raised: bacteria are deliberately outside the tree; page and README now say so", "T. James pers. comm."),
+    ("2026-09-26", "MH", "Open tree v0.16: 17 animals had been grafted inside the plants because a genus name is shared across kingdoms (Magallana oyster / Magallana plant, Donax clam / Donax herb, Paphia, Callista, Calamus porgy / rattan, Ruspolia, Oryctes): the graft step took a non-food congener from the plant tree and the oysters, venus clams, wedge clams, a porgy, a bush cricket and two scarab grubs followed it. Congener lookup is now clade-aware in graft_tree.py and assemble_tree.py; the 17 re-placed in their own families or order nodes. Meals with Pacific or flat oysters, butter or littleneck clams were over-scored before this", "found when the meal tree root read 'Bivalves'"),
     ("2026-09-23", "Christine Maggs", "Gracilariaceae node added at ~300 Ma and Gracilaria crown set to ~230 Ma from the Kim et al. 2026 preprint (Ahnfeltia genomes) she pointed to; GENUS_CROWN table introduced so old genera are not collapsed to 5 Myr", "Kim et al. 2026 preprint, researchgate 405471651"),
     ("2026-09-23", "MH", "Open tree v0.14: red algal crowns from Yang et al. 2016 text (Nemaliophycidae 331, Rhodymeniophycidae 412); finer order splits remain approximate, unresolved in that study", "Yang et al. 2016 Sci Rep"),
     ("2026-09-22", "Tim James", "Mucoromycota split confirmed at ~700 Ma; Discinaceae moved to sister of Morchellaceae; Pyronemataceae and Sarcoscyphaceae on the stem above truffles+morels at ~250. His ballparks for splits now taken from source trees, recorded for the record: Cantharellales 225-263 (Varga 372), morels vs truffles 200 (Shen 173), Suillus vs Boletus 150 (Varga 115), Naematelia vs Tremella 125 (Varga 53)", "T. James pers. comm."),
@@ -280,7 +281,7 @@ PLACEMENTS_OPEN = {
     "Termitidae": _O("Polyneoptera"), "Cicadidae": _O("Hemiptera"),
     "Belostomatidae": _O("Heteroptera"), "Corixidae": _O("Heteroptera"), "Pentatomidae": _O("Heteroptera"), "Tessaratomidae": _O("Heteroptera"),
     "Vespidae": _O("Aculeata"), "Apidae": _O("Apoidea + Formicoidea"), "Formicidae": _O("Apoidea + Formicoidea"),
-    "Tenebrionidae": _O("Coleoptera"), "Curculionidae": _O("Coleoptera"), "Scarabaeidae": _O("Coleoptera"), "Dytiscidae": _O("Coleoptera"),
+    "Tenebrionidae": (["@Coleoptera", "@Beetles"], None), "Curculionidae": (["@Coleoptera", "@Beetles"], None), "Scarabaeidae": (["@Coleoptera", "@Beetles"], None), "Dytiscidae": (["@Coleoptera", "@Beetles"], None),   # the Coleoptera node is relabelled Beetles by CLADE_NAMES in the built tree
     "Stratiomyidae": _O("Diptera"), "Chaoboridae": _O("Diptera"),
     "Cossidae": _O("Ditrysia"), "Hesperiidae": _O("Obtectomera"), "Bombycidae": _O("Bombycoidea"), "Saturniidae": _O("Bombycoidea"),
     # jawless and cartilaginous fishes, herps

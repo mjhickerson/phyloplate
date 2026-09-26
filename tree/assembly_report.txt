@@ -656,3 +656,36 @@ tips in output: 3279   root age: 2132 Myr   total branch length: 202878 Myr
 
 == tree tips not in candidate list (dropped): 0
 
+
+==================================================================
+v0.16 addendum (2026-09-26): the v0.15.2 tree with 17 misplaced animals removed was re-run through assemble_tree.py; only these placements changed. Report of that run:
+
+== gap-filled at genus: 3
+   Magallana angulata: sister to Magallana gigas at 5.00 Myr
+   Ostrea lurida: sister to Ostrea edulis at 5.00 Myr
+   Donax variabilis: sister to Donax trunculus at 5.00 Myr
+
+== gap-filled at family: 10
+   Magallana gigas: sister to Crassostrea virginica at 20.00 Myr
+   Ostrea edulis: child of MRCA
+   Saccostrea glomerata: child of MRCA
+   Paphia undulata: child of MRCA
+   Saxidomus gigantea: child of MRCA
+   Leukoma staminea: child of MRCA
+   Callista chione: child of MRCA
+   Chamelea gallina: child of MRCA
+   Dosinia exoleta: child of MRCA
+   Calamus bajonado: child of MRCA
+
+== gap-filled at order (anchor): 4
+   Donax trunculus: child of MRCA
+   Ruspolia differens: child of MRCA
+   Oryctes rhinoceros: child of MRCA
+   Holotrichia parallela: child of MRCA
+
+== anchor families missing (placement still made): 0
+
+== not placed: 0
+
+== tree tips not in candidate list (dropped): 0
+

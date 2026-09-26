@@ -22,6 +22,8 @@ from assemble_tree import Node, parse_newick, write_newick, set_heights, norm_sp
 
 CAND_GROUP = {}
 CAND_GENERA = set()
+CAND_GENUS_CLADES = {}   # genus -> clades of the candidates in it (a genus name can be shared across kingdoms)
+CAND_CLADE = {}
 def N(name, age, source, *children): return {"kind": "N", "name": name, "age": float(age), "source": source, "children": list(children)}
 def S(path, label, synonyms=None, groups=None): return {"kind": "S", "path": path, "label": label, "synonyms": synonyms or {}, "groups": groups}
 def T(species): return {"kind": "T", "species": species}
@@ -53,6 +55,13 @@ def graft_source(spec, cand_norm, report):
     n_all = 0
     seen = {}   # normalised candidate name -> (tip, was_exact)
     helper_seen = set()
+    # clades this source actually dates (from its exact matches); helpers are only taken for genera of those clades,
+    # so a plant tree never supplies a 'congener' for an oyster genus that happens to share a name
+    src_clades = set()
+    for t in root.tips():
+        lab = syn.get(norm_species(t.label.replace("_", " ").strip("'")), t.label.replace("_", " ").strip("'"))
+        key = " ".join(norm_species(lab).split()[:2])
+        if key in cand_norm and key in CAND_CLADE: src_clades.add(CAND_CLADE[key])
     for t in root.tips():
         n_all += 1
         lab = t.label.replace("_", " ").strip("'")
@@ -62,7 +71,7 @@ def graft_source(spec, cand_norm, report):
         if not exact and len(toks) > 2 and " ".join(toks[:2]) in cand_norm:   # Genus_species_FAMILY_ORDER or infraspecific labels
             lab = " ".join(lab.split()[:2]); toks = toks[:2]
         key = " ".join(toks)
-        if key not in cand_norm and len(toks) >= 2 and toks[0] in CAND_GENERA and toks[0] not in helper_seen:
+        if key not in cand_norm and len(toks) >= 2 and toks[0] in CAND_GENERA and toks[0] not in helper_seen and (CAND_GENUS_CLADES.get(toks[0], set()) & src_clades):
             helper_seen.add(toks[0]); t.label = "__helper__" + " ".join(lab.split()[:2]); continue   # one non-food congener per needed genus
         if key in cand_norm:
             if key in seen:
@@ -117,9 +126,11 @@ def main():
     rows = list(csv.DictReader(open(csv_path, encoding="utf-8")))
     cand = [r["species"] for r in rows]
     cand_norm = {norm_species(s) for s in cand}
-    global CAND_GROUP, CAND_GENERA
+    global CAND_GROUP, CAND_GENERA, CAND_GENUS_CLADES, CAND_CLADE
     CAND_GROUP = {norm_species(r["species"]): r["group"] for r in rows}
     CAND_GENERA = {norm_species(r["species"]).split()[0] for r in rows}
+    CAND_CLADE = {norm_species(r["species"]): r.get("clade", "") for r in rows}
+    for r in rows: CAND_GENUS_CLADES.setdefault(norm_species(r["species"]).split()[0], set()).add(r.get("clade", ""))
     report = []
     root = build(ns["TREE"], cand_norm, report)
     # heights: backbone nodes carry explicit ages, subtrees carry their own; recompute branch lengths from heights

@@ -24,8 +24,15 @@ Pure Python, no dependencies. Polytomies are fine throughout.
 """
 import csv, re, sys, os, unicodedata
 from collections import defaultdict
+if os.getcwd() not in sys.path: sys.path.insert(1, os.getcwd())   # curation.py from the working directory
 try:
     import curation
+    if not hasattr(curation, "SYNONYMS"):   # a 'curation/' folder (as in the repository) shadows the module: load the file inside it
+        import importlib.util
+        for _c in (os.path.join(os.getcwd(), "curation", "curation.py"), os.path.join(os.getcwd(), "curation.py")):
+            if os.path.exists(_c):
+                _spec = importlib.util.spec_from_file_location("curation_tables", _c); curation = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(curation); break
+        else: raise ImportError
     SYNONYMS, PLACEMENTS, CLADE_NAMES = curation.SYNONYMS, curation.PLACEMENTS, curation.CLADE_NAMES
     PLACEMENTS_OPEN = getattr(curation, "PLACEMENTS_OPEN", {})
     ALIAS_ADD, ALIAS_REMOVE = getattr(curation, "ALIAS_ADD", {}), getattr(curation, "ALIAS_REMOVE", {})
@@ -241,6 +248,9 @@ def main(nwk_path, csv_path, outdir):
         return [t for sp, t in matched.items() if pred(sp)]
     genus_index = defaultdict(list); family_index = defaultdict(list)
     fam_of = {r["species"]: r["family"] for r in rows}
+    clade_of = {r["species"]: r.get("clade", "") for r in rows}
+    def congeners(g, r):   # same genus AND same clade; helper tips (no row) are trusted
+        return [t for t in genus_index.get(g, []) if t.label.startswith("__helper__") or clade_of.get(t.label, r.get("clade", "")) == r.get("clade", "")]
     for sp, t in matched.items():
         genus_index[genus_of(sp)].append(t); family_index[fam_of[sp]].append(t)
     for g, ts in helper_tips.items():
@@ -264,7 +274,7 @@ def main(nwk_path, csv_path, outdir):
     source_tips = set(id(t) for t in matched.values())   # species dated by a source tree, before any gap-filling
     for r in unmatched:
         g, f = genus_of(r["species"]), r["family"]
-        gm, fm = genus_index.get(g, []), family_index.get(f, [])
+        gm, fm = congeners(g, r), family_index.get(f, [])
         how = None
         if len(gm) >= 2:
             how = attach_polytomy(mrca(gm), r); level = "genus"
@@ -327,7 +337,7 @@ def main(nwk_path, csv_path, outdir):
     for r in sorted(leftovers, key=order_key):
         f = r["family"]
         # a congener or family member may have been placed by an earlier anchor: reuse the genus/family rule
-        gm, fm = genus_index.get(genus_of(r["species"]), []), family_index.get(f, [])
+        gm, fm = congeners(genus_of(r["species"]), r), family_index.get(f, [])
         skel = placement_for(f) if f in PLACEMENTS_OPEN and PLACEMENTS_OPEN[f][0][0].startswith("@") else None
         if gm:
             node = mrca(gm) if len(gm) >= 2 else gm[0]
